@@ -1,8 +1,26 @@
 {
-  "trades": {},
+  "trades": {
+    "AKAM_2026-09-25": {
+      "symbol": "AKAM",
+      "date": "2026-09-25",
+      "direction": "short",
+      "entryTime": "2026-09-25T13:50:00Z",
+      "entryPrice": 119.5,
+      "shares": 35,
+      "convictionScore": 0.2607,
+      "allocDollar": 4172.95,
+      "stopPrice": 121.89,
+      "targetPrice": 114.72,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.5639,
+      "pctChangeAtScreen": -5.8614,
+      "dataSource": "alpaca-sip"
+    }
+  },
   "heartbeat": {
-    "lastCheckAt": "2026-09-25T13:29:10.892965+00:00",
-    "lastCheckEt": "2026-09-25T09:29:10.892871-04:00",
+    "lastCheckAt": "2026-09-25T14:07:43.776368+00:00",
+    "lastCheckEt": "2026-09-25T10:07:43.776156-04:00",
     "status": "ok"
   }
 }
