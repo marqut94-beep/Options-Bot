@@ -16,11 +16,28 @@
       "relVol": 3.5639,
       "pctChangeAtScreen": -5.8614,
       "dataSource": "alpaca-sip"
+    },
+    "MGM_2026-09-25": {
+      "symbol": "MGM",
+      "date": "2026-09-25",
+      "direction": "short",
+      "entryTime": "2026-09-25T13:35:00Z",
+      "entryPrice": 33.85,
+      "shares": 89,
+      "convictionScore": 0.0046,
+      "allocDollar": 3020.51,
+      "stopPrice": 34.527,
+      "targetPrice": 32.496,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0273,
+      "pctChangeAtScreen": -4.1336,
+      "dataSource": "alpaca-sip"
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-09-25T17:31:18.211588+00:00",
-    "lastCheckEt": "2026-09-25T13:31:18.211410-04:00",
+    "lastCheckAt": "2026-09-25T17:46:54.382684+00:00",
+    "lastCheckEt": "2026-09-25T13:46:54.382589-04:00",
     "status": "ok"
   }
 }
