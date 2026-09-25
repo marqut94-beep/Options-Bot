@@ -34,7 +34,7 @@ ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY")
 
 ALPACA_DATA = "https://data.alpaca.markets/v2"
-FINNHUB_BASE = "https://finnhub.io/
+FINNHUB_BASE = "https://finnhub.io/api/v1"
 
 DAILY_BUDGET = 15000.0
 MAX_TRADES_PER_DAY = 3
