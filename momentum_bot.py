@@ -67,7 +67,7 @@ def save_state(state):
 
 
 def load_universe():
-    return json.loads(UNIVERSE_PATH.read_text())
+    return json.loads(UNIVERSE_PATH.read_text(encoding="utf-8-sig"))
 
 
 # ---------- time helpers ----------
