@@ -11,7 +11,7 @@
       "allocDollar": 4172.95,
       "stopPrice": 121.89,
       "targetPrice": 114.72,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 3.5639,
       "pctChangeAtScreen": -5.8614,
@@ -26,7 +26,12 @@
       "sharesPartial": 17,
       "sharesRemainder": 18,
       "remainderFloor": 117.11,
-      "remainderTarget": 112.33
+      "remainderTarget": 112.33,
+      "exitTime": "2026-09-25T20:32:15.269378+00:00",
+      "exitPrice": 114.04,
+      "exitReason": "eod",
+      "returnPct": 4.2926,
+      "dollarPnl": 179.54
     },
     "MGM_2026-09-25": {
       "symbol": "MGM",
@@ -39,7 +44,7 @@
       "allocDollar": 3020.51,
       "stopPrice": 34.527,
       "targetPrice": 32.496,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0273,
       "pctChangeAtScreen": -4.1336,
@@ -54,7 +59,12 @@
       "lastPrice": 32.81,
       "lastPriceAt": "2026-09-25T20:15:00Z",
       "unrealizedDollar": 106.38,
-      "unrealizedPct": 3.5311
+      "unrealizedPct": 3.5311,
+      "exitTime": "2026-09-25T20:32:15.526439+00:00",
+      "exitPrice": 32.69,
+      "exitReason": "eod",
+      "returnPct": 3.7104,
+      "dollarPnl": 111.78
     },
     "GEN_2026-09-25": {
       "symbol": "GEN",
@@ -67,7 +77,7 @@
       "allocDollar": 3420.25,
       "stopPrice": 22.8123,
       "targetPrice": 21.470399999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.5603,
       "pctChangeAtScreen": -3.8629,
@@ -82,12 +92,17 @@
       "sharesPartial": 76,
       "sharesRemainder": 77,
       "remainderFloor": 21.917699999999996,
-      "remainderTarget": 21.023099999999996
+      "remainderTarget": 21.023099999999996,
+      "exitTime": "2026-09-25T20:32:15.820334+00:00",
+      "exitPrice": 21.6583,
+      "exitReason": "eod",
+      "returnPct": 3.5772,
+      "dollarPnl": 122.41
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-09-25T20:21:36.760856+00:00",
-    "lastCheckEt": "2026-09-25T16:21:36.760702-04:00",
+    "lastCheckAt": "2026-09-25T20:32:14.692952+00:00",
+    "lastCheckEt": "2026-09-25T16:32:14.692822-04:00",
     "status": "ok"
   }
 }
