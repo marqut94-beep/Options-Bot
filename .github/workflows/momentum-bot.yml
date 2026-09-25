@@ -1,0 +1,36 @@
+name: Momentum Paper Desk
+
+on:
+  schedule:
+    - cron: "*/5 13-20 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run momentum bot
+        env:
+          ALPACA_API_KEY_ID: ${{ secrets.ALPACA_API_KEY_ID }}
+          ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: python momentum_bot.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "momentum-bot"
+          git config user.email "momentum-bot@users.noreply.github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "state update $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+          git push
