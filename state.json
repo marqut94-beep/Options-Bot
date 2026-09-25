@@ -16,10 +16,10 @@
       "relVol": 3.5639,
       "pctChangeAtScreen": -5.8614,
       "dataSource": "alpaca-sip",
-      "lastPrice": 114.6152,
-      "lastPriceAt": "2026-09-25T19:50:00Z",
-      "unrealizedDollar": 169.19,
-      "unrealizedPct": 4.0451,
+      "lastPrice": 114.1,
+      "lastPriceAt": "2026-09-25T20:05:00Z",
+      "unrealizedDollar": 178.46,
+      "unrealizedPct": 4.2668,
       "partialExitPrice": 114.72,
       "partialExitTime": "2026-09-25T19:25:00Z",
       "partialDollarPnl": 81.26,
@@ -51,10 +51,10 @@
       "sharesRemainder": 45,
       "remainderFloor": 33.173,
       "remainderTarget": 31.819,
-      "lastPrice": 32.485,
-      "lastPriceAt": "2026-09-25T19:50:00Z",
-      "unrealizedDollar": 121.01,
-      "unrealizedPct": 4.0166
+      "lastPrice": 32.57,
+      "lastPriceAt": "2026-09-25T20:05:00Z",
+      "unrealizedDollar": 117.18,
+      "unrealizedPct": 3.8896
     },
     "GEN_2026-09-25": {
       "symbol": "GEN",
@@ -72,10 +72,10 @@
       "relVol": 2.5603,
       "pctChangeAtScreen": -3.8629,
       "dataSource": "alpaca-sip",
-      "lastPrice": 21.645,
-      "lastPriceAt": "2026-09-25T19:40:00Z",
-      "unrealizedDollar": 110.16,
-      "unrealizedPct": 3.2193,
+      "lastPrice": 21.54,
+      "lastPriceAt": "2026-09-25T20:05:00Z",
+      "unrealizedDollar": 131.51,
+      "unrealizedPct": 3.8434,
       "partialExitPrice": 21.470399999999998,
       "partialExitTime": "2026-09-25T19:45:00Z",
       "partialDollarPnl": 67.99,
@@ -86,8 +86,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-09-25T19:54:01.066585+00:00",
-    "lastCheckEt": "2026-09-25T15:54:01.066473-04:00",
+    "lastCheckAt": "2026-09-25T20:06:28.652355+00:00",
+    "lastCheckEt": "2026-09-25T16:06:28.652249-04:00",
     "status": "ok"
   }
 }
