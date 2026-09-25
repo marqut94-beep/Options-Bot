@@ -34,7 +34,7 @@ ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 FINNHUB_KEY = os.environ.get("FINNHUB_API_KEY")
 
 ALPACA_DATA = "https://data.alpaca.markets/v2"
-FINNHUB_BASE = "https://finnhub.io/api/v1"
+FINNHUB_BASE = "https://finnhub.io/
 
 DAILY_BUDGET = 15000.0
 MAX_TRADES_PER_DAY = 3
@@ -48,7 +48,7 @@ PCT_CHANGE_MIN = 3.0
 PRICE_MIN, PRICE_MAX = 10.0, 500.0
 
 if not ALPACA_KEY or not ALPACA_SECRET:
-    print("FATAL: ALPACA_API_KEY_ID / ALPACA_API_SECRET_KEY not set.", file=sys.stderr)
+    print("FATAL: ALPACA_API_KEY_IDset.", file=sys.stderr)
     sys.exit(1)
 
 HEADERS = {"APCA-API-KEY-ID": ALPACA_KEY, "APCA-API-SECRET-KEY": ALPACA_SECRET}
@@ -58,7 +58,7 @@ HEADERS = {"APCA-API-KEY-ID": ALPACA_KEY, "APCA-API-SECRET-KEY": ALPACA_SECRET}
 
 def load_state():
     if STATE_PATH.exists():
-        return json.loads(STATE_PATH.read_text())
+        return json.loads(STATE_PAT
     return {"trades": {}, "heartbeat": None}
 
 
@@ -70,23 +70,21 @@ def load_universe():
     return json.loads(UNIVERSE_PATH.read_text(encoding="utf-8-sig"))
 
 
-# ---------- time helpers ----------
+# ---------- time helpers ---------
 
 def now_utc():
     return datetime.now(timezone.utc)
 
 
 def now_et():
-    # Fixed -4/-5 offset would drift on DST; for a real deploy pin zoneinfo
-    # (Python 3.9+: from zoneinfo import ZoneInfo; datetime.now(ZoneInfo("America/New_York")))
     from zoneinfo import ZoneInfo
-    return datetime.now(ZoneInfo("America/New_York"))
+    return datetime.now(ZoneInfo("A
 
 
 def is_market_hours(et_dt):
     if et_dt.weekday() >= 5:
         return False
-    minutes = et_dt.hour * 60 + et_dt.minute
+    minutes = et_dt.hour * 60 + et_
     return 9 * 60 + 30 <= minutes <= 16 * 60
 
 
@@ -94,17 +92,17 @@ def today_str(et_dt):
     return et_dt.strftime("%Y-%m-%d")
 
 
-# ---------- Alpaca fetch helpers ----------
+# ---------- Alpaca fetch helpers -
 
-def fetch_daily_bars_batch(symbols, start, end):
+def fetch_daily_bars_batch(symbols,
     """Batched multi-symbol daily bars. Returns {symbol: [bars]}."""
     out = {}
     CHUNK = 200
-    for i in range(0, len(symbols), CHUNK):
+    for i in range(0, len(symbols),
         chunk = symbols[i:i + CHUNK]
-        url = f"{ALPACA_DATA}/stocks/bars"
+        url = f"{ALPACA_DATA}/stock
         params = {
-            "symbols": ",".join(chunk),
+            "symbols": ",".join(chu
             "timeframe": "1Day",
             "start": start,
             "end": end,
@@ -112,39 +110,39 @@ def fetch_daily_bars_batch(symbols, start, end):
             "adjustment": "split",
             "limit": 10000,
         }
-        r = requests.get(url, headers=HEADERS, params=params, timeout=30)
+        r = requests.get(url, heademeout=30)
         r.raise_for_status()
-        data = r.json().get("bars", {})
+        data = r.json().get("bars",
         for sym, bars in data.items():
             out[sym] = bars
     return out
 
 
-def fetch_5min_bars(symbol, start, end):
+def fetch_5min_bars(symbol, start,
     url = f"{ALPACA_DATA}/stocks/{symbol}/bars"
-    params = {"timeframe": "5Min", "start": start, "end": end, "feed": "sip", "limit": 1000}
+    params = {"timeframe": "5Min", feed": "sip", "limit": 1000}
     r = requests.get(url, headers=HEADERS, params=params, timeout=15)
     r.raise_for_status()
     return r.json().get("bars", [])
 
 
-# ---------- earnings filter ----------
+# ---------- earnings filter ------
 
 def fetch_earnings_skip_set(et_dt):
     """Symbols reporting earnings within +/-1 day of today. Empty set (with a
-    warning) if FINNHUB_API_KEY isn't set - the filter degrades gracefully
+    warning) if FINNHUB_API_KEY isngracefully
     rather than blocking the whole run."""
     if not FINNHUB_KEY:
         print("WARN: FINNHUB_API_KEY not set - earnings-adjacency filter disabled this run.")
         return set()
     d0 = (et_dt - timedelta(days=1)).strftime("%Y-%m-%d")
-    d1 = (et_dt + timedelta(days=1)).strftime("%Y-%m-%d")
+    d1 = (et_dt + timedelta(days=1)
     url = f"{FINNHUB_BASE}/calendar/earnings"
-    params = {"from": d0, "to": d1, "token": FINNHUB_KEY}
+    params = {"from": d0, "to": d1,
     try:
-        r = requests.get(url, params=params, timeout=15)
+        r = requests.get(url, param
         r.raise_for_status()
-        rows = r.json().get("earningsCalendar", [])
+        rows = r.json().get("earnin
         return {row["symbol"] for row in rows if row.get("symbol")}
     except Exception as e:
         print(f"WARN: earnings calendar fetch failed ({e}) - treating as empty this run.")
@@ -154,11 +152,11 @@ def fetch_earnings_skip_set(et_dt):
 # ---------- sizing ----------
 
 def conviction(rel_vol):
-    return max(0.0, min(1.0, (rel_vol - 2.0) / 6.0))
+    return max(0.0, min(1.0, (rel_v
 
 
 def ideal_dollar(rel_vol):
-    return 3000.0 + 4500.0 * conviction(rel_vol)
+    return 3000.0 + 4500.0 * convic
 
 
 # ---------- Step 1: manage open positions ----------
@@ -166,7 +164,7 @@ def ideal_dollar(rel_vol):
 def manage_open_positions(state, et_dt):
     changed = False
     for trade_id, t in list(state["trades"].items()):
-        if t.get("status") != "open":
+        if t.get("status") != "open
             continue
 
         direction = t["direction"]
@@ -176,11 +174,11 @@ def manage_open_positions(state, et_dt):
         if not t.get("partialTaken"):
             start = t["entryTime"]
             bars = fetch_5min_bars(t["symbol"], start, now_utc().isoformat())
-            stop_price, target_price = t["stopPrice"], t["targetPrice"]
+            stop_price, target_pricPrice"]
             triggered = None
             for b in bars:
                 lo, hi = b["l"], b["h"]
-                if direction == "long":
+                if direction == "lo
                     stop_hit, target_hit = lo <= stop_price, hi >= target_price
                 else:
                     stop_hit, target_hit = hi >= stop_price, lo <= target_price
@@ -188,98 +186,123 @@ def manage_open_positions(state, et_dt):
                     triggered = ("stop", b)
                     break
                 if target_hit:
-                    triggered = ("target", b)
+                    triggered = ("t
                     break
 
             if triggered and triggered[0] == "stop":
-                pnl = shares * (stop_price - entry_price) if direction == "long" else shares * (entry_price - stop_price)
-                t.update(status="closed", exitTime=now_utc().isoformat(), exitPrice=stop_price,
+                pnl = shares * (stoection == "long" else shares *(entry_price - stop_price)
+                t.update(status="clformat(), exitPrice=stop_price,
                          exitReason="stop", returnPct=-STOP_PCT * 100,
-                         dollarPnl=round(pnl, 2))
+                         dollarPnl=
                 changed = True
-            elif triggered and triggered[0] == "target":
+            elif triggered and trig
                 shares_partial = max(1, shares // 2) if shares > 1 else 1
-                shares_remainder = shares - shares_partial
+                shares_remainder =
                 if shares_remainder == 0:
-                    pnl = shares * (target_price - entry_price) if direction == "long" else shares * (entry_price - target_price)
-                    t.update(status="closed", exitTime=now_utc().isoformat(), exitPrice=target_price,
-                             exitReason="target", returnPct=FIRST_TARGET_PCT * 100, dollarPnl=round(pnl, 2))
+                    pnl = shares * if direction == "long" else shares * (entry_price - target_price)
+                    t.update(status.isoformat(),exitPrice=target_price,
+                             exitReT_TARGET_PCT * 100,dollarPnl=round(pnl, 2))
                 else:
-                    partial_pnl = shares_partial * (target_price - entry_price) if direction == "long" else shares_partial * (entry_price - target_price)
-                    floor = entry_price * (1 + REMAINDER_FLOOR_PCT) if direction == "long" else entry_price * (1 - REMAINDER_FLOOR_PCT)
-                    rtarget = entry_price * (1 + REMAINDER_TARGET_PCT) if direction == "long" else entry_price * (1 - REMAINDER_TARGET_PCT)
+                    partial_pnl = shares_partial * (target_price - entry_price) if direction ==
+"long" else shares_partial * (entry
+                    floor = entry_price * (1 + REMAINDER_FLOOR_PCT) if direction == "long" else
+entry_price * (1 - REMAINDER_FLOOR_
+                    rtarget = entry_price * (1 + REMAINDER_TARGET_PCT) if direction == "long" else
+entry_price * (1 - REMAINDER_TARGET
                     t.update(partialTaken=True, partialExitPrice=target_price,
-                             partialExitTime=triggered[1]["t"], partialDollarPnl=round(partial_pnl, 2),
-                             sharesPartial=shares_partial, sharesRemainder=shares_remainder,
+                             partiapartialDollarPnl=round(partial_pnl,2),
+                             sharessRemainder=shares_remainder,
                              remainderFloor=floor, remainderTarget=rtarget)
                 changed = True
-            elif is_market_hours(et_dt) and et_dt.hour == 15 and et_dt.minute >= 55 or et_dt.hour >= 16:
-                # EOD flatten - use last bar close as proxy for a live quote
+            elif is_market_hours(et_dt) and et_dt.hour == 15 and et_dt.minute >= 55 or et_dt.hour >=
+16:
                 last_price = bars[-1]["c"] if bars else entry_price
-                pnl = shares * (last_price - entry_price) if direction == "long" else shares * (entry_price - last_price)
-                ret = (pnl / (shares * entry_price)) * 100
+                pnl = shares * (lasection == "long" else shares *(entry_price - last_price)
+                ret = (pnl / (share
                 t.update(status="closed", exitTime=now_utc().isoformat(), exitPrice=last_price,
-                         exitReason="eod", returnPct=round(ret, 4), dollarPnl=round(pnl, 2))
+                         exitReason4), dollarPnl=round(pnl, 2))
                 changed = True
+            else:
+                if bars:
+                    last_price = ba
+                    pnl = shares * (last_price - entry_price) if direction == "long" else shares *
+(entry_price - last_price)
+                    t["lastPrice"] = last_price
+                    t["lastPriceAt"
+                    t["unrealizedDollar"] = round(pnl, 2)
+                    t["unrealizedPcentry_price)) * 100, 4)
+                    changed = True
 
         else:
-            start = t["partialExitTime"]
+            start = t["partialExitT
             bars = fetch_5min_bars(t["symbol"], start, now_utc().isoformat())
-            floor, rtarget = t["remainderFloor"], t["remainderTarget"]
+            floor, rtarget = t["remrget"]
             shares_remainder = t["sharesRemainder"]
             triggered = None
             for b in bars:
-                lo, hi = b["l"], b["h"]
+                lo, hi = b["l"], b[
                 if direction == "long":
-                    floor_hit, target_hit = lo <= floor, hi >= rtarget
+                    floor_hit, targtarget
                 else:
-                    floor_hit, target_hit = hi >= floor, lo <= rtarget
+                    floor_hit, targtarget
                 if floor_hit:
-                    triggered = ("floor", floor)
+                    triggered = ("f
                     break
                 if target_hit:
                     triggered = ("target", rtarget)
                     break
 
-            resolved_price, reason = None, None
+            resolved_price, reason
             if triggered:
-                resolved_price, reason = triggered[1], triggered[0]
-            elif is_market_hours(et_dt) and (et_dt.hour == 15 and et_dt.minute >= 55 or et_dt.hour >= 16):
+                resolved_price, rea[0]
+            elif is_market_hours(et_dt) and (et_dt.hour == 15 and et_dt.minute >= 55 or et_dt.hour
+>= 16):
                 resolved_price = bars[-1]["c"] if bars else t["partialExitPrice"]
                 reason = "eod"
 
-            if resolved_price is not None:
-                remainder_pnl = shares_remainder * (resolved_price - entry_price) if direction == "long" else shares_remainder * (entry_price - resolved_price)
+            if resolved_price is no
+                remainder_pnl = shares_remainder * (resolved_price - entry_price) if direction ==
+"long" else shares_remainder * (ent
                 blended_pnl = t["partialDollarPnl"] + remainder_pnl
-                blended_ret = (blended_pnl / (shares * entry_price)) * 100
+                blended_ret = (blence)) * 100
                 t.update(status="closed", exitTime=now_utc().isoformat(), exitPrice=resolved_price,
-                         exitReason=reason, returnPct=round(blended_ret, 4), dollarPnl=round(blended_pnl, 2))
+                         exitReasonded_ret, 4),dollarPnl=round(blended_pnl, 2))
                 changed = True
+            else:
+                if bars:
+                    last_price = bars[-1]["c"]
+                    remainder_pnl =ce - entry_price) if direction =="long" else shares_remainder * (entry_price - last_price)
+                    total_unrealizeemainder_pnl
+                    t["lastPrice"] = last_price
+                    t["lastPriceAt"
+                    t["unrealizedDollar"] = round(total_unrealized, 2)
+                    t["unrealizedPc / (shares * entry_price)) * 100, 4)
+                    changed = True
 
     return changed
 
 
-# ---------- Step 2: new entries ----------
+# ---------- Step 2: new entries --
 
 def new_entries(state, et_dt):
     today = today_str(et_dt)
-    todays_trades = [t for t in state["trades"].values() if t["date"] == today]
+    todays_trades = [t for t in staate"] == today]
     if len(todays_trades) >= MAX_TRADES_PER_DAY:
         return False
     if not (9 * 60 + 30 <= et_dt.hour * 60 + et_dt.minute <= 15 * 60 + 30):
         return False
 
-    already_symbols = {t["symbol"] for t in todays_trades}
+    already_symbols = {t["symbol"]
     allocated = sum(t["allocDollar"] for t in todays_trades)
-    remaining = DAILY_BUDGET - allocated
+    remaining = DAILY_BUDGET - allo
     if remaining < MIN_REMAINING_TO_ENTER:
         return False
 
-    earnings_skip = fetch_earnings_skip_set(et_dt)
+    earnings_skip = fetch_earnings_
 
     universe = load_universe()
     end = now_utc()
-    start = end - timedelta(days=45)
+    start = end - timedelta(days=45
     daily = fetch_daily_bars_batch(universe, start.isoformat(), end.isoformat())
 
     candidates = []
@@ -287,16 +310,16 @@ def new_entries(state, et_dt):
         if len(bars) < 31:
             continue
         today_bar = bars[-1]
-        avg_vol_30 = sum(b["v"] for b in bars[-31:-1]) / 30.0
+        avg_vol_30 = sum(b["v"] for
         if avg_vol_30 <= 0:
             continue
         rel_vol = today_bar["v"] / avg_vol_30
-        pct_change = (today_bar["c"] - today_bar["o"]) / today_bar["o"] * 100
+        pct_change = (today_bar["c"ar["o"] * 100
         price = today_bar["c"]
-        if rel_vol >= REL_VOL_MIN and abs(pct_change) >= PCT_CHANGE_MIN and PRICE_MIN <= price <= PRICE_MAX:
-            candidates.append({"symbol": sym, "relVol": rel_vol, "pctChange": pct_change})
+        if rel_vol >= REL_VOL_MIN aNGE_MIN and PRICE_MIN <= price <=PRICE_MAX:
+            candidates.append({"sym "pctChange": pct_change})
 
-    candidates.sort(key=lambda c: c["relVol"], reverse=True)
+    candidates.sort(key=lambda c: c
 
     changed = False
     entries_made = 0
@@ -304,18 +327,19 @@ def new_entries(state, et_dt):
     open_market = et_dt.replace(hour=9, minute=30, second=0, microsecond=0)
 
     for cand in candidates:
-        if entries_made >= MAX_TRADES_PER_DAY - len(todays_trades):
+        if entries_made >= MAX_TRADs):
             break
-        if remaining < MIN_REMAINING_TO_ENTER:
+        if remaining < MIN_REMAININ
             break
         sym = cand["symbol"]
         if sym in already_symbols:
             continue
         if sym in earnings_skip:
-            skipped_for_earnings.append(sym)
+            skipped_for_earnings.ap
             continue
 
-        bars5 = fetch_5min_bars(sym, open_market.astimezone(timezone.utc).isoformat(), now_utc().isoformat())
+        bars5 = fetch_5min_bars(sym, open_market.astimezone(timezone.utc).isoformat(),
+now_utc().isoformat())
         if len(bars5) < 2:
             continue
         ref_high, ref_low = bars5[0]["h"], bars5[0]["l"]
@@ -333,23 +357,23 @@ def new_entries(state, et_dt):
         if not confirming:
             continue
 
-        entry_price = confirming["c"]
+        entry_price = confirming["c
         entry_time = confirming["t"]
-        conv = conviction(cand["relVol"])
+        conv = conviction(cand["rel
         ideal = ideal_dollar(cand["relVol"])
-        actual = min(ideal, remaining)
+        actual = min(ideal, remaini
         shares = max(1, round(actual / entry_price))
-        stop_price = entry_price * (1 - STOP_PCT) if direction == "long" else entry_price * (1 + STOP_PCT)
-        target_price = entry_price * (1 + FIRST_TARGET_PCT) if direction == "long" else entry_price * (1 - FIRST_TARGET_PCT)
+        stop_price = entry_price * = "long" else entry_price * (1 +STOP_PCT)
+        target_price = entry_price irection == "long" else entry_price* (1 - FIRST_TARGET_PCT)
 
         trade_id = f"{sym}_{today}"
-        state["trades"][trade_id] = {
+        state["trades"][trade_id] =
             "symbol": sym, "date": today, "direction": direction,
-            "entryTime": entry_time, "entryPrice": entry_price, "shares": shares,
+            "entryTime": entry_time"shares": shares,
             "convictionScore": round(conv, 4), "allocDollar": round(actual, 2),
-            "stopPrice": stop_price, "targetPrice": target_price,
+            "stopPrice": stop_price,
             "status": "open", "partialTaken": False,
-            "relVol": round(cand["relVol"], 4), "pctChangeAtScreen": round(cand["pctChange"], 4),
+            "relVol": round(cand["ren": round(cand["pctChange"], 4),
             "dataSource": "alpaca-sip",
         }
         already_symbols.add(sym)
@@ -362,24 +386,47 @@ def new_entries(state, et_dt):
     return changed
 
 
+def print_summary(state):
+    trades = list(state["trades"].v
+    closed = [t for t in trades if t.get("status") == "closed"]
+    open_ = [t for t in trades if t
+
+    print(f"--- SUMMARY: {len(trade)} open, {len(closed)} closed) ---")
+    if not closed:
+        print("No closed trades yet
+        return
+
+    wins = [t for t in closed if (t.get("returnPct") or 0) > 0]
+    win_rate = len(wins) / len(clos
+    sum_return = sum(t.get("returnPct") or 0 for t in closed)
+    avg_return = sum_return / len(c
+    sum_dollar = sum(t.get("dollarPnl") or 0 for t in closed)
+
+    print(f"Win rate: {win_rate:.1f}% ({len(wins)}W / {len(closed) - len(wins)}L)")
+    print(f"Avg return/trade: {avg_
+    print(f"Summed return: {sum_return:+.2f}%")
+    print(f"Total $ P&L: ${sum_doll
+
+
 # ---------- main ----------
 
 def main():
     et_dt = now_et()
     state = load_state()
-    state["heartbeat"] = {"lastCheckAt": now_utc().isoformat(), "lastCheckEt": et_dt.isoformat(), "status": "ok"}
+    state["heartbeat"] = {"lastChec"lastCheckEt": et_dt.isoformat(),"status": "ok"}
 
     if et_dt.weekday() >= 5:
-        print("Weekend - no-op (heartbeat only).")
+        print("Weekend - no-op (hea
         save_state(state)
         return
 
-    changed_positions = manage_open_positions(state, et_dt)
+    changed_positions = manage_open
     changed_entries = new_entries(state, et_dt)
 
     save_state(state)
-    print(f"Done. positions_changed={changed_positions} new_entries={changed_entries}")
+    print(f"Done. positions_changedies={changed_entries}")
+    print_summary(state)
 
 
 if __name__ == "__main__":
-    main()
+    main() 
