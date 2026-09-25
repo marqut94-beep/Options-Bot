@@ -16,10 +16,10 @@
       "relVol": 3.5639,
       "pctChangeAtScreen": -5.8614,
       "dataSource": "alpaca-sip",
-      "lastPrice": 116.555,
-      "lastPriceAt": "2026-09-25T17:50:00Z",
-      "unrealizedDollar": 103.07,
-      "unrealizedPct": 2.4644
+      "lastPrice": 116.57,
+      "lastPriceAt": "2026-09-25T17:55:00Z",
+      "unrealizedDollar": 102.55,
+      "unrealizedPct": 2.4519
     },
     "MGM_2026-09-25": {
       "symbol": "MGM",
@@ -43,12 +43,16 @@
       "sharesPartial": 44,
       "sharesRemainder": 45,
       "remainderFloor": 33.173,
-      "remainderTarget": 31.819
+      "remainderTarget": 31.819,
+      "lastPrice": 32.58,
+      "lastPriceAt": "2026-09-25T17:55:00Z",
+      "unrealizedDollar": 116.73,
+      "unrealizedPct": 3.8747
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-09-25T17:55:02.063911+00:00",
-    "lastCheckEt": "2026-09-25T13:55:02.063778-04:00",
+    "lastCheckAt": "2026-09-25T17:57:19.657069+00:00",
+    "lastCheckEt": "2026-09-25T13:57:19.657003-04:00",
     "status": "ok"
   }
 }
