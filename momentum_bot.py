@@ -315,18 +315,20 @@ def new_entries(state, et_dt):
             skipped_for_earnings.append(sym)
             continue
 
-        direction = "long" if cand["pctChange"] > 0 else "short"
         bars5 = fetch_5min_bars(sym, open_market.astimezone(timezone.utc).isoformat(), now_utc().isoformat())
         if len(bars5) < 2:
             continue
         ref_high, ref_low = bars5[0]["h"], bars5[0]["l"]
         confirming = None
+        direction = None
         for b in bars5[1:]:
-            if direction == "long" and b["c"] > ref_high:
+            if b["c"] > ref_high:
                 confirming = b
+                direction = "long"
                 break
-            if direction == "short" and b["c"] < ref_low:
+            if b["c"] < ref_low:
                 confirming = b
+                direction = "short"
                 break
         if not confirming:
             continue
