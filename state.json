@@ -15,7 +15,11 @@
       "partialTaken": false,
       "relVol": 3.5639,
       "pctChangeAtScreen": -5.8614,
-      "dataSource": "alpaca-sip"
+      "dataSource": "alpaca-sip",
+      "lastPrice": 116.555,
+      "lastPriceAt": "2026-09-25T17:50:00Z",
+      "unrealizedDollar": 103.07,
+      "unrealizedPct": 2.4644
     },
     "MGM_2026-09-25": {
       "symbol": "MGM",
@@ -29,15 +33,22 @@
       "stopPrice": 34.527,
       "targetPrice": 32.496,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0273,
       "pctChangeAtScreen": -4.1336,
-      "dataSource": "alpaca-sip"
+      "dataSource": "alpaca-sip",
+      "partialExitPrice": 32.496,
+      "partialExitTime": "2026-09-25T15:15:00Z",
+      "partialDollarPnl": 59.58,
+      "sharesPartial": 44,
+      "sharesRemainder": 45,
+      "remainderFloor": 33.173,
+      "remainderTarget": 31.819
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-09-25T17:46:54.382684+00:00",
-    "lastCheckEt": "2026-09-25T13:46:54.382589-04:00",
+    "lastCheckAt": "2026-09-25T17:55:02.063911+00:00",
+    "lastCheckEt": "2026-09-25T13:55:02.063778-04:00",
     "status": "ok"
   }
 }
