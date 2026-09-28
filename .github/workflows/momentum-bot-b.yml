@@ -1,0 +1,57 @@
+name: Momentum Paper Desk (B)
+
+on:
+  schedule:
+    # Offset from momentum-bot.yml (fires :01, :06, :11, ...) by 2 minutes -
+    # this one fires :03, :08, :13, ... Combined, checks land roughly every
+    # 2-3 minutes instead of one workflow's 5-minute floor.
+    - cron: "3-58/5 13-20 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  # Same group as momentum-bot.yml (A) - queues instead of racing on
+  # state.json commits when both land close together.
+  group: momentum-bot-state
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run momentum bot
+        env:
+          ALPACA_API_KEY_ID: ${{ secrets.ALPACA_API_KEY_ID }}
+          ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: python momentum_bot.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "momentum-bot"
+          git config user.email "momentum-bot@users.noreply.github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "state update $(date -u +%Y-%m-%dT%H:%M:%SZ) [B]"
+          if git pull --rebase --autostash origin main; then
+            git push
+          else
+            # Real conflict slipped past the concurrency group (can happen if
+            # two runs get dispatched close enough together). Rather than fail
+            # the whole run, defer to whatever's already on GitHub - this
+            # run's data isn't lost forever, the next run in ~2-3 minutes will
+            # just recompute fresh state on top of it.
+            echo "Rebase conflict - deferring to origin's latest state.json, will recompute next run."
+            git rebase --abort || true
+            git fetch origin main
+            git reset --hard origin/main
+          fi
