@@ -1,0 +1,49 @@
+name: Momentum Paper Desk (A)
+
+on:
+  schedule:
+    # GitHub's floor for scheduled workflows is 5 minutes - a single workflow
+    # can't go faster than that. Offset a couple minutes away from the exact
+    # hour/5-min marks (:00, :05, ...) since GitHub's own docs warn those are
+    # high-load times most likely to see the schedule event delayed. This
+    # workflow fires at :01, :06, :11, ... - paired with momentum-bot-b.yml
+    # (fires at :03, :08, :13, ...) for a combined effective ~2-3 min cadence.
+    - cron: "1-56/5 13-20 * * 1-5"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  # Shared across both A and B workflows (same group name) so overlapping
+  # runs queue instead of racing to commit/push state.json at the same time.
+  group: momentum-bot-state
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - run: pip install -r requirements.txt
+
+      - name: Run momentum bot
+        env:
+          ALPACA_API_KEY_ID: ${{ secrets.ALPACA_API_KEY_ID }}
+          ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
+          FINNHUB_API_KEY: ${{ secrets.FINNHUB_API_KEY }}
+        run: python momentum_bot.py
+
+      - name: Commit updated state
+        run: |
+          git config user.name "momentum-bot"
+          git config user.email "momentum-bot@users.noreply.github.com"
+          git add state.json
+          git diff --staged --quiet || git commit -m "state update $(date -u +%Y-%m-%dT%H:%M:%SZ) [A]"
+          git pull --rebase --autostash origin main
+          git push
