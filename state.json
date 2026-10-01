@@ -247,7 +247,7 @@
       "allocDollar": 3026.26,
       "stopPrice": 470.5372,
       "targetPrice": 499.3456,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.035,
       "pctChangeAtScreen": 5.5189,
@@ -258,12 +258,20 @@
       "optionEntryPrice": 16.7,
       "optionEntryTime": "2026-10-01T17:48:02.243147+00:00",
       "optionContracts": 1,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "optionExitPrice": 16.7,
+      "optionExitTime": "2026-10-01T17:52:56.972414+00:00",
+      "optionReturnPct": 0.0,
+      "exitTime": "2026-10-01T17:52:56.972438+00:00",
+      "exitPrice": 470.5372,
+      "exitReason": "stop",
+      "returnPct": -2.0,
+      "dollarPnl": -57.62
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-01T17:47:50.563819+00:00",
-    "lastCheckEt": "2026-10-01T13:47:50.563668-04:00",
+    "lastCheckAt": "2026-10-01T17:52:56.520842+00:00",
+    "lastCheckEt": "2026-10-01T13:52:56.520667-04:00",
     "status": "ok"
   }
 }
