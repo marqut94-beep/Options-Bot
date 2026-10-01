@@ -203,11 +203,35 @@
       "exitReason": "eod",
       "returnPct": 3.5772,
       "dollarPnl": 122.41
+    },
+    "ACN_2026-10-01": {
+      "symbol": "ACN",
+      "date": "2026-10-01",
+      "direction": "long",
+      "entryTime": "2026-10-01T13:41:00Z",
+      "entryPrice": 225.88,
+      "shares": 13,
+      "convictionScore": 0.0027,
+      "allocDollar": 3012.31,
+      "stopPrice": 221.36239999999998,
+      "targetPrice": 234.9152,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0164,
+      "pctChangeAtScreen": 5.2227,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "ACN261002C00225000",
+      "optionStrike": "225",
+      "optionExpiration": "2026-10-02",
+      "optionEntryPrice": 5.5,
+      "optionEntryTime": "2026-10-01T14:14:10.250499+00:00",
+      "optionContracts": 5,
+      "optionPricedVia": "trade"
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-01T14:12:12.616425+00:00",
-    "lastCheckEt": "2026-10-01T10:12:12.616275-04:00",
+    "lastCheckAt": "2026-10-01T14:13:59.292517+00:00",
+    "lastCheckEt": "2026-10-01T10:13:59.292350-04:00",
     "status": "ok"
   }
 }
