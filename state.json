@@ -235,11 +235,35 @@
       "exitReason": "stop",
       "returnPct": -2.0,
       "dollarPnl": -58.73
+    },
+    "SNPS_2026-10-01": {
+      "symbol": "SNPS",
+      "date": "2026-10-01",
+      "direction": "long",
+      "entryTime": "2026-10-01T13:48:00Z",
+      "entryPrice": 480.14,
+      "shares": 6,
+      "convictionScore": 0.0058,
+      "allocDollar": 3026.26,
+      "stopPrice": 470.5372,
+      "targetPrice": 499.3456,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.035,
+      "pctChangeAtScreen": 5.5189,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SNPS261002C00480000",
+      "optionStrike": "480",
+      "optionExpiration": "2026-10-02",
+      "optionEntryPrice": 16.7,
+      "optionEntryTime": "2026-10-01T17:48:02.243147+00:00",
+      "optionContracts": 1,
+      "optionPricedVia": "trade"
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-01T17:36:43.719485+00:00",
-    "lastCheckEt": "2026-10-01T13:36:43.719235-04:00",
+    "lastCheckAt": "2026-10-01T17:47:50.563819+00:00",
+    "lastCheckEt": "2026-10-01T13:47:50.563668-04:00",
     "status": "ok"
   }
 }
