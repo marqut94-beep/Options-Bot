@@ -1,5 +1,29 @@
 {
   "trades": {
+    "STM_2026-10-02": {
+      "symbol": "STM",
+      "date": "2026-10-02",
+      "direction": "long",
+      "entryTime": "2026-10-02T13:57:00Z",
+      "entryPrice": 56.21,
+      "shares": 96,
+      "convictionScore": 0.0492,
+      "allocDollar": 5368.69,
+      "stopPrice": 54.5237,
+      "targetPrice": 58.458400000000005,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.5899,
+      "pctChangeAtScreen": 3.0262,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "STM261002C00056000",
+      "optionStrike": "56",
+      "optionExpiration": "2026-10-02",
+      "optionEntryPrice": 0.7,
+      "optionEntryTime": "2026-10-02T19:18:51.455077+00:00",
+      "optionContracts": 76,
+      "optionPricedVia": "trade"
+    },
     "WDC_2026-10-02": {
       "symbol": "WDC",
       "date": "2026-10-02",
@@ -55,10 +79,10 @@
       "optionEntryTime": "2026-10-02T17:59:33.148003+00:00",
       "optionContracts": 110,
       "optionPricedVia": "trade",
-      "lastPrice": 33.685,
-      "lastPriceAt": "2026-10-02T18:58:00Z",
-      "unrealizedDollar": 102.6,
-      "unrealizedPct": 1.6292
+      "lastPrice": 33.8287,
+      "lastPriceAt": "2026-10-02T19:17:00Z",
+      "unrealizedDollar": 129.9,
+      "unrealizedPct": 2.0628
     },
     "SNPS_2026-10-01": {
       "symbol": "SNPS",
@@ -330,8 +354,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-02T18:59:23.130714+00:00",
-    "lastCheckEt": "2026-10-02T14:59:23.130508-04:00",
+    "lastCheckAt": "2026-10-02T19:18:39.941310+00:00",
+    "lastCheckEt": "2026-10-02T15:18:39.941156-04:00",
     "status": "ok"
   }
 }
