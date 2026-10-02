@@ -32,6 +32,30 @@
       "returnPct": -3.0,
       "dollarPnl": -152.95
     },
+    "NKE_2026-10-02": {
+      "symbol": "NKE",
+      "date": "2026-10-02",
+      "direction": "long",
+      "entryTime": "2026-10-02T13:36:00Z",
+      "entryPrice": 33.145,
+      "shares": 190,
+      "convictionScore": 0.1729,
+      "allocDollar": 6296.65,
+      "stopPrice": 32.15065,
+      "targetPrice": 34.470800000000004,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 4.0746,
+      "pctChangeAtScreen": 3.0086,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "NKE261002C00033000",
+      "optionStrike": "33",
+      "optionExpiration": "2026-10-02",
+      "optionEntryPrice": 0.57,
+      "optionEntryTime": "2026-10-02T17:59:33.148003+00:00",
+      "optionContracts": 110,
+      "optionPricedVia": "trade"
+    },
     "SNPS_2026-10-01": {
       "symbol": "SNPS",
       "date": "2026-10-01",
@@ -302,8 +326,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-02T17:50:00.003172+00:00",
-    "lastCheckEt": "2026-10-02T13:50:00.002967-04:00",
+    "lastCheckAt": "2026-10-02T17:59:20.799136+00:00",
+    "lastCheckEt": "2026-10-02T13:59:20.798953-04:00",
     "status": "ok"
   }
 }
