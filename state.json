@@ -55,10 +55,10 @@
       "optionEntryTime": "2026-10-02T17:59:33.148003+00:00",
       "optionContracts": 110,
       "optionPricedVia": "trade",
-      "lastPrice": 33.795,
-      "lastPriceAt": "2026-10-02T18:42:00Z",
-      "unrealizedDollar": 123.5,
-      "unrealizedPct": 1.9611
+      "lastPrice": 33.685,
+      "lastPriceAt": "2026-10-02T18:58:00Z",
+      "unrealizedDollar": 102.6,
+      "unrealizedPct": 1.6292
     },
     "SNPS_2026-10-01": {
       "symbol": "SNPS",
@@ -330,8 +330,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-02T18:43:44.348424+00:00",
-    "lastCheckEt": "2026-10-02T14:43:44.348235-04:00",
+    "lastCheckAt": "2026-10-02T18:59:23.130714+00:00",
+    "lastCheckEt": "2026-10-02T14:59:23.130508-04:00",
     "status": "ok"
   }
 }
