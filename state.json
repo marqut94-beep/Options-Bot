@@ -11,7 +11,7 @@
       "allocDollar": 5247.39,
       "stopPrice": 412.114879,
       "targetPrice": 441.85512800000004,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.3958,
       "pctChangeAtScreen": -5.3332,
@@ -22,7 +22,15 @@
       "optionEntryPrice": 0.12,
       "optionEntryTime": "2026-10-02T15:02:35.564013+00:00",
       "optionContracts": 437,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "optionExitPrice": 0.13,
+      "optionExitTime": "2026-10-02T15:04:00.518801+00:00",
+      "optionReturnPct": 8.3333,
+      "exitTime": "2026-10-02T15:04:00.518827+00:00",
+      "exitPrice": 412.114879,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -152.95
     },
     "SNPS_2026-10-01": {
       "symbol": "SNPS",
@@ -294,8 +302,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-02T15:02:04.945917+00:00",
-    "lastCheckEt": "2026-10-02T11:02:04.945730-04:00",
+    "lastCheckAt": "2026-10-02T15:04:00.190458+00:00",
+    "lastCheckEt": "2026-10-02T11:04:00.190229-04:00",
     "status": "ok"
   }
 }
