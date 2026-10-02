@@ -1,5 +1,29 @@
 {
   "trades": {
+    "WDC_2026-10-02": {
+      "symbol": "WDC",
+      "date": "2026-10-02",
+      "direction": "long",
+      "entryTime": "2026-10-02T13:43:00Z",
+      "entryPrice": 424.8607,
+      "shares": 12,
+      "convictionScore": 0.033,
+      "allocDollar": 5247.39,
+      "stopPrice": 412.114879,
+      "targetPrice": 441.85512800000004,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.3958,
+      "pctChangeAtScreen": -5.3332,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "WDC261002C00425000",
+      "optionStrike": "425",
+      "optionExpiration": "2026-10-02",
+      "optionEntryPrice": 0.12,
+      "optionEntryTime": "2026-10-02T15:02:35.564013+00:00",
+      "optionContracts": 437,
+      "optionPricedVia": "trade"
+    },
     "SNPS_2026-10-01": {
       "symbol": "SNPS",
       "date": "2026-10-01",
@@ -270,8 +294,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-02T14:50:57.519157+00:00",
-    "lastCheckEt": "2026-10-02T10:50:57.518998-04:00",
+    "lastCheckAt": "2026-10-02T15:02:04.945917+00:00",
+    "lastCheckEt": "2026-10-02T11:02:04.945730-04:00",
     "status": "ok"
   }
 }
