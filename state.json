@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-02T19:18:51.455077+00:00",
       "optionContracts": 76,
       "optionPricedVia": "trade",
-      "lastPrice": 57.38,
-      "lastPriceAt": "2026-10-02T19:34:00Z",
-      "unrealizedDollar": 112.32,
-      "unrealizedPct": 2.0815
+      "lastPrice": 57.36,
+      "lastPriceAt": "2026-10-02T19:35:00Z",
+      "unrealizedDollar": 110.4,
+      "unrealizedPct": 2.0459
     },
     "WDC_2026-10-02": {
       "symbol": "WDC",
@@ -83,10 +83,10 @@
       "optionEntryTime": "2026-10-02T17:59:33.148003+00:00",
       "optionContracts": 110,
       "optionPricedVia": "trade",
-      "lastPrice": 33.86,
-      "lastPriceAt": "2026-10-02T19:34:00Z",
-      "unrealizedDollar": 135.85,
-      "unrealizedPct": 2.1572
+      "lastPrice": 33.845,
+      "lastPriceAt": "2026-10-02T19:35:00Z",
+      "unrealizedDollar": 133.0,
+      "unrealizedPct": 2.1119
     },
     "SNPS_2026-10-01": {
       "symbol": "SNPS",
@@ -358,8 +358,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-02T19:35:38.888380+00:00",
-    "lastCheckEt": "2026-10-02T15:35:38.888245-04:00",
+    "lastCheckAt": "2026-10-02T19:36:31.677776+00:00",
+    "lastCheckEt": "2026-10-02T15:36:31.677613-04:00",
     "status": "ok"
   }
 }
