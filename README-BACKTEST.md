@@ -94,8 +94,19 @@ the live quote-mid fallback for contracts without a recent trade, and it does
 not prove whether a contract could be traded in the desired size. Do not label
 this as an exact options-filtered reproduction of the running bot.
 
-**Neither mode calculates option dollar profit.** The available stock prices and
-historical option prints do not establish executable option bid/ask fills.
+**Option profit is now estimated from historical option trade prices.** Entry
+and each partial/final sale use a print at or before the decision time, at most
+60 seconds old. P&L is the premium difference times the number of contracts times
+100. Long puts use the same premium calculation as long calls. These are trade
+marks, not executable bid/ask fills; spread, fees, slippage and size impact are
+unmodeled. Missing or stale prices leave the position P&L null and exclude it
+from the priced-subset total. Coverage counts accompany every total.
+
+Contract sizing mirrors the bot's max(1, floor(allocation / premium / 100)); any
+one-contract overspend is flagged. A one-contract partial sale closes the option
+position even if the stock diagnostic continues. Option entry marks always use
+the decision time, including in legacy mode; no backdated option purchase is
+claimed. The ungated `off` baseline has no option contract and no option P&L.
 
 ## Outputs
 
@@ -103,8 +114,10 @@ The Actions run summary contains the comparison table. Download the
 `momentum-backtest-<run id>` artifact from the completed run for:
 
 * `summary.json`: settings, data limitations, diagnostics, and performance.
-* `trades.csv`: each entry, decision time, allocation, and stock result.
-* `trades.json`: the same trades with complete stock exit legs.
+* `trades.csv`: each entry, allocation, stock result, option contract count,
+  estimated option P&L and return, and missing-price status.
+* `trades.json`: the same trades with stock exit legs and option sale legs,
+  including price observation timestamps.
 * `report.md`: readable comparison and limitations.
 * `checkpoint.json`: incremental results, including if a later request fails.
 
