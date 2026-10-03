@@ -54,9 +54,15 @@ class OptionProfitTests(unittest.TestCase):
     def test_stale_and_future_trade_marks_rejected(self):
         at = b.local('2026-09-30', '10:00')
         class API:
+            time = '2026-09-30T13:54:59Z'
             def get(self, path, params):
-                return {'trades': {'TEST': [{'p': 2, 't': '2026-09-30T13:58:59Z'}]}}
-        self.assertIsNone(b.option_mark(API(), 'TEST', at))
+                return {'trades': {'TEST': [{'p': 2, 't': self.time}]}}
+        api = API()
+        self.assertIsNone(b.option_mark(api, 'TEST', at))
+        api.time = '2026-09-30T14:00:01Z'
+        self.assertIsNone(b.option_mark(api, 'TEST', at))
+        api.time = '2026-09-30T13:55:00Z'
+        self.assertEqual(b.option_mark(api, 'TEST', at)['ageSeconds'], 300)
 
 
 if __name__ == '__main__':
