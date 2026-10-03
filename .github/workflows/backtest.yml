@@ -1,0 +1,85 @@
+name: Momentum Backtest
+
+on:
+  push:
+    branches: ['codex/backtest-20261002']
+    paths:
+      - 'backtest_runner.py'
+      - 'test_backtest_runner.py'
+      - '.github/workflows/backtest.yml'
+  workflow_dispatch:
+    inputs:
+      start:
+        description: First test date (YYYY-MM-DD)
+        required: true
+        default: '2026-09-01'
+        type: string
+      end:
+        description: Last completed test date (YYYY-MM-DD; before today)
+        required: true
+        default: '2026-10-01'
+        type: string
+      option_gate:
+        description: Historical option trade coverage, or an explicitly ungated stock baseline
+        required: true
+        default: historical-trades
+        type: choice
+        options:
+          - historical-trades
+          - 'off'
+      slippage_bps:
+        description: Assumed stock slippage per side, in basis points
+        required: true
+        default: '5'
+        type: string
+      symbols:
+        description: Optional comma-separated tickers; blank uses entire universe.json
+        required: false
+        default: ''
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: momentum-backtest
+  cancel-in-progress: false
+
+jobs:
+  backtest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Validate replay logic
+        run: python -m unittest -v test_backtest_runner.py
+      - name: Run historical replay
+        env:
+          ALPACA_API_KEY_ID: ${{ secrets.ALPACA_API_KEY_ID }}
+          ALPACA_API_SECRET_KEY: ${{ secrets.ALPACA_API_SECRET_KEY }}
+          TEST_START: ${{ inputs.start || '2026-09-01' }}
+          TEST_END: ${{ inputs.end || '2026-10-01' }}
+          OPTION_GATE: ${{ inputs.option_gate || 'historical-trades' }}
+          SLIPPAGE_BPS: ${{ inputs.slippage_bps || '5' }}
+          TEST_SYMBOLS: ${{ inputs.symbols }}
+        run: |
+          python backtest_runner.py \
+            --start "$TEST_START" --end "$TEST_END" \
+            --option-gate "$OPTION_GATE" --slippage-bps "$SLIPPAGE_BPS" \
+            --symbols "$TEST_SYMBOLS"
+      - name: Add report to run summary
+        if: always()
+        run: |
+          if [ -f backtest-results/report.md ]; then
+            cat backtest-results/report.md >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: momentum-backtest-${{ github.run_id }}
+          path: backtest-results/
+          if-no-files-found: warn
+          retention-days: 14
