@@ -281,6 +281,87 @@ def summarize(trades, session_count):
                 stock_daily_close_drawdown=round(drawdown, 2))
 
 
+def option_mark(api, contract, at, max_age=60):
+    """Recent historical trade mark at/before a decision, never a claimed fill."""
+    payload = api.get('/v1beta1/options/trades', dict(
+        symbols=contract, start=iso(at - timedelta(seconds=max_age)),
+        end=iso(at), sort='desc', limit=1))
+    rows = (payload.get('trades') or {}).get(contract, [])
+    if not rows:
+        return None
+    row = rows[0]
+    age = (at - timestamp(row['t'])).total_seconds()
+    price = float(row['p'])
+    if not 0 <= age <= max_age or not math.isfinite(price) or price <= 0:
+        return None
+    return dict(price=price, observedAt=row['t'], ageSeconds=age)
+
+
+def option_profit_estimate(api, trade):
+    """Long calls/puts: premium differences times contracts times 100.
+
+    Use decision times, including in legacy mode; the stock's backdated entry
+    is not the time an option could have been bought. Missing marks stay null.
+    Match the bot's max-one-contract sizing and flag any resulting overspend.
+    """
+    out = dict(optionEstimatedPnl=None, optionEstimatedReturnPct=None,
+               optionEstimateStatus='no_contract', optionEstimateLegs=[])
+    contract = trade.get('optionSymbol')
+    if not contract:
+        return out
+    decision = timestamp(trade['decisionAt'])
+    entry = option_mark(api, contract, decision)
+    if not entry:
+        out['optionEstimateStatus'] = 'missing_or_stale_entry'
+        return out
+    contracts = max(1, int(trade['allocatedDollar'] // (entry['price'] * 100)))
+    cost = contracts * entry['price'] * 100
+    out.update(optionEstimatedEntryPrice=entry['price'], optionEstimatedEntryAt=iso(decision),
+               optionEntryObservationAt=entry['observedAt'], optionEstimatedContracts=contracts,
+               optionEstimatedCost=round(cost, 2),
+               optionExceedsAllocation=cost > trade['allocatedDollar'] + .005)
+    remaining, total, missing = contracts, 0.0, False
+    for leg in trade['exitLegs']:
+        at = timestamp(leg['decisionAt'])
+        if at <= decision:
+            missing = True
+            continue
+        partial = leg['reason'] == 'target' and leg['quantity'] < trade['shares'] and remaining == contracts
+        quantity = max(1, contracts // 2) if partial else remaining
+        mark = option_mark(api, contract, at)
+        pnl = quantity * (mark['price'] - entry['price']) * 100 if mark else None
+        out['optionEstimateLegs'].append(dict(
+            contracts=quantity, decisionAt=iso(at), reason=leg['reason'],
+            observedPrice=mark['price'] if mark else None,
+            observationAt=mark['observedAt'] if mark else None,
+            observationAgeSeconds=mark['ageSeconds'] if mark else None,
+            estimatedPnl=round(pnl, 2) if pnl is not None else None))
+        missing = missing or mark is None
+        if pnl is not None:
+            total += pnl
+        remaining -= quantity
+        if remaining == 0:
+            break  # A one-contract partial closes the entire option position.
+    out['optionEstimateStatus'] = ('missing_or_stale_exit' if missing else
+                                   'incomplete_exit' if remaining else 'complete')
+    if out['optionEstimateStatus'] == 'complete':
+        out.update(optionEstimatedPnl=round(total, 2), optionEstimatedReturnPct=round(total / cost * 100, 4))
+    return out
+
+
+def summarize_options(trades):
+    complete = [t for t in trades if t.get('optionEstimatedPnl') is not None]
+    pnls = [t['optionEstimatedPnl'] for t in complete]
+    wins, losses = [p for p in pnls if p > 0], [p for p in pnls if p < 0]
+    return dict(total_trades=len(trades), priced_trades=len(complete),
+                unpriced_trades=len(trades) - len(complete),
+                estimated_pnl_priced_subset=round(sum(pnls), 2) if complete else None,
+                estimated_win_rate=100 * len(wins) / len(pnls) if pnls else None,
+                estimated_profit_factor=sum(wins) / -sum(losses) if losses else None,
+                positions_exceeding_allocation=sum(bool(t.get('optionExceedsAllocation')) for t in trades),
+                missing_reasons=dict(Counter(t.get('optionEstimateStatus', 'unpriced') for t in trades if t.get('optionEstimatedPnl') is None)))
+
+
 def run(args):
     start_day, end_day = date.fromisoformat(args.start), date.fromisoformat(args.end)
     if end_day < start_day:
@@ -374,6 +455,7 @@ def run(args):
                                   volumeZscore=zscore, stockPnl=round(pnl, 2) if pnl is not None else None,
                                   exitReason=legs[-1]['reason'] if legs else None,
                                   exitLegs=legs or [], **(option or {}))
+                    result.update(option_profit_estimate(api, result))
                     results[mode].append(result)
                     accepted[mode].add(sym)
                     remaining[mode] -= allocation
@@ -385,6 +467,7 @@ def run(args):
                   option_gate=args.option_gate, stock_slippage_bps_per_side=args.slippage_bps,
                   earnings_filter=False, api_requests=api.requests, diagnostics=dict(diagnostics),
                   summaries={mode: summarize(trades, len(calendar)) for mode, trades in results.items()},
+                  option_summaries={mode: summarize_options(trades) for mode, trades in results.items()},
                   limitations=[
                       'Historical replay approximation, not an exact reproduction of GitHub run timestamps.',
                       'Legacy entries use later screening information to select past prices; NOT an investable performance result.',
@@ -394,7 +477,10 @@ def run(args):
                       'Raw bars are used for both minute prices and daily volumes. Split-adjusted production lookbacks are not reconstructed; inspect corporate-action dates.',
                       'Archived contract selection uses all pages/statuses, not the original first 100 currently-active contracts; historical chains are not reconstructed.',
                       'Historical-trades gate omits the quote-mid fallback; quote-only entries may be missed. Missing data is NOT proof of non-optionability.',
-                      'No option dollar profit is calculated. Stock returns cannot establish option returns.',
+                      'Option P&L is a historical trade-mark estimate at entry/exit decision times, not executable fills. Marks must be at most 60 seconds old.',
+                      'Option totals include only fully priced positions; missing/stale observations are not zero. Coverage counts and exclusions are reported.',
+                      'Option estimates omit bid/ask spread, fees, slippage, and market impact; observed prints do not establish fills for the modeled contract quantity.',
+                      'Option sizing mirrors the bot max(1, floor(budget/premium/100)); any one-contract budget overspend is flagged.',
                       'Zero-trade sessions are included. Fees, borrow availability, latency, and market impact remain unmodeled.',
                       'Configured slippage applies to stock fills, not option fills. Stops use adverse-first OHLC ordering; within-bar order is unknown.',
                       'Half-day sessions use their calendar close, unlike the live hard-coded 15:55 exit.',
@@ -404,13 +490,23 @@ def run(args):
     (output / 'trades.json').write_text(json.dumps(results, indent=2, allow_nan=False))
     columns = ['mode', 'date', 'symbol', 'direction', 'signalAt', 'decisionAt', 'entryAt',
                'entryPrice', 'shares', 'allocatedDollar', 'volumeZscore', 'stockPnl', 'exitReason',
-               'optionSymbol', 'optionObservedPrice', 'optionObservationAt', 'optionTradeAgeSeconds']
+               'optionSymbol', 'optionObservedPrice', 'optionObservationAt', 'optionTradeAgeSeconds',
+               'optionEstimatedEntryPrice', 'optionEstimatedContracts', 'optionEstimatedCost',
+               'optionExceedsAllocation', 'optionEstimatedPnl', 'optionEstimatedReturnPct', 'optionEstimateStatus']
     with (output / 'trades.csv').open('w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=columns, extrasaction='ignore')
         writer.writeheader()
         writer.writerows(t for trades in results.values() for t in trades)
-    text = ['# Momentum bot historical replay', '', 'STOCK STRATEGY RESULTS; NOT OPTION PROFITS.', '',
+    text = ['# Momentum bot historical replay', '', 'OPTION TRADE-MARK ESTIMATES AND STOCK TIMING DIAGNOSTICS; NOT ACTUAL FILLS.', '',
+            '| Mode | Fully priced options / trades | Estimated option P&L (priced subset) | Unpriced |',
+            '|---|---:|---:|---:|']
+    for mode, values in report['option_summaries'].items():
+        value = values['estimated_pnl_priced_subset']
+        dollars = f'${value:,.2f}' if value is not None else 'N/A'
+        text.append(f"| {mode} | {values['priced_trades']} / {values['total_trades']} | {dollars} | {values['unpriced_trades']} |")
+    text.extend(['', '## Stock timing diagnostics', '',
             '| Mode | Trades | Net stock P&L | Win rate | Profit factor |', '|---|---:|---:|---:|---:|']
+    )
     for mode, values in report['summaries'].items():
         rate, factor = values['stock_win_rate'], values['stock_profit_factor']
         text.append(f"| {mode} | {values['trades']} | ${values['stock_net_pnl']:,.2f} | {f'{rate:.1f}%' if rate is not None else 'N/A'} | {f'{factor:.2f}' if factor is not None else 'N/A'} |")
