@@ -19,6 +19,7 @@ ET = ZoneInfo('America/New_York')
 UTC = timezone.utc
 DATA = 'https://data.alpaca.markets'
 TRADING = 'https://paper-api.alpaca.markets'
+OPTION_MARK_MAX_AGE_SECONDS = 300
 SETTINGS = dict(daily_budget=25000, max_trades=4, minimum_allocation=5000,
                 stop=.03, first_target=.04, remainder_floor=.02,
                 remainder_target=.10, volume_zscore=2, move_pct=3,
@@ -281,7 +282,7 @@ def summarize(trades, session_count):
                 stock_daily_close_drawdown=round(drawdown, 2))
 
 
-def option_mark(api, contract, at, max_age=60):
+def option_mark(api, contract, at, max_age=OPTION_MARK_MAX_AGE_SECONDS):
     """Recent historical trade mark at/before a decision, never a claimed fill."""
     payload = api.get('/v1beta1/options/trades', dict(
         symbols=contract, start=iso(at - timedelta(seconds=max_age)),
@@ -318,6 +319,7 @@ def option_profit_estimate(api, trade):
     cost = contracts * entry['price'] * 100
     out.update(optionEstimatedEntryPrice=entry['price'], optionEstimatedEntryAt=iso(decision),
                optionEntryObservationAt=entry['observedAt'], optionEstimatedContracts=contracts,
+               optionEntryObservationAgeSeconds=entry['ageSeconds'],
                optionEstimatedCost=round(cost, 2),
                optionExceedsAllocation=cost > trade['allocatedDollar'] + .005)
     remaining, total, missing = contracts, 0.0, False
@@ -468,6 +470,7 @@ def run(args):
                   earnings_filter=False, api_requests=api.requests, diagnostics=dict(diagnostics),
                   summaries={mode: summarize(trades, len(calendar)) for mode, trades in results.items()},
                   option_summaries={mode: summarize_options(trades) for mode, trades in results.items()},
+                  option_mark_max_age_seconds=OPTION_MARK_MAX_AGE_SECONDS,
                   limitations=[
                       'Historical replay approximation, not an exact reproduction of GitHub run timestamps.',
                       'Legacy entries use later screening information to select past prices; NOT an investable performance result.',
@@ -477,7 +480,7 @@ def run(args):
                       'Raw bars are used for both minute prices and daily volumes. Split-adjusted production lookbacks are not reconstructed; inspect corporate-action dates.',
                       'Archived contract selection uses all pages/statuses, not the original first 100 currently-active contracts; historical chains are not reconstructed.',
                       'Historical-trades gate omits the quote-mid fallback; quote-only entries may be missed. Missing data is NOT proof of non-optionability.',
-                      'Option P&L is a historical trade-mark estimate at entry/exit decision times, not executable fills. Marks must be at most 60 seconds old.',
+                      'Option P&L is a historical trade-mark estimate at entry/exit decision times, not executable fills. Marks must be at most 300 seconds (five minutes) old.',
                       'Option totals include only fully priced positions; missing/stale observations are not zero. Coverage counts and exclusions are reported.',
                       'Option estimates omit bid/ask spread, fees, slippage, and market impact; observed prints do not establish fills for the modeled contract quantity.',
                       'Option sizing mirrors the bot max(1, floor(budget/premium/100)); any one-contract budget overspend is flagged.',
@@ -492,12 +495,14 @@ def run(args):
                'entryPrice', 'shares', 'allocatedDollar', 'volumeZscore', 'stockPnl', 'exitReason',
                'optionSymbol', 'optionObservedPrice', 'optionObservationAt', 'optionTradeAgeSeconds',
                'optionEstimatedEntryPrice', 'optionEstimatedContracts', 'optionEstimatedCost',
+               'optionEntryObservationAt', 'optionEntryObservationAgeSeconds',
                'optionExceedsAllocation', 'optionEstimatedPnl', 'optionEstimatedReturnPct', 'optionEstimateStatus']
     with (output / 'trades.csv').open('w', newline='') as f:
         writer = csv.DictWriter(f, fieldnames=columns, extrasaction='ignore')
         writer.writeheader()
         writer.writerows(t for trades in results.values() for t in trades)
     text = ['# Momentum bot historical replay', '', 'OPTION TRADE-MARK ESTIMATES AND STOCK TIMING DIAGNOSTICS; NOT ACTUAL FILLS.', '',
+            'Option price freshness limit: five minutes (300 seconds), using observations at or before each decision.', '',
             '| Mode | Fully priced options / trades | Estimated option P&L (priced subset) | Unpriced |',
             '|---|---:|---:|---:|']
     for mode, values in report['option_summaries'].items():
