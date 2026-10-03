@@ -65,7 +65,15 @@ class Alpaca:
             except HTTPError as e:
                 if e.code not in (429, 500, 502, 503, 504):
                     # Do not print headers, secrets, or URL query strings.
-                    raise RuntimeError(f'Alpaca HTTP {e.code} at {path}; verify plan permissions and request parameters.') from None
+                    detail = ''
+                    try:
+                        message = str(json.loads(e.read()).get('message', ''))
+                        for credential in self.headers.values():
+                            message = message.replace(credential, '[redacted]')
+                        detail = ': ' + ' '.join(message.split())[:300] if message else ''
+                    except (ValueError, OSError):
+                        pass
+                    raise RuntimeError(f'Alpaca HTTP {e.code} at {path}{detail}; verify plan permissions and request parameters.') from None
                 if attempt == 5:
                     raise RuntimeError(f'Alpaca transient HTTP {e.code} exhausted retries at {path}.') from None
                 time.sleep(min(30, 2 ** attempt))
@@ -128,7 +136,7 @@ class Alpaca:
         contract = min(contracts.values(), key=lambda c: (abs(float(c['strike_price']) - price), c['expiration_date'], c['symbol']))
         payload = self.get('/v1beta1/options/trades', dict(
             symbols=contract['symbol'], start=iso(decision - timedelta(days=7)),
-            end=iso(decision), feed='opra', sort='desc', limit=1))
+            end=iso(decision), sort='desc', limit=1))
         rows = (payload.get('trades') or {}).get(contract['symbol'], [])
         if not rows:
             return None, 'no_historical_option_trade'
