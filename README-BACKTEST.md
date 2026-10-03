@@ -96,7 +96,7 @@ this as an exact options-filtered reproduction of the running bot.
 
 **Option profit is now estimated from historical option trade prices.** Entry
 and each partial/final sale use a print at or before the decision time, at most
-60 seconds old. P&L is the premium difference times the number of contracts times
+five minutes (300 seconds) old. P&L is the premium difference times the number of contracts times
 100. Long puts use the same premium calculation as long calls. These are trade
 marks, not executable bid/ask fills; spread, fees, slippage and size impact are
 unmodeled. Missing or stale prices leave the position P&L null and exclude it
