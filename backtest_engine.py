@@ -303,4 +303,4 @@ def run_backtest(start_date, end_date):
     print("="*45)
 
 if __name__ == "__main__":
-    run_backtest("2026-07-01", "2026-10-01")
+    run_backtest("2026-06-01", "2026-10-01")
