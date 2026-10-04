@@ -50,36 +50,39 @@ def ideal_dollar(rel_vol):
     return 5000.0 + 7500.0 * conviction(rel_vol)
 
 def find_option_contract(symbol, direction, ref_price, date_str):
-    """Find active or historical option contract within 7 days expiration."""
+    """Find active or historical option contract within 14 days expiration."""
     option_type = "call" if direction == "long" else "put"
     et_dt = datetime.strptime(date_str, "%Y-%m-%d")
-    exp_lte = (et_dt + timedelta(days=7)).strftime("%Y-%m-%d")
+    exp_lte = (et_dt + timedelta(days=14)).strftime("%Y-%m-%d")
     url = f"{ALPACA_TRADING}/options/contracts"
-    params = {
-        "underlying_symbols": symbol,
-        "expiration_date_gte": date_str,
-        "expiration_date_lte": exp_lte,
-        "type": option_type,
-        "status": "all",  # Includes both active and expired contracts for historical dates
-        "limit": 100,
-    }
-    try:
-        r = requests.get(url, headers=HEADERS, params=params, timeout=10)
-        r.raise_for_status()
-        contracts = r.json().get("option_contracts", [])
-    except Exception:
-        return None
-    if not contracts:
-        return None
-
-    def strike_dist(c):
+    
+    # Check active contracts first, then inactive (expired)
+    for st in ["active", "inactive"]:
+        params = {
+            "underlying_symbols": symbol,
+            "expiration_date_gte": date_str,
+            "expiration_date_lte": exp_lte,  # Override default weekend cutoff
+            "type": option_type,
+            "status": st,
+            "limit": 100,
+        }
         try:
-            return abs(float(c["strike_price"]) - ref_price)
-        except Exception:
-            return float("inf")
+            r = requests.get(url, headers=HEADERS, params=params, timeout=10)
+            if r.status_code == 200:
+                contracts = r.json().get("option_contracts", [])
+                if contracts:
+                    def strike_dist(c):
+                        try:
+                            return abs(float(c["strike_price"]) - ref_price)
+                        except Exception:
+                            return float("inf")
 
-    contracts.sort(key=lambda c: (strike_dist(c), c.get("expiration_date", "")))
-    return contracts[0]
+                    contracts.sort(key=lambda c: (strike_dist(c), c.get("expiration_date", "")))
+                    return contracts[0]
+        except Exception:
+            continue
+            
+    return None
 
 def run_backtest(start_date, end_date):
     universe = load_universe()
@@ -257,7 +260,7 @@ def run_backtest(start_date, end_date):
                 if not partial_taken:
                     final_pnl = shares * (last_price - entry_price) if direction == "long" else shares * (entry_price - last_price)
                 else:
-                    rem_pnl = shares_remainder * (last_price - entry_price) if direction == "long" else shares_remainder * (entry_price - last_price)
+                    rem_pnl = shares_remainder * (last_price - entry_price) if direction == "long" else shares_remainder * (last_price - entry_price)
                     final_pnl = partial_pnl + rem_pnl
                 exit_reason = "eod"
 
@@ -274,6 +277,7 @@ def run_backtest(start_date, end_date):
                 "exitReason": exit_reason
             })
             
+            print(f"  {sym}: TRADED -> {direction.upper()} ({opt_contract['symbol']}) | P&L: ${final_pnl:.2f}")
             todays_trades += 1
             allocated += actual_alloc
             remaining -= actual_alloc
