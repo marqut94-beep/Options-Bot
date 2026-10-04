@@ -1,202 +1,256 @@
+import json
 import os
 import sys
-import json
-from datetime import datetime, timedelta, timezone
+from datetime import datetime, timedelta, time
 import pandas as pd
-
-from alpaca.data.historical import StockHistoricalDataClient
+import numpy as np
+from pathlib import Path
+from alpaca.data.historical.stock import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
-from alpaca.data.enums import DataFeed
 
-# -------------------------------------------------------------------
-# 1. Setup & Environment
-# -------------------------------------------------------------------
-API_KEY = os.getenv("ALPACA_API_KEY_ID")
-SECRET_KEY = os.getenv("ALPACA_API_SECRET_KEY")
+# Configuration & Parameters (Identical to Momentum_bot.py)
+ALPACA_KEY = os.environ.get("ALPACA_API_KEY_ID")
+ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 
-if not API_KEY or not SECRET_KEY:
-    print("Error: ALPACA_API_KEY_ID and ALPACA_API_SECRET_KEY must be set.")
+DAILY_BUDGET = 25000.0
+MAX_TRADES_PER_DAY = 4
+MIN_REMAINING_TO_ENTER = 5000.0
+STOP_PCT = 0.03
+FIRST_TARGET_PCT = 0.04
+REMAINDER_FLOOR_PCT = 0.02
+REMAINDER_TARGET_PCT = 0.10
+REL_VOL_MIN = 2.0
+PCT_CHANGE_MIN = 3.0
+PRICE_MIN, PRICE_MAX = 10.0, 500.0
+
+HERE = Path(__file__).parent
+UNIVERSE_PATH = HERE / "universe.json"
+
+if not ALPACA_KEY or not ALPACA_SECRET:
+    print("FATAL: ALPACA_API_KEY_ID / ALPACA_API_SECRET_KEY not set.")
     sys.exit(1)
 
-data_client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
+client = StockHistoricalDataClient(ALPACA_KEY, ALPACA_SECRET)
 
-start_date_str = os.getenv("START_DATE", "2026-09-01")
-end_date_str = os.getenv("END_DATE", "2026-10-01")
+def load_universe():
+    return json.loads(UNIVERSE_PATH.read_text(encoding="utf-8-sig"))
 
-print(f"--- Starting Selective Backtest ({start_date_str} to {end_date_str}) ---", flush=True)
+def conviction(rel_vol):
+    return max(0.0, min(1.0, (rel_vol - 2.0) / 12.0))
 
-# -------------------------------------------------------------------
-# 2. Load Universe
-# -------------------------------------------------------------------
-UNIVERSE_FILE = "universe.json"
-if os.path.exists(UNIVERSE_FILE):
-    try:
-        with open(UNIVERSE_FILE, "r", encoding="utf-8-sig") as f:
-            universe = json.load(f)
-    except Exception as e:
-        print(f"Error reading {UNIVERSE_FILE}: {e}", flush=True)
-        sys.exit(1)
-else:
-    universe = ["AAPL", "TSLA", "NVDA", "AMD", "SPY", "QQQ"]
+def ideal_dollar(rel_vol):
+    return 5000.0 + 7500.0 * conviction(rel_vol)
 
-print(f"Loaded {len(universe)} symbols from {UNIVERSE_FILE}", flush=True)
-
-# -------------------------------------------------------------------
-# 3. Strategy Parameters
-# -------------------------------------------------------------------
-STOP_LOSS_PCT = 0.02         # 2% Stop Loss
-TAKE_PROFIT_PCT = 0.04        # 4% Take Profit
-MIN_PRICE = 10.00             # Require minimum $10 stock price
-MIN_OPENING_VOLUME = 50000    # Minimum 5-min opening volume (filters out illiquid stocks)
-MAX_TRADES_PER_DAY = 4        # Hard limit of 4 trades per calendar day
-
-trade_logs = []
-
-def run_backtest():
-    start_dt = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-    end_dt = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
-
-    current_chunk_start = start_dt
+def run_backtest(start_date, end_date):
+    universe = load_universe()
     
-    # 7-day chunks to keep API requests fast and prevent rate-limiting/timeouts
-    while current_chunk_start < end_dt:
-        current_chunk_end = min(current_chunk_start + timedelta(days=7), end_dt)
-        print(f"Processing chunk: {current_chunk_start.strftime('%Y-%m-%d')} -> {current_chunk_end.strftime('%Y-%m-%d')}", flush=True)
-
-        min_req = StockBarsRequest(
-            symbol_or_symbols=universe,
-            timeframe=TimeFrame.Minute,
-            start=current_chunk_start,
-            end=current_chunk_end,
-            feed=DataFeed.IEX
-        )
-
-        try:
-            bars = data_client.get_stock_bars(min_req)
-            if not bars or not bars.data:
-                current_chunk_start = current_chunk_end + timedelta(days=1)
-                continue
-            df = bars.df
-        except Exception as e:
-            print(f"  -> Fetch error: {e}", flush=True)
-            current_chunk_start = current_chunk_end + timedelta(days=1)
-            continue
-
-        if df.empty:
-            current_chunk_start = current_chunk_end + timedelta(days=1)
-            continue
-
-        df = df.reset_index()
-        df['date'] = pd.to_datetime(df['timestamp']).dt.date
-        unique_dates = df['date'].unique()
-
-        for day in unique_dates:
-            day_data = df[df['date'] == day]
-            daily_trade_count = 0  # Reset daily trade counter
+    print(f"Fetching daily bars for backtest period: {start_date} to {end_date}...")
+    req = StockBarsRequest(
+        symbol_or_symbols=universe,
+        timeframe=TimeFrame.Day,
+        start=datetime.strptime(start_date, "%Y-%m-%d") - timedelta(days=60), # Lookback for 30-day z-score
+        end=datetime.strptime(end_date, "%Y-%m-%d")
+    )
+    daily_bars_df = client.get_stock_bars(req).df.reset_index()
+    
+    # Get trading days in target range
+    daily_bars_df['date'] = daily_bars_df['timestamp'].dt.date
+    trading_days = sorted([d for d in daily_bars_df['date'].unique() if d >= datetime.strptime(start_date, "%Y-%m-%d").date()])
+    
+    all_trades = []
+    
+    for current_date in trading_days:
+        print(f"\n--- Backtesting Date: {current_date} ---")
+        
+        # 1. Screen Universe for Daily Candidates
+        candidates = []
+        for sym in universe:
+            sym_df = daily_bars_df[daily_bars_df['symbol'] == sym].sort_values('timestamp')
+            past_df = sym_df[sym_df['date'] < current_date]
+            today_df = sym_df[sym_df['date'] == current_date]
             
-            for sym in universe:
-                # Stop checking symbols for today if daily max trade limit is reached
-                if daily_trade_count >= MAX_TRADES_PER_DAY:
-                    break
-
-                sym_data = day_data[day_data['symbol'] == sym].sort_values('timestamp').reset_index(drop=True)
+            if len(past_df) < 30 or today_df.empty:
+                continue
                 
-                # Must have at least 60 minutes of intraday data
-                if len(sym_data) < 60:
-                    continue
-
-                open_price = sym_data.iloc[0]['open']
-                if open_price < MIN_PRICE:
-                    continue
-
-                # A. Opening 5-Minute Range & Liquidity Filter
-                opening_5m = sym_data.iloc[:5]
-                total_opening_vol = opening_5m['volume'].sum()
+            today_bar = today_df.iloc[0]
+            window = past_df.tail(30)
+            vols = window['volume'].values
+            mean_vol = np.mean(vols)
+            stdev_vol = np.std(vols, ddof=0)
+            
+            if stdev_vol <= 0:
+                continue
                 
-                if total_opening_vol < MIN_OPENING_VOLUME:
-                    continue
-
-                high_watermark = opening_5m['high'].max()
-                avg_1m_vol = opening_5m['volume'].mean()
-
-                # B. Restrict Breakout Window to 9:35 AM - 10:30 AM (Bars 5 to 60)
-                morning_bars = sym_data.iloc[5:60]
-                
-                # Entry Condition: Price breaks watermark AND Volume is 2.5x opening average
-                breakout_mask = (morning_bars['close'] > high_watermark) & (morning_bars['volume'] >= (avg_1m_vol * 2.5))
-                breakout_indices = morning_bars[breakout_mask].index
-
-                if len(breakout_indices) == 0:
-                    continue  # No valid breakout for this symbol today
-
-                # Take first valid entry bar
-                entry_idx = breakout_indices[0]
-                entry_bar = sym_data.loc[entry_idx]
-                entry_price = entry_bar['close']
-
-                # C. Manage Trade Exit (2% Stop-Loss / 4% Take-Profit / EOD)
-                remaining_bars = sym_data.loc[entry_idx + 1:]
-                exit_price = entry_price
-                exit_reason = "EOD"
-
-                for _, bar in remaining_bars.iterrows():
-                    if bar['low'] <= entry_price * (1 - STOP_LOSS_PCT):
-                        exit_price = entry_price * (1 - STOP_LOSS_PCT)
-                        exit_reason = "SL"
-                        break
-                    if bar['high'] >= entry_price * (1 + TAKE_PROFIT_PCT):
-                        exit_price = entry_price * (1 + TAKE_PROFIT_PCT)
-                        exit_reason = "TP"
-                        break
-                else:
-                    if not remaining_bars.empty:
-                        exit_price = remaining_bars.iloc[-1]['close']
-
-                pnl_pct = ((exit_price - entry_price) / entry_price) * 100
-                pnl_dollars = (exit_price - entry_price) * 100
-
-                trade_logs.append({
-                    'date': str(day),
-                    'symbol': sym,
-                    'entry_price': entry_price,
-                    'exit_price': exit_price,
-                    'exit_reason': exit_reason,
-                    'pnl_pct': pnl_pct,
-                    'pnl_dollars': pnl_dollars,
-                    'win': pnl_dollars > 0
+            rel_vol = (today_bar['volume'] - mean_vol) / stdev_vol
+            pct_change = (today_bar['close'] - today_bar['open']) / today_bar['open'] * 100.0
+            price = today_bar['close']
+            
+            if rel_vol >= REL_VOL_MIN and abs(pct_change) >= PCT_CHANGE_MIN and PRICE_MIN <= price <= PRICE_MAX:
+                candidates.append({
+                    "symbol": sym,
+                    "relVol": rel_vol,
+                    "pctChange": pct_change
                 })
+                
+        candidates.sort(key=lambda x: x["relVol"], reverse=True)
+        if not candidates:
+            continue
+            
+        # 2. Fetch Minute Bars for Candidates to Test Opening Range Breakout
+        todays_trades = 0
+        allocated = 0.0
+        remaining = DAILY_BUDGET
+        
+        for cand in candidates:
+            if todays_trades >= MAX_TRADES_PER_DAY or remaining < MIN_REMAINING_TO_ENTER:
+                break
+                
+            sym = cand["symbol"]
+            
+            # Fetch 1-min intraday bars for candidate
+            start_dt = datetime.combine(current_date, time(9, 30))
+            end_dt = datetime.combine(current_date, time(16, 0))
+            
+            try:
+                min_req = StockBarsRequest(
+                    symbol_or_symbols=sym,
+                    timeframe=TimeFrame.Minute,
+                    start=start_dt,
+                    end=end_dt
+                )
+                min_df = client.get_stock_bars(min_req).df.reset_index().sort_values('timestamp')
+            except Exception:
+                continue
+                
+            if len(min_df) < 6:
+                continue
+                
+            ref_bars = min_df.iloc[:5]
+            scan_bars = min_df.iloc[5:]
+            
+            ref_high = ref_bars['high'].max()
+            ref_low = ref_bars['low'].min()
+            
+            confirming = None
+            direction = None
+            
+            for idx, bar in scan_bars.iterrows():
+                if bar['close'] > ref_high:
+                    confirming = bar
+                    direction = "long"
+                    break
+                elif bar['close'] < ref_low:
+                    confirming = bar
+                    direction = "short"
+                    break
+                    
+            if confirming is None:
+                continue
+                
+            entry_price = confirming['close']
+            entry_time = confirming['timestamp']
+            actual_alloc = min(ideal_dollar(cand["relVol"]), remaining)
+            shares = max(1, round(actual_alloc / entry_price))
+            
+            stop_price = entry_price * (1 - STOP_PCT) if direction == "long" else entry_price * (1 + STOP_PCT)
+            target_price = entry_price * (1 + FIRST_TARGET_PCT) if direction == "long" else entry_price * (1 - FIRST_TARGET_PCT)
+            
+            # Simulate Trade Management across remaining 1-min bars
+            post_entry_bars = min_df[min_df['timestamp'] > entry_time]
+            
+            partial_taken = False
+            partial_pnl = 0.0
+            shares_partial = max(1, shares // 2) if shares > 1 else 1
+            shares_remainder = shares - shares_partial
+            
+            trade_closed = False
+            final_pnl = 0.0
+            exit_reason = ""
+            
+            remainder_floor = entry_price * (1 + REMAINDER_FLOOR_PCT) if direction == "long" else entry_price * (1 - REMAINDER_FLOOR_PCT)
+            remainder_target = entry_price * (1 + REMAINDER_TARGET_PCT) if direction == "long" else entry_price * (1 - REMAINDER_TARGET_PCT)
+            
+            for _, b in post_entry_bars.iterrows():
+                lo, hi = b['low'], b['high']
+                
+                if not partial_taken:
+                    stop_hit = lo <= stop_price if direction == "long" else hi >= stop_price
+                    target_hit = hi >= target_price if direction == "long" else lo <= target_price
+                    
+                    if stop_hit:
+                        final_pnl = shares * (stop_price - entry_price) if direction == "long" else shares * (entry_price - stop_price)
+                        exit_reason = "stop"
+                        trade_closed = True
+                        break
+                    elif target_hit:
+                        if shares_remainder == 0:
+                            final_pnl = shares * (target_price - entry_price) if direction == "long" else shares * (entry_price - target_price)
+                            exit_reason = "target"
+                            trade_closed = True
+                            break
+                        else:
+                            partial_pnl = shares_partial * (target_price - entry_price) if direction == "long" else shares_partial * (entry_price - target_price)
+                            partial_taken = True
+                else:
+                    floor_hit = lo <= remainder_floor if direction == "long" else hi >= remainder_floor
+                    rtarget_hit = hi >= remainder_target if direction == "long" else lo <= remainder_target
+                    
+                    if floor_hit or rtarget_hit:
+                        exit_p = remainder_floor if floor_hit else remainder_target
+                        rem_pnl = shares_remainder * (exit_p - entry_price) if direction == "long" else shares_remainder * (entry_price - exit_p)
+                        final_pnl = partial_pnl + rem_pnl
+                        exit_reason = "remainder_floor" if floor_hit else "remainder_target"
+                        trade_closed = True
+                        break
+                        
+            if not trade_closed and not post_entry_bars.empty:
+                last_bar = post_entry_bars.iloc[-1]
+                last_price = last_bar['close']
+                if not partial_taken:
+                    final_pnl = shares * (last_price - entry_price) if direction == "long" else shares * (entry_price - last_price)
+                else:
+                    rem_pnl = shares_remainder * (last_price - entry_price) if direction == "long" else shares_remainder * (entry_price - last_price)
+                    final_pnl = partial_pnl + rem_pnl
+                exit_reason = "eod"
 
-                daily_trade_count += 1  # Increment trade count for the day
+            ret_pct = (final_pnl / actual_alloc) * 100.0
+            all_trades.append({
+                "date": current_date,
+                "symbol": sym,
+                "direction": direction,
+                "entryPrice": entry_price,
+                "allocDollar": actual_alloc,
+                "dollarPnl": final_pnl,
+                "returnPct": ret_pct,
+                "exitReason": exit_reason
+            })
+            
+            todays_trades += 1
+            allocated += actual_alloc
+            remaining -= actual_alloc
 
-        current_chunk_start = current_chunk_end + timedelta(days=1)
-
-    # -------------------------------------------------------------------
-    # 4. Summary Output
-    # -------------------------------------------------------------------
-    print("\n" + "="*40, flush=True)
-    print("        BACKTEST SUMMARY RESULTS        ", flush=True)
-    print("="*40, flush=True)
-    
-    if not trade_logs:
-        print("No trades triggered matching strategy filters.", flush=True)
-        print("="*40, flush=True)
+    # Report Results
+    tdf = pd.DataFrame(all_trades)
+    if tdf.empty:
+        print("\nNo trades triggered during backtest period.")
         return
-
-    df_trades = pd.DataFrame(trade_logs)
-    total_trades = len(df_trades)
-    wins = df_trades['win'].sum()
-    losses = total_trades - wins
-    win_rate = (wins / total_trades) * 100
-    total_pnl = df_trades['pnl_dollars'].sum()
-    avg_pnl = df_trades['pnl_dollars'].mean()
-
-    print(f"Date Range:          {start_date_str} to {end_date_str}", flush=True)
-    print(f"Total Trades Logged: {total_trades}")
-    print(f"Win Rate:            {win_rate:.2f}% ({wins}W / {losses}L)")
+        
+    wins = tdf[tdf['dollarPnl'] > 0]
+    win_rate = len(wins) / len(tdf) * 100.0
+    total_pnl = tdf['dollarPnl'].sum()
+    avg_trade_pnl = tdf['dollarPnl'].mean()
+    
+    print("\n" + "="*40)
+    print("        BACKTEST SUMMARY RESULTS        ")
+    print("="*40)
+    print(f"Total Trades Logged: {len(tdf)}")
+    print(f"Win Rate:            {win_rate:.2f}% ({len(wins)}W / {len(tdf)-len(wins)}L)")
     print(f"Total Net P&L:       ${total_pnl:,.2f}")
-    print(f"Avg P&L per Trade:   ${avg_pnl:,.2f}")
-    print("="*40, flush=True)
+    print(f"Avg P&L per Trade:   ${avg_trade_pnl:,.2f}")
+    print(f"Avg Return %:        {tdf['returnPct'].mean():.2f}%")
+    print("="*40)
 
 if __name__ == "__main__":
-    run_backtest()
+    # Specify backtest date range (YYYY-MM-DD)
+    run_backtest("2026-08-01", "2026-10-01")
