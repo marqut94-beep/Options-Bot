@@ -14,11 +14,11 @@ from alpaca.data.timeframe import TimeFrame
 ALPACA_KEY = os.environ.get("ALPACA_API_KEY_ID")
 ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 
-DAILY_BUDGET = 25000.0
-MAX_TRADES_PER_DAY = 4
+DAILY_BUDGET = 15000.0
+MAX_TRADES_PER_DAY = 3
 MIN_REMAINING_TO_ENTER = 5000.0
 
-# Scaled Risk Management Rules (-3% Stop, +4% Partial, +2% Floor, +10% Remainder Target)
+# Scaled Risk Management Rules (-3% Stop, +4% Partial Target, +2% Floor, +10% Remainder Target)
 STOP_PCT = 0.03            # -3% Stop Loss
 FIRST_TARGET_PCT = 0.04    # +4% Partial Take Profit (50% position)
 REMAINDER_FLOOR_PCT = 0.02 # +2% Trailing Profit Floor
@@ -56,12 +56,11 @@ def find_option_contract(symbol, direction, ref_price, date_str):
     exp_lte = (et_dt + timedelta(days=14)).strftime("%Y-%m-%d")
     url = f"{ALPACA_TRADING}/options/contracts"
     
-    # Check active contracts first, then inactive (expired)
     for st in ["active", "inactive"]:
         params = {
             "underlying_symbols": symbol,
             "expiration_date_gte": date_str,
-            "expiration_date_lte": exp_lte,  # Override default weekend cutoff
+            "expiration_date_lte": exp_lte,
             "type": option_type,
             "status": st,
             "limit": 100,
@@ -138,7 +137,7 @@ def run_backtest(start_date, end_date):
         if not candidates:
             continue
             
-        # 2. Intraday Minute Bar Execution & Options Coverage Pre-Filter
+        # 2. Intraday Minute Bar Execution
         todays_trades = 0
         allocated = 0.0
         remaining = DAILY_BUDGET
@@ -190,7 +189,7 @@ def run_backtest(start_date, end_date):
             entry_price = confirming['close']
             entry_time = confirming['timestamp']
 
-            # Option Contract Verification (Historical Compatible)
+            # Option Contract Verification
             opt_contract = find_option_contract(sym, direction, entry_price, date_str)
             if not opt_contract:
                 print(f"  {sym}: SKIP - No option contract found for {date_str}.")
@@ -260,7 +259,7 @@ def run_backtest(start_date, end_date):
                 if not partial_taken:
                     final_pnl = shares * (last_price - entry_price) if direction == "long" else shares * (entry_price - last_price)
                 else:
-                    rem_pnl = shares_remainder * (last_price - entry_price) if direction == "long" else shares_remainder * (last_price - entry_price)
+                    rem_pnl = shares_remainder * (last_price - entry_price) if direction == "long" else shares_remainder * (entry_price - last_price)
                     final_pnl = partial_pnl + rem_pnl
                 exit_reason = "eod"
 
