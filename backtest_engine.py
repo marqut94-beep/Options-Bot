@@ -43,11 +43,13 @@ else:
 print(f"Loaded {len(universe)} symbols from {UNIVERSE_FILE}", flush=True)
 
 # -------------------------------------------------------------------
-# 3. Strategy Parameters & Engine
+# 3. Strategy Parameters
 # -------------------------------------------------------------------
-STOP_LOSS_PCT = 0.02    # 2% Stop Loss
-TAKE_PROFIT_PCT = 0.04   # 4% Take Profit
-MIN_PRICE = 5.00         # Filter out penny stocks under $5.00
+STOP_LOSS_PCT = 0.02         # 2% Stop Loss
+TAKE_PROFIT_PCT = 0.04        # 4% Take Profit
+MIN_PRICE = 10.00             # Require minimum $10 stock price
+MIN_OPENING_VOLUME = 50000    # Minimum 5-min opening volume (filters out illiquid stocks)
+MAX_TRADES_PER_DAY = 4        # Hard limit of 4 trades per calendar day
 
 trade_logs = []
 
@@ -57,10 +59,10 @@ def run_backtest():
 
     current_chunk_start = start_dt
     
-    # 7-day chunks to keep payloads fast and responsive
+    # 7-day chunks to keep API requests fast and prevent rate-limiting/timeouts
     while current_chunk_start < end_dt:
         current_chunk_end = min(current_chunk_start + timedelta(days=7), end_dt)
-        print(f"Fetching: {current_chunk_start.strftime('%Y-%m-%d')} -> {current_chunk_end.strftime('%Y-%m-%d')}", flush=True)
+        print(f"Processing chunk: {current_chunk_start.strftime('%Y-%m-%d')} -> {current_chunk_end.strftime('%Y-%m-%d')}", flush=True)
 
         min_req = StockBarsRequest(
             symbol_or_symbols=universe,
@@ -77,7 +79,7 @@ def run_backtest():
                 continue
             df = bars.df
         except Exception as e:
-            print(f"  -> Error fetching chunk: {e}", flush=True)
+            print(f"  -> Fetch error: {e}", flush=True)
             current_chunk_start = current_chunk_end + timedelta(days=1)
             continue
 
@@ -91,63 +93,63 @@ def run_backtest():
 
         for day in unique_dates:
             day_data = df[df['date'] == day]
+            daily_trade_count = 0  # Reset daily trade counter
             
             for sym in universe:
-                sym_data = day_data[day_data['symbol'] == sym].sort_values('timestamp')
+                # Stop checking symbols for today if daily max trade limit is reached
+                if daily_trade_count >= MAX_TRADES_PER_DAY:
+                    break
+
+                sym_data = day_data[day_data['symbol'] == sym].sort_values('timestamp').reset_index(drop=True)
                 
-                # Require at least 30 minutes of price history
-                if len(sym_data) < 30:
+                # Must have at least 60 minutes of intraday data
+                if len(sym_data) < 60:
                     continue
 
-                first_price = sym_data.iloc[0]['close']
-                if first_price < MIN_PRICE:
+                open_price = sym_data.iloc[0]['open']
+                if open_price < MIN_PRICE:
                     continue
 
-                # A. Establish Opening 5-Min High Watermark & Volume Baseline
-                opening_5m = sym_data.head(5)
+                # A. Opening 5-Minute Range & Liquidity Filter
+                opening_5m = sym_data.iloc[:5]
+                total_opening_vol = opening_5m['volume'].sum()
+                
+                if total_opening_vol < MIN_OPENING_VOLUME:
+                    continue
+
                 high_watermark = opening_5m['high'].max()
-                avg_opening_vol = opening_5m['volume'].mean()
+                avg_1m_vol = opening_5m['volume'].mean()
 
-                # B. Restrict Breakout Entry Window to 9:35 AM – 10:30 AM (bars 5-60)
-                morning_window = sym_data.iloc[5:60]
+                # B. Restrict Breakout Window to 9:35 AM - 10:30 AM (Bars 5 to 60)
+                morning_bars = sym_data.iloc[5:60]
                 
-                # Entry Condition: Price breaks watermark AND Volume is 1.8x opening average
-                breakout_candidates = morning_window[
-                    (morning_window['close'] > high_watermark) & 
-                    (morning_window['volume'] > (avg_opening_vol * 1.8))
-                ]
+                # Entry Condition: Price breaks watermark AND Volume is 2.5x opening average
+                breakout_mask = (morning_bars['close'] > high_watermark) & (morning_bars['volume'] >= (avg_1m_vol * 2.5))
+                breakout_indices = morning_bars[breakout_mask].index
 
-                if breakout_candidates.empty:
-                    continue  # Skip stock for today
+                if len(breakout_indices) == 0:
+                    continue  # No valid breakout for this symbol today
 
-                # Trigger Single Trade Entry for the day
-                entry_bar = breakout_candidates.iloc[0]
+                # Take first valid entry bar
+                entry_idx = breakout_indices[0]
+                entry_bar = sym_data.loc[entry_idx]
                 entry_price = entry_bar['close']
-                entry_idx = entry_bar.name
 
-                # C. Risk Management Execution Loop
+                # C. Manage Trade Exit (2% Stop-Loss / 4% Take-Profit / EOD)
                 remaining_bars = sym_data.loc[entry_idx + 1:]
-                
                 exit_price = entry_price
                 exit_reason = "EOD"
 
                 for _, bar in remaining_bars.iterrows():
-                    current_high = bar['high']
-                    current_low = bar['low']
-
-                    # Take Profit Check
-                    if current_high >= entry_price * (1 + TAKE_PROFIT_PCT):
-                        exit_price = entry_price * (1 + TAKE_PROFIT_PCT)
-                        exit_reason = "TP"
-                        break
-
-                    # Stop Loss Check
-                    if current_low <= entry_price * (1 - STOP_LOSS_PCT):
+                    if bar['low'] <= entry_price * (1 - STOP_LOSS_PCT):
                         exit_price = entry_price * (1 - STOP_LOSS_PCT)
                         exit_reason = "SL"
                         break
+                    if bar['high'] >= entry_price * (1 + TAKE_PROFIT_PCT):
+                        exit_price = entry_price * (1 + TAKE_PROFIT_PCT)
+                        exit_reason = "TP"
+                        break
                 else:
-                    # Exit at market close if neither TP nor SL hit
                     if not remaining_bars.empty:
                         exit_price = remaining_bars.iloc[-1]['close']
 
@@ -165,10 +167,12 @@ def run_backtest():
                     'win': pnl_dollars > 0
                 })
 
+                daily_trade_count += 1  # Increment trade count for the day
+
         current_chunk_start = current_chunk_end + timedelta(days=1)
 
     # -------------------------------------------------------------------
-    # 4. Output Summary
+    # 4. Summary Output
     # -------------------------------------------------------------------
     print("\n" + "="*40, flush=True)
     print("        BACKTEST SUMMARY RESULTS        ", flush=True)
@@ -188,10 +192,10 @@ def run_backtest():
     avg_pnl = df_trades['pnl_dollars'].mean()
 
     print(f"Date Range:          {start_date_str} to {end_date_str}", flush=True)
-    print(f"Total Trades Logged: {total_trades}", flush=True)
-    print(f"Win Rate:            {win_rate:.2f}% ({wins}W / {losses}L)", flush=True)
-    print(f"Total Net P&L:       ${total_pnl:,.2f}", flush=True)
-    print(f"Avg P&L per Trade:   ${avg_pnl:,.2f}", flush=True)
+    print(f"Total Trades Logged: {total_trades}")
+    print(f"Win Rate:            {win_rate:.2f}% ({wins}W / {losses}L)")
+    print(f"Total Net P&L:       ${total_pnl:,.2f}")
+    print(f"Avg P&L per Trade:   ${avg_pnl:,.2f}")
     print("="*40, flush=True)
 
 if __name__ == "__main__":
