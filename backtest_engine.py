@@ -9,27 +9,24 @@ from alpaca.data.historical.stock import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 
-# Configuration & Parameters (Identical to Momentum_bot.py)
+# Configuration & Parameters
 ALPACA_KEY = os.environ.get("ALPACA_API_KEY_ID")
 ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 
 DAILY_BUDGET = 25000.0
 MAX_TRADES_PER_DAY = 4
 MIN_REMAINING_TO_ENTER = 5000.0
-STOP_PCT = 0.03
-FIRST_TARGET_PCT = 0.04
-REMAINDER_FLOOR_PCT = 0.02
-REMAINDER_TARGET_PCT = 0.10
+
+# Scaled Risk Management Rules
+STOP_PCT = 0.03            # -3% Stop Loss
+FIRST_TARGET_PCT = 0.04    # +4% Partial Take Profit (50% position)
+REMAINDER_FLOOR_PCT = 0.02 # +2% Trailing Profit Floor
+REMAINDER_TARGET_PCT = 0.10# +10% Full Target
+
+# Universe Filters
 REL_VOL_MIN = 2.0
 PCT_CHANGE_MIN = 3.0
 PRICE_MIN, PRICE_MAX = 10.0, 500.0
-
-remaining_bars = sym_data.loc[entry_idx + 1:]
-
-hit_first_target = False
-first_half_pnl = 0.0
-second_half_pnl = 0.0
-exit_reason = "EOD"
 
 HERE = Path(__file__).parent
 UNIVERSE_PATH = HERE / "universe.json"
@@ -163,7 +160,7 @@ def run_backtest(start_date, end_date):
             stop_price = entry_price * (1 - STOP_PCT) if direction == "long" else entry_price * (1 + STOP_PCT)
             target_price = entry_price * (1 + FIRST_TARGET_PCT) if direction == "long" else entry_price * (1 - FIRST_TARGET_PCT)
             
-            # Simulate Trade Management across remaining 1-min bars
+            # Simulate Scaled Trade Management across remaining 1-min bars
             post_entry_bars = min_df[min_df['timestamp'] > entry_time]
             
             partial_taken = False
@@ -181,6 +178,7 @@ def run_backtest(start_date, end_date):
             for _, b in post_entry_bars.iterrows():
                 lo, hi = b['low'], b['high']
                 
+                # Phase 1: Before hitting 4% partial take-profit target
                 if not partial_taken:
                     stop_hit = lo <= stop_price if direction == "long" else hi >= stop_price
                     target_hit = hi >= target_price if direction == "long" else lo <= target_price
@@ -199,6 +197,8 @@ def run_backtest(start_date, end_date):
                         else:
                             partial_pnl = shares_partial * (target_price - entry_price) if direction == "long" else shares_partial * (entry_price - target_price)
                             partial_taken = True
+                
+                # Phase 2: After 4% target is secured, manage remaining 50%
                 else:
                     floor_hit = lo <= remainder_floor if direction == "long" else hi >= remainder_floor
                     rtarget_hit = hi >= remainder_target if direction == "long" else lo <= remainder_target
@@ -211,6 +211,7 @@ def run_backtest(start_date, end_date):
                         trade_closed = True
                         break
                         
+            # Phase 3: Market Close Exit if trade is still open
             if not trade_closed and not post_entry_bars.empty:
                 last_bar = post_entry_bars.iloc[-1]
                 last_price = last_bar['close']
@@ -252,7 +253,7 @@ def run_backtest(start_date, end_date):
     print("        BACKTEST SUMMARY RESULTS        ")
     print("="*40)
     print(f"Total Trades Logged: {len(tdf)}")
-    print(f"Win Rate:            {win_rate:.2f}% ({len(wins)}W / {len(tdf)-len(wins)}L)")
+    print(f"Win Rate:             {win_rate:.2f}% ({len(wins)}W / {len(tdf)-len(wins)}L)")
     print(f"Total Net P&L:       ${total_pnl:,.2f}")
     print(f"Avg P&L per Trade:   ${avg_trade_pnl:,.2f}")
     print(f"Avg Return %:        {tdf['returnPct'].mean():.2f}%")
