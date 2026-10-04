@@ -24,6 +24,13 @@ REL_VOL_MIN = 2.0
 PCT_CHANGE_MIN = 3.0
 PRICE_MIN, PRICE_MAX = 10.0, 500.0
 
+remaining_bars = sym_data.loc[entry_idx + 1:]
+
+hit_first_target = False
+first_half_pnl = 0.0
+second_half_pnl = 0.0
+exit_reason = "EOD"
+
 HERE = Path(__file__).parent
 UNIVERSE_PATH = HERE / "universe.json"
 
