@@ -3,7 +3,6 @@ import sys
 import json
 from datetime import datetime, timedelta
 import pandas as pd
-import numpy as np
 
 from alpaca.data.historical import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
@@ -11,7 +10,7 @@ from alpaca.data.timeframe import TimeFrame
 from alpaca.data.enums import DataFeed
 
 # -------------------------------------------------------------------
-# 1. Environment & Parameter Setup
+# 1. Setup & Environment
 # -------------------------------------------------------------------
 API_KEY = os.getenv("ALPACA_API_KEY_ID")
 SECRET_KEY = os.getenv("ALPACA_API_SECRET_KEY")
@@ -20,35 +19,31 @@ if not API_KEY or not SECRET_KEY:
     print("Error: ALPACA_API_KEY_ID and ALPACA_API_SECRET_KEY must be set.")
     sys.exit(1)
 
-# Initialize Alpaca Client
 data_client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
 
-# Read dates from Environment Variables (set by GitHub Actions) with fallback defaults
 start_date_str = os.getenv("START_DATE", "2026-08-01")
 end_date_str = os.getenv("END_DATE", "2026-10-01")
 
-print(f"Running Backtest from {start_date_str} to {end_date_str}...")
+print(f"--- Starting Backtest ({start_date_str} to {end_date_str}) ---")
 
 # -------------------------------------------------------------------
-# 2. Load Stock Universe (with UTF-8 BOM Handling)
+# 2. Load Universe
 # -------------------------------------------------------------------
 UNIVERSE_FILE = "universe.json"
 if os.path.exists(UNIVERSE_FILE):
     try:
-        # 'utf-8-sig' handles both normal UTF-8 and UTF-8 with BOM
         with open(UNIVERSE_FILE, "r", encoding="utf-8-sig") as f:
             universe = json.load(f)
     except Exception as e:
         print(f"Error reading {UNIVERSE_FILE}: {e}")
         sys.exit(1)
 else:
-    # Fallback list if universe.json is missing
     universe = ["AAPL", "TSLA", "NVDA", "AMD", "SPY", "QQQ"]
 
-print(f"Loaded {len(universe)} symbols from {UNIVERSE_FILE}: {universe}")
+print(f"Universe ({len(universe)} symbols): {universe}")
 
 # -------------------------------------------------------------------
-# 3. Strategy & Execution Simulation
+# 3. Monthly Chunked Engine
 # -------------------------------------------------------------------
 trade_logs = []
 
@@ -56,86 +51,70 @@ def run_backtest():
     start_dt = datetime.strptime(start_date_str, "%Y-%m-%d")
     end_dt = datetime.strptime(end_date_str, "%Y-%m-%d")
 
-    # Step A: Fetch Daily Bars for Initial Screen (Explicitly using DataFeed.IEX)
-    daily_req = StockBarsRequest(
-        symbol_or_symbols=universe,
-        timeframe=TimeFrame.Day,
-        start=start_dt - timedelta(days=60),
-        end=end_dt,
-        feed=DataFeed.IEX  # Required for Paper Trading (PK...) keys
-    )
+    # Generate monthly chunks to avoid API timeouts
+    current_chunk_start = start_dt
+    
+    while current_chunk_start < end_dt:
+        current_chunk_end = min(current_chunk_start + timedelta(days=30), end_dt)
+        print(f"\nProcessing chunk: {current_chunk_start.strftime('%Y-%m-%d')} -> {current_chunk_end.strftime('%Y-%m-%d')}")
 
-    try:
-        daily_bars = data_client.get_stock_bars(daily_req)
-        daily_df = daily_bars.df
-    except Exception as e:
-        print(f"Error fetching daily bars: {e}")
-        sys.exit(1)
+        # Bulk request 1-minute bars for entire universe for THIS 30-day window
+        min_req = StockBarsRequest(
+            symbol_or_symbols=universe,
+            timeframe=TimeFrame.Minute,
+            start=current_chunk_start,
+            end=current_chunk_end,
+            feed=DataFeed.IEX
+        )
 
-    if daily_df.empty:
-        print("No daily bar data retrieved.")
-        return
+        try:
+            bars = data_client.get_stock_bars(min_req)
+            df = bars.df
+        except Exception as e:
+            print(f"Error fetching chunk: {e}")
+            current_chunk_start = current_chunk_end + timedelta(days=1)
+            continue
 
-    # Iterate through each business trading day in range
-    trading_days = pd.date_range(start=start_dt, end=end_dt, freq='B')
+        if df.empty:
+            print("No data in this chunk.")
+            current_chunk_start = current_chunk_end + timedelta(days=1)
+            continue
 
-    for current_day in trading_days:
-        day_str = current_day.strftime("%Y-%m-%d")
-        
-        for sym in universe:
-            if sym not in daily_df.index.get_level_values('symbol'):
-                continue
+        # Process dates locally in memory
+        df = df.reset_index()
+        df['date'] = pd.to_datetime(df['timestamp']).dt.date
+        unique_dates = df['date'].unique()
+
+        for day in unique_dates:
+            day_data = df[df['date'] == day]
             
-            # Step B: Fetch Intraday 1-Min Bars for Target Ticker & Day
-            day_start = datetime.combine(current_day.date(), datetime.min.time())
-            day_end = datetime.combine(current_day.date(), datetime.max.time())
-            
-            min_req = StockBarsRequest(
-                symbol_or_symbols=sym,
-                timeframe=TimeFrame.Minute,
-                start=day_start,
-                end=day_end,
-                feed=DataFeed.IEX  # Required for Paper Trading (PK...) keys
-            )
+            for sym in universe:
+                sym_data = day_data[day_data['symbol'] == sym]
+                if sym_data.empty:
+                    continue
 
-            try:
-                min_bars = data_client.get_stock_bars(min_req)
-                min_df = min_bars.df
-            except Exception:
-                continue
+                # 5-minute High Watermark Breakout
+                high_watermark = sym_data['high'].head(5).max()
+                breakouts = sym_data[sym_data['close'] > high_watermark]
 
-            if min_df.empty:
-                continue
+                if not breakouts.empty:
+                    entry_price = breakouts.iloc[0]['close']
+                    exit_price = sym_data.iloc[-1]['close']
+                    pnl_pct = ((exit_price - entry_price) / entry_price) * 100
+                    pnl_dollars = (exit_price - entry_price) * 100
 
-            # Simulate Intraday Breakout Logic
-            symbol_mins = min_df.xs(sym, level='symbol')
-            
-            # 5-min High Watermark Breakout
-            high_watermark = symbol_mins['high'].head(5).max()
-            breakout_bars = symbol_mins[symbol_mins['close'] > high_watermark]
+                    trade_logs.append({
+                        'date': str(day),
+                        'symbol': sym,
+                        'pnl_pct': pnl_pct,
+                        'pnl_dollars': pnl_dollars,
+                        'win': pnl_dollars > 0
+                    })
 
-            if not breakout_bars.empty:
-                entry_time = breakout_bars.index[0]
-                entry_price = breakout_bars.iloc[0]['close']
-                
-                # Exit evaluation (End of day close price)
-                exit_price = symbol_mins.iloc[-1]['close']
-                pnl_pct = ((exit_price - entry_price) / entry_price) * 100
-                pnl_dollars = (exit_price - entry_price) * 100  # Based on 100 shares
-
-                trade_logs.append({
-                    'date': day_str,
-                    'symbol': sym,
-                    'entry_time': entry_time,
-                    'entry_price': entry_price,
-                    'exit_price': exit_price,
-                    'pnl_pct': pnl_pct,
-                    'pnl_dollars': pnl_dollars,
-                    'win': pnl_dollars > 0
-                })
+        current_chunk_start = current_chunk_end + timedelta(days=1)
 
     # -------------------------------------------------------------------
-    # 4. Summary Reporting
+    # 4. Summary Output
     # -------------------------------------------------------------------
     print("\n" + "="*40)
     print("        BACKTEST SUMMARY RESULTS        ")
@@ -153,14 +132,12 @@ def run_backtest():
     win_rate = (wins / total_trades) * 100
     total_pnl = df_trades['pnl_dollars'].sum()
     avg_pnl = df_trades['pnl_dollars'].mean()
-    avg_return_pct = df_trades['pnl_pct'].mean()
 
     print(f"Date Range:          {start_date_str} to {end_date_str}")
     print(f"Total Trades Logged: {total_trades}")
     print(f"Win Rate:            {win_rate:.2f}% ({wins}W / {losses}L)")
     print(f"Total Net P&L:       ${total_pnl:,.2f}")
     print(f"Avg P&L per Trade:   ${avg_pnl:,.2f}")
-    print(f"Avg Return %:        {avg_return_pct:.2f}%")
     print("="*40)
 
 if __name__ == "__main__":
