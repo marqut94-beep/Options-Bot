@@ -253,4 +253,4 @@ def run_backtest(start_date, end_date):
 
 if __name__ == "__main__":
     # Specify backtest date range (YYYY-MM-DD)
-    run_backtest("2026-08-01", "2026-10-01")
+    run_backtest("2026-07-01", "2026-10-01")
