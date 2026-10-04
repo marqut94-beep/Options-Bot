@@ -10,7 +10,7 @@ from alpaca.data.historical.stock import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 
-# Configuration & Parameters (Aligned with Live Bot Defaults)
+# Configuration & Parameters
 ALPACA_KEY = os.environ.get("ALPACA_API_KEY_ID")
 ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 
@@ -39,7 +39,6 @@ if not ALPACA_KEY or not ALPACA_SECRET:
 client = StockHistoricalDataClient(ALPACA_KEY, ALPACA_SECRET)
 HEADERS = {"APCA-API-KEY-ID": ALPACA_KEY, "APCA-API-SECRET-KEY": ALPACA_SECRET}
 ALPACA_TRADING = "https://paper-api.alpaca.markets/v2"
-ALPACA_OPTIONS_DATA = "https://data.alpaca.markets/v1beta1/options"
 
 def load_universe():
     return json.loads(UNIVERSE_PATH.read_text(encoding="utf-8-sig"))
@@ -51,7 +50,7 @@ def ideal_dollar(rel_vol):
     return 5000.0 + 7500.0 * conviction(rel_vol)
 
 def find_option_contract(symbol, direction, ref_price, date_str):
-    """Find active option contract within 7 days expiration."""
+    """Find active or historical option contract within 7 days expiration."""
     option_type = "call" if direction == "long" else "put"
     et_dt = datetime.strptime(date_str, "%Y-%m-%d")
     exp_lte = (et_dt + timedelta(days=7)).strftime("%Y-%m-%d")
@@ -61,7 +60,7 @@ def find_option_contract(symbol, direction, ref_price, date_str):
         "expiration_date_gte": date_str,
         "expiration_date_lte": exp_lte,
         "type": option_type,
-        "status": "active",
+        "status": "all",  # Includes both active and expired contracts for historical dates
         "limit": 100,
     }
     try:
@@ -81,31 +80,6 @@ def find_option_contract(symbol, direction, ref_price, date_str):
 
     contracts.sort(key=lambda c: (strike_dist(c), c.get("expiration_date", "")))
     return contracts[0]
-
-def check_option_liquidity(option_symbol):
-    """Verifies liquidity via recent trade print or bid-ask mid quote."""
-    url_trade = f"{ALPACA_OPTIONS_DATA}/trades/latest"
-    try:
-        r = requests.get(url_trade, headers=HEADERS, params={"symbols": option_symbol}, timeout=10)
-        if r.status_code == 200:
-            trades = r.json().get("trades", {})
-            if option_symbol in trades and trades[option_symbol].get("p"):
-                return trades[option_symbol]["p"]
-    except Exception:
-        pass
-
-    url_quote = f"{ALPACA_OPTIONS_DATA}/quotes/latest"
-    try:
-        r = requests.get(url_quote, headers=HEADERS, params={"symbols": option_symbol}, timeout=10)
-        if r.status_code == 200:
-            quotes = r.json().get("quotes", {})
-            q = quotes.get(option_symbol)
-            if q and q.get("bp") and q.get("ap") and q["bp"] > 0 and q["ap"] > 0:
-                return (q["bp"] + q["ap"]) / 2.0
-    except Exception:
-        pass
-
-    return None
 
 def run_backtest(start_date, end_date):
     universe = load_universe()
@@ -161,7 +135,7 @@ def run_backtest(start_date, end_date):
         if not candidates:
             continue
             
-        # 2. Intraday Minute Bar Execution & Options Liquidity Check
+        # 2. Intraday Minute Bar Execution & Options Coverage Pre-Filter
         todays_trades = 0
         allocated = 0.0
         remaining = DAILY_BUDGET
@@ -213,15 +187,10 @@ def run_backtest(start_date, end_date):
             entry_price = confirming['close']
             entry_time = confirming['timestamp']
 
-            # Options Liquidity Pre-Filter
+            # Option Contract Verification (Historical Compatible)
             opt_contract = find_option_contract(sym, direction, entry_price, date_str)
             if not opt_contract:
-                print(f"  {sym}: SKIP - No active option contract found.")
-                continue
-                
-            opt_price = check_option_liquidity(opt_contract["symbol"])
-            if not opt_price:
-                print(f"  {sym}: SKIP - Option contract {opt_contract['symbol']} failed liquidity check.")
+                print(f"  {sym}: SKIP - No option contract found for {date_str}.")
                 continue
 
             actual_alloc = min(ideal_dollar(cand["relVol"]), remaining)
