@@ -6,11 +6,11 @@ on:
       start_date:
         description: 'Start Date (YYYY-MM-DD)'
         required: true
-        default: '2026-01-01'
+        default: '2025-01-01'
       end_date:
         description: 'End Date (YYYY-MM-DD)'
         required: true
-        default: '2026-10-01'
+        default: '2025-12-31'
 
 jobs:
   run-backtest:
