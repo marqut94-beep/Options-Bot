@@ -1,7 +1,7 @@
 import os
 import sys
 import json
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 import pandas as pd
 
 from alpaca.data.historical import StockHistoricalDataClient
@@ -21,10 +21,10 @@ if not API_KEY or not SECRET_KEY:
 
 data_client = StockHistoricalDataClient(API_KEY, SECRET_KEY)
 
-start_date_str = os.getenv("START_DATE", "2026-08-01")
+start_date_str = os.getenv("START_DATE", "2026-09-01")
 end_date_str = os.getenv("END_DATE", "2026-10-01")
 
-print(f"--- Starting Backtest ({start_date_str} to {end_date_str}) ---")
+print(f"--- Starting Selective Backtest ({start_date_str} to {end_date_str}) ---", flush=True)
 
 # -------------------------------------------------------------------
 # 2. Load Universe
@@ -35,64 +35,122 @@ if os.path.exists(UNIVERSE_FILE):
         with open(UNIVERSE_FILE, "r", encoding="utf-8-sig") as f:
             universe = json.load(f)
     except Exception as e:
-        print(f"Error reading {UNIVERSE_FILE}: {e}")
+        print(f"Error reading {UNIVERSE_FILE}: {e}", flush=True)
         sys.exit(1)
 else:
     universe = ["AAPL", "TSLA", "NVDA", "AMD", "SPY", "QQQ"]
 
-# Optional: To restore fast speed while keeping universe.json, 
-# slice the universe to a smaller subset (e.g., universe = universe[:20])
-print(f"Loaded {len(universe)} symbols: {universe[:10]}...")
+print(f"Loaded {len(universe)} symbols from {UNIVERSE_FILE}", flush=True)
 
 # -------------------------------------------------------------------
-# 3. Simple Backtest Execution
+# 3. Strategy Parameters & Engine
 # -------------------------------------------------------------------
+STOP_LOSS_PCT = 0.02    # 2% Stop Loss
+TAKE_PROFIT_PCT = 0.04   # 4% Take Profit
+MIN_PRICE = 5.00         # Filter out penny stocks under $5.00
+
 trade_logs = []
 
 def run_backtest():
-    start_dt = datetime.strptime(start_date_str, "%Y-%m-%d")
-    end_dt = datetime.strptime(end_date_str, "%Y-%m-%d")
+    start_dt = datetime.strptime(start_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
+    end_dt = datetime.strptime(end_date_str, "%Y-%m-%d").replace(tzinfo=timezone.utc)
 
-    # Fetch 1-minute intraday bars across the entire date window at once
-    min_req = StockBarsRequest(
-        symbol_or_symbols=universe,
-        timeframe=TimeFrame.Minute,
-        start=start_dt,
-        end=end_dt,
-        feed=DataFeed.IEX  # Explicitly required for Paper Keys (PK...)
-    )
+    current_chunk_start = start_dt
+    
+    # 7-day chunks to keep payloads fast and responsive
+    while current_chunk_start < end_dt:
+        current_chunk_end = min(current_chunk_start + timedelta(days=7), end_dt)
+        print(f"Fetching: {current_chunk_start.strftime('%Y-%m-%d')} -> {current_chunk_end.strftime('%Y-%m-%d')}", flush=True)
 
-    try:
-        bars = data_client.get_stock_bars(min_req)
-        df = bars.df
-    except Exception as e:
-        print(f"Error fetching historical bars: {e}")
-        sys.exit(1)
+        min_req = StockBarsRequest(
+            symbol_or_symbols=universe,
+            timeframe=TimeFrame.Minute,
+            start=current_chunk_start,
+            end=current_chunk_end,
+            feed=DataFeed.IEX
+        )
 
-    if df.empty:
-        print("No bar data returned from Alpaca.")
-        sys.exit(0)
-
-    # Process dates locally in memory
-    df = df.reset_index()
-    df['date'] = pd.to_datetime(df['timestamp']).dt.date
-    unique_dates = df['date'].unique()
-
-    for day in unique_dates:
-        day_data = df[df['date'] == day]
-        
-        for sym in universe:
-            sym_data = day_data[day_data['symbol'] == sym]
-            if sym_data.empty:
+        try:
+            bars = data_client.get_stock_bars(min_req)
+            if not bars or not bars.data:
+                current_chunk_start = current_chunk_end + timedelta(days=1)
                 continue
+            df = bars.df
+        except Exception as e:
+            print(f"  -> Error fetching chunk: {e}", flush=True)
+            current_chunk_start = current_chunk_end + timedelta(days=1)
+            continue
 
-            # Original 5-minute High Watermark Breakout logic
-            high_watermark = sym_data['high'].head(5).max()
-            breakouts = sym_data[sym_data['close'] > high_watermark]
+        if df.empty:
+            current_chunk_start = current_chunk_end + timedelta(days=1)
+            continue
 
-            if not breakouts.empty:
-                entry_price = breakouts.iloc[0]['close']
-                exit_price = sym_data.iloc[-1]['close']
+        df = df.reset_index()
+        df['date'] = pd.to_datetime(df['timestamp']).dt.date
+        unique_dates = df['date'].unique()
+
+        for day in unique_dates:
+            day_data = df[df['date'] == day]
+            
+            for sym in universe:
+                sym_data = day_data[day_data['symbol'] == sym].sort_values('timestamp')
+                
+                # Require at least 30 minutes of price history
+                if len(sym_data) < 30:
+                    continue
+
+                first_price = sym_data.iloc[0]['close']
+                if first_price < MIN_PRICE:
+                    continue
+
+                # A. Establish Opening 5-Min High Watermark & Volume Baseline
+                opening_5m = sym_data.head(5)
+                high_watermark = opening_5m['high'].max()
+                avg_opening_vol = opening_5m['volume'].mean()
+
+                # B. Restrict Breakout Entry Window to 9:35 AM – 10:30 AM (bars 5-60)
+                morning_window = sym_data.iloc[5:60]
+                
+                # Entry Condition: Price breaks watermark AND Volume is 1.8x opening average
+                breakout_candidates = morning_window[
+                    (morning_window['close'] > high_watermark) & 
+                    (morning_window['volume'] > (avg_opening_vol * 1.8))
+                ]
+
+                if breakout_candidates.empty:
+                    continue  # Skip stock for today
+
+                # Trigger Single Trade Entry for the day
+                entry_bar = breakout_candidates.iloc[0]
+                entry_price = entry_bar['close']
+                entry_idx = entry_bar.name
+
+                # C. Risk Management Execution Loop
+                remaining_bars = sym_data.loc[entry_idx + 1:]
+                
+                exit_price = entry_price
+                exit_reason = "EOD"
+
+                for _, bar in remaining_bars.iterrows():
+                    current_high = bar['high']
+                    current_low = bar['low']
+
+                    # Take Profit Check
+                    if current_high >= entry_price * (1 + TAKE_PROFIT_PCT):
+                        exit_price = entry_price * (1 + TAKE_PROFIT_PCT)
+                        exit_reason = "TP"
+                        break
+
+                    # Stop Loss Check
+                    if current_low <= entry_price * (1 - STOP_LOSS_PCT):
+                        exit_price = entry_price * (1 - STOP_LOSS_PCT)
+                        exit_reason = "SL"
+                        break
+                else:
+                    # Exit at market close if neither TP nor SL hit
+                    if not remaining_bars.empty:
+                        exit_price = remaining_bars.iloc[-1]['close']
+
                 pnl_pct = ((exit_price - entry_price) / entry_price) * 100
                 pnl_dollars = (exit_price - entry_price) * 100
 
@@ -101,21 +159,24 @@ def run_backtest():
                     'symbol': sym,
                     'entry_price': entry_price,
                     'exit_price': exit_price,
+                    'exit_reason': exit_reason,
                     'pnl_pct': pnl_pct,
                     'pnl_dollars': pnl_dollars,
                     'win': pnl_dollars > 0
                 })
 
+        current_chunk_start = current_chunk_end + timedelta(days=1)
+
     # -------------------------------------------------------------------
-    # 4. Summary Output
+    # 4. Output Summary
     # -------------------------------------------------------------------
-    print("\n" + "="*40)
-    print("        BACKTEST SUMMARY RESULTS        ")
-    print("="*40)
+    print("\n" + "="*40, flush=True)
+    print("        BACKTEST SUMMARY RESULTS        ", flush=True)
+    print("="*40, flush=True)
     
     if not trade_logs:
-        print("No trades triggered for the selected parameters.")
-        print("="*40)
+        print("No trades triggered matching strategy filters.", flush=True)
+        print("="*40, flush=True)
         return
 
     df_trades = pd.DataFrame(trade_logs)
@@ -126,12 +187,12 @@ def run_backtest():
     total_pnl = df_trades['pnl_dollars'].sum()
     avg_pnl = df_trades['pnl_dollars'].mean()
 
-    print(f"Date Range:          {start_date_str} to {end_date_str}")
-    print(f"Total Trades Logged: {total_trades}")
-    print(f"Win Rate:            {win_rate:.2f}% ({wins}W / {losses}L)")
-    print(f"Total Net P&L:       ${total_pnl:,.2f}")
-    print(f"Avg P&L per Trade:   ${avg_pnl:,.2f}")
-    print("="*40)
+    print(f"Date Range:          {start_date_str} to {end_date_str}", flush=True)
+    print(f"Total Trades Logged: {total_trades}", flush=True)
+    print(f"Win Rate:            {win_rate:.2f}% ({wins}W / {losses}L)", flush=True)
+    print(f"Total Net P&L:       ${total_pnl:,.2f}", flush=True)
+    print(f"Avg P&L per Trade:   ${avg_pnl:,.2f}", flush=True)
+    print("="*40, flush=True)
 
 if __name__ == "__main__":
     run_backtest()
