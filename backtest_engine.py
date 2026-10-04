@@ -5,19 +5,20 @@ from datetime import datetime, timedelta, time
 import pandas as pd
 import numpy as np
 from pathlib import Path
+import requests
 from alpaca.data.historical.stock import StockHistoricalDataClient
 from alpaca.data.requests import StockBarsRequest
 from alpaca.data.timeframe import TimeFrame
 
-# Configuration & Parameters
+# Configuration & Parameters (Aligned with Live Bot Defaults)
 ALPACA_KEY = os.environ.get("ALPACA_API_KEY_ID")
 ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 
-DAILY_BUDGET = 25000.0
-MAX_TRADES_PER_DAY = 4
+DAILY_BUDGET = 15000.0
+MAX_TRADES_PER_DAY = 3
 MIN_REMAINING_TO_ENTER = 5000.0
 
-# Scaled Risk Management Rules
+# Scaled Risk Management Rules (-3% Stop, +4% Partial, +2% Floor, +10% Remainder Target)
 STOP_PCT = 0.03            # -3% Stop Loss
 FIRST_TARGET_PCT = 0.04    # +4% Partial Take Profit (50% position)
 REMAINDER_FLOOR_PCT = 0.02 # +2% Trailing Profit Floor
@@ -36,6 +37,9 @@ if not ALPACA_KEY or not ALPACA_SECRET:
     sys.exit(1)
 
 client = StockHistoricalDataClient(ALPACA_KEY, ALPACA_SECRET)
+HEADERS = {"APCA-API-KEY-ID": ALPACA_KEY, "APCA-API-SECRET-KEY": ALPACA_SECRET}
+ALPACA_TRADING = "https://paper-api.alpaca.markets/v2"
+ALPACA_OPTIONS_DATA = "https://data.alpaca.markets/v1beta1/options"
 
 def load_universe():
     return json.loads(UNIVERSE_PATH.read_text(encoding="utf-8-sig"))
@@ -46,6 +50,63 @@ def conviction(rel_vol):
 def ideal_dollar(rel_vol):
     return 5000.0 + 7500.0 * conviction(rel_vol)
 
+def find_option_contract(symbol, direction, ref_price, date_str):
+    """Find active option contract within 7 days expiration."""
+    option_type = "call" if direction == "long" else "put"
+    et_dt = datetime.strptime(date_str, "%Y-%m-%d")
+    exp_lte = (et_dt + timedelta(days=7)).strftime("%Y-%m-%d")
+    url = f"{ALPACA_TRADING}/options/contracts"
+    params = {
+        "underlying_symbols": symbol,
+        "expiration_date_gte": date_str,
+        "expiration_date_lte": exp_lte,
+        "type": option_type,
+        "status": "active",
+        "limit": 100,
+    }
+    try:
+        r = requests.get(url, headers=HEADERS, params=params, timeout=10)
+        r.raise_for_status()
+        contracts = r.json().get("option_contracts", [])
+    except Exception:
+        return None
+    if not contracts:
+        return None
+
+    def strike_dist(c):
+        try:
+            return abs(float(c["strike_price"]) - ref_price)
+        except Exception:
+            return float("inf")
+
+    contracts.sort(key=lambda c: (strike_dist(c), c.get("expiration_date", "")))
+    return contracts[0]
+
+def check_option_liquidity(option_symbol):
+    """Verifies liquidity via recent trade print or bid-ask mid quote."""
+    url_trade = f"{ALPACA_OPTIONS_DATA}/trades/latest"
+    try:
+        r = requests.get(url_trade, headers=HEADERS, params={"symbols": option_symbol}, timeout=10)
+        if r.status_code == 200:
+            trades = r.json().get("trades", {})
+            if option_symbol in trades and trades[option_symbol].get("p"):
+                return trades[option_symbol]["p"]
+    except Exception:
+        pass
+
+    url_quote = f"{ALPACA_OPTIONS_DATA}/quotes/latest"
+    try:
+        r = requests.get(url_quote, headers=HEADERS, params={"symbols": option_symbol}, timeout=10)
+        if r.status_code == 200:
+            quotes = r.json().get("quotes", {})
+            q = quotes.get(option_symbol)
+            if q and q.get("bp") and q.get("ap") and q["bp"] > 0 and q["ap"] > 0:
+                return (q["bp"] + q["ap"]) / 2.0
+    except Exception:
+        pass
+
+    return None
+
 def run_backtest(start_date, end_date):
     universe = load_universe()
     
@@ -53,21 +114,20 @@ def run_backtest(start_date, end_date):
     req = StockBarsRequest(
         symbol_or_symbols=universe,
         timeframe=TimeFrame.Day,
-        start=datetime.strptime(start_date, "%Y-%m-%d") - timedelta(days=60), # Lookback for 30-day z-score
+        start=datetime.strptime(start_date, "%Y-%m-%d") - timedelta(days=60),
         end=datetime.strptime(end_date, "%Y-%m-%d")
     )
     daily_bars_df = client.get_stock_bars(req).df.reset_index()
-    
-    # Get trading days in target range
     daily_bars_df['date'] = daily_bars_df['timestamp'].dt.date
     trading_days = sorted([d for d in daily_bars_df['date'].unique() if d >= datetime.strptime(start_date, "%Y-%m-%d").date()])
     
     all_trades = []
     
     for current_date in trading_days:
-        print(f"\n--- Backtesting Date: {current_date} ---")
+        date_str = current_date.strftime("%Y-%m-%d")
+        print(f"\n--- Backtesting Date: {date_str} ---")
         
-        # 1. Screen Universe for Daily Candidates
+        # 1. Screen Universe using 30-Day Volume Z-Score
         candidates = []
         for sym in universe:
             sym_df = daily_bars_df[daily_bars_df['symbol'] == sym].sort_values('timestamp')
@@ -101,7 +161,7 @@ def run_backtest(start_date, end_date):
         if not candidates:
             continue
             
-        # 2. Fetch Minute Bars for Candidates to Test Opening Range Breakout
+        # 2. Intraday Minute Bar Execution & Options Liquidity Check
         todays_trades = 0
         allocated = 0.0
         remaining = DAILY_BUDGET
@@ -111,8 +171,6 @@ def run_backtest(start_date, end_date):
                 break
                 
             sym = cand["symbol"]
-            
-            # Fetch 1-min intraday bars for candidate
             start_dt = datetime.combine(current_date, time(9, 30))
             end_dt = datetime.combine(current_date, time(16, 0))
             
@@ -154,13 +212,25 @@ def run_backtest(start_date, end_date):
                 
             entry_price = confirming['close']
             entry_time = confirming['timestamp']
+
+            # Options Liquidity Pre-Filter
+            opt_contract = find_option_contract(sym, direction, entry_price, date_str)
+            if not opt_contract:
+                print(f"  {sym}: SKIP - No active option contract found.")
+                continue
+                
+            opt_price = check_option_liquidity(opt_contract["symbol"])
+            if not opt_price:
+                print(f"  {sym}: SKIP - Option contract {opt_contract['symbol']} failed liquidity check.")
+                continue
+
             actual_alloc = min(ideal_dollar(cand["relVol"]), remaining)
             shares = max(1, round(actual_alloc / entry_price))
             
             stop_price = entry_price * (1 - STOP_PCT) if direction == "long" else entry_price * (1 + STOP_PCT)
             target_price = entry_price * (1 + FIRST_TARGET_PCT) if direction == "long" else entry_price * (1 - FIRST_TARGET_PCT)
             
-            # Simulate Scaled Trade Management across remaining 1-min bars
+            # Simulate Scaled Trade Management
             post_entry_bars = min_df[min_df['timestamp'] > entry_time]
             
             partial_taken = False
@@ -178,7 +248,7 @@ def run_backtest(start_date, end_date):
             for _, b in post_entry_bars.iterrows():
                 lo, hi = b['low'], b['high']
                 
-                # Phase 1: Before hitting 4% partial take-profit target
+                # Phase 1: Prior to 4% Target
                 if not partial_taken:
                     stop_hit = lo <= stop_price if direction == "long" else hi >= stop_price
                     target_hit = hi >= target_price if direction == "long" else lo <= target_price
@@ -198,7 +268,7 @@ def run_backtest(start_date, end_date):
                             partial_pnl = shares_partial * (target_price - entry_price) if direction == "long" else shares_partial * (entry_price - target_price)
                             partial_taken = True
                 
-                # Phase 2: After 4% target is secured, manage remaining 50%
+                # Phase 2: Post 4% Target (Managing Remainder)
                 else:
                     floor_hit = lo <= remainder_floor if direction == "long" else hi >= remainder_floor
                     rtarget_hit = hi >= remainder_target if direction == "long" else lo <= remainder_target
@@ -211,7 +281,7 @@ def run_backtest(start_date, end_date):
                         trade_closed = True
                         break
                         
-            # Phase 3: Market Close Exit if trade is still open
+            # Phase 3: End of Day Flatten (EOD)
             if not trade_closed and not post_entry_bars.empty:
                 last_bar = post_entry_bars.iloc[-1]
                 last_price = last_bar['close']
@@ -228,6 +298,7 @@ def run_backtest(start_date, end_date):
                 "symbol": sym,
                 "direction": direction,
                 "entryPrice": entry_price,
+                "optionSymbol": opt_contract["symbol"],
                 "allocDollar": actual_alloc,
                 "dollarPnl": final_pnl,
                 "returnPct": ret_pct,
@@ -238,7 +309,7 @@ def run_backtest(start_date, end_date):
             allocated += actual_alloc
             remaining -= actual_alloc
 
-    # Report Results
+    # Backtest Summary Report
     tdf = pd.DataFrame(all_trades)
     if tdf.empty:
         print("\nNo trades triggered during backtest period.")
@@ -249,16 +320,15 @@ def run_backtest(start_date, end_date):
     total_pnl = tdf['dollarPnl'].sum()
     avg_trade_pnl = tdf['dollarPnl'].mean()
     
-    print("\n" + "="*40)
-    print("        BACKTEST SUMMARY RESULTS        ")
-    print("="*40)
+    print("\n" + "="*45)
+    print("      ALIGNED BACKTEST SUMMARY RESULTS      ")
+    print("="*45)
     print(f"Total Trades Logged: {len(tdf)}")
     print(f"Win Rate:             {win_rate:.2f}% ({len(wins)}W / {len(tdf)-len(wins)}L)")
     print(f"Total Net P&L:       ${total_pnl:,.2f}")
     print(f"Avg P&L per Trade:   ${avg_trade_pnl:,.2f}")
     print(f"Avg Return %:        {tdf['returnPct'].mean():.2f}%")
-    print("="*40)
+    print("="*45)
 
 if __name__ == "__main__":
-    # Specify backtest date range (YYYY-MM-DD)
-    run_backtest("2025-01-01", "2025-12-31")
+    run_backtest("2026-09-25", "2026-10-01")
