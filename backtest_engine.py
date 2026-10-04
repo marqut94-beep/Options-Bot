@@ -27,7 +27,7 @@ end_date_str = os.getenv("END_DATE", "2026-10-01")
 print(f"--- Starting Backtest ({start_date_str} to {end_date_str}) ---")
 
 # -------------------------------------------------------------------
-# 2. Load Universe
+# 2. Load Universe (UTF-8 BOM Handling)
 # -------------------------------------------------------------------
 UNIVERSE_FILE = "universe.json"
 if os.path.exists(UNIVERSE_FILE):
@@ -40,10 +40,10 @@ if os.path.exists(UNIVERSE_FILE):
 else:
     universe = ["AAPL", "TSLA", "NVDA", "AMD", "SPY", "QQQ"]
 
-print(f"Universe ({len(universe)} symbols): {universe}")
+print(f"Loaded {len(universe)} symbols from {UNIVERSE_FILE}: {universe}")
 
 # -------------------------------------------------------------------
-# 3. Monthly Chunked Engine
+# 3. Monthly Chunked Backtest Engine
 # -------------------------------------------------------------------
 trade_logs = []
 
@@ -51,20 +51,19 @@ def run_backtest():
     start_dt = datetime.strptime(start_date_str, "%Y-%m-%d")
     end_dt = datetime.strptime(end_date_str, "%Y-%m-%d")
 
-    # Generate monthly chunks to avoid API timeouts
     current_chunk_start = start_dt
     
+    # Process range in 30-day blocks to prevent API timeouts
     while current_chunk_start < end_dt:
         current_chunk_end = min(current_chunk_start + timedelta(days=30), end_dt)
         print(f"\nProcessing chunk: {current_chunk_start.strftime('%Y-%m-%d')} -> {current_chunk_end.strftime('%Y-%m-%d')}")
 
-        # Bulk request 1-minute bars for entire universe for THIS 30-day window
         min_req = StockBarsRequest(
             symbol_or_symbols=universe,
             timeframe=TimeFrame.Minute,
             start=current_chunk_start,
             end=current_chunk_end,
-            feed=DataFeed.IEX
+            feed=DataFeed.IEX  # Explicitly required for Paper Keys (PK...)
         )
 
         try:
@@ -76,11 +75,11 @@ def run_backtest():
             continue
 
         if df.empty:
-            print("No data in this chunk.")
+            print("No data returned for this window.")
             current_chunk_start = current_chunk_end + timedelta(days=1)
             continue
 
-        # Process dates locally in memory
+        # Process dates locally in Pandas
         df = df.reset_index()
         df['date'] = pd.to_datetime(df['timestamp']).dt.date
         unique_dates = df['date'].unique()
@@ -93,7 +92,7 @@ def run_backtest():
                 if sym_data.empty:
                     continue
 
-                # 5-minute High Watermark Breakout
+                # 5-min High Watermark Breakout
                 high_watermark = sym_data['high'].head(5).max()
                 breakouts = sym_data[sym_data['close'] > high_watermark]
 
@@ -106,6 +105,8 @@ def run_backtest():
                     trade_logs.append({
                         'date': str(day),
                         'symbol': sym,
+                        'entry_price': entry_price,
+                        'exit_price': exit_price,
                         'pnl_pct': pnl_pct,
                         'pnl_dollars': pnl_dollars,
                         'win': pnl_dollars > 0
