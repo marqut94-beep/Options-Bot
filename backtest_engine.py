@@ -86,7 +86,6 @@ def find_option_contract(symbol, direction, ref_price, date_str):
 def run_backtest(start_date, end_date):
     universe = load_universe()
     
-    print(f"Fetching daily bars for backtest period: {start_date} to {end_date}...")
     req = StockBarsRequest(
         symbol_or_symbols=universe,
         timeframe=TimeFrame.Day,
@@ -101,7 +100,6 @@ def run_backtest(start_date, end_date):
     
     for current_date in trading_days:
         date_str = current_date.strftime("%Y-%m-%d")
-        print(f"\n--- Backtesting Date: {date_str} ---")
         
         # 1. Screen Universe using 30-Day Volume Z-Score
         candidates = []
@@ -137,7 +135,7 @@ def run_backtest(start_date, end_date):
         if not candidates:
             continue
             
-        # 2. Intraday Minute Bar Execution
+        # 2. Intraday 1-Minute Bar Execution
         todays_trades = 0
         allocated = 0.0
         remaining = DAILY_BUDGET
@@ -192,7 +190,6 @@ def run_backtest(start_date, end_date):
             # Option Contract Verification
             opt_contract = find_option_contract(sym, direction, entry_price, date_str)
             if not opt_contract:
-                print(f"  {sym}: SKIP - No option contract found for {date_str}.")
                 continue
 
             actual_alloc = min(ideal_dollar(cand["relVol"]), remaining)
@@ -259,7 +256,7 @@ def run_backtest(start_date, end_date):
                 if not partial_taken:
                     final_pnl = shares * (last_price - entry_price) if direction == "long" else shares * (entry_price - last_price)
                 else:
-                    rem_pnl = shares_remainder * (last_price - entry_price) if direction == "long" else shares_remainder * (entry_price - last_price)
+                    rem_pnl = shares_remainder * (last_price - entry_price) if direction == "long" else shares_remainder * (last_price - entry_price)
                     final_pnl = partial_pnl + rem_pnl
                 exit_reason = "eod"
 
@@ -276,7 +273,6 @@ def run_backtest(start_date, end_date):
                 "exitReason": exit_reason
             })
             
-            print(f"  {sym}: TRADED -> {direction.upper()} ({opt_contract['symbol']}) | P&L: ${final_pnl:.2f}")
             todays_trades += 1
             allocated += actual_alloc
             remaining -= actual_alloc
@@ -303,4 +299,4 @@ def run_backtest(start_date, end_date):
     print("="*45)
 
 if __name__ == "__main__":
-    run_backtest("2026-01-01", "2026-10-01")
+    run_backtest("2025-01-01", "2025-12-31")
