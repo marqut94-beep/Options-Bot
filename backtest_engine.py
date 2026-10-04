@@ -14,8 +14,8 @@ from alpaca.data.timeframe import TimeFrame
 ALPACA_KEY = os.environ.get("ALPACA_API_KEY_ID")
 ALPACA_SECRET = os.environ.get("ALPACA_API_SECRET_KEY")
 
-DAILY_BUDGET = 15000.0
-MAX_TRADES_PER_DAY = 3
+DAILY_BUDGET = 25000.0
+MAX_TRADES_PER_DAY = 4
 MIN_REMAINING_TO_ENTER = 5000.0
 
 # Scaled Risk Management Rules (-3% Stop, +4% Partial Target, +2% Floor, +10% Remainder Target)
