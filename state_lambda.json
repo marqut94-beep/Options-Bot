@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-08T15:51:04.275660+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 156.21,
-      "lastPriceAt": "2026-10-08T17:42:00Z",
-      "unrealizedDollar": -105.93,
-      "unrealizedPct": -2.098
+      "lastPrice": 156.41,
+      "lastPriceAt": "2026-10-08T17:43:00Z",
+      "unrealizedDollar": -112.53,
+      "unrealizedPct": -2.2288
     },
     "HAE_2026-10-08": {
       "symbol": "HAE",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-08T15:43:01.932747+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 118.78,
-      "lastPriceAt": "2026-10-08T17:41:00Z",
-      "unrealizedDollar": 15.66,
-      "unrealizedPct": 0.2447
+      "lastPrice": 119.06,
+      "lastPriceAt": "2026-10-08T17:43:00Z",
+      "unrealizedDollar": 30.78,
+      "unrealizedPct": 0.4811
     },
     "CMG_2026-10-08": {
       "symbol": "CMG",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-08T14:33:07.985170+00:00",
       "optionContracts": 96,
       "optionPricedVia": "trade",
-      "lastPrice": 33.06,
-      "lastPriceAt": "2026-10-08T17:42:00Z",
-      "unrealizedDollar": 126.33,
-      "unrealizedPct": 2.5275
+      "lastPrice": 33.055,
+      "lastPriceAt": "2026-10-08T17:43:00Z",
+      "unrealizedDollar": 125.55,
+      "unrealizedPct": 2.512
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -119,8 +119,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T17:43:50.176263+00:00",
-    "lastCheckEt": "2026-10-08T13:43:50.176133-04:00",
+    "lastCheckAt": "2026-10-08T17:44:50.158480+00:00",
+    "lastCheckEt": "2026-10-08T13:44:50.158315-04:00",
     "status": "ok"
   }
 }
