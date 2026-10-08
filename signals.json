@@ -76,5 +76,27 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "HAE_2026-10-08_exit_close_all_2026-10-08T19:58:52.951843+00:00",
+    "tradeId": "HAE_2026-10-08",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-08T19:58:52.951846+00:00",
+    "symbol": "HAE",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "CMG_2026-10-08_exit_close_all_2026-10-08T19:58:53.402032+00:00",
+    "tradeId": "CMG_2026-10-08",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-08T19:58:53.402034+00:00",
+    "symbol": "CMG",
+    "optionSymbol": "CMG261009C00032500",
+    "contracts": 91,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
