@@ -1,5 +1,29 @@
 {
   "trades": {
+    "HAE_2026-10-08": {
+      "symbol": "HAE",
+      "date": "2026-10-08",
+      "direction": "long",
+      "entryTime": "2026-10-08T15:43:00Z",
+      "entryPrice": 118.625,
+      "shares": 54,
+      "convictionScore": 0.1848,
+      "allocDollar": 6386.34,
+      "stopPrice": 115.06625,
+      "targetPrice": 123.37,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 4.2181,
+      "pctChangeAtScreen": 3.1522,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-08T15:44:27.598507+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "CMG_2026-10-08": {
       "symbol": "CMG",
       "date": "2026-10-08",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-08T14:43:22.335843+00:00",
       "optionContracts": 91,
       "optionPricedVia": "trade",
-      "lastPrice": 32.865,
-      "lastPriceAt": "2026-10-08T15:40:00Z",
-      "unrealizedDollar": 45.65,
-      "unrealizedPct": 0.8438
+      "lastPrice": 32.9,
+      "lastPriceAt": "2026-10-08T15:43:00Z",
+      "unrealizedDollar": 51.46,
+      "unrealizedPct": 0.9512
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -435,8 +459,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T15:41:35.403978+00:00",
-    "lastCheckEt": "2026-10-08T11:41:35.403749-04:00",
+    "lastCheckAt": "2026-10-08T15:44:15.320536+00:00",
+    "lastCheckEt": "2026-10-08T11:44:15.320306-04:00",
     "status": "ok"
   }
 }

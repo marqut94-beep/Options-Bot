@@ -37,5 +37,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "HAE_2026-10-08_entry_2026-10-08T15:44:27.598524+00:00",
+    "tradeId": "HAE_2026-10-08",
+    "action": "entry",
+    "createdAt": "2026-10-08T15:44:27.598527+00:00",
+    "symbol": "HAE",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 118.625,
+    "allocDollar": 6386.34
   }
 ]
