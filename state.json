@@ -22,7 +22,11 @@
       "optionEntryPrice": 0.59,
       "optionEntryTime": "2026-10-08T14:43:22.335843+00:00",
       "optionContracts": 91,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 32.765,
+      "lastPriceAt": "2026-10-08T14:47:00Z",
+      "unrealizedDollar": 29.05,
+      "unrealizedPct": 0.537
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -35,7 +39,7 @@
       "allocDollar": 5243.66,
       "stopPrice": 28.117249,
       "targetPrice": 26.206368,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.3899,
       "pctChangeAtScreen": -12.8685,
@@ -50,7 +54,12 @@
       "lastPrice": 28.1,
       "lastPriceAt": "2026-10-08T14:42:00Z",
       "unrealizedDollar": -153.93,
-      "unrealizedPct": -2.9368
+      "unrealizedPct": -2.9368,
+      "exitTime": "2026-10-08T14:48:26.282997+00:00",
+      "exitPrice": 28.117249,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -157.24
     },
     "STM_2026-10-02": {
       "symbol": "STM",
@@ -426,8 +435,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T14:43:11.731063+00:00",
-    "lastCheckEt": "2026-10-08T10:43:11.730856-04:00",
+    "lastCheckAt": "2026-10-08T14:48:26.193716+00:00",
+    "lastCheckEt": "2026-10-08T10:48:26.193534-04:00",
     "status": "ok"
   }
 }
