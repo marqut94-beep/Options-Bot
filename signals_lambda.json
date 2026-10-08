@@ -26,5 +26,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 32.245,
     "allocDollar": 5008.26
+  },
+  {
+    "id": "HELE_2026-10-08_exit_close_all_2026-10-08T14:44:50.598208+00:00",
+    "tradeId": "HELE_2026-10-08",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-08T14:44:50.598211+00:00",
+    "symbol": "HELE",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
