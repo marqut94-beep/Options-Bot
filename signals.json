@@ -12,5 +12,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 27.2983,
     "allocDollar": 5243.66
+  },
+  {
+    "id": "CMG_2026-10-08_entry_2026-10-08T14:43:22.335855+00:00",
+    "tradeId": "CMG_2026-10-08",
+    "action": "entry",
+    "createdAt": "2026-10-08T14:43:22.335858+00:00",
+    "symbol": "CMG",
+    "direction": "long",
+    "optionSymbol": "CMG261009C00032500",
+    "contracts": 91,
+    "optionEntryPriceAtScreen": 0.59,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 32.59,
+    "allocDollar": 5396.25
   }
 ]

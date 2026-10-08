@@ -1,5 +1,29 @@
 {
   "trades": {
+    "CMG_2026-10-08": {
+      "symbol": "CMG",
+      "date": "2026-10-08",
+      "direction": "long",
+      "entryTime": "2026-10-08T14:42:00Z",
+      "entryPrice": 32.59,
+      "shares": 166,
+      "convictionScore": 0.0528,
+      "allocDollar": 5396.25,
+      "stopPrice": 31.6123,
+      "targetPrice": 33.893600000000006,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.634,
+      "pctChangeAtScreen": 6.2256,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "CMG261009C00032500",
+      "optionStrike": "32.5",
+      "optionExpiration": "2026-10-09",
+      "optionEntryPrice": 0.59,
+      "optionEntryTime": "2026-10-08T14:43:22.335843+00:00",
+      "optionContracts": 91,
+      "optionPricedVia": "trade"
+    },
     "HELE_2026-10-08": {
       "symbol": "HELE",
       "date": "2026-10-08",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-08T14:22:38.854820+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 27.45,
-      "lastPriceAt": "2026-10-08T14:27:00Z",
-      "unrealizedDollar": -29.13,
-      "unrealizedPct": -0.5557
+      "lastPrice": 28.1,
+      "lastPriceAt": "2026-10-08T14:42:00Z",
+      "unrealizedDollar": -153.93,
+      "unrealizedPct": -2.9368
     },
     "STM_2026-10-02": {
       "symbol": "STM",
@@ -402,8 +426,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T14:28:45.028567+00:00",
-    "lastCheckEt": "2026-10-08T10:28:45.028250-04:00",
+    "lastCheckAt": "2026-10-08T14:43:11.731063+00:00",
+    "lastCheckEt": "2026-10-08T10:43:11.730856-04:00",
     "status": "ok"
   }
 }
