@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-08T14:33:07.985170+00:00",
       "optionContracts": 96,
       "optionPricedVia": "trade",
-      "lastPrice": 32.245,
-      "lastPriceAt": "2026-10-08T14:32:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "lastPrice": 32.395,
+      "lastPriceAt": "2026-10-08T14:33:00Z",
+      "unrealizedDollar": 23.25,
+      "unrealizedPct": 0.4652
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -51,15 +51,15 @@
       "optionEntryTime": "2026-10-08T14:09:06.763818+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 27.8,
-      "lastPriceAt": "2026-10-08T14:32:00Z",
-      "unrealizedDollar": -86.01,
-      "unrealizedPct": -1.7197
+      "lastPrice": 27.62,
+      "lastPriceAt": "2026-10-08T14:33:00Z",
+      "unrealizedDollar": -53.07,
+      "unrealizedPct": -1.0611
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T14:33:50.424090+00:00",
-    "lastCheckEt": "2026-10-08T10:33:50.423900-04:00",
+    "lastCheckAt": "2026-10-08T14:34:50.330926+00:00",
+    "lastCheckEt": "2026-10-08T10:34:50.330735-04:00",
     "status": "ok"
   }
 }
