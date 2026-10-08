@@ -1,5 +1,29 @@
 {
   "trades": {
+    "GKOS_2026-10-08": {
+      "symbol": "GKOS",
+      "date": "2026-10-08",
+      "direction": "short",
+      "entryTime": "2026-10-08T15:50:00Z",
+      "entryPrice": 153,
+      "shares": 33,
+      "convictionScore": 0.0015,
+      "allocDollar": 5011.21,
+      "stopPrice": 157.59,
+      "targetPrice": 146.88,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0179,
+      "pctChangeAtScreen": -10.0721,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-08T15:51:04.275660+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "HAE_2026-10-08": {
       "symbol": "HAE",
       "date": "2026-10-08",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-08T15:43:01.932747+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 118.295,
-      "lastPriceAt": "2026-10-08T15:48:00Z",
-      "unrealizedDollar": -10.53,
-      "unrealizedPct": -0.1646
+      "lastPrice": 117.94,
+      "lastPriceAt": "2026-10-08T15:49:00Z",
+      "unrealizedDollar": -29.7,
+      "unrealizedPct": -0.4642
     },
     "CMG_2026-10-08": {
       "symbol": "CMG",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-10-08T14:33:07.985170+00:00",
       "optionContracts": 96,
       "optionPricedVia": "trade",
-      "lastPrice": 32.695,
-      "lastPriceAt": "2026-10-08T15:48:00Z",
-      "unrealizedDollar": 69.75,
-      "unrealizedPct": 1.3956
+      "lastPrice": 32.705,
+      "lastPriceAt": "2026-10-08T15:49:00Z",
+      "unrealizedDollar": 71.3,
+      "unrealizedPct": 1.4266
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -91,8 +115,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T15:49:50.223104+00:00",
-    "lastCheckEt": "2026-10-08T11:49:50.222969-04:00",
+    "lastCheckAt": "2026-10-08T15:50:50.382459+00:00",
+    "lastCheckEt": "2026-10-08T11:50:50.382283-04:00",
     "status": "ok"
   }
 }
