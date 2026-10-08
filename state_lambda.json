@@ -1,8 +1,33 @@
 {
-  "trades": {},
+  "trades": {
+    "HELE_2026-10-08": {
+      "symbol": "HELE",
+      "date": "2026-10-08",
+      "direction": "short",
+      "entryTime": "2026-10-08T14:08:00Z",
+      "entryPrice": 27.33,
+      "shares": 183,
+      "convictionScore": 0.001,
+      "allocDollar": 5007.81,
+      "stopPrice": 28.1499,
+      "targetPrice": 26.2368,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0125,
+      "pctChangeAtScreen": -11.8778,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-08T14:09:06.763818+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    }
+  },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T14:07:50.344175+00:00",
-    "lastCheckEt": "2026-10-08T10:07:50.343950-04:00",
+    "lastCheckAt": "2026-10-08T14:08:50.476261+00:00",
+    "lastCheckEt": "2026-10-08T10:08:50.475849-04:00",
     "status": "ok"
   }
 }
