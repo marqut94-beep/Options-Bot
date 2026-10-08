@@ -1,5 +1,29 @@
 {
   "trades": {
+    "GKOS_2026-10-08": {
+      "symbol": "GKOS",
+      "date": "2026-10-08",
+      "direction": "short",
+      "entryTime": "2026-10-08T15:58:00Z",
+      "entryPrice": 153.705,
+      "shares": 33,
+      "convictionScore": 0.0115,
+      "allocDollar": 5086.1,
+      "stopPrice": 158.31615000000002,
+      "targetPrice": 147.5568,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1378,
+      "pctChangeAtScreen": -9.867,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-08T15:59:03.046101+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "HAE_2026-10-08": {
       "symbol": "HAE",
       "date": "2026-10-08",
@@ -22,7 +46,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-08T15:44:27.598507+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 117.905,
+      "lastPriceAt": "2026-10-08T15:57:00Z",
+      "unrealizedDollar": -38.88,
+      "unrealizedPct": -0.607
     },
     "CMG_2026-10-08": {
       "symbol": "CMG",
@@ -47,10 +75,10 @@
       "optionEntryTime": "2026-10-08T14:43:22.335843+00:00",
       "optionContracts": 91,
       "optionPricedVia": "trade",
-      "lastPrice": 32.9,
-      "lastPriceAt": "2026-10-08T15:43:00Z",
-      "unrealizedDollar": 51.46,
-      "unrealizedPct": 0.9512
+      "lastPrice": 32.56,
+      "lastPriceAt": "2026-10-08T15:57:00Z",
+      "unrealizedDollar": -4.98,
+      "unrealizedPct": -0.0921
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -459,8 +487,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T15:44:15.320536+00:00",
-    "lastCheckEt": "2026-10-08T11:44:15.320306-04:00",
+    "lastCheckAt": "2026-10-08T15:58:51.105473+00:00",
+    "lastCheckEt": "2026-10-08T11:58:51.105239-04:00",
     "status": "ok"
   }
 }

@@ -51,5 +51,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 118.625,
     "allocDollar": 6386.34
+  },
+  {
+    "id": "GKOS_2026-10-08_entry_2026-10-08T15:59:03.046119+00:00",
+    "tradeId": "GKOS_2026-10-08",
+    "action": "entry",
+    "createdAt": "2026-10-08T15:59:03.046122+00:00",
+    "symbol": "GKOS",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 153.705,
+    "allocDollar": 5086.1
   }
 ]
