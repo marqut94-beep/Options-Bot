@@ -65,5 +65,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 153,
     "allocDollar": 5011.21
+  },
+  {
+    "id": "GKOS_2026-10-08_exit_close_all_2026-10-08T17:53:50.497117+00:00",
+    "tradeId": "GKOS_2026-10-08",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-08T17:53:50.497121+00:00",
+    "symbol": "GKOS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
