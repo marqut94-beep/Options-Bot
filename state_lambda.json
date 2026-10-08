@@ -44,7 +44,7 @@
       "allocDollar": 6363.42,
       "stopPrice": 114.9353,
       "targetPrice": 123.2296,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 4.1815,
       "pctChangeAtScreen": 3.0652,
@@ -59,7 +59,12 @@
       "lastPrice": 118.44,
       "lastPriceAt": "2026-10-08T19:53:00Z",
       "unrealizedDollar": -2.7,
-      "unrealizedPct": -0.0422
+      "unrealizedPct": -0.0422,
+      "exitTime": "2026-10-08T19:55:50.377257+00:00",
+      "exitPrice": 118.58,
+      "exitReason": "eod",
+      "returnPct": 0.076,
+      "dollarPnl": 4.86
     },
     "CMG_2026-10-08": {
       "symbol": "CMG",
@@ -72,7 +77,7 @@
       "allocDollar": 5008.26,
       "stopPrice": 31.277649999999998,
       "targetPrice": 33.5348,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0132,
       "pctChangeAtScreen": 4.9055,
@@ -87,7 +92,15 @@
       "lastPrice": 33.1497,
       "lastPriceAt": "2026-10-08T19:53:00Z",
       "unrealizedDollar": 140.23,
-      "unrealizedPct": 2.8057
+      "unrealizedPct": 2.8057,
+      "optionExitPrice": 1.28,
+      "optionExitTime": "2026-10-08T19:55:50.757344+00:00",
+      "optionReturnPct": 146.1538,
+      "exitTime": "2026-10-08T19:55:50.757373+00:00",
+      "exitPrice": 33.055,
+      "exitReason": "eod",
+      "returnPct": 2.512,
+      "dollarPnl": 125.55
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -124,8 +137,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T19:54:50.323029+00:00",
-    "lastCheckEt": "2026-10-08T15:54:50.322869-04:00",
+    "lastCheckAt": "2026-10-08T19:55:50.175240+00:00",
+    "lastCheckEt": "2026-10-08T15:55:50.175103-04:00",
     "status": "ok"
   }
 }
