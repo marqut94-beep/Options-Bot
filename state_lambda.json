@@ -22,12 +22,16 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-08T14:09:06.763818+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 27.33,
+      "lastPriceAt": "2026-10-08T14:08:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T14:08:50.476261+00:00",
-    "lastCheckEt": "2026-10-08T10:08:50.475849-04:00",
+    "lastCheckAt": "2026-10-08T14:09:50.273938+00:00",
+    "lastCheckEt": "2026-10-08T10:09:50.273768-04:00",
     "status": "ok"
   }
 }
