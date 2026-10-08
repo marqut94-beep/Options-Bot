@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-08T14:43:22.335843+00:00",
       "optionContracts": 91,
       "optionPricedVia": "trade",
-      "lastPrice": 32.79,
-      "lastPriceAt": "2026-10-08T14:59:00Z",
-      "unrealizedDollar": 33.2,
-      "unrealizedPct": 0.6137
+      "lastPrice": 32.655,
+      "lastPriceAt": "2026-10-08T15:01:00Z",
+      "unrealizedDollar": 10.79,
+      "unrealizedPct": 0.1994
     },
     "HELE_2026-10-08": {
       "symbol": "HELE",
@@ -435,8 +435,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-08T15:01:03.599860+00:00",
-    "lastCheckEt": "2026-10-08T11:01:03.599687-04:00",
+    "lastCheckAt": "2026-10-08T15:02:42.889795+00:00",
+    "lastCheckEt": "2026-10-08T11:02:42.889613-04:00",
     "status": "ok"
   }
 }
