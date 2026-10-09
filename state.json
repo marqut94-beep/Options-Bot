@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-09T14:50:01.314418+00:00",
       "optionContracts": 14,
       "optionPricedVia": "trade",
-      "lastPrice": 436.6,
-      "lastPriceAt": "2026-10-09T15:55:00Z",
-      "unrealizedDollar": -50.34,
-      "unrealizedPct": -0.9702
+      "lastPrice": 435.635,
+      "lastPriceAt": "2026-10-09T16:00:00Z",
+      "unrealizedDollar": -38.76,
+      "unrealizedPct": -0.747
     },
     "GKOS_2026-10-08": {
       "symbol": "GKOS",
@@ -537,8 +537,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-09T15:56:45.101468+00:00",
-    "lastCheckEt": "2026-10-09T11:56:45.101248-04:00",
+    "lastCheckAt": "2026-10-09T16:01:29.610569+00:00",
+    "lastCheckEt": "2026-10-09T12:01:29.610343-04:00",
     "status": "ok"
   }
 }
