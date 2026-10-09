@@ -1,5 +1,29 @@
 {
   "trades": {
+    "HUM_2026-10-09": {
+      "symbol": "HUM",
+      "date": "2026-10-09",
+      "direction": "short",
+      "entryTime": "2026-10-09T14:33:00Z",
+      "entryPrice": 430.66,
+      "shares": 12,
+      "convictionScore": 0.0025,
+      "allocDollar": 5018.59,
+      "stopPrice": 443.57980000000003,
+      "targetPrice": 413.4336,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0297,
+      "pctChangeAtScreen": -3.9513,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "HUM261009P00430000",
+      "optionStrike": "430",
+      "optionExpiration": "2026-10-09",
+      "optionEntryPrice": 3.49,
+      "optionEntryTime": "2026-10-09T14:34:06.607647+00:00",
+      "optionContracts": 14,
+      "optionPricedVia": "trade"
+    },
     "GKOS_2026-10-08": {
       "symbol": "GKOS",
       "date": "2026-10-08",
@@ -137,8 +161,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-09T14:32:50.209295+00:00",
-    "lastCheckEt": "2026-10-09T10:32:50.209090-04:00",
+    "lastCheckAt": "2026-10-09T14:33:50.286481+00:00",
+    "lastCheckEt": "2026-10-09T10:33:50.286292-04:00",
     "status": "ok"
   }
 }
