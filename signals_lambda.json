@@ -98,5 +98,19 @@
     "contracts": 96,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "HUM_2026-10-09_entry_2026-10-09T14:34:06.607673+00:00",
+    "tradeId": "HUM_2026-10-09",
+    "action": "entry",
+    "createdAt": "2026-10-09T14:34:06.607676+00:00",
+    "symbol": "HUM",
+    "direction": "short",
+    "optionSymbol": "HUM261009P00430000",
+    "contracts": 14,
+    "optionEntryPriceAtScreen": 3.49,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 430.66,
+    "allocDollar": 5018.59
   }
 ]
