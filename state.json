@@ -11,7 +11,7 @@
       "allocDollar": 5091.79,
       "stopPrice": 154.81415,
       "targetPrice": 144.2928,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.1469,
       "pctChangeAtScreen": -3.3471,
@@ -26,7 +26,15 @@
       "lastPrice": 149.06,
       "lastPriceAt": "2026-10-09T19:46:00Z",
       "unrealizedDollar": 42.33,
-      "unrealizedPct": 0.8283
+      "unrealizedPct": 0.8283,
+      "optionExitPrice": 2.01,
+      "optionExitTime": "2026-10-09T19:56:30.470025+00:00",
+      "optionReturnPct": 97.0588,
+      "exitTime": "2026-10-09T19:56:30.470052+00:00",
+      "exitPrice": 147.915,
+      "exitReason": "eod",
+      "returnPct": 1.5901,
+      "dollarPnl": 81.26
     },
     "HUM_2026-10-09": {
       "symbol": "HUM",
@@ -39,7 +47,7 @@
       "allocDollar": 5242.37,
       "stopPrice": 445.37715,
       "targetPrice": 415.1088,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.3878,
       "pctChangeAtScreen": -3.8847,
@@ -54,7 +62,15 @@
       "lastPrice": 436.6125,
       "lastPriceAt": "2026-10-09T19:46:00Z",
       "unrealizedDollar": -50.49,
-      "unrealizedPct": -0.973
+      "unrealizedPct": -0.973,
+      "optionExitPrice": 2,
+      "optionExitTime": "2026-10-09T19:56:30.825389+00:00",
+      "optionReturnPct": -45.9459,
+      "exitTime": "2026-10-09T19:56:30.825407+00:00",
+      "exitPrice": 429.8375,
+      "exitReason": "eod",
+      "returnPct": 0.5938,
+      "dollarPnl": 30.81
     },
     "GKOS_2026-10-08": {
       "symbol": "GKOS",
@@ -565,8 +581,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-09T19:47:06.849981+00:00",
-    "lastCheckEt": "2026-10-09T15:47:06.849766-04:00",
+    "lastCheckAt": "2026-10-09T19:56:30.203696+00:00",
+    "lastCheckEt": "2026-10-09T15:56:30.203474-04:00",
     "status": "ok"
   }
 }
