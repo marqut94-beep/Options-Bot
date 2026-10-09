@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-09T16:05:13.649482+00:00",
       "optionContracts": 37,
       "optionPricedVia": "trade",
-      "lastPrice": 150.03,
-      "lastPriceAt": "2026-10-09T18:54:00Z",
-      "unrealizedDollar": 2.97,
-      "unrealizedPct": 0.0599
+      "lastPrice": 150.09,
+      "lastPriceAt": "2026-10-09T18:55:00Z",
+      "unrealizedDollar": 0.99,
+      "unrealizedPct": 0.0199
     },
     "HUM_2026-10-09": {
       "symbol": "HUM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-09T14:34:06.607647+00:00",
       "optionContracts": 14,
       "optionPricedVia": "trade",
-      "lastPrice": 433.32,
-      "lastPriceAt": "2026-10-09T18:54:00Z",
-      "unrealizedDollar": -31.92,
-      "unrealizedPct": -0.6177
+      "lastPrice": 434.11,
+      "lastPriceAt": "2026-10-09T18:55:00Z",
+      "unrealizedDollar": -41.4,
+      "unrealizedPct": -0.8011
     },
     "GKOS_2026-10-08": {
       "symbol": "GKOS",
@@ -193,8 +193,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-09T18:55:50.196392+00:00",
-    "lastCheckEt": "2026-10-09T14:55:50.196219-04:00",
+    "lastCheckAt": "2026-10-09T18:56:50.232248+00:00",
+    "lastCheckEt": "2026-10-09T14:56:50.232054-04:00",
     "status": "ok"
   }
 }
