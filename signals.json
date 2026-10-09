@@ -112,5 +112,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 432.405,
     "allocDollar": 5242.37
+  },
+  {
+    "id": "TMUS_2026-10-09_entry_2026-10-09T16:11:58.880541+00:00",
+    "tradeId": "TMUS_2026-10-09",
+    "action": "entry",
+    "createdAt": "2026-10-09T16:11:58.880544+00:00",
+    "symbol": "TMUS",
+    "direction": "short",
+    "optionSymbol": "TMUS261009P00150000",
+    "contracts": 49,
+    "optionEntryPriceAtScreen": 1.02,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 150.305,
+    "allocDollar": 5091.79
   }
 ]

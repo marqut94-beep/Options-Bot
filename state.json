@@ -1,5 +1,29 @@
 {
   "trades": {
+    "TMUS_2026-10-09": {
+      "symbol": "TMUS",
+      "date": "2026-10-09",
+      "direction": "short",
+      "entryTime": "2026-10-09T16:10:00Z",
+      "entryPrice": 150.305,
+      "shares": 34,
+      "convictionScore": 0.0122,
+      "allocDollar": 5091.79,
+      "stopPrice": 154.81415,
+      "targetPrice": 144.2928,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1469,
+      "pctChangeAtScreen": -3.3471,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "TMUS261009P00150000",
+      "optionStrike": "150",
+      "optionExpiration": "2026-10-09",
+      "optionEntryPrice": 1.02,
+      "optionEntryTime": "2026-10-09T16:11:58.880526+00:00",
+      "optionContracts": 49,
+      "optionPricedVia": "trade"
+    },
     "HUM_2026-10-09": {
       "symbol": "HUM",
       "date": "2026-10-09",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-09T14:50:01.314418+00:00",
       "optionContracts": 14,
       "optionPricedVia": "trade",
-      "lastPrice": 435.635,
-      "lastPriceAt": "2026-10-09T16:00:00Z",
-      "unrealizedDollar": -38.76,
-      "unrealizedPct": -0.747
+      "lastPrice": 433.74,
+      "lastPriceAt": "2026-10-09T16:10:00Z",
+      "unrealizedDollar": -16.02,
+      "unrealizedPct": -0.3087
     },
     "GKOS_2026-10-08": {
       "symbol": "GKOS",
@@ -537,8 +561,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-09T16:01:29.610569+00:00",
-    "lastCheckEt": "2026-10-09T12:01:29.610343-04:00",
+    "lastCheckAt": "2026-10-09T16:11:43.956732+00:00",
+    "lastCheckEt": "2026-10-09T12:11:43.956507-04:00",
     "status": "ok"
   }
 }
