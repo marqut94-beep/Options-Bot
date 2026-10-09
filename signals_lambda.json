@@ -126,5 +126,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 150.1199,
     "allocDollar": 5019.75
+  },
+  {
+    "id": "TMUS_2026-10-09_exit_close_all_2026-10-09T19:55:50.657239+00:00",
+    "tradeId": "TMUS_2026-10-09",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-09T19:55:50.657242+00:00",
+    "symbol": "TMUS",
+    "optionSymbol": "TMUS261009P00150000",
+    "contracts": 37,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "HUM_2026-10-09_exit_close_all_2026-10-09T19:55:51.102614+00:00",
+    "tradeId": "HUM_2026-10-09",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-09T19:55:51.102616+00:00",
+    "symbol": "HUM",
+    "optionSymbol": "HUM261009P00430000",
+    "contracts": 14,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
