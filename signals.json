@@ -176,5 +176,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 377.94,
     "allocDollar": 5094.26
+  },
+  {
+    "id": "UNH_2026-10-13_exit_close_all_2026-10-13T20:03:55.916492+00:00",
+    "tradeId": "UNH_2026-10-13",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-13T20:03:55.916494+00:00",
+    "symbol": "UNH",
+    "optionSymbol": "UNH261016P00377500",
+    "contracts": 8,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "SNDX_2026-10-13_exit_close_all_2026-10-13T20:03:56.064704+00:00",
+    "tradeId": "SNDX_2026-10-13",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-13T20:03:56.064706+00:00",
+    "symbol": "SNDX",
+    "optionSymbol": "SNDX261016P00014000",
+    "contracts": 88,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]

@@ -11,7 +11,7 @@
       "allocDollar": 5094.26,
       "stopPrice": 389.2782,
       "targetPrice": 362.82239999999996,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.1508,
       "pctChangeAtScreen": -4.9506,
@@ -26,7 +26,15 @@
       "lastPrice": 377.71,
       "lastPriceAt": "2026-10-13T19:46:00Z",
       "unrealizedDollar": 2.99,
-      "unrealizedPct": 0.0609
+      "unrealizedPct": 0.0609,
+      "optionExitPrice": 5.85,
+      "optionExitTime": "2026-10-13T20:03:55.916462+00:00",
+      "optionReturnPct": -7.1429,
+      "exitTime": "2026-10-13T20:03:55.916482+00:00",
+      "exitPrice": 377.155,
+      "exitReason": "eod",
+      "returnPct": 0.2077,
+      "dollarPnl": 10.21
     },
     "SNDX_2026-10-13": {
       "symbol": "SNDX",
@@ -39,7 +47,7 @@
       "allocDollar": 5114.53,
       "stopPrice": 14.1522,
       "targetPrice": 13.1904,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.1833,
       "pctChangeAtScreen": -5.9548,
@@ -54,7 +62,15 @@
       "lastPrice": 13.85,
       "lastPriceAt": "2026-10-13T19:46:00Z",
       "unrealizedDollar": -40.92,
-      "unrealizedPct": -0.8006
+      "unrealizedPct": -0.8006,
+      "optionExitPrice": 0.45,
+      "optionExitTime": "2026-10-13T20:03:56.064673+00:00",
+      "optionReturnPct": -22.4138,
+      "exitTime": "2026-10-13T20:03:56.064693+00:00",
+      "exitPrice": 13.96,
+      "exitReason": "eod",
+      "returnPct": -1.6012,
+      "dollarPnl": -81.84
     },
     "TMUS_2026-10-09": {
       "symbol": "TMUS",
@@ -637,8 +653,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-13T19:47:46.129400+00:00",
-    "lastCheckEt": "2026-10-13T15:47:46.129129-04:00",
+    "lastCheckAt": "2026-10-13T20:03:55.500373+00:00",
+    "lastCheckEt": "2026-10-13T16:03:55.500135-04:00",
     "status": "ok"
   }
 }
