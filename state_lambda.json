@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-13T17:06:37.046572+00:00",
       "optionContracts": 7,
       "optionPricedVia": "trade",
-      "lastPrice": 378.11,
-      "lastPriceAt": "2026-10-13T19:10:00Z",
-      "unrealizedDollar": 11.96,
-      "unrealizedPct": 0.2427
+      "lastPrice": 378.195,
+      "lastPriceAt": "2026-10-13T19:11:00Z",
+      "unrealizedDollar": 10.85,
+      "unrealizedPct": 0.2203
     },
     "SNDX_2026-10-13": {
       "symbol": "SNDX",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-13T15:32:29.406615+00:00",
       "optionContracts": 86,
       "optionPricedVia": "trade",
-      "lastPrice": 13.7375,
-      "lastPriceAt": "2026-10-13T19:10:00Z",
-      "unrealizedDollar": -10.04,
-      "unrealizedPct": -0.2006
+      "lastPrice": 13.77,
+      "lastPriceAt": "2026-10-13T19:11:00Z",
+      "unrealizedDollar": -21.9,
+      "unrealizedPct": -0.4376
     },
     "TMUS_2026-10-09": {
       "symbol": "TMUS",
@@ -265,8 +265,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-13T19:11:50.204986+00:00",
-    "lastCheckEt": "2026-10-13T15:11:50.204795-04:00",
+    "lastCheckAt": "2026-10-13T19:12:15.508144+00:00",
+    "lastCheckEt": "2026-10-13T15:12:15.507951-04:00",
     "status": "ok"
   }
 }
