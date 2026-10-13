@@ -162,5 +162,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 13.74,
     "allocDollar": 5114.53
+  },
+  {
+    "id": "UNH_2026-10-13_entry_2026-10-13T17:24:36.068406+00:00",
+    "tradeId": "UNH_2026-10-13",
+    "action": "entry",
+    "createdAt": "2026-10-13T17:24:36.068410+00:00",
+    "symbol": "UNH",
+    "direction": "short",
+    "optionSymbol": "UNH261016P00377500",
+    "contracts": 8,
+    "optionEntryPriceAtScreen": 6.3,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 377.94,
+    "allocDollar": 5094.26
   }
 ]

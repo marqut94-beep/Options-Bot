@@ -1,5 +1,29 @@
 {
   "trades": {
+    "UNH_2026-10-13": {
+      "symbol": "UNH",
+      "date": "2026-10-13",
+      "direction": "short",
+      "entryTime": "2026-10-13T17:23:00Z",
+      "entryPrice": 377.94,
+      "shares": 13,
+      "convictionScore": 0.0126,
+      "allocDollar": 5094.26,
+      "stopPrice": 389.2782,
+      "targetPrice": 362.82239999999996,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1508,
+      "pctChangeAtScreen": -4.9506,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "UNH261016P00377500",
+      "optionStrike": "377.5",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 6.3,
+      "optionEntryTime": "2026-10-13T17:24:36.068392+00:00",
+      "optionContracts": 8,
+      "optionPricedVia": "trade"
+    },
     "SNDX_2026-10-13": {
       "symbol": "SNDX",
       "date": "2026-10-13",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-13T15:43:30.767175+00:00",
       "optionContracts": 88,
       "optionPricedVia": "trade",
-      "lastPrice": 13.84,
-      "lastPriceAt": "2026-10-13T17:04:00Z",
-      "unrealizedDollar": -37.2,
-      "unrealizedPct": -0.7278
+      "lastPrice": 13.67,
+      "lastPriceAt": "2026-10-13T17:23:00Z",
+      "unrealizedDollar": 26.04,
+      "unrealizedPct": 0.5095
     },
     "TMUS_2026-10-09": {
       "symbol": "TMUS",
@@ -609,8 +633,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-13T17:05:02.904751+00:00",
-    "lastCheckEt": "2026-10-13T13:05:02.904490-04:00",
+    "lastCheckAt": "2026-10-13T17:24:21.282540+00:00",
+    "lastCheckEt": "2026-10-13T13:24:21.282284-04:00",
     "status": "ok"
   }
 }
