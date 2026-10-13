@@ -1,8 +1,27 @@
 {
-  "trades": {},
+  "trades": {
+    "SNDX_2026-10-13": {
+      "symbol": "SNDX",
+      "date": "2026-10-13",
+      "direction": "short",
+      "entryTime": "2026-10-13T15:55:00Z",
+      "entryPrice": 13.825,
+      "shares": 4,
+      "convictionScore": 0.0006,
+      "allocDollar": 50.05,
+      "stopPrice": 14.239749999999999,
+      "targetPrice": 13.271999999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0036,
+      "pctChangeAtScreen": -5.373,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    }
+  },
   "heartbeat": {
-    "lastCheckAt": "2026-10-13T15:55:49.889768+00:00",
-    "lastCheckEt": "2026-10-13T11:55:49.889451-04:00",
+    "lastCheckAt": "2026-10-13T15:56:49.896973+00:00",
+    "lastCheckEt": "2026-10-13T11:56:49.896663-04:00",
     "status": "ok"
   }
 }
