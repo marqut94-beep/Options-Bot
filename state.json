@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SNDX_2026-10-13": {
+      "symbol": "SNDX",
+      "date": "2026-10-13",
+      "direction": "short",
+      "entryTime": "2026-10-13T15:42:00Z",
+      "entryPrice": 13.74,
+      "shares": 372,
+      "convictionScore": 0.0153,
+      "allocDollar": 5114.53,
+      "stopPrice": 14.1522,
+      "targetPrice": 13.1904,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1833,
+      "pctChangeAtScreen": -5.9548,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SNDX261016P00014000",
+      "optionStrike": "14",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 0.58,
+      "optionEntryTime": "2026-10-13T15:43:30.767175+00:00",
+      "optionContracts": 88,
+      "optionPricedVia": "trade"
+    },
     "TMUS_2026-10-09": {
       "symbol": "TMUS",
       "date": "2026-10-09",
@@ -581,8 +605,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-13T15:30:39.919386+00:00",
-    "lastCheckEt": "2026-10-13T11:30:39.919096-04:00",
+    "lastCheckAt": "2026-10-13T15:43:19.677436+00:00",
+    "lastCheckEt": "2026-10-13T11:43:19.677151-04:00",
     "status": "ok"
   }
 }
