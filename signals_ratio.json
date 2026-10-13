@@ -8,5 +8,13 @@
     "direction": "short",
     "stockEntryPrice": 13.825,
     "allocDollar": 50.05
+  },
+  {
+    "id": "SNDX_2026-10-13_exit_close_all_2026-10-13T19:55:12.990202+00:00",
+    "tradeId": "SNDX_2026-10-13",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-13T19:55:12.990207+00:00",
+    "symbol": "SNDX",
+    "reason": "eod"
   }
 ]
