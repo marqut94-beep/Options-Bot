@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-13T15:32:29.406615+00:00",
       "optionContracts": 86,
       "optionPricedVia": "trade",
-      "lastPrice": 13.8501,
-      "lastPriceAt": "2026-10-13T15:58:00Z",
-      "unrealizedDollar": -51.14,
-      "unrealizedPct": -1.0219
+      "lastPrice": 13.845,
+      "lastPriceAt": "2026-10-13T16:00:00Z",
+      "unrealizedDollar": -49.27,
+      "unrealizedPct": -0.9847
     },
     "TMUS_2026-10-09": {
       "symbol": "TMUS",
@@ -237,8 +237,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-13T15:59:50.220685+00:00",
-    "lastCheckEt": "2026-10-13T11:59:50.220467-04:00",
+    "lastCheckAt": "2026-10-13T16:01:50.140450+00:00",
+    "lastCheckEt": "2026-10-13T12:01:50.140197-04:00",
     "status": "ok"
   }
 }
