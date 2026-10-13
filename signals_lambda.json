@@ -148,5 +148,19 @@
     "contracts": 14,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "SNDX_2026-10-13_entry_2026-10-13T15:32:08.043598+00:00",
+    "tradeId": "SNDX_2026-10-13",
+    "action": "entry",
+    "createdAt": "2026-10-13T15:32:08.043602+00:00",
+    "symbol": "SNDX",
+    "direction": "short",
+    "optionSymbol": "SNDX261016P00014000",
+    "contracts": 86,
+    "optionEntryPriceAtScreen": 0.58,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 13.71,
+    "allocDollar": 5005.94
   }
 ]
