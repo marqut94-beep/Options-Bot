@@ -16,12 +16,16 @@
       "relVol": 2.0036,
       "pctChangeAtScreen": -5.373,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 13.82,
+      "lastPriceAt": "2026-10-13T15:56:00Z",
+      "unrealizedDollar": 0.02,
+      "unrealizedPct": 0.0362
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-13T15:56:12.703719+00:00",
-    "lastCheckEt": "2026-10-13T11:56:12.703312-04:00",
+    "lastCheckAt": "2026-10-13T15:57:12.773481+00:00",
+    "lastCheckEt": "2026-10-13T11:57:12.773365-04:00",
     "status": "ok"
   }
 }
