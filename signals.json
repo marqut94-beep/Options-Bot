@@ -212,5 +212,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 51.91,
     "allocDollar": 5403.83
+  },
+  {
+    "id": "FAST_2026-10-14_exit_close_all_2026-10-14T20:00:34.306840+00:00",
+    "tradeId": "FAST_2026-10-14",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-14T20:00:34.306844+00:00",
+    "symbol": "FAST",
+    "optionSymbol": "FAST261016C00052500",
+    "contracts": 135,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]

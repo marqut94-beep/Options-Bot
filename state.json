@@ -11,7 +11,7 @@
       "allocDollar": 5403.83,
       "stopPrice": 50.3527,
       "targetPrice": 53.986399999999996,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.6461,
       "pctChangeAtScreen": 9.2727,
@@ -26,7 +26,15 @@
       "lastPrice": 51.83,
       "lastPriceAt": "2026-10-14T19:51:00Z",
       "unrealizedDollar": -8.32,
-      "unrealizedPct": -0.1541
+      "unrealizedPct": -0.1541,
+      "optionExitPrice": 0.22,
+      "optionExitTime": "2026-10-14T20:00:34.306803+00:00",
+      "optionReturnPct": -45.0,
+      "exitTime": "2026-10-14T20:00:34.306830+00:00",
+      "exitPrice": 52.01,
+      "exitReason": "eod",
+      "returnPct": 0.1926,
+      "dollarPnl": 10.4
     },
     "UNH_2026-10-13": {
       "symbol": "UNH",
@@ -681,8 +689,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T19:52:46.017630+00:00",
-    "lastCheckEt": "2026-10-14T15:52:46.017396-04:00",
+    "lastCheckAt": "2026-10-14T20:00:33.760452+00:00",
+    "lastCheckEt": "2026-10-14T16:00:33.760169-04:00",
     "status": "ok"
   }
 }
