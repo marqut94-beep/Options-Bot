@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 9.3359,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 51.64,
-      "lastPriceAt": "2026-10-14T19:22:00Z",
-      "unrealizedDollar": -0.3,
-      "unrealizedPct": -0.5776
+      "lastPrice": 51.65,
+      "lastPriceAt": "2026-10-14T19:23:00Z",
+      "unrealizedDollar": -0.29,
+      "unrealizedPct": -0.5583
     },
     "SNDX_2026-10-13": {
       "symbol": "SNDX",
@@ -51,8 +51,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T19:23:49.879620+00:00",
-    "lastCheckEt": "2026-10-14T15:23:49.879495-04:00",
+    "lastCheckAt": "2026-10-14T19:24:07.802374+00:00",
+    "lastCheckEt": "2026-10-14T15:24:07.798137-04:00",
     "status": "ok"
   }
 }
