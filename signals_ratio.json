@@ -16,5 +16,15 @@
     "createdAt": "2026-10-13T19:55:12.990207+00:00",
     "symbol": "SNDX",
     "reason": "eod"
+  },
+  {
+    "id": "FAST_2026-10-14_entry_2026-10-14T17:54:25.666677+00:00",
+    "tradeId": "FAST_2026-10-14",
+    "action": "entry",
+    "createdAt": "2026-10-14T17:54:25.666689+00:00",
+    "symbol": "FAST",
+    "direction": "long",
+    "stockEntryPrice": 52.045,
+    "allocDollar": 52.07
   }
 ]
