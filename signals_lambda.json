@@ -226,5 +226,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 81.28,
     "allocDollar": 5056.54
+  },
+  {
+    "id": "ROAD_2026-10-14_exit_close_all_2026-10-14T19:56:00.123439+00:00",
+    "tradeId": "ROAD_2026-10-14",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-14T19:56:00.123442+00:00",
+    "symbol": "ROAD",
+    "optionSymbol": "ROAD261016P00080000",
+    "contracts": 75,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "FAST_2026-10-14_exit_close_all_2026-10-14T19:56:00.600690+00:00",
+    "tradeId": "FAST_2026-10-14",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-14T19:56:00.600693+00:00",
+    "symbol": "FAST",
+    "optionSymbol": "FAST261016C00052500",
+    "contracts": 94,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
