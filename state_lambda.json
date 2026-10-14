@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ROAD_2026-10-14": {
+      "symbol": "ROAD",
+      "date": "2026-10-14",
+      "direction": "short",
+      "entryTime": "2026-10-14T19:30:00Z",
+      "entryPrice": 81.28,
+      "shares": 62,
+      "convictionScore": 0.0075,
+      "allocDollar": 5056.54,
+      "stopPrice": 83.7184,
+      "targetPrice": 78.0288,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0905,
+      "pctChangeAtScreen": -3.7195,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "ROAD261016P00080000",
+      "optionStrike": "80",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 0.67,
+      "optionEntryTime": "2026-10-14T19:31:23.108486+00:00",
+      "optionContracts": 75,
+      "optionPricedVia": "trade"
+    },
     "FAST_2026-10-14": {
       "symbol": "FAST",
       "date": "2026-10-14",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-14T15:13:26.796716+00:00",
       "optionContracts": 94,
       "optionPricedVia": "trade",
-      "lastPrice": 51.58,
-      "lastPriceAt": "2026-10-14T19:28:00Z",
-      "unrealizedDollar": -59.52,
-      "unrealizedPct": -1.1877
+      "lastPrice": 51.505,
+      "lastPriceAt": "2026-10-14T19:29:00Z",
+      "unrealizedDollar": -66.72,
+      "unrealizedPct": -1.3314
     },
     "UNH_2026-10-13": {
       "symbol": "UNH",
@@ -309,8 +333,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T19:29:51.205603+00:00",
-    "lastCheckEt": "2026-10-14T15:29:51.205383-04:00",
+    "lastCheckAt": "2026-10-14T19:30:50.185305+00:00",
+    "lastCheckEt": "2026-10-14T15:30:50.185056-04:00",
     "status": "ok"
   }
 }
