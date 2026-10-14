@@ -22,7 +22,11 @@
       "optionEntryPrice": 0.4,
       "optionEntryTime": "2026-10-14T15:41:53.733203+00:00",
       "optionContracts": 135,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 51.91,
+      "lastPriceAt": "2026-10-14T15:50:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "UNH_2026-10-13": {
       "symbol": "UNH",
@@ -677,8 +681,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T15:41:38.235229+00:00",
-    "lastCheckEt": "2026-10-14T11:41:38.234961-04:00",
+    "lastCheckAt": "2026-10-14T15:51:06.243342+00:00",
+    "lastCheckEt": "2026-10-14T11:51:06.243149-04:00",
     "status": "ok"
   }
 }
