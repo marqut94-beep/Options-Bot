@@ -198,5 +198,19 @@
     "contracts": 86,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "FAST_2026-10-14_entry_2026-10-14T15:13:26.796740+00:00",
+    "tradeId": "FAST_2026-10-14",
+    "action": "entry",
+    "createdAt": "2026-10-14T15:13:26.796743+00:00",
+    "symbol": "FAST",
+    "direction": "long",
+    "optionSymbol": "FAST261016C00052500",
+    "contracts": 94,
+    "optionEntryPriceAtScreen": 0.53,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 52.2,
+    "allocDollar": 5003.09
   }
 ]
