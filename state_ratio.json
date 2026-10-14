@@ -1,5 +1,23 @@
 {
   "trades": {
+    "FAST_2026-10-14": {
+      "symbol": "FAST",
+      "date": "2026-10-14",
+      "direction": "long",
+      "entryTime": "2026-10-14T17:53:00Z",
+      "entryPrice": 52.045,
+      "shares": 1,
+      "convictionScore": 0.0277,
+      "allocDollar": 52.07,
+      "stopPrice": 50.48365,
+      "targetPrice": 54.1268,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.166,
+      "pctChangeAtScreen": 9.5569,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "SNDX_2026-10-13": {
       "symbol": "SNDX",
       "date": "2026-10-13",
@@ -29,8 +47,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T17:53:12.784615+00:00",
-    "lastCheckEt": "2026-10-14T13:53:12.784356-04:00",
+    "lastCheckAt": "2026-10-14T17:54:12.853425+00:00",
+    "lastCheckEt": "2026-10-14T13:54:12.853272-04:00",
     "status": "ok"
   }
 }
