@@ -212,5 +212,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 52.2,
     "allocDollar": 5003.09
+  },
+  {
+    "id": "ROAD_2026-10-14_entry_2026-10-14T19:31:23.108512+00:00",
+    "tradeId": "ROAD_2026-10-14",
+    "action": "entry",
+    "createdAt": "2026-10-14T19:31:23.108515+00:00",
+    "symbol": "ROAD",
+    "direction": "short",
+    "optionSymbol": "ROAD261016P00080000",
+    "contracts": 75,
+    "optionEntryPriceAtScreen": 0.67,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 81.28,
+    "allocDollar": 5056.54
   }
 ]
