@@ -1,5 +1,29 @@
 {
   "trades": {
+    "FAST_2026-10-14": {
+      "symbol": "FAST",
+      "date": "2026-10-14",
+      "direction": "long",
+      "entryTime": "2026-10-14T15:40:00Z",
+      "entryPrice": 51.91,
+      "shares": 104,
+      "convictionScore": 0.0538,
+      "allocDollar": 5403.83,
+      "stopPrice": 50.3527,
+      "targetPrice": 53.986399999999996,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.6461,
+      "pctChangeAtScreen": 9.2727,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "FAST261016C00052500",
+      "optionStrike": "52.5",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 0.4,
+      "optionEntryTime": "2026-10-14T15:41:53.733203+00:00",
+      "optionContracts": 135,
+      "optionPricedVia": "trade"
+    },
     "UNH_2026-10-13": {
       "symbol": "UNH",
       "date": "2026-10-13",
@@ -653,8 +677,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T15:11:53.503000+00:00",
-    "lastCheckEt": "2026-10-14T11:11:53.502640-04:00",
+    "lastCheckAt": "2026-10-14T15:41:38.235229+00:00",
+    "lastCheckEt": "2026-10-14T11:41:38.234961-04:00",
     "status": "ok"
   }
 }
