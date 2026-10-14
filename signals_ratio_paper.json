@@ -18,5 +18,13 @@
     "direction": "long",
     "stockEntryPrice": 51.94,
     "allocDollar": 52.17
+  },
+  {
+    "id": "FAST_2026-10-14_exit_close_all_2026-10-14T19:55:50.033307+00:00",
+    "tradeId": "FAST_2026-10-14",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-14T19:55:50.033310+00:00",
+    "symbol": "FAST",
+    "reason": "eod"
   }
 ]
