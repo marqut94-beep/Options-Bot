@@ -11,7 +11,7 @@
       "allocDollar": 52.17,
       "stopPrice": 50.3818,
       "targetPrice": 54.0176,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.1739,
       "pctChangeAtScreen": 9.3359,
@@ -20,7 +20,12 @@
       "lastPrice": 51.965,
       "lastPriceAt": "2026-10-14T19:53:00Z",
       "unrealizedDollar": 0.03,
-      "unrealizedPct": 0.0481
+      "unrealizedPct": 0.0481,
+      "exitTime": "2026-10-14T19:55:50.033276+00:00",
+      "exitPrice": 51.925,
+      "exitReason": "eod",
+      "returnPct": -0.0289,
+      "dollarPnl": -0.02
     },
     "SNDX_2026-10-13": {
       "symbol": "SNDX",
@@ -51,8 +56,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T19:54:49.884643+00:00",
-    "lastCheckEt": "2026-10-14T15:54:49.884519-04:00",
+    "lastCheckAt": "2026-10-14T19:55:49.850981+00:00",
+    "lastCheckEt": "2026-10-14T15:55:49.850807-04:00",
     "status": "ok"
   }
 }
