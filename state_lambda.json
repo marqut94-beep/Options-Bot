@@ -11,7 +11,7 @@
       "allocDollar": 5056.54,
       "stopPrice": 83.7184,
       "targetPrice": 78.0288,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0905,
       "pctChangeAtScreen": -3.7195,
@@ -26,7 +26,15 @@
       "lastPrice": 80.615,
       "lastPriceAt": "2026-10-14T19:53:00Z",
       "unrealizedDollar": 41.23,
-      "unrealizedPct": 0.8182
+      "unrealizedPct": 0.8182,
+      "optionExitPrice": 0.67,
+      "optionExitTime": "2026-10-14T19:56:00.123401+00:00",
+      "optionReturnPct": 0.0,
+      "exitTime": "2026-10-14T19:56:00.123426+00:00",
+      "exitPrice": 80.6427,
+      "exitReason": "eod",
+      "returnPct": 0.7841,
+      "dollarPnl": 39.51
     },
     "FAST_2026-10-14": {
       "symbol": "FAST",
@@ -39,7 +47,7 @@
       "allocDollar": 5003.09,
       "stopPrice": 50.634,
       "targetPrice": 54.288000000000004,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0049,
       "pctChangeAtScreen": 9.8832,
@@ -54,7 +62,15 @@
       "lastPrice": 51.965,
       "lastPriceAt": "2026-10-14T19:53:00Z",
       "unrealizedDollar": -22.56,
-      "unrealizedPct": -0.4502
+      "unrealizedPct": -0.4502,
+      "optionExitPrice": 0.22,
+      "optionExitTime": "2026-10-14T19:56:00.600651+00:00",
+      "optionReturnPct": -58.4906,
+      "exitTime": "2026-10-14T19:56:00.600678+00:00",
+      "exitPrice": 51.925,
+      "exitReason": "eod",
+      "returnPct": -0.5268,
+      "dollarPnl": -26.4
     },
     "UNH_2026-10-13": {
       "symbol": "UNH",
@@ -337,8 +353,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T19:54:53.415011+00:00",
-    "lastCheckEt": "2026-10-14T15:54:53.414786-04:00",
+    "lastCheckAt": "2026-10-14T19:55:59.729116+00:00",
+    "lastCheckEt": "2026-10-14T15:55:59.728857-04:00",
     "status": "ok"
   }
 }
