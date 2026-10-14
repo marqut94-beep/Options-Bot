@@ -7,14 +7,14 @@
       "entryTime": "2026-10-14T17:55:00Z",
       "entryPrice": 51.94,
       "shares": 1,
-      "convictionScore": 0.0281,
-      "allocDollar": 52.11,
+      "convictionScore": 0.029,
+      "allocDollar": 52.17,
       "stopPrice": 50.3818,
       "targetPrice": 54.0176,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.1687,
-      "pctChangeAtScreen": 9.4727,
+      "relVol": 2.1739,
+      "pctChangeAtScreen": 9.3359,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol"
     },
@@ -47,8 +47,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-14T17:55:49.835961+00:00",
-    "lastCheckEt": "2026-10-14T13:55:49.835815-04:00",
+    "lastCheckAt": "2026-10-14T17:56:04.191305+00:00",
+    "lastCheckEt": "2026-10-14T13:56:04.191132-04:00",
     "status": "ok"
   }
 }
