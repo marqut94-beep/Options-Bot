@@ -290,5 +290,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 165.275,
     "allocDollar": 5011.26
+  },
+  {
+    "id": "WCN_2026-10-15_exit_close_all_2026-10-15T19:55:48.361530+00:00",
+    "tradeId": "WCN_2026-10-15",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-15T19:55:48.361534+00:00",
+    "symbol": "WCN",
+    "optionSymbol": "WCN261016C00165000",
+    "contracts": 62,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "HOMB_2026-10-15_exit_close_all_2026-10-15T19:55:48.762347+00:00",
+    "tradeId": "HOMB_2026-10-15",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-15T19:55:48.762351+00:00",
+    "symbol": "HOMB",
+    "optionSymbol": "HOMB261016C00030000",
+    "contracts": 5230,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "FHN_2026-10-15_exit_close_all_2026-10-15T19:55:49.185656+00:00",
+    "tradeId": "FHN_2026-10-15",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-15T19:55:49.185659+00:00",
+    "symbol": "FHN",
+    "optionSymbol": "FHN261016C00023000",
+    "contracts": 161,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
