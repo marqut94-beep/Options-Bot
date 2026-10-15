@@ -6,23 +6,27 @@
       "direction": "long",
       "entryTime": "2026-10-15T18:40:00Z",
       "entryPrice": 23.025,
-      "shares": 218,
-      "convictionScore": 0.0013,
-      "allocDollar": 5009.65,
+      "shares": 217,
+      "convictionScore": 0.0005,
+      "allocDollar": 5003.73,
       "stopPrice": 22.334249999999997,
       "targetPrice": 23.945999999999998,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0154,
-      "pctChangeAtScreen": 3.0662,
+      "relVol": 2.006,
+      "pctChangeAtScreen": 3.1558,
       "dataSource": "alpaca-sip",
       "optionSymbol": "FHN261016C00023000",
       "optionStrike": "23",
       "optionExpiration": "2026-10-16",
       "optionEntryPrice": 0.31,
-      "optionEntryTime": "2026-10-15T18:41:51.528857+00:00",
+      "optionEntryTime": "2026-10-15T18:41:30.687085+00:00",
       "optionContracts": 161,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 23.025,
+      "lastPriceAt": "2026-10-15T18:40:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "ROAD_2026-10-14": {
       "symbol": "ROAD",
@@ -377,8 +381,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T18:41:15.505120+00:00",
-    "lastCheckEt": "2026-10-15T14:41:15.504875-04:00",
+    "lastCheckAt": "2026-10-15T18:41:50.104442+00:00",
+    "lastCheckEt": "2026-10-15T14:41:50.104223-04:00",
     "status": "ok"
   }
 }
