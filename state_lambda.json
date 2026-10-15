@@ -1,5 +1,29 @@
 {
   "trades": {
+    "WCN_2026-10-15": {
+      "symbol": "WCN",
+      "date": "2026-10-15",
+      "direction": "long",
+      "entryTime": "2026-10-15T19:23:00Z",
+      "entryPrice": 165.275,
+      "shares": 30,
+      "convictionScore": 0.0015,
+      "allocDollar": 5011.26,
+      "stopPrice": 160.31675,
+      "targetPrice": 171.88600000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.018,
+      "pctChangeAtScreen": 3.5493,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "WCN261016C00165000",
+      "optionStrike": "165",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 0.8,
+      "optionEntryTime": "2026-10-15T19:24:16.529519+00:00",
+      "optionContracts": 62,
+      "optionPricedVia": "trade"
+    },
     "HOMB_2026-10-15": {
       "symbol": "HOMB",
       "date": "2026-10-15",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-15T19:16:26.024876+00:00",
       "optionContracts": 5230,
       "optionPricedVia": "trade",
-      "lastPrice": 28.74,
-      "lastPriceAt": "2026-10-15T19:21:00Z",
-      "unrealizedDollar": 10.01,
-      "unrealizedPct": 0.1917
+      "lastPrice": 28.745,
+      "lastPriceAt": "2026-10-15T19:22:00Z",
+      "unrealizedDollar": 10.92,
+      "unrealizedPct": 0.2092
     },
     "FHN_2026-10-15": {
       "symbol": "FHN",
@@ -52,7 +76,7 @@
       "optionContracts": 161,
       "optionPricedVia": "trade",
       "lastPrice": 23.015,
-      "lastPriceAt": "2026-10-15T19:21:00Z",
+      "lastPriceAt": "2026-10-15T19:22:00Z",
       "unrealizedDollar": -2.17,
       "unrealizedPct": -0.0434
     },
@@ -409,8 +433,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T19:22:50.171995+00:00",
-    "lastCheckEt": "2026-10-15T15:22:50.171782-04:00",
+    "lastCheckAt": "2026-10-15T19:23:50.246778+00:00",
+    "lastCheckEt": "2026-10-15T15:23:50.246551-04:00",
     "status": "ok"
   }
 }
