@@ -22,7 +22,11 @@
       "optionEntryPrice": 0.31,
       "optionEntryTime": "2026-10-15T18:47:45.936857+00:00",
       "optionContracts": 162,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 23.065,
+      "lastPriceAt": "2026-10-15T18:55:00Z",
+      "unrealizedDollar": -5.47,
+      "unrealizedPct": -0.1083
     },
     "FAST_2026-10-14": {
       "symbol": "FAST",
@@ -713,8 +717,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T18:47:17.919567+00:00",
-    "lastCheckEt": "2026-10-15T14:47:17.919272-04:00",
+    "lastCheckAt": "2026-10-15T18:56:10.081883+00:00",
+    "lastCheckEt": "2026-10-15T14:56:10.081545-04:00",
     "status": "ok"
   }
 }
