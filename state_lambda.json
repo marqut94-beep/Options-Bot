@@ -1,5 +1,29 @@
 {
   "trades": {
+    "HOMB_2026-10-15": {
+      "symbol": "HOMB",
+      "date": "2026-10-15",
+      "direction": "long",
+      "entryTime": "2026-10-15T19:15:00Z",
+      "entryPrice": 28.685,
+      "shares": 182,
+      "convictionScore": 0.0308,
+      "allocDollar": 5230.98,
+      "stopPrice": 27.82445,
+      "targetPrice": 29.8324,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.3696,
+      "pctChangeAtScreen": 3.3694,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "HOMB261016C00030000",
+      "optionStrike": "30",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 0.01,
+      "optionEntryTime": "2026-10-15T19:16:26.024876+00:00",
+      "optionContracts": 5230,
+      "optionPricedVia": "trade"
+    },
     "FHN_2026-10-15": {
       "symbol": "FHN",
       "date": "2026-10-15",
@@ -381,8 +405,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T19:15:23.886048+00:00",
-    "lastCheckEt": "2026-10-15T15:15:23.885790-04:00",
+    "lastCheckAt": "2026-10-15T19:15:50.508198+00:00",
+    "lastCheckEt": "2026-10-15T15:15:50.507943-04:00",
     "status": "ok"
   }
 }
