@@ -11,7 +11,7 @@
       "allocDollar": 5011.26,
       "stopPrice": 160.31675,
       "targetPrice": 171.88600000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.018,
       "pctChangeAtScreen": 3.5493,
@@ -26,7 +26,15 @@
       "lastPrice": 165.27,
       "lastPriceAt": "2026-10-15T19:53:00Z",
       "unrealizedDollar": -0.15,
-      "unrealizedPct": -0.003
+      "unrealizedPct": -0.003,
+      "optionExitPrice": 0.8,
+      "optionExitTime": "2026-10-15T20:13:36.960743+00:00",
+      "optionReturnPct": 0.0,
+      "exitTime": "2026-10-15T20:13:36.960770+00:00",
+      "exitPrice": 165.51,
+      "exitReason": "eod",
+      "returnPct": 0.1422,
+      "dollarPnl": 7.05
     },
     "HOMB_2026-10-15": {
       "symbol": "HOMB",
@@ -39,7 +47,7 @@
       "allocDollar": 5299.03,
       "stopPrice": 27.84094,
       "targetPrice": 29.850080000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.4784,
       "pctChangeAtScreen": 3.4306,
@@ -54,7 +62,15 @@
       "lastPrice": 28.745,
       "lastPriceAt": "2026-10-15T19:53:00Z",
       "unrealizedDollar": 7.95,
-      "unrealizedPct": 0.1498
+      "unrealizedPct": 0.1498,
+      "optionExitPrice": 0.01,
+      "optionExitTime": "2026-10-15T20:13:37.318373+00:00",
+      "optionReturnPct": 0.0,
+      "exitTime": "2026-10-15T20:13:37.318395+00:00",
+      "exitPrice": 28.87,
+      "exitReason": "eod",
+      "returnPct": 0.5853,
+      "dollarPnl": 31.08
     },
     "FHN_2026-10-15": {
       "symbol": "FHN",
@@ -67,7 +83,7 @@
       "allocDollar": 5046.0,
       "stopPrice": 22.397299999999998,
       "targetPrice": 24.0136,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0736,
       "pctChangeAtScreen": 3.3572,
@@ -82,7 +98,15 @@
       "lastPrice": 22.825,
       "lastPriceAt": "2026-10-15T19:53:00Z",
       "unrealizedDollar": -58.04,
-      "unrealizedPct": -1.1477
+      "unrealizedPct": -1.1477,
+      "optionExitPrice": 0.1,
+      "optionExitTime": "2026-10-15T20:13:37.678916+00:00",
+      "optionReturnPct": -67.7419,
+      "exitTime": "2026-10-15T20:13:37.678940+00:00",
+      "exitPrice": 22.86,
+      "exitReason": "eod",
+      "returnPct": -0.9961,
+      "dollarPnl": -50.37
     },
     "FAST_2026-10-14": {
       "symbol": "FAST",
@@ -773,8 +797,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T19:54:17.588544+00:00",
-    "lastCheckEt": "2026-10-15T15:54:17.588260-04:00",
+    "lastCheckAt": "2026-10-15T20:13:36.603076+00:00",
+    "lastCheckEt": "2026-10-15T16:13:36.602864-04:00",
     "status": "ok"
   }
 }
