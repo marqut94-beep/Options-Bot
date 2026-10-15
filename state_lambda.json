@@ -22,7 +22,11 @@
       "optionEntryPrice": 0.01,
       "optionEntryTime": "2026-10-15T19:16:26.024876+00:00",
       "optionContracts": 5230,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 28.685,
+      "lastPriceAt": "2026-10-15T19:15:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "FHN_2026-10-15": {
       "symbol": "FHN",
@@ -48,7 +52,7 @@
       "optionContracts": 161,
       "optionPricedVia": "trade",
       "lastPrice": 23.015,
-      "lastPriceAt": "2026-10-15T19:14:00Z",
+      "lastPriceAt": "2026-10-15T19:15:00Z",
       "unrealizedDollar": -2.17,
       "unrealizedPct": -0.0434
     },
@@ -405,8 +409,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T19:15:50.508198+00:00",
-    "lastCheckEt": "2026-10-15T15:15:50.507943-04:00",
+    "lastCheckAt": "2026-10-15T19:16:50.384580+00:00",
+    "lastCheckEt": "2026-10-15T15:16:50.384338-04:00",
     "status": "ok"
   }
 }
