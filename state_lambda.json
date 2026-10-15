@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-15T19:24:16.529519+00:00",
       "optionContracts": 62,
       "optionPricedVia": "trade",
-      "lastPrice": 165.13,
-      "lastPriceAt": "2026-10-15T19:46:00Z",
-      "unrealizedDollar": -4.35,
-      "unrealizedPct": -0.0877
+      "lastPrice": 164.915,
+      "lastPriceAt": "2026-10-15T19:48:00Z",
+      "unrealizedDollar": -10.8,
+      "unrealizedPct": -0.2178
     },
     "HOMB_2026-10-15": {
       "symbol": "HOMB",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-15T19:16:26.024876+00:00",
       "optionContracts": 5230,
       "optionPricedVia": "trade",
-      "lastPrice": 28.705,
-      "lastPriceAt": "2026-10-15T19:46:00Z",
-      "unrealizedDollar": 3.64,
-      "unrealizedPct": 0.0697
+      "lastPrice": 28.7699,
+      "lastPriceAt": "2026-10-15T19:48:00Z",
+      "unrealizedDollar": 15.45,
+      "unrealizedPct": 0.296
     },
     "FHN_2026-10-15": {
       "symbol": "FHN",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-15T18:41:30.687085+00:00",
       "optionContracts": 161,
       "optionPricedVia": "trade",
-      "lastPrice": 22.865,
-      "lastPriceAt": "2026-10-15T19:46:00Z",
-      "unrealizedDollar": -34.72,
-      "unrealizedPct": -0.6949
+      "lastPrice": 22.845,
+      "lastPriceAt": "2026-10-15T19:48:00Z",
+      "unrealizedDollar": -39.06,
+      "unrealizedPct": -0.7818
     },
     "ROAD_2026-10-14": {
       "symbol": "ROAD",
@@ -437,8 +437,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T19:47:50.234968+00:00",
-    "lastCheckEt": "2026-10-15T15:47:50.234672-04:00",
+    "lastCheckAt": "2026-10-15T19:49:51.325665+00:00",
+    "lastCheckEt": "2026-10-15T15:49:51.325366-04:00",
     "status": "ok"
   }
 }
