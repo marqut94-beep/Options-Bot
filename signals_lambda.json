@@ -250,10 +250,10 @@
     "reason": "eod"
   },
   {
-    "id": "FHN_2026-10-15_entry_2026-10-15T18:41:30.687109+00:00",
+    "id": "FHN_2026-10-15_entry_2026-10-15T18:41:51.528881+00:00",
     "tradeId": "FHN_2026-10-15",
     "action": "entry",
-    "createdAt": "2026-10-15T18:41:30.687112+00:00",
+    "createdAt": "2026-10-15T18:41:51.528884+00:00",
     "symbol": "FHN",
     "direction": "long",
     "optionSymbol": "FHN261016C00023000",
@@ -261,6 +261,6 @@
     "optionEntryPriceAtScreen": 0.31,
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 23.025,
-    "allocDollar": 5003.73
+    "allocDollar": 5009.65
   }
 ]
