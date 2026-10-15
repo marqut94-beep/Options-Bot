@@ -262,5 +262,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 23.025,
     "allocDollar": 5003.73
+  },
+  {
+    "id": "HOMB_2026-10-15_entry_2026-10-15T19:16:26.024898+00:00",
+    "tradeId": "HOMB_2026-10-15",
+    "action": "entry",
+    "createdAt": "2026-10-15T19:16:26.024900+00:00",
+    "symbol": "HOMB",
+    "direction": "long",
+    "optionSymbol": "HOMB261016C00030000",
+    "contracts": 5230,
+    "optionEntryPriceAtScreen": 0.01,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 28.685,
+    "allocDollar": 5230.98
   }
 ]
