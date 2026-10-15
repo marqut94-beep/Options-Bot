@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-15T18:41:30.687085+00:00",
       "optionContracts": 161,
       "optionPricedVia": "trade",
-      "lastPrice": 23.035,
-      "lastPriceAt": "2026-10-15T18:43:00Z",
-      "unrealizedDollar": 2.17,
-      "unrealizedPct": 0.0434
+      "lastPrice": 23.04,
+      "lastPriceAt": "2026-10-15T18:44:00Z",
+      "unrealizedDollar": 3.26,
+      "unrealizedPct": 0.0651
     },
     "ROAD_2026-10-14": {
       "symbol": "ROAD",
@@ -381,8 +381,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T18:44:50.259193+00:00",
-    "lastCheckEt": "2026-10-15T14:44:50.258869-04:00",
+    "lastCheckAt": "2026-10-15T18:45:50.213207+00:00",
+    "lastCheckEt": "2026-10-15T14:45:50.212980-04:00",
     "status": "ok"
   }
 }
