@@ -1,5 +1,29 @@
 {
   "trades": {
+    "FHN_2026-10-15": {
+      "symbol": "FHN",
+      "date": "2026-10-15",
+      "direction": "long",
+      "entryTime": "2026-10-15T18:46:00Z",
+      "entryPrice": 23.09,
+      "shares": 219,
+      "convictionScore": 0.0061,
+      "allocDollar": 5046.0,
+      "stopPrice": 22.397299999999998,
+      "targetPrice": 24.0136,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0736,
+      "pctChangeAtScreen": 3.3572,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "FHN261016C00023000",
+      "optionStrike": "23",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 0.31,
+      "optionEntryTime": "2026-10-15T18:47:45.936857+00:00",
+      "optionContracts": 162,
+      "optionPricedVia": "trade"
+    },
     "FAST_2026-10-14": {
       "symbol": "FAST",
       "date": "2026-10-14",
@@ -689,8 +713,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-15T18:15:06.483220+00:00",
-    "lastCheckEt": "2026-10-15T14:15:06.483014-04:00",
+    "lastCheckAt": "2026-10-15T18:47:17.919567+00:00",
+    "lastCheckEt": "2026-10-15T14:47:17.919272-04:00",
     "status": "ok"
   }
 }

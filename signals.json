@@ -223,5 +223,19 @@
     "contracts": 135,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "FHN_2026-10-15_entry_2026-10-15T18:47:45.936873+00:00",
+    "tradeId": "FHN_2026-10-15",
+    "action": "entry",
+    "createdAt": "2026-10-15T18:47:45.936875+00:00",
+    "symbol": "FHN",
+    "direction": "long",
+    "optionSymbol": "FHN261016C00023000",
+    "contracts": 162,
+    "optionEntryPriceAtScreen": 0.31,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 23.09,
+    "allocDollar": 5046.0
   }
 ]
