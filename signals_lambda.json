@@ -365,5 +365,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 186.74,
     "allocDollar": 5000.45
+  },
+  {
+    "id": "OKTA_2026-10-16_exit_close_all_2026-10-16T19:55:50.783682+00:00",
+    "tradeId": "OKTA_2026-10-16",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-16T19:55:50.783686+00:00",
+    "symbol": "OKTA",
+    "optionSymbol": "OKTA261016P00187500",
+    "contracts": 32,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "TQQQ_2026-10-16_exit_close_all_2026-10-16T19:55:51.169593+00:00",
+    "tradeId": "TQQQ_2026-10-16",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-16T19:55:51.169596+00:00",
+    "symbol": "TQQQ",
+    "optionSymbol": "TQQQ261016P00068000",
+    "contracts": 167,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "FROG_2026-10-16_exit_close_all_2026-10-16T19:55:51.549454+00:00",
+    "tradeId": "FROG_2026-10-16",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-16T19:55:51.549458+00:00",
+    "symbol": "FROG",
+    "optionSymbol": "FROG261016P00085000",
+    "contracts": 52,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
