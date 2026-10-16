@@ -11,7 +11,7 @@
       "allocDollar": 5000.45,
       "stopPrice": 192.34220000000002,
       "targetPrice": 179.2704,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0007,
       "pctChangeAtScreen": -10.9065,
@@ -26,7 +26,15 @@
       "lastPrice": 186.48,
       "lastPriceAt": "2026-10-16T19:53:00Z",
       "unrealizedDollar": 7.02,
-      "unrealizedPct": 0.1392
+      "unrealizedPct": 0.1392,
+      "optionExitPrice": 1.4,
+      "optionExitTime": "2026-10-16T19:55:50.783640+00:00",
+      "optionReturnPct": -9.0909,
+      "exitTime": "2026-10-16T19:55:50.783669+00:00",
+      "exitPrice": 186.58,
+      "exitReason": "eod",
+      "returnPct": 0.0857,
+      "dollarPnl": 4.32
     },
     "TQQQ_2026-10-16": {
       "symbol": "TQQQ",
@@ -39,7 +47,7 @@
       "allocDollar": 5022.44,
       "stopPrice": 70.1739,
       "targetPrice": 65.4048,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0359,
       "pctChangeAtScreen": -6.6776,
@@ -54,7 +62,15 @@
       "lastPrice": 68.09,
       "lastPriceAt": "2026-10-16T19:53:00Z",
       "unrealizedDollar": 2.96,
-      "unrealizedPct": 0.0587
+      "unrealizedPct": 0.0587,
+      "optionExitPrice": 0.12,
+      "optionExitTime": "2026-10-16T19:55:51.169551+00:00",
+      "optionReturnPct": -60.0,
+      "exitTime": "2026-10-16T19:55:51.169580+00:00",
+      "exitPrice": 68.13,
+      "exitReason": "eod",
+      "returnPct": 0.0,
+      "dollarPnl": 0.0
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -67,7 +83,7 @@
       "allocDollar": 5021.38,
       "stopPrice": 86.80325,
       "targetPrice": 80.904,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0342,
       "pctChangeAtScreen": -11.1117,
@@ -82,7 +98,15 @@
       "lastPrice": 85.175,
       "lastPriceAt": "2026-10-16T19:53:00Z",
       "unrealizedDollar": -54.0,
-      "unrealizedPct": -1.0679
+      "unrealizedPct": -1.0679,
+      "optionExitPrice": 0.2,
+      "optionExitTime": "2026-10-16T19:55:51.549418+00:00",
+      "optionReturnPct": -78.9474,
+      "exitTime": "2026-10-16T19:55:51.549443+00:00",
+      "exitPrice": 85.225,
+      "exitReason": "eod",
+      "returnPct": -1.1273,
+      "dollarPnl": -57.0
     },
     "WCN_2026-10-15": {
       "symbol": "WCN",
@@ -545,8 +569,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T19:54:50.353994+00:00",
-    "lastCheckEt": "2026-10-16T15:54:50.353671-04:00",
+    "lastCheckAt": "2026-10-16T19:55:50.302970+00:00",
+    "lastCheckEt": "2026-10-16T15:55:50.302649-04:00",
     "status": "ok"
   }
 }
