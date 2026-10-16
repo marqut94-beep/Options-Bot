@@ -1,5 +1,29 @@
 {
   "trades": {
+    "FROG_2026-10-16": {
+      "symbol": "FROG",
+      "date": "2026-10-16",
+      "direction": "short",
+      "entryTime": "2026-10-16T19:00:00Z",
+      "entryPrice": 84.275,
+      "shares": 59,
+      "convictionScore": 0.0019,
+      "allocDollar": 5014.23,
+      "stopPrice": 86.80325,
+      "targetPrice": 80.904,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0228,
+      "pctChangeAtScreen": -10.8902,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "FROG261016P00085000",
+      "optionStrike": "85",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 0.95,
+      "optionEntryTime": "2026-10-16T19:01:21.011989+00:00",
+      "optionContracts": 52,
+      "optionPricedVia": "trade"
+    },
     "WCN_2026-10-15": {
       "symbol": "WCN",
       "date": "2026-10-15",
@@ -461,8 +485,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T18:57:50.228917+00:00",
-    "lastCheckEt": "2026-10-16T14:57:50.216513-04:00",
+    "lastCheckAt": "2026-10-16T19:00:26.571275+00:00",
+    "lastCheckEt": "2026-10-16T15:00:26.570955-04:00",
     "status": "ok"
   }
 }
