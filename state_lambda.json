@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-16T19:24:25.661127+00:00",
       "optionContracts": 32,
       "optionPricedVia": "trade",
-      "lastPrice": 185.2302,
-      "lastPriceAt": "2026-10-16T19:35:00Z",
-      "unrealizedDollar": 40.76,
-      "unrealizedPct": 0.8085
+      "lastPrice": 185.05,
+      "lastPriceAt": "2026-10-16T19:36:00Z",
+      "unrealizedDollar": 45.63,
+      "unrealizedPct": 0.905
     },
     "TQQQ_2026-10-16": {
       "symbol": "TQQQ",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-16T19:13:13.709189+00:00",
       "optionContracts": 167,
       "optionPricedVia": "trade",
-      "lastPrice": 68.03,
-      "lastPriceAt": "2026-10-16T19:35:00Z",
-      "unrealizedDollar": 7.4,
-      "unrealizedPct": 0.1468
+      "lastPrice": 68.01,
+      "lastPriceAt": "2026-10-16T19:36:00Z",
+      "unrealizedDollar": 8.88,
+      "unrealizedPct": 0.1761
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-16T19:01:40.748776+00:00",
       "optionContracts": 52,
       "optionPricedVia": "trade",
-      "lastPrice": 85.545,
-      "lastPriceAt": "2026-10-16T19:35:00Z",
-      "unrealizedDollar": -76.2,
-      "unrealizedPct": -1.507
+      "lastPrice": 85.435,
+      "lastPriceAt": "2026-10-16T19:36:00Z",
+      "unrealizedDollar": -69.6,
+      "unrealizedPct": -1.3764
     },
     "WCN_2026-10-15": {
       "symbol": "WCN",
@@ -545,8 +545,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T19:36:50.302629+00:00",
-    "lastCheckEt": "2026-10-16T15:36:50.302329-04:00",
+    "lastCheckAt": "2026-10-16T19:37:50.297712+00:00",
+    "lastCheckEt": "2026-10-16T15:37:50.297377-04:00",
     "status": "ok"
   }
 }
