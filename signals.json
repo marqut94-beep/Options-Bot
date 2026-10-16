@@ -298,5 +298,19 @@
     "contracts": 162,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "FROG_2026-10-16_entry_2026-10-16T19:08:46.153098+00:00",
+    "tradeId": "FROG_2026-10-16",
+    "action": "entry",
+    "createdAt": "2026-10-16T19:08:46.153100+00:00",
+    "symbol": "FROG",
+    "direction": "short",
+    "optionSymbol": "FROG261016P00085000",
+    "contracts": 57,
+    "optionEntryPriceAtScreen": 0.9,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 84.88,
+    "allocDollar": 5189.6
   }
 ]
