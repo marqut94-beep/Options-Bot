@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-16T19:13:13.709189+00:00",
       "optionContracts": 167,
       "optionPricedVia": "trade",
-      "lastPrice": 68.315,
-      "lastPriceAt": "2026-10-16T19:16:00Z",
-      "unrealizedDollar": -13.69,
-      "unrealizedPct": -0.2715
+      "lastPrice": 68.12,
+      "lastPriceAt": "2026-10-16T19:17:00Z",
+      "unrealizedDollar": 0.74,
+      "unrealizedPct": 0.0147
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-16T19:01:40.748776+00:00",
       "optionContracts": 52,
       "optionPricedVia": "trade",
-      "lastPrice": 85.81,
-      "lastPriceAt": "2026-10-16T19:16:00Z",
-      "unrealizedDollar": -92.1,
-      "unrealizedPct": -1.8214
+      "lastPrice": 85.71,
+      "lastPriceAt": "2026-10-16T19:17:00Z",
+      "unrealizedDollar": -86.1,
+      "unrealizedPct": -1.7028
     },
     "WCN_2026-10-15": {
       "symbol": "WCN",
@@ -517,8 +517,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T19:17:50.188671+00:00",
-    "lastCheckEt": "2026-10-16T15:17:50.188322-04:00",
+    "lastCheckAt": "2026-10-16T19:18:33.326236+00:00",
+    "lastCheckEt": "2026-10-16T15:18:33.325910-04:00",
     "status": "ok"
   }
 }
