@@ -25,10 +25,10 @@
       "optionEntryTime": "2026-10-16T19:08:46.153080+00:00",
       "optionContracts": 57,
       "optionPricedVia": "trade",
-      "lastPrice": 85.69,
-      "lastPriceAt": "2026-10-16T19:34:00Z",
-      "unrealizedDollar": -49.41,
-      "unrealizedPct": -0.9543
+      "lastPrice": 85.535,
+      "lastPriceAt": "2026-10-16T19:47:00Z",
+      "unrealizedDollar": -39.96,
+      "unrealizedPct": -0.7717
     },
     "WCN_2026-10-15": {
       "symbol": "WCN",
@@ -827,8 +827,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T19:35:58.775715+00:00",
-    "lastCheckEt": "2026-10-16T15:35:58.775432-04:00",
+    "lastCheckAt": "2026-10-16T19:48:56.268220+00:00",
+    "lastCheckEt": "2026-10-16T15:48:56.267991-04:00",
     "status": "ok"
   }
 }
