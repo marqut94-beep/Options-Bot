@@ -351,5 +351,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 68.13,
     "allocDollar": 5022.44
+  },
+  {
+    "id": "OKTA_2026-10-16_entry_2026-10-16T19:24:25.661147+00:00",
+    "tradeId": "OKTA_2026-10-16",
+    "action": "entry",
+    "createdAt": "2026-10-16T19:24:25.661150+00:00",
+    "symbol": "OKTA",
+    "direction": "short",
+    "optionSymbol": "OKTA261016P00187500",
+    "contracts": 32,
+    "optionEntryPriceAtScreen": 1.54,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 186.74,
+    "allocDollar": 5000.45
   }
 ]
