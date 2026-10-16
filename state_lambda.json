@@ -1,5 +1,29 @@
 {
   "trades": {
+    "OKTA_2026-10-16": {
+      "symbol": "OKTA",
+      "date": "2026-10-16",
+      "direction": "short",
+      "entryTime": "2026-10-16T19:23:00Z",
+      "entryPrice": 186.74,
+      "shares": 27,
+      "convictionScore": 0.0001,
+      "allocDollar": 5000.45,
+      "stopPrice": 192.34220000000002,
+      "targetPrice": 179.2704,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0007,
+      "pctChangeAtScreen": -10.9065,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "OKTA261016P00187500",
+      "optionStrike": "187.5",
+      "optionExpiration": "2026-10-16",
+      "optionEntryPrice": 1.54,
+      "optionEntryTime": "2026-10-16T19:24:25.661127+00:00",
+      "optionContracts": 32,
+      "optionPricedVia": "trade"
+    },
     "TQQQ_2026-10-16": {
       "symbol": "TQQQ",
       "date": "2026-10-16",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-16T19:13:13.709189+00:00",
       "optionContracts": 167,
       "optionPricedVia": "trade",
-      "lastPrice": 68.335,
-      "lastPriceAt": "2026-10-16T19:20:00Z",
-      "unrealizedDollar": -15.17,
-      "unrealizedPct": -0.3009
+      "lastPrice": 68.23,
+      "lastPriceAt": "2026-10-16T19:22:00Z",
+      "unrealizedDollar": -7.4,
+      "unrealizedPct": -0.1468
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-10-16T19:01:40.748776+00:00",
       "optionContracts": 52,
       "optionPricedVia": "trade",
-      "lastPrice": 86.04,
-      "lastPriceAt": "2026-10-16T19:20:00Z",
-      "unrealizedDollar": -105.9,
-      "unrealizedPct": -2.0943
+      "lastPrice": 85.89,
+      "lastPriceAt": "2026-10-16T19:22:00Z",
+      "unrealizedDollar": -96.9,
+      "unrealizedPct": -1.9163
     },
     "WCN_2026-10-15": {
       "symbol": "WCN",
@@ -517,8 +541,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T19:21:50.151589+00:00",
-    "lastCheckEt": "2026-10-16T15:21:50.151257-04:00",
+    "lastCheckAt": "2026-10-16T19:23:50.664033+00:00",
+    "lastCheckEt": "2026-10-16T15:23:50.663700-04:00",
     "status": "ok"
   }
 }
