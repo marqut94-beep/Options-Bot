@@ -312,5 +312,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 84.88,
     "allocDollar": 5189.6
+  },
+  {
+    "id": "FROG_2026-10-16_exit_close_all_2026-10-16T19:59:39.571093+00:00",
+    "tradeId": "FROG_2026-10-16",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-16T19:59:39.571096+00:00",
+    "symbol": "FROG",
+    "optionSymbol": "FROG261016P00085000",
+    "contracts": 57,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]

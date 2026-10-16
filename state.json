@@ -13,7 +13,7 @@
       "allocDollar": 5189.6,
       "stopPrice": 87.4264,
       "targetPrice": 81.48479999999999,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.3034,
       "pctChangeAtScreen": -10.4736,
@@ -28,7 +28,17 @@
       "lastPrice": 85.535,
       "lastPriceAt": "2026-10-16T19:47:00Z",
       "unrealizedDollar": -39.96,
-      "unrealizedPct": -0.7717
+      "unrealizedPct": -0.7717,
+      "optionExitPrice": 0.43,
+      "optionExitTime": "2026-10-16T19:59:39.571058+00:00",
+      "optionReturnPct": -52.2222,
+      "grossDollarPnl": 25.92,
+      "costDollar": 20.97,
+      "exitTime": "2026-10-16T19:59:39.571083+00:00",
+      "exitPrice": 84.455,
+      "exitReason": "eod",
+      "returnPct": 0.0956,
+      "dollarPnl": 4.95
     },
     "WCN_2026-10-15": {
       "symbol": "WCN",
@@ -827,8 +837,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T19:48:56.268220+00:00",
-    "lastCheckEt": "2026-10-16T15:48:56.267991-04:00",
+    "lastCheckAt": "2026-10-16T19:59:38.659661+00:00",
+    "lastCheckEt": "2026-10-16T15:59:38.659178-04:00",
     "status": "ok"
   }
 }
