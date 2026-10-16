@@ -6,21 +6,21 @@
       "direction": "short",
       "entryTime": "2026-10-16T19:00:00Z",
       "entryPrice": 84.275,
-      "shares": 59,
-      "convictionScore": 0.0019,
-      "allocDollar": 5014.23,
+      "shares": 60,
+      "convictionScore": 0.0029,
+      "allocDollar": 5021.38,
       "stopPrice": 86.80325,
       "targetPrice": 80.904,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0228,
-      "pctChangeAtScreen": -10.8902,
+      "relVol": 2.0342,
+      "pctChangeAtScreen": -11.1117,
       "dataSource": "alpaca-sip",
       "optionSymbol": "FROG261016P00085000",
       "optionStrike": "85",
       "optionExpiration": "2026-10-16",
       "optionEntryPrice": 0.95,
-      "optionEntryTime": "2026-10-16T19:01:21.011989+00:00",
+      "optionEntryTime": "2026-10-16T19:01:40.748776+00:00",
       "optionContracts": 52,
       "optionPricedVia": "trade",
       "lastPrice": 84.275,
@@ -489,8 +489,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-16T19:01:39.079572+00:00",
-    "lastCheckEt": "2026-10-16T15:01:39.067130-04:00",
+    "lastCheckAt": "2026-10-16T19:01:50.273248+00:00",
+    "lastCheckEt": "2026-10-16T15:01:50.272942-04:00",
     "status": "ok"
   }
 }
