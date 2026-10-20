@@ -398,5 +398,19 @@
     "contracts": 52,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "SE_2026-10-20_entry_2026-10-20T15:36:14.792873+00:00",
+    "tradeId": "SE_2026-10-20",
+    "action": "entry",
+    "createdAt": "2026-10-20T15:36:14.792876+00:00",
+    "symbol": "SE",
+    "direction": "short",
+    "optionSymbol": "SE261023P00082000",
+    "contracts": 27,
+    "optionEntryPriceAtScreen": 1.8,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 82.37,
+    "allocDollar": 5009.06
   }
 ]
