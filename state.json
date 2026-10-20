@@ -1,5 +1,31 @@
 {
   "trades": {
+    "MMM_2026-10-20": {
+      "symbol": "MMM",
+      "date": "2026-10-20",
+      "direction": "long",
+      "entryTime": "2026-10-20T16:54:00Z",
+      "entryPrice": 172.325,
+      "shares": 29,
+      "signalTime": "2026-10-20T13:35:00Z",
+      "signalAgeMinutes": 200.7,
+      "convictionScore": 0.0079,
+      "allocDollar": 5058.96,
+      "stopPrice": 167.15525,
+      "targetPrice": 179.218,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0943,
+      "pctChangeAtScreen": 5.7209,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "MMM261023C00172500",
+      "optionStrike": "172.5",
+      "optionExpiration": "2026-10-23",
+      "optionEntryPrice": 2.57,
+      "optionEntryTime": "2026-10-20T16:55:41.320131+00:00",
+      "optionContracts": 19,
+      "optionPricedVia": "trade"
+    },
     "SE_2026-10-20": {
       "symbol": "SE",
       "date": "2026-10-20",
@@ -25,10 +51,10 @@
       "optionEntryTime": "2026-10-20T15:53:29.890347+00:00",
       "optionContracts": 33,
       "optionPricedVia": "trade",
-      "lastPrice": 81.06,
-      "lastPriceAt": "2026-10-20T16:30:00Z",
-      "unrealizedDollar": 56.0,
-      "unrealizedPct": 1.0679
+      "lastPrice": 81.0401,
+      "lastPriceAt": "2026-10-20T16:54:00Z",
+      "unrealizedDollar": 57.27,
+      "unrealizedPct": 1.0922
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -867,8 +893,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T16:31:25.859996+00:00",
-    "lastCheckEt": "2026-10-20T12:31:25.859602-04:00",
+    "lastCheckAt": "2026-10-20T16:55:21.854881+00:00",
+    "lastCheckEt": "2026-10-20T12:55:21.854630-04:00",
     "status": "ok"
   }
 }
