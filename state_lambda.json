@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SE_2026-10-20": {
+      "symbol": "SE",
+      "date": "2026-10-20",
+      "direction": "short",
+      "entryTime": "2026-10-20T15:35:00Z",
+      "entryPrice": 82.37,
+      "shares": 61,
+      "convictionScore": 0.0012,
+      "allocDollar": 5009.06,
+      "stopPrice": 84.84110000000001,
+      "targetPrice": 79.0752,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0145,
+      "pctChangeAtScreen": -3.6833,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SE261023P00082000",
+      "optionStrike": "82",
+      "optionExpiration": "2026-10-23",
+      "optionEntryPrice": 1.8,
+      "optionEntryTime": "2026-10-20T15:36:14.792849+00:00",
+      "optionContracts": 27,
+      "optionPricedVia": "trade"
+    },
     "OKTA_2026-10-16": {
       "symbol": "OKTA",
       "date": "2026-10-16",
@@ -569,8 +593,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T15:35:12.684261+00:00",
-    "lastCheckEt": "2026-10-20T11:35:12.683945-04:00",
+    "lastCheckAt": "2026-10-20T15:35:50.253029+00:00",
+    "lastCheckEt": "2026-10-20T11:35:50.252638-04:00",
     "status": "ok"
   }
 }
