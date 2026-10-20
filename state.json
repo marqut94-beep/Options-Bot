@@ -1,5 +1,31 @@
 {
   "trades": {
+    "SE_2026-10-20": {
+      "symbol": "SE",
+      "date": "2026-10-20",
+      "direction": "short",
+      "entryTime": "2026-10-20T15:52:00Z",
+      "entryPrice": 81.935,
+      "shares": 64,
+      "signalTime": "2026-10-20T13:51:00Z",
+      "signalAgeMinutes": 122.5,
+      "convictionScore": 0.0273,
+      "allocDollar": 5205.11,
+      "stopPrice": 84.39305,
+      "targetPrice": 78.6576,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.3282,
+      "pctChangeAtScreen": -4.192,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SE261023P00082000",
+      "optionStrike": "82",
+      "optionExpiration": "2026-10-23",
+      "optionEntryPrice": 1.54,
+      "optionEntryTime": "2026-10-20T15:53:29.890347+00:00",
+      "optionContracts": 33,
+      "optionPricedVia": "trade"
+    },
     "FROG_2026-10-16": {
       "symbol": "FROG",
       "date": "2026-10-16",
@@ -837,8 +863,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T15:22:19.844184+00:00",
-    "lastCheckEt": "2026-10-20T11:22:19.843875-04:00",
+    "lastCheckAt": "2026-10-20T15:53:15.557904+00:00",
+    "lastCheckEt": "2026-10-20T11:53:15.557497-04:00",
     "status": "ok"
   }
 }
