@@ -13,7 +13,7 @@
       "allocDollar": 5012.7,
       "stopPrice": 182.6396,
       "targetPrice": 170.22719999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0203,
       "pctChangeAtScreen": -6.7693,
@@ -28,7 +28,14 @@
       "lastPrice": 174.815,
       "lastPriceAt": "2026-10-20T19:21:00Z",
       "unrealizedDollar": 70.14,
-      "unrealizedPct": 1.4127
+      "unrealizedPct": 1.4127,
+      "grossDollarPnl": 67.76,
+      "costDollar": 19.72,
+      "exitTime": "2026-10-20T19:56:05.155568+00:00",
+      "exitPrice": 174.9,
+      "exitReason": "eod",
+      "returnPct": 0.9676,
+      "dollarPnl": 48.04
     },
     "HAS_2026-10-20": {
       "symbol": "HAS",
@@ -43,7 +50,7 @@
       "allocDollar": 6419.2,
       "stopPrice": 104.3623,
       "targetPrice": 111.8936,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 4.2707,
       "pctChangeAtScreen": 5.0684,
@@ -58,7 +65,14 @@
       "lastPrice": 109.24,
       "lastPriceAt": "2026-10-20T19:21:00Z",
       "unrealizedDollar": 99.0,
-      "unrealizedPct": 1.5336
+      "unrealizedPct": 1.5336,
+      "grossDollarPnl": 105.6,
+      "costDollar": 26.26,
+      "exitTime": "2026-10-20T19:56:05.309812+00:00",
+      "exitPrice": 109.35,
+      "exitReason": "eod",
+      "returnPct": 1.229,
+      "dollarPnl": 79.34
     },
     "MMM_2026-10-20": {
       "symbol": "MMM",
@@ -73,7 +87,7 @@
       "allocDollar": 5058.96,
       "stopPrice": 167.15525,
       "targetPrice": 179.218,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0943,
       "pctChangeAtScreen": 5.7209,
@@ -88,7 +102,17 @@
       "lastPrice": 170.21,
       "lastPriceAt": "2026-10-20T19:21:00Z",
       "unrealizedDollar": -61.33,
-      "unrealizedPct": -1.2273
+      "unrealizedPct": -1.2273,
+      "optionExitPrice": 1.8,
+      "optionExitTime": "2026-10-20T19:56:05.695113+00:00",
+      "optionReturnPct": -29.9611,
+      "grossDollarPnl": -30.45,
+      "costDollar": 19.93,
+      "exitTime": "2026-10-20T19:56:05.695139+00:00",
+      "exitPrice": 171.275,
+      "exitReason": "eod",
+      "returnPct": -1.0081,
+      "dollarPnl": -50.38
     },
     "SE_2026-10-20": {
       "symbol": "SE",
@@ -103,7 +127,7 @@
       "allocDollar": 5205.11,
       "stopPrice": 84.39305,
       "targetPrice": 78.6576,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.3282,
       "pctChangeAtScreen": -4.192,
@@ -118,7 +142,17 @@
       "lastPrice": 80.515,
       "lastPriceAt": "2026-10-20T19:21:00Z",
       "unrealizedDollar": 90.88,
-      "unrealizedPct": 1.7331
+      "unrealizedPct": 1.7331,
+      "optionExitPrice": 2.45,
+      "optionExitTime": "2026-10-20T19:56:06.030965+00:00",
+      "optionReturnPct": 59.0909,
+      "grossDollarPnl": 114.56,
+      "costDollar": 21.09,
+      "exitTime": "2026-10-20T19:56:06.030992+00:00",
+      "exitPrice": 80.145,
+      "exitReason": "eod",
+      "returnPct": 1.7825,
+      "dollarPnl": 93.47
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -957,8 +991,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T19:22:52.253215+00:00",
-    "lastCheckEt": "2026-10-20T15:22:52.252893-04:00",
+    "lastCheckAt": "2026-10-20T19:56:05.000332+00:00",
+    "lastCheckEt": "2026-10-20T15:56:05.000011-04:00",
     "status": "ok"
   }
 }
