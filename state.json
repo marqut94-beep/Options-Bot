@@ -1,5 +1,31 @@
 {
   "trades": {
+    "DVA_2026-10-20": {
+      "symbol": "DVA",
+      "date": "2026-10-20",
+      "direction": "short",
+      "entryTime": "2026-10-20T17:54:00Z",
+      "entryPrice": 177.32,
+      "shares": 28,
+      "signalTime": "2026-10-20T14:05:00Z",
+      "signalAgeMinutes": 230.1,
+      "convictionScore": 0.0017,
+      "allocDollar": 5012.7,
+      "stopPrice": 182.6396,
+      "targetPrice": 170.22719999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0203,
+      "pctChangeAtScreen": -6.7693,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-20T17:55:05.006342+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "HAS_2026-10-20": {
       "symbol": "HAS",
       "date": "2026-10-20",
@@ -25,10 +51,10 @@
       "optionEntryTime": "2026-10-20T17:29:36.472654+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 107.955,
-      "lastPriceAt": "2026-10-20T17:41:00Z",
-      "unrealizedDollar": 21.9,
-      "unrealizedPct": 0.3393
+      "lastPrice": 108.275,
+      "lastPriceAt": "2026-10-20T17:53:00Z",
+      "unrealizedDollar": 41.1,
+      "unrealizedPct": 0.6367
     },
     "MMM_2026-10-20": {
       "symbol": "MMM",
@@ -55,10 +81,10 @@
       "optionEntryTime": "2026-10-20T16:55:41.320131+00:00",
       "optionContracts": 19,
       "optionPricedVia": "trade",
-      "lastPrice": 171.89,
-      "lastPriceAt": "2026-10-20T17:41:00Z",
-      "unrealizedDollar": -12.62,
-      "unrealizedPct": -0.2524
+      "lastPrice": 171.55,
+      "lastPriceAt": "2026-10-20T17:53:00Z",
+      "unrealizedDollar": -22.47,
+      "unrealizedPct": -0.4497
     },
     "SE_2026-10-20": {
       "symbol": "SE",
@@ -85,10 +111,10 @@
       "optionEntryTime": "2026-10-20T15:53:29.890347+00:00",
       "optionContracts": 33,
       "optionPricedVia": "trade",
-      "lastPrice": 81.255,
-      "lastPriceAt": "2026-10-20T17:41:00Z",
-      "unrealizedDollar": 43.52,
-      "unrealizedPct": 0.8299
+      "lastPrice": 81.31,
+      "lastPriceAt": "2026-10-20T17:53:00Z",
+      "unrealizedDollar": 40.0,
+      "unrealizedPct": 0.7628
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -927,8 +953,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T17:42:43.872152+00:00",
-    "lastCheckEt": "2026-10-20T13:42:43.871785-04:00",
+    "lastCheckAt": "2026-10-20T17:54:45.830252+00:00",
+    "lastCheckEt": "2026-10-20T13:54:45.829970-04:00",
     "status": "ok"
   }
 }
