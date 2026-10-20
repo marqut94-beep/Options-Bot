@@ -1,5 +1,29 @@
 {
   "trades": {
+    "HAS_2026-10-20": {
+      "symbol": "HAS",
+      "date": "2026-10-20",
+      "direction": "long",
+      "entryTime": "2026-10-20T17:15:00Z",
+      "entryPrice": 106.74,
+      "shares": 59,
+      "convictionScore": 0.1733,
+      "allocDollar": 6299.82,
+      "stopPrice": 103.53779999999999,
+      "targetPrice": 111.00959999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 4.0797,
+      "pctChangeAtScreen": 4.0723,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-20T17:16:19.757407+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "MMM_2026-10-20": {
       "symbol": "MMM",
       "date": "2026-10-20",
@@ -625,8 +649,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T17:15:07.761595+00:00",
-    "lastCheckEt": "2026-10-20T13:15:07.761308-04:00",
+    "lastCheckAt": "2026-10-20T17:15:50.158138+00:00",
+    "lastCheckEt": "2026-10-20T13:15:50.157854-04:00",
     "status": "ok"
   }
 }
