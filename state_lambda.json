@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-20T17:16:19.757407+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 107.5,
-      "lastPriceAt": "2026-10-20T17:33:00Z",
-      "unrealizedDollar": 44.84,
-      "unrealizedPct": 0.712
+      "lastPrice": 107.675,
+      "lastPriceAt": "2026-10-20T17:34:00Z",
+      "unrealizedDollar": 55.17,
+      "unrealizedPct": 0.876
     },
     "MMM_2026-10-20": {
       "symbol": "MMM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-20T16:49:07.912887+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 171.685,
-      "lastPriceAt": "2026-10-20T17:33:00Z",
-      "unrealizedDollar": -30.01,
-      "unrealizedPct": -0.5992
+      "lastPrice": 171.615,
+      "lastPriceAt": "2026-10-20T17:34:00Z",
+      "unrealizedDollar": -32.04,
+      "unrealizedPct": -0.6398
     },
     "SE_2026-10-20": {
       "symbol": "SE",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-20T15:36:14.792849+00:00",
       "optionContracts": 27,
       "optionPricedVia": "trade",
-      "lastPrice": 81.11,
-      "lastPriceAt": "2026-10-20T17:33:00Z",
-      "unrealizedDollar": 76.86,
-      "unrealizedPct": 1.5297
+      "lastPrice": 81.09,
+      "lastPriceAt": "2026-10-20T17:34:00Z",
+      "unrealizedDollar": 78.08,
+      "unrealizedPct": 1.554
     },
     "OKTA_2026-10-16": {
       "symbol": "OKTA",
@@ -653,8 +653,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T17:34:50.156027+00:00",
-    "lastCheckEt": "2026-10-20T13:34:50.155763-04:00",
+    "lastCheckAt": "2026-10-20T17:35:50.183149+00:00",
+    "lastCheckEt": "2026-10-20T13:35:50.182885-04:00",
     "status": "ok"
   }
 }
