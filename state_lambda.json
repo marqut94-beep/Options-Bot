@@ -1,5 +1,29 @@
 {
   "trades": {
+    "DVA_2026-10-20": {
+      "symbol": "DVA",
+      "date": "2026-10-20",
+      "direction": "short",
+      "entryTime": "2026-10-20T17:54:00Z",
+      "entryPrice": 177.32,
+      "shares": 28,
+      "convictionScore": 0.0017,
+      "allocDollar": 5012.7,
+      "stopPrice": 182.6396,
+      "targetPrice": 170.22719999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0203,
+      "pctChangeAtScreen": -6.7693,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-20T17:55:15.203529+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "HAS_2026-10-20": {
       "symbol": "HAS",
       "date": "2026-10-20",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-20T17:16:19.757407+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 108.31,
-      "lastPriceAt": "2026-10-20T17:52:00Z",
-      "unrealizedDollar": 92.63,
-      "unrealizedPct": 1.4709
+      "lastPrice": 108.275,
+      "lastPriceAt": "2026-10-20T17:53:00Z",
+      "unrealizedDollar": 90.57,
+      "unrealizedPct": 1.4381
     },
     "MMM_2026-10-20": {
       "symbol": "MMM",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-10-20T16:49:07.912887+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 171.575,
-      "lastPriceAt": "2026-10-20T17:52:00Z",
-      "unrealizedDollar": -33.21,
-      "unrealizedPct": -0.6629
+      "lastPrice": 171.55,
+      "lastPriceAt": "2026-10-20T17:53:00Z",
+      "unrealizedDollar": -33.93,
+      "unrealizedPct": -0.6774
     },
     "SE_2026-10-20": {
       "symbol": "SE",
@@ -79,10 +103,10 @@
       "optionEntryTime": "2026-10-20T15:36:14.792849+00:00",
       "optionContracts": 27,
       "optionPricedVia": "trade",
-      "lastPrice": 81.32,
-      "lastPriceAt": "2026-10-20T17:52:00Z",
-      "unrealizedDollar": 64.05,
-      "unrealizedPct": 1.2747
+      "lastPrice": 81.31,
+      "lastPriceAt": "2026-10-20T17:53:00Z",
+      "unrealizedDollar": 64.66,
+      "unrealizedPct": 1.2869
     },
     "OKTA_2026-10-16": {
       "symbol": "OKTA",
@@ -653,8 +677,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T17:53:50.137039+00:00",
-    "lastCheckEt": "2026-10-20T13:53:50.136769-04:00",
+    "lastCheckAt": "2026-10-20T17:54:50.159336+00:00",
+    "lastCheckEt": "2026-10-20T13:54:50.159053-04:00",
     "status": "ok"
   }
 }
