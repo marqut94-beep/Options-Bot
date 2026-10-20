@@ -412,5 +412,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 82.37,
     "allocDollar": 5009.06
+  },
+  {
+    "id": "MMM_2026-10-20_entry_2026-10-20T16:49:07.912912+00:00",
+    "tradeId": "MMM_2026-10-20",
+    "action": "entry",
+    "createdAt": "2026-10-20T16:49:07.912916+00:00",
+    "symbol": "MMM",
+    "direction": "long",
+    "optionSymbol": "MMM261023C00172500",
+    "contracts": 20,
+    "optionEntryPriceAtScreen": 2.5,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 172.72,
+    "allocDollar": 5002.32
   }
 ]
