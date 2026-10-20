@@ -426,5 +426,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 172.72,
     "allocDollar": 5002.32
+  },
+  {
+    "id": "HAS_2026-10-20_entry_2026-10-20T17:16:19.757429+00:00",
+    "tradeId": "HAS_2026-10-20",
+    "action": "entry",
+    "createdAt": "2026-10-20T17:16:19.757432+00:00",
+    "symbol": "HAS",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 106.74,
+    "allocDollar": 6299.82
   }
 ]
