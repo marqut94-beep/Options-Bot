@@ -440,5 +440,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 106.74,
     "allocDollar": 6299.82
+  },
+  {
+    "id": "DVA_2026-10-20_entry_2026-10-20T17:55:15.203551+00:00",
+    "tradeId": "DVA_2026-10-20",
+    "action": "entry",
+    "createdAt": "2026-10-20T17:55:15.203554+00:00",
+    "symbol": "DVA",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 177.32,
+    "allocDollar": 5012.7
   }
 ]
