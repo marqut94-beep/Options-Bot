@@ -454,5 +454,49 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 177.32,
     "allocDollar": 5012.7
+  },
+  {
+    "id": "DVA_2026-10-20_exit_close_all_2026-10-20T19:55:50.453139+00:00",
+    "tradeId": "DVA_2026-10-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-20T19:55:50.453144+00:00",
+    "symbol": "DVA",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "HAS_2026-10-20_exit_close_all_2026-10-20T19:55:50.696548+00:00",
+    "tradeId": "HAS_2026-10-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-20T19:55:50.696552+00:00",
+    "symbol": "HAS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "MMM_2026-10-20_exit_close_all_2026-10-20T19:55:51.200706+00:00",
+    "tradeId": "MMM_2026-10-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-20T19:55:51.200710+00:00",
+    "symbol": "MMM",
+    "optionSymbol": "MMM261023C00172500",
+    "contracts": 20,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "SE_2026-10-20_exit_close_all_2026-10-20T19:55:51.608014+00:00",
+    "tradeId": "SE_2026-10-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-20T19:55:51.608017+00:00",
+    "symbol": "SE",
+    "optionSymbol": "SE261023P00082000",
+    "contracts": 27,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
