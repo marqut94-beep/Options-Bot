@@ -24,7 +24,11 @@
       "optionEntryPrice": 2.57,
       "optionEntryTime": "2026-10-20T16:55:41.320131+00:00",
       "optionContracts": 19,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 172.115,
+      "lastPriceAt": "2026-10-20T17:10:00Z",
+      "unrealizedDollar": -6.09,
+      "unrealizedPct": -0.1219
     },
     "SE_2026-10-20": {
       "symbol": "SE",
@@ -51,10 +55,10 @@
       "optionEntryTime": "2026-10-20T15:53:29.890347+00:00",
       "optionContracts": 33,
       "optionPricedVia": "trade",
-      "lastPrice": 81.0401,
-      "lastPriceAt": "2026-10-20T16:54:00Z",
-      "unrealizedDollar": 57.27,
-      "unrealizedPct": 1.0922
+      "lastPrice": 81.215,
+      "lastPriceAt": "2026-10-20T17:10:00Z",
+      "unrealizedDollar": 46.08,
+      "unrealizedPct": 0.8787
     },
     "FROG_2026-10-16": {
       "symbol": "FROG",
@@ -893,8 +897,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-20T16:55:21.854881+00:00",
-    "lastCheckEt": "2026-10-20T12:55:21.854630-04:00",
+    "lastCheckAt": "2026-10-20T17:11:47.306366+00:00",
+    "lastCheckEt": "2026-10-20T13:11:47.306079-04:00",
     "status": "ok"
   }
 }
