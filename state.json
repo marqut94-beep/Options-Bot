@@ -1,5 +1,57 @@
 {
   "trades": {
+    "SMCI_2026-10-21": {
+      "symbol": "SMCI",
+      "date": "2026-10-21",
+      "direction": "short",
+      "entryTime": "2026-10-21T19:01:00Z",
+      "entryPrice": 35.2,
+      "shares": 166,
+      "signalTime": "2026-10-21T14:11:00Z",
+      "signalAgeMinutes": 291.3,
+      "convictionScore": 0.1137,
+      "allocDollar": 5852.96,
+      "stopPrice": 36.25600000000001,
+      "targetPrice": 33.792,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.3647,
+      "pctChangeAtScreen": -3.3498,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SMCI261023P00035000",
+      "optionStrike": "35",
+      "optionExpiration": "2026-10-23",
+      "optionEntryPrice": 0.8,
+      "optionEntryTime": "2026-10-21T19:02:21.232067+00:00",
+      "optionContracts": 73,
+      "optionPricedVia": "trade"
+    },
+    "UAL_2026-10-21": {
+      "symbol": "UAL",
+      "date": "2026-10-21",
+      "direction": "long",
+      "entryTime": "2026-10-21T19:01:00Z",
+      "entryPrice": 102.045,
+      "shares": 52,
+      "signalTime": "2026-10-21T13:37:00Z",
+      "signalAgeMinutes": 325.3,
+      "convictionScore": 0.0461,
+      "allocDollar": 5346.04,
+      "stopPrice": 98.98365,
+      "targetPrice": 106.1268,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.5537,
+      "pctChangeAtScreen": 4.6615,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "UAL261023C00102000",
+      "optionStrike": "102",
+      "optionExpiration": "2026-10-23",
+      "optionEntryPrice": 2.45,
+      "optionEntryTime": "2026-10-21T19:02:21.232102+00:00",
+      "optionContracts": 21,
+      "optionPricedVia": "trade"
+    },
     "ELS_2026-10-21": {
       "symbol": "ELS",
       "date": "2026-10-21",
@@ -25,10 +77,10 @@
       "optionEntryTime": "2026-10-21T17:53:39.336831+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 59.23,
-      "lastPriceAt": "2026-10-21T18:45:00Z",
-      "unrealizedDollar": -8.6,
-      "unrealizedPct": -0.1691
+      "lastPrice": 59.345,
+      "lastPriceAt": "2026-10-21T19:00:00Z",
+      "unrealizedDollar": -18.49,
+      "unrealizedPct": -0.3636
     },
     "WAB_2026-10-21": {
       "symbol": "WAB",
@@ -55,10 +107,10 @@
       "optionEntryTime": "2026-10-21T17:53:39.336859+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 290.11,
-      "lastPriceAt": "2026-10-21T18:45:00Z",
-      "unrealizedDollar": 28.26,
-      "unrealizedPct": 0.5441
+      "lastPrice": 288.325,
+      "lastPriceAt": "2026-10-21T19:00:00Z",
+      "unrealizedDollar": -3.87,
+      "unrealizedPct": -0.0745
     },
     "DVA_2026-10-20": {
       "symbol": "DVA",
@@ -1051,8 +1103,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-21T18:46:59.535168+00:00",
-    "lastCheckEt": "2026-10-21T14:46:59.534749-04:00",
+    "lastCheckAt": "2026-10-21T19:01:58.179907+00:00",
+    "lastCheckEt": "2026-10-21T15:01:58.179403-04:00",
     "status": "ok"
   }
 }

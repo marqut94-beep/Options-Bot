@@ -451,5 +451,33 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 288.54,
     "allocDollar": 5076.61
+  },
+  {
+    "id": "SMCI_2026-10-21_entry_2026-10-21T19:02:21.232086+00:00",
+    "tradeId": "SMCI_2026-10-21",
+    "action": "entry",
+    "createdAt": "2026-10-21T19:02:21.232088+00:00",
+    "symbol": "SMCI",
+    "direction": "short",
+    "optionSymbol": "SMCI261023P00035000",
+    "contracts": 73,
+    "optionEntryPriceAtScreen": 0.8,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 35.2,
+    "allocDollar": 5852.96
+  },
+  {
+    "id": "UAL_2026-10-21_entry_2026-10-21T19:02:21.232106+00:00",
+    "tradeId": "UAL_2026-10-21",
+    "action": "entry",
+    "createdAt": "2026-10-21T19:02:21.232108+00:00",
+    "symbol": "UAL",
+    "direction": "long",
+    "optionSymbol": "UAL261023C00102000",
+    "contracts": 21,
+    "optionEntryPriceAtScreen": 2.45,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 102.045,
+    "allocDollar": 5346.04
   }
 ]
