@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-21T17:50:07.029264+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 289.38,
-      "lastPriceAt": "2026-10-21T18:30:00Z",
-      "unrealizedDollar": 19.55,
-      "unrealizedPct": 0.399
+      "lastPrice": 289.36,
+      "lastPriceAt": "2026-10-21T18:31:00Z",
+      "unrealizedDollar": 19.21,
+      "unrealizedPct": 0.392
     },
     "ELS_2026-10-21": {
       "symbol": "ELS",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-21T17:43:07.296419+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 59.14,
-      "lastPriceAt": "2026-10-21T18:30:00Z",
-      "unrealizedDollar": 3.83,
-      "unrealizedPct": 0.076
+      "lastPrice": 59.08,
+      "lastPriceAt": "2026-10-21T18:31:00Z",
+      "unrealizedDollar": 8.93,
+      "unrealizedPct": 0.1774
     },
     "DVA_2026-10-20": {
       "symbol": "DVA",
@@ -763,8 +763,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-21T18:31:02.704539+00:00",
-    "lastCheckEt": "2026-10-21T14:31:02.704094-04:00",
+    "lastCheckAt": "2026-10-21T18:32:50.238672+00:00",
+    "lastCheckEt": "2026-10-21T14:32:50.238302-04:00",
     "status": "ok"
   }
 }
