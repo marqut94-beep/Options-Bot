@@ -512,5 +512,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 59.185,
     "allocDollar": 5010.04
+  },
+  {
+    "id": "WAB_2026-10-21_entry_2026-10-21T17:50:07.029291+00:00",
+    "tradeId": "WAB_2026-10-21",
+    "action": "entry",
+    "createdAt": "2026-10-21T17:50:07.029295+00:00",
+    "symbol": "WAB",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 288.23,
+    "allocDollar": 5036.55
   }
 ]
