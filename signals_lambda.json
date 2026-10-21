@@ -498,5 +498,19 @@
     "contracts": 27,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "ELS_2026-10-21_entry_2026-10-21T17:43:07.296442+00:00",
+    "tradeId": "ELS_2026-10-21",
+    "action": "entry",
+    "createdAt": "2026-10-21T17:43:07.296446+00:00",
+    "symbol": "ELS",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 59.185,
+    "allocDollar": 5010.04
   }
 ]
