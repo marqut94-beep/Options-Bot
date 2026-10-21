@@ -1,5 +1,29 @@
 {
   "trades": {
+    "WAB_2026-10-21": {
+      "symbol": "WAB",
+      "date": "2026-10-21",
+      "direction": "long",
+      "entryTime": "2026-10-21T17:49:00Z",
+      "entryPrice": 288.23,
+      "shares": 17,
+      "convictionScore": 0.0049,
+      "allocDollar": 5036.55,
+      "stopPrice": 279.5831,
+      "targetPrice": 299.7592,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0585,
+      "pctChangeAtScreen": 3.0129,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-21T17:50:07.029264+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "ELS_2026-10-21": {
       "symbol": "ELS",
       "date": "2026-10-21",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-21T17:43:07.296419+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 59.13,
-      "lastPriceAt": "2026-10-21T17:47:00Z",
-      "unrealizedDollar": 4.67,
-      "unrealizedPct": 0.0929
+      "lastPrice": 59.14,
+      "lastPriceAt": "2026-10-21T17:48:00Z",
+      "unrealizedDollar": 3.83,
+      "unrealizedPct": 0.076
     },
     "DVA_2026-10-20": {
       "symbol": "DVA",
@@ -735,8 +759,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-21T17:48:50.208575+00:00",
-    "lastCheckEt": "2026-10-21T13:48:50.208181-04:00",
+    "lastCheckAt": "2026-10-21T17:49:50.475132+00:00",
+    "lastCheckEt": "2026-10-21T13:49:50.474734-04:00",
     "status": "ok"
   }
 }
