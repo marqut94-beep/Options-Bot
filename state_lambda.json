@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ELS_2026-10-21": {
+      "symbol": "ELS",
+      "date": "2026-10-21",
+      "direction": "short",
+      "entryTime": "2026-10-21T17:42:00Z",
+      "entryPrice": 59.185,
+      "shares": 85,
+      "convictionScore": 0.0013,
+      "allocDollar": 5010.04,
+      "stopPrice": 60.960550000000005,
+      "targetPrice": 56.8176,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0161,
+      "pctChangeAtScreen": -4.684,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-21T17:43:07.296419+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "DVA_2026-10-20": {
       "symbol": "DVA",
       "date": "2026-10-20",
@@ -707,8 +731,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-21T17:40:50.243096+00:00",
-    "lastCheckEt": "2026-10-21T13:40:50.242711-04:00",
+    "lastCheckAt": "2026-10-21T17:42:50.188137+00:00",
+    "lastCheckEt": "2026-10-21T13:42:50.187743-04:00",
     "status": "ok"
   }
 }
