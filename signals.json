@@ -479,5 +479,49 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 102.045,
     "allocDollar": 5346.04
+  },
+  {
+    "id": "SMCI_2026-10-21_exit_close_all_2026-10-21T19:55:10.194212+00:00",
+    "tradeId": "SMCI_2026-10-21",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-21T19:55:10.194213+00:00",
+    "symbol": "SMCI",
+    "optionSymbol": "SMCI261023P00035000",
+    "contracts": 73,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "UAL_2026-10-21_exit_close_all_2026-10-21T19:55:10.547540+00:00",
+    "tradeId": "UAL_2026-10-21",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-21T19:55:10.547541+00:00",
+    "symbol": "UAL",
+    "optionSymbol": "UAL261023C00102000",
+    "contracts": 21,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "ELS_2026-10-21_exit_close_all_2026-10-21T19:55:10.681192+00:00",
+    "tradeId": "ELS_2026-10-21",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-21T19:55:10.681194+00:00",
+    "symbol": "ELS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "WAB_2026-10-21_exit_close_all_2026-10-21T19:55:10.815527+00:00",
+    "tradeId": "WAB_2026-10-21",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-21T19:55:10.815528+00:00",
+    "symbol": "WAB",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
