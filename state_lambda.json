@@ -11,7 +11,7 @@
       "allocDollar": 5012.78,
       "stopPrice": 101.10795,
       "targetPrice": 108.40440000000001,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0205,
       "pctChangeAtScreen": 6.9077,
@@ -26,7 +26,15 @@
       "lastPrice": 101.92,
       "lastPriceAt": "2026-10-21T19:53:00Z",
       "unrealizedDollar": -111.12,
-      "unrealizedPct": -2.2209
+      "unrealizedPct": -2.2209,
+      "optionExitPrice": 0.98,
+      "optionExitTime": "2026-10-21T19:55:50.680416+00:00",
+      "optionReturnPct": -52.1951,
+      "exitTime": "2026-10-21T19:55:50.680447+00:00",
+      "exitPrice": 101.76,
+      "exitReason": "eod",
+      "returnPct": -2.3744,
+      "dollarPnl": -118.8
     },
     "SMCI_2026-10-21": {
       "symbol": "SMCI",
@@ -39,7 +47,7 @@
       "allocDollar": 5652.5,
       "stopPrice": 36.36415,
       "targetPrice": 33.8928,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.044,
       "pctChangeAtScreen": -3.0615,
@@ -54,7 +62,15 @@
       "lastPrice": 35.575,
       "lastPriceAt": "2026-10-21T19:53:00Z",
       "unrealizedDollar": -43.2,
-      "unrealizedPct": -0.7648
+      "unrealizedPct": -0.7648,
+      "optionExitPrice": 0.89,
+      "optionExitTime": "2026-10-21T19:55:51.119690+00:00",
+      "optionReturnPct": -12.7451,
+      "exitTime": "2026-10-21T19:55:51.119721+00:00",
+      "exitPrice": 35.581,
+      "exitReason": "eod",
+      "returnPct": -0.7818,
+      "dollarPnl": -44.16
     },
     "WAB_2026-10-21": {
       "symbol": "WAB",
@@ -67,7 +83,7 @@
       "allocDollar": 5036.55,
       "stopPrice": 279.5831,
       "targetPrice": 299.7592,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0585,
       "pctChangeAtScreen": 3.0129,
@@ -82,7 +98,12 @@
       "lastPrice": 289.51,
       "lastPriceAt": "2026-10-21T19:53:00Z",
       "unrealizedDollar": 21.76,
-      "unrealizedPct": 0.4441
+      "unrealizedPct": 0.4441,
+      "exitTime": "2026-10-21T19:55:51.349432+00:00",
+      "exitPrice": 289.36,
+      "exitReason": "eod",
+      "returnPct": 0.392,
+      "dollarPnl": 19.21
     },
     "ELS_2026-10-21": {
       "symbol": "ELS",
@@ -95,7 +116,7 @@
       "allocDollar": 5010.04,
       "stopPrice": 60.960550000000005,
       "targetPrice": 56.8176,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0161,
       "pctChangeAtScreen": -4.684,
@@ -110,7 +131,12 @@
       "lastPrice": 59.035,
       "lastPriceAt": "2026-10-21T19:53:00Z",
       "unrealizedDollar": 12.75,
-      "unrealizedPct": 0.2534
+      "unrealizedPct": 0.2534,
+      "exitTime": "2026-10-21T19:55:51.536638+00:00",
+      "exitPrice": 59.145,
+      "exitReason": "eod",
+      "returnPct": 0.0676,
+      "dollarPnl": 3.4
     },
     "DVA_2026-10-20": {
       "symbol": "DVA",
@@ -819,8 +845,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-21T19:54:50.220504+00:00",
-    "lastCheckEt": "2026-10-21T15:54:50.220047-04:00",
+    "lastCheckAt": "2026-10-21T19:55:50.270452+00:00",
+    "lastCheckEt": "2026-10-21T15:55:50.270012-04:00",
     "status": "ok"
   }
 }
