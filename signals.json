@@ -423,5 +423,33 @@
     "contracts": 33,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "ELS_2026-10-21_entry_2026-10-21T17:53:39.336847+00:00",
+    "tradeId": "ELS_2026-10-21",
+    "action": "entry",
+    "createdAt": "2026-10-21T17:53:39.336849+00:00",
+    "symbol": "ELS",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 59.13,
+    "allocDollar": 5082.92
+  },
+  {
+    "id": "WAB_2026-10-21_entry_2026-10-21T17:53:39.336862+00:00",
+    "tradeId": "WAB_2026-10-21",
+    "action": "entry",
+    "createdAt": "2026-10-21T17:53:39.336864+00:00",
+    "symbol": "WAB",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 288.54,
+    "allocDollar": 5076.61
   }
 ]
