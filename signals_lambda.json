@@ -526,5 +526,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 288.23,
     "allocDollar": 5036.55
+  },
+  {
+    "id": "SMCI_2026-10-21_entry_2026-10-21T18:36:07.345456+00:00",
+    "tradeId": "SMCI_2026-10-21",
+    "action": "entry",
+    "createdAt": "2026-10-21T18:36:07.345460+00:00",
+    "symbol": "SMCI",
+    "direction": "short",
+    "optionSymbol": "SMCI261023P00035500",
+    "contracts": 55,
+    "optionEntryPriceAtScreen": 1.02,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 35.305,
+    "allocDollar": 5652.5
   }
 ]
