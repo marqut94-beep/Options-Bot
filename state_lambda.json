@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-21T17:43:07.296419+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 59.18,
-      "lastPriceAt": "2026-10-21T17:43:00Z",
-      "unrealizedDollar": 0.43,
-      "unrealizedPct": 0.0084
+      "lastPrice": 59.12,
+      "lastPriceAt": "2026-10-21T17:44:00Z",
+      "unrealizedDollar": 5.53,
+      "unrealizedPct": 0.1098
     },
     "DVA_2026-10-20": {
       "symbol": "DVA",
@@ -735,8 +735,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-21T17:44:50.172707+00:00",
-    "lastCheckEt": "2026-10-21T13:44:50.172339-04:00",
+    "lastCheckAt": "2026-10-21T17:45:10.104573+00:00",
+    "lastCheckEt": "2026-10-21T13:45:10.104183-04:00",
     "status": "ok"
   }
 }
