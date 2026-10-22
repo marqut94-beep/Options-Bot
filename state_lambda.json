@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-22T15:52:12.242158+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 188.8,
-      "lastPriceAt": "2026-10-22T15:51:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "lastPrice": 186.975,
+      "lastPriceAt": "2026-10-22T15:52:00Z",
+      "unrealizedDollar": 47.45,
+      "unrealizedPct": 0.9666
     },
     "TSLQ_2026-10-22": {
       "symbol": "TSLQ",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-22T15:48:05.306334+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 16.36,
-      "lastPriceAt": "2026-10-22T15:51:00Z",
-      "unrealizedDollar": -4.59,
-      "unrealizedPct": -0.0918
+      "lastPrice": 16.34,
+      "lastPriceAt": "2026-10-22T15:52:00Z",
+      "unrealizedDollar": 1.53,
+      "unrealizedPct": 0.0306
     },
     "HXL_2026-10-22": {
       "symbol": "HXL",
@@ -934,8 +934,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T15:52:50.294145+00:00",
-    "lastCheckEt": "2026-10-22T11:52:50.293704-04:00",
+    "lastCheckAt": "2026-10-22T15:53:50.318357+00:00",
+    "lastCheckEt": "2026-10-22T11:53:50.317908-04:00",
     "status": "ok"
   }
 }
