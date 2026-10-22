@@ -523,5 +523,33 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "FCFS_2026-10-22_entry_2026-10-22T15:55:12.282761+00:00",
+    "tradeId": "FCFS_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T15:55:12.282764+00:00",
+    "symbol": "FCFS",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 186.45,
+    "allocDollar": 5193.13
+  },
+  {
+    "id": "TSLQ_2026-10-22_entry_2026-10-22T15:55:12.282805+00:00",
+    "tradeId": "TSLQ_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T15:55:12.282807+00:00",
+    "symbol": "TSLQ",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 16.3603,
+    "allocDollar": 5025.14
   }
 ]

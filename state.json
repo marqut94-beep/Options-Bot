@@ -1,5 +1,57 @@
 {
   "trades": {
+    "FCFS_2026-10-22": {
+      "symbol": "FCFS",
+      "date": "2026-10-22",
+      "direction": "short",
+      "entryTime": "2026-10-22T15:54:00Z",
+      "entryPrice": 186.45,
+      "shares": 28,
+      "signalTime": "2026-10-22T13:59:00Z",
+      "signalAgeMinutes": 116.2,
+      "convictionScore": 0.0258,
+      "allocDollar": 5193.13,
+      "stopPrice": 192.0435,
+      "targetPrice": 178.992,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.309,
+      "pctChangeAtScreen": -13.9961,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-22T15:55:12.282748+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
+    "TSLQ_2026-10-22": {
+      "symbol": "TSLQ",
+      "date": "2026-10-22",
+      "direction": "short",
+      "entryTime": "2026-10-22T15:54:00Z",
+      "entryPrice": 16.3603,
+      "shares": 307,
+      "signalTime": "2026-10-22T13:39:00Z",
+      "signalAgeMinutes": 136.2,
+      "convictionScore": 0.0034,
+      "allocDollar": 5025.14,
+      "stopPrice": 16.851108999999997,
+      "targetPrice": 15.705887999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0402,
+      "pctChangeAtScreen": -3.9888,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-22T15:55:12.282801+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "SMCI_2026-10-21": {
       "symbol": "SMCI",
       "date": "2026-10-21",
@@ -1145,8 +1197,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T15:28:56.149569+00:00",
-    "lastCheckEt": "2026-10-22T11:28:56.149287-04:00",
+    "lastCheckAt": "2026-10-22T15:54:56.283798+00:00",
+    "lastCheckEt": "2026-10-22T11:54:56.283422-04:00",
     "status": "ok"
   }
 }
