@@ -11,7 +11,7 @@
       "allocDollar": 5000.38,
       "stopPrice": 336.5609,
       "targetPrice": 360.84880000000004,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0006,
       "pctChangeAtScreen": 5.1743,
@@ -26,7 +26,12 @@
       "lastPrice": 357.0075,
       "lastPriceAt": "2026-10-22T19:52:00Z",
       "unrealizedDollar": 140.52,
-      "unrealizedPct": 2.8929
+      "unrealizedPct": 2.8929,
+      "exitTime": "2026-10-22T19:56:00.012398+00:00",
+      "exitPrice": 357.49,
+      "exitReason": "eod",
+      "returnPct": 3.032,
+      "dollarPnl": 147.28
     },
     "FCFS_2026-10-22": {
       "symbol": "FCFS",
@@ -39,7 +44,7 @@
       "allocDollar": 5000.39,
       "stopPrice": 194.46400000000003,
       "targetPrice": 181.248,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0006,
       "pctChangeAtScreen": -13.3057,
@@ -54,7 +59,12 @@
       "lastPrice": 185.885,
       "lastPriceAt": "2026-10-22T19:52:00Z",
       "unrealizedDollar": 75.79,
-      "unrealizedPct": 1.544
+      "unrealizedPct": 1.544,
+      "exitTime": "2026-10-22T19:56:00.383212+00:00",
+      "exitPrice": 185.295,
+      "exitReason": "eod",
+      "returnPct": 1.8565,
+      "dollarPnl": 91.13
     },
     "TSLQ_2026-10-22": {
       "symbol": "TSLQ",
@@ -967,8 +977,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T19:53:50.273610+00:00",
-    "lastCheckEt": "2026-10-22T15:53:50.273146-04:00",
+    "lastCheckAt": "2026-10-22T19:55:59.770026+00:00",
+    "lastCheckEt": "2026-10-22T15:55:59.769548-04:00",
     "status": "ok"
   }
 }
