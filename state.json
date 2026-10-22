@@ -25,10 +25,10 @@
       "optionEntryTime": "2026-10-22T17:44:24.192743+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 185.325,
-      "lastPriceAt": "2026-10-22T18:10:00Z",
-      "unrealizedDollar": 2.94,
-      "unrealizedPct": 0.0567
+      "lastPrice": 185.64,
+      "lastPriceAt": "2026-10-22T18:19:00Z",
+      "unrealizedDollar": 11.76,
+      "unrealizedPct": 0.2268
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -55,10 +55,10 @@
       "optionEntryTime": "2026-10-22T17:12:57.998283+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 348.58,
-      "lastPriceAt": "2026-10-22T18:10:00Z",
-      "unrealizedDollar": 22.54,
-      "unrealizedPct": 0.464
+      "lastPrice": 348.45,
+      "lastPriceAt": "2026-10-22T18:19:00Z",
+      "unrealizedDollar": 20.72,
+      "unrealizedPct": 0.4265
     },
     "FCFS_2026-10-22": {
       "symbol": "FCFS",
@@ -123,10 +123,10 @@
       "optionEntryTime": "2026-10-22T15:55:12.282801+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 16.7508,
-      "lastPriceAt": "2026-10-22T18:10:00Z",
-      "unrealizedDollar": -119.88,
-      "unrealizedPct": -2.3869
+      "lastPrice": 16.67,
+      "lastPriceAt": "2026-10-22T18:19:00Z",
+      "unrealizedDollar": -95.08,
+      "unrealizedPct": -1.893
     },
     "SMCI_2026-10-21": {
       "symbol": "SMCI",
@@ -1273,8 +1273,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T18:11:32.690556+00:00",
-    "lastCheckEt": "2026-10-22T14:11:32.690280-04:00",
+    "lastCheckAt": "2026-10-22T18:20:13.231267+00:00",
+    "lastCheckEt": "2026-10-22T14:20:13.230877-04:00",
     "status": "ok"
   }
 }
