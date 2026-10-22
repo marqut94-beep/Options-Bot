@@ -1,5 +1,23 @@
 {
   "trades": {
+    "HXL_2026-10-22": {
+      "symbol": "HXL",
+      "date": "2026-10-22",
+      "direction": "long",
+      "entryTime": "2026-10-22T19:21:00Z",
+      "entryPrice": 81.965,
+      "shares": 1,
+      "convictionScore": 0.4291,
+      "allocDollar": 82.18,
+      "stopPrice": 79.50605,
+      "targetPrice": 85.2436,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 4.5748,
+      "pctChangeAtScreen": 4.5872,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "METU_2026-10-22": {
       "symbol": "METU",
       "date": "2026-10-22",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -11.0943,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 23.48,
-      "lastPriceAt": "2026-10-22T19:20:00Z",
-      "unrealizedDollar": 0.16,
-      "unrealizedPct": 0.3396
+      "lastPrice": 23.425,
+      "lastPriceAt": "2026-10-22T19:21:00Z",
+      "unrealizedDollar": 0.27,
+      "unrealizedPct": 0.573
     },
     "FAST_2026-10-14": {
       "symbol": "FAST",
@@ -78,8 +96,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T19:21:12.807639+00:00",
-    "lastCheckEt": "2026-10-22T15:21:12.807500-04:00",
+    "lastCheckAt": "2026-10-22T19:22:12.741120+00:00",
+    "lastCheckEt": "2026-10-22T15:22:12.740985-04:00",
     "status": "ok"
   }
 }
