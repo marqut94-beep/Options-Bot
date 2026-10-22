@@ -54,5 +54,21 @@
     "direction": "long",
     "stockEntryPrice": 81.965,
     "allocDollar": 82.18
+  },
+  {
+    "id": "HXL_2026-10-22_exit_close_all_2026-10-22T19:55:12.995205+00:00",
+    "tradeId": "HXL_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T19:55:12.995211+00:00",
+    "symbol": "HXL",
+    "reason": "eod"
+  },
+  {
+    "id": "METU_2026-10-22_exit_close_all_2026-10-22T19:55:13.244280+00:00",
+    "tradeId": "METU_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T19:55:13.244284+00:00",
+    "symbol": "METU",
+    "reason": "eod"
   }
 ]
