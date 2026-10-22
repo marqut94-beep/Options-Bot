@@ -13,7 +13,7 @@
       "allocDollar": 5193.13,
       "stopPrice": 192.0435,
       "targetPrice": 178.992,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.309,
       "pctChangeAtScreen": -13.9961,
@@ -28,7 +28,15 @@
       "lastPrice": 190.2,
       "lastPriceAt": "2026-10-22T16:05:00Z",
       "unrealizedDollar": -105.0,
-      "unrealizedPct": -2.0113
+      "unrealizedPct": -2.0113,
+      "exitTime": "2026-10-22T16:23:34.863786+00:00",
+      "exitPrice": 192.0435,
+      "exitReason": "stop",
+      "returnPct": -3.4055,
+      "fillBasis": "level",
+      "grossDollarPnl": -156.62,
+      "costDollar": 21.17,
+      "dollarPnl": -177.79
     },
     "TSLQ_2026-10-22": {
       "symbol": "TSLQ",
@@ -55,10 +63,10 @@
       "optionEntryTime": "2026-10-22T15:55:12.282801+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 16.6289,
-      "lastPriceAt": "2026-10-22T16:05:00Z",
-      "unrealizedDollar": -82.46,
-      "unrealizedPct": -1.6418
+      "lastPrice": 16.505,
+      "lastPriceAt": "2026-10-22T16:22:00Z",
+      "unrealizedDollar": -44.42,
+      "unrealizedPct": -0.8845
     },
     "SMCI_2026-10-21": {
       "symbol": "SMCI",
@@ -1205,8 +1213,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T16:06:36.656516+00:00",
-    "lastCheckEt": "2026-10-22T12:06:36.656254-04:00",
+    "lastCheckAt": "2026-10-22T16:23:34.607859+00:00",
+    "lastCheckEt": "2026-10-22T12:23:34.607544-04:00",
     "status": "ok"
   }
 }

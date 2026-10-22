@@ -551,5 +551,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 16.3603,
     "allocDollar": 5025.14
+  },
+  {
+    "id": "FCFS_2026-10-22_exit_close_all_2026-10-22T16:23:34.863801+00:00",
+    "tradeId": "FCFS_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T16:23:34.863804+00:00",
+    "symbol": "FCFS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
