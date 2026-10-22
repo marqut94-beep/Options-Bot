@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-22T17:12:14.841381+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 348.37,
-      "lastPriceAt": "2026-10-22T18:08:00Z",
-      "unrealizedDollar": 19.6,
-      "unrealizedPct": 0.4035
+      "lastPrice": 348.38,
+      "lastPriceAt": "2026-10-22T18:09:00Z",
+      "unrealizedDollar": 19.74,
+      "unrealizedPct": 0.4064
     },
     "FCFS_2026-10-22": {
       "symbol": "FCFS",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-22T15:52:12.242158+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 185.97,
-      "lastPriceAt": "2026-10-22T18:07:00Z",
-      "unrealizedDollar": 73.58,
-      "unrealizedPct": 1.4989
+      "lastPrice": 186.235,
+      "lastPriceAt": "2026-10-22T18:09:00Z",
+      "unrealizedDollar": 66.69,
+      "unrealizedPct": 1.3586
     },
     "TSLQ_2026-10-22": {
       "symbol": "TSLQ",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-22T15:48:05.306334+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 16.78,
-      "lastPriceAt": "2026-10-22T18:08:00Z",
-      "unrealizedDollar": -133.11,
-      "unrealizedPct": -2.6614
+      "lastPrice": 16.76,
+      "lastPriceAt": "2026-10-22T18:09:00Z",
+      "unrealizedDollar": -126.99,
+      "unrealizedPct": -2.539
     },
     "HXL_2026-10-22": {
       "symbol": "HXL",
@@ -962,8 +962,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T18:09:50.254142+00:00",
-    "lastCheckEt": "2026-10-22T14:09:50.253651-04:00",
+    "lastCheckAt": "2026-10-22T18:10:50.264200+00:00",
+    "lastCheckEt": "2026-10-22T14:10:50.263736-04:00",
     "status": "ok"
   }
 }
