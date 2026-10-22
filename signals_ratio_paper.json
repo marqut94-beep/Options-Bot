@@ -26,5 +26,15 @@
     "createdAt": "2026-10-14T19:55:50.033310+00:00",
     "symbol": "FAST",
     "reason": "eod"
+  },
+  {
+    "id": "METU_2026-10-22_entry_2026-10-22T18:44:05.375041+00:00",
+    "tradeId": "METU_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T18:44:05.375054+00:00",
+    "symbol": "METU",
+    "direction": "short",
+    "stockEntryPrice": 23.6199,
+    "allocDollar": 50.04
   }
 ]
