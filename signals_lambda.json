@@ -676,5 +676,27 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "SNA_2026-10-22_exit_close_all_2026-10-22T19:56:00.012430+00:00",
+    "tradeId": "SNA_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T19:56:00.012434+00:00",
+    "symbol": "SNA",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "FCFS_2026-10-22_exit_close_all_2026-10-22T19:56:00.383245+00:00",
+    "tradeId": "FCFS_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T19:56:00.383249+00:00",
+    "symbol": "FCFS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
