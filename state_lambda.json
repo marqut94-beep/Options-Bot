@@ -1,5 +1,29 @@
 {
   "trades": {
+    "FCFS_2026-10-22": {
+      "symbol": "FCFS",
+      "date": "2026-10-22",
+      "direction": "short",
+      "entryTime": "2026-10-22T15:51:00Z",
+      "entryPrice": 188.8,
+      "shares": 26,
+      "convictionScore": 0.0001,
+      "allocDollar": 5000.39,
+      "stopPrice": 194.46400000000003,
+      "targetPrice": 181.248,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0006,
+      "pctChangeAtScreen": -13.3057,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-22T15:52:12.242158+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "TSLQ_2026-10-22": {
       "symbol": "TSLQ",
       "date": "2026-10-22",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-22T15:48:05.306334+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 16.39,
-      "lastPriceAt": "2026-10-22T15:49:00Z",
-      "unrealizedDollar": -13.77,
-      "unrealizedPct": -0.2753
+      "lastPrice": 16.35,
+      "lastPriceAt": "2026-10-22T15:50:00Z",
+      "unrealizedDollar": -1.53,
+      "unrealizedPct": -0.0306
     },
     "HXL_2026-10-22": {
       "symbol": "HXL",
@@ -906,8 +930,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T15:50:50.344486+00:00",
-    "lastCheckEt": "2026-10-22T11:50:50.323850-04:00",
+    "lastCheckAt": "2026-10-22T15:51:50.284230+00:00",
+    "lastCheckEt": "2026-10-22T11:51:50.275689-04:00",
     "status": "ok"
   }
 }
