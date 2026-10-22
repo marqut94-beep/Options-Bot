@@ -651,5 +651,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 188.8,
     "allocDollar": 5000.39
+  },
+  {
+    "id": "SNA_2026-10-22_entry_2026-10-22T17:12:14.841405+00:00",
+    "tradeId": "SNA_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T17:12:14.841408+00:00",
+    "symbol": "SNA",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 346.97,
+    "allocDollar": 5000.38
   }
 ]
