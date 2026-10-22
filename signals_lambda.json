@@ -623,5 +623,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "TSLQ_2026-10-22_entry_2026-10-22T15:48:05.306359+00:00",
+    "tradeId": "TSLQ_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T15:48:05.306363+00:00",
+    "symbol": "TSLQ",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 16.345,
+    "allocDollar": 5000.3
   }
 ]
