@@ -1,5 +1,23 @@
 {
   "trades": {
+    "METU_2026-10-22": {
+      "symbol": "METU",
+      "date": "2026-10-22",
+      "direction": "short",
+      "entryTime": "2026-10-22T18:42:00Z",
+      "entryPrice": 23.56,
+      "shares": 2,
+      "convictionScore": 0.0005,
+      "allocDollar": 50.04,
+      "stopPrice": 24.2668,
+      "targetPrice": 22.6176,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0028,
+      "pctChangeAtScreen": -11.0943,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "FAST_2026-10-14": {
       "symbol": "FAST",
       "date": "2026-10-14",
@@ -56,8 +74,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T18:42:12.781622+00:00",
-    "lastCheckEt": "2026-10-22T14:42:12.781452-04:00",
+    "lastCheckAt": "2026-10-22T18:43:12.800538+00:00",
+    "lastCheckEt": "2026-10-22T14:43:12.800380-04:00",
     "status": "ok"
   }
 }
