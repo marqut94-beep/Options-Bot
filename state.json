@@ -1,5 +1,31 @@
 {
   "trades": {
+    "SNA_2026-10-22": {
+      "symbol": "SNA",
+      "date": "2026-10-22",
+      "direction": "long",
+      "entryTime": "2026-10-22T17:11:00Z",
+      "entryPrice": 346.97,
+      "shares": 14,
+      "signalTime": "2026-10-22T13:35:00Z",
+      "signalAgeMinutes": 218.0,
+      "convictionScore": 0.0001,
+      "allocDollar": 5000.38,
+      "stopPrice": 336.5609,
+      "targetPrice": 360.84880000000004,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0006,
+      "pctChangeAtScreen": 5.1743,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-22T17:12:57.998283+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "FCFS_2026-10-22": {
       "symbol": "FCFS",
       "date": "2026-10-22",
@@ -63,10 +89,10 @@
       "optionEntryTime": "2026-10-22T15:55:12.282801+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 16.63,
-      "lastPriceAt": "2026-10-22T16:57:00Z",
-      "unrealizedDollar": -82.8,
-      "unrealizedPct": -1.6485
+      "lastPrice": 16.75,
+      "lastPriceAt": "2026-10-22T17:11:00Z",
+      "unrealizedDollar": -119.64,
+      "unrealizedPct": -2.382
     },
     "SMCI_2026-10-21": {
       "symbol": "SMCI",
@@ -1213,8 +1239,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T16:58:25.995531+00:00",
-    "lastCheckEt": "2026-10-22T12:58:25.995256-04:00",
+    "lastCheckAt": "2026-10-22T17:12:37.685067+00:00",
+    "lastCheckEt": "2026-10-22T13:12:37.684707-04:00",
     "status": "ok"
   }
 }
