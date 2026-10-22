@@ -637,5 +637,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 16.345,
     "allocDollar": 5000.3
+  },
+  {
+    "id": "FCFS_2026-10-22_entry_2026-10-22T15:52:12.242182+00:00",
+    "tradeId": "FCFS_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T15:52:12.242186+00:00",
+    "symbol": "FCFS",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 188.8,
+    "allocDollar": 5000.39
   }
 ]
