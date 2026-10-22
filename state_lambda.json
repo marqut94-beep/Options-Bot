@@ -6,21 +6,21 @@
       "direction": "long",
       "entryTime": "2026-10-22T14:00:00Z",
       "entryPrice": 82,
-      "shares": 61,
-      "convictionScore": 0.0033,
-      "allocDollar": 5025.06,
+      "shares": 63,
+      "convictionScore": 0.0179,
+      "allocDollar": 5134.2,
       "stopPrice": 79.53999999999999,
       "targetPrice": 85.28,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0401,
+      "relVol": 2.2147,
       "pctChangeAtScreen": 4.6319,
       "dataSource": "alpaca-sip",
       "optionSymbol": null,
       "optionStrike": null,
       "optionExpiration": null,
       "optionEntryPrice": null,
-      "optionEntryTime": "2026-10-22T14:01:08.620003+00:00",
+      "optionEntryTime": "2026-10-22T14:01:36.663748+00:00",
       "optionContracts": null,
       "optionPricedVia": null
     },
@@ -869,8 +869,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T14:00:17.324279+00:00",
-    "lastCheckEt": "2026-10-22T10:00:17.323823-04:00",
+    "lastCheckAt": "2026-10-22T14:00:50.326392+00:00",
+    "lastCheckEt": "2026-10-22T10:00:50.325982-04:00",
     "status": "ok"
   }
 }
