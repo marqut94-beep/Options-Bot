@@ -44,5 +44,15 @@
     "direction": "short",
     "stockEntryPrice": 23.56,
     "allocDollar": 50.04
+  },
+  {
+    "id": "HXL_2026-10-22_entry_2026-10-22T19:22:34.731474+00:00",
+    "tradeId": "HXL_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T19:22:34.731486+00:00",
+    "symbol": "HXL",
+    "direction": "long",
+    "stockEntryPrice": 81.965,
+    "allocDollar": 82.18
   }
 ]
