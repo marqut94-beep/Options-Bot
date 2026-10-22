@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-22T14:01:36.663748+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 82,
+      "lastPriceAt": "2026-10-22T14:00:00Z",
+      "unrealizedDollar": 0,
+      "unrealizedPct": 0.0
     },
     "UAL_2026-10-21": {
       "symbol": "UAL",
@@ -869,8 +873,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T14:00:50.326392+00:00",
-    "lastCheckEt": "2026-10-22T10:00:50.325982-04:00",
+    "lastCheckAt": "2026-10-22T14:01:50.256157+00:00",
+    "lastCheckEt": "2026-10-22T10:01:50.255680-04:00",
     "status": "ok"
   }
 }
