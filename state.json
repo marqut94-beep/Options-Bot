@@ -25,10 +25,10 @@
       "optionEntryTime": "2026-10-22T17:44:24.192743+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 185.64,
-      "lastPriceAt": "2026-10-22T18:19:00Z",
-      "unrealizedDollar": 11.76,
-      "unrealizedPct": 0.2268
+      "lastPrice": 186.2776,
+      "lastPriceAt": "2026-10-22T19:02:00Z",
+      "unrealizedDollar": 29.61,
+      "unrealizedPct": 0.571
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -55,10 +55,10 @@
       "optionEntryTime": "2026-10-22T17:12:57.998283+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 348.45,
-      "lastPriceAt": "2026-10-22T18:19:00Z",
-      "unrealizedDollar": 20.72,
-      "unrealizedPct": 0.4265
+      "lastPrice": 350.13,
+      "lastPriceAt": "2026-10-22T19:02:00Z",
+      "unrealizedDollar": 44.24,
+      "unrealizedPct": 0.9107
     },
     "FCFS_2026-10-22": {
       "symbol": "FCFS",
@@ -111,7 +111,7 @@
       "allocDollar": 5025.14,
       "stopPrice": 16.851108999999997,
       "targetPrice": 15.705887999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0402,
       "pctChangeAtScreen": -3.9888,
@@ -126,7 +126,15 @@
       "lastPrice": 16.67,
       "lastPriceAt": "2026-10-22T18:19:00Z",
       "unrealizedDollar": -95.08,
-      "unrealizedPct": -1.893
+      "unrealizedPct": -1.893,
+      "exitTime": "2026-10-22T19:03:44.107304+00:00",
+      "exitPrice": 16.86,
+      "exitReason": "stop",
+      "returnPct": -3.5157,
+      "fillBasis": "gap_open",
+      "grossDollarPnl": -153.41,
+      "costDollar": 23.17,
+      "dollarPnl": -176.58
     },
     "SMCI_2026-10-21": {
       "symbol": "SMCI",
@@ -1273,8 +1281,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T18:20:13.231267+00:00",
-    "lastCheckEt": "2026-10-22T14:20:13.230877-04:00",
+    "lastCheckAt": "2026-10-22T19:03:43.610553+00:00",
+    "lastCheckEt": "2026-10-22T15:03:43.610143-04:00",
     "status": "ok"
   }
 }
