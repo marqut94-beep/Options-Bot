@@ -665,5 +665,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 346.97,
     "allocDollar": 5000.38
+  },
+  {
+    "id": "TSLQ_2026-10-22_exit_close_all_2026-10-22T18:29:50.876176+00:00",
+    "tradeId": "TSLQ_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T18:29:50.876180+00:00",
+    "symbol": "TSLQ",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
