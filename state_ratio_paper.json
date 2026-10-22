@@ -11,7 +11,7 @@
       "allocDollar": 82.1,
       "stopPrice": 79.50605,
       "targetPrice": 85.2436,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 4.5677,
       "pctChangeAtScreen": 4.7786,
@@ -20,7 +20,12 @@
       "lastPrice": 81.84,
       "lastPriceAt": "2026-10-22T19:53:00Z",
       "unrealizedDollar": -0.12,
-      "unrealizedPct": -0.1525
+      "unrealizedPct": -0.1525,
+      "exitTime": "2026-10-22T19:55:49.982511+00:00",
+      "exitPrice": 81.71,
+      "exitReason": "eod",
+      "returnPct": -0.3111,
+      "dollarPnl": -0.26
     },
     "METU_2026-10-22": {
       "symbol": "METU",
@@ -33,7 +38,7 @@
       "allocDollar": 50.04,
       "stopPrice": 24.328497000000002,
       "targetPrice": 22.675104,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0028,
       "pctChangeAtScreen": -11.0943,
@@ -42,7 +47,12 @@
       "lastPrice": 23.84,
       "lastPriceAt": "2026-10-22T19:53:00Z",
       "unrealizedDollar": -0.44,
-      "unrealizedPct": -0.9318
+      "unrealizedPct": -0.9318,
+      "exitTime": "2026-10-22T19:55:50.206344+00:00",
+      "exitPrice": 23.9805,
+      "exitReason": "eod",
+      "returnPct": -1.5267,
+      "dollarPnl": -0.72
     },
     "FAST_2026-10-14": {
       "symbol": "FAST",
@@ -100,8 +110,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T19:54:49.831827+00:00",
-    "lastCheckEt": "2026-10-22T15:54:49.831648-04:00",
+    "lastCheckAt": "2026-10-22T19:55:49.810035+00:00",
+    "lastCheckEt": "2026-10-22T15:55:49.809883-04:00",
     "status": "ok"
   }
 }
