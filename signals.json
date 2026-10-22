@@ -576,5 +576,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 346.97,
     "allocDollar": 5000.38
+  },
+  {
+    "id": "WCN_2026-10-22_entry_2026-10-22T17:44:24.192757+00:00",
+    "tradeId": "WCN_2026-10-22",
+    "action": "entry",
+    "createdAt": "2026-10-22T17:44:24.192759+00:00",
+    "symbol": "WCN",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 185.22,
+    "allocDollar": 5126.99
   }
 ]
