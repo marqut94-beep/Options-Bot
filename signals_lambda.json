@@ -612,5 +612,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 82,
     "allocDollar": 5134.2
+  },
+  {
+    "id": "HXL_2026-10-22_exit_close_all_2026-10-22T14:09:10.321212+00:00",
+    "tradeId": "HXL_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T14:09:10.321216+00:00",
+    "symbol": "HXL",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
