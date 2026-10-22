@@ -13,7 +13,7 @@
       "allocDollar": 5126.99,
       "stopPrice": 179.6634,
       "targetPrice": 192.6288,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.2032,
       "pctChangeAtScreen": 11.3469,
@@ -28,7 +28,14 @@
       "lastPrice": 185.54,
       "lastPriceAt": "2026-10-22T19:34:00Z",
       "unrealizedDollar": 8.96,
-      "unrealizedPct": 0.1728
+      "unrealizedPct": 0.1728,
+      "grossDollarPnl": -10.92,
+      "costDollar": 20.7,
+      "exitTime": "2026-10-22T20:00:29.330492+00:00",
+      "exitPrice": 184.83,
+      "exitReason": "eod",
+      "returnPct": -0.6097,
+      "dollarPnl": -31.62
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -43,7 +50,7 @@
       "allocDollar": 5000.38,
       "stopPrice": 336.5609,
       "targetPrice": 360.84880000000004,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0006,
       "pctChangeAtScreen": 5.1743,
@@ -58,7 +65,14 @@
       "lastPrice": 354.075,
       "lastPriceAt": "2026-10-22T19:34:00Z",
       "unrealizedDollar": 99.47,
-      "unrealizedPct": 2.0477
+      "unrealizedPct": 2.0477,
+      "grossDollarPnl": 132.86,
+      "costDollar": 19.55,
+      "exitTime": "2026-10-22T20:00:29.582566+00:00",
+      "exitPrice": 356.46,
+      "exitReason": "eod",
+      "returnPct": 2.3326,
+      "dollarPnl": 113.31
     },
     "FCFS_2026-10-22": {
       "symbol": "FCFS",
@@ -1281,8 +1295,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-22T19:35:26.798439+00:00",
-    "lastCheckEt": "2026-10-22T15:35:26.798145-04:00",
+    "lastCheckAt": "2026-10-22T20:00:29.143726+00:00",
+    "lastCheckEt": "2026-10-22T16:00:29.143373-04:00",
     "status": "ok"
   }
 }

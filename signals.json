@@ -601,5 +601,27 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "WCN_2026-10-22_exit_close_all_2026-10-22T20:00:29.330504+00:00",
+    "tradeId": "WCN_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T20:00:29.330507+00:00",
+    "symbol": "WCN",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "SNA_2026-10-22_exit_close_all_2026-10-22T20:00:29.582579+00:00",
+    "tradeId": "SNA_2026-10-22",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-22T20:00:29.582582+00:00",
+    "symbol": "SNA",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
