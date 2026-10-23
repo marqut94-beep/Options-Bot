@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SLM_2026-10-23": {
+      "symbol": "SLM",
+      "date": "2026-10-23",
+      "direction": "short",
+      "entryTime": "2026-10-23T17:01:00Z",
+      "entryPrice": 19.495,
+      "shares": 311,
+      "convictionScore": 0.1424,
+      "allocDollar": 6068.37,
+      "stopPrice": 20.07985,
+      "targetPrice": 18.7152,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.7094,
+      "pctChangeAtScreen": -5.7665,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-23T17:02:14.969603+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "NVS_2026-10-23": {
       "symbol": "NVS",
       "date": "2026-10-23",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-23T16:56:24.847683+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 151.01,
-      "lastPriceAt": "2026-10-23T16:59:00Z",
-      "unrealizedDollar": -2.31,
-      "unrealizedPct": -0.0464
+      "lastPrice": 151,
+      "lastPriceAt": "2026-10-23T17:00:00Z",
+      "unrealizedDollar": -1.98,
+      "unrealizedPct": -0.0398
     },
     "RNG_2026-10-23": {
       "symbol": "RNG",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-10-23T16:46:26.622735+00:00",
       "optionContracts": 50,
       "optionPricedVia": "trade",
-      "lastPrice": 84.96,
-      "lastPriceAt": "2026-10-23T16:59:00Z",
-      "unrealizedDollar": -21.24,
-      "unrealizedPct": -0.4255
+      "lastPrice": 84.99,
+      "lastPriceAt": "2026-10-23T17:00:00Z",
+      "unrealizedDollar": -23.01,
+      "unrealizedPct": -0.461
     },
     "CCI_2026-10-23": {
       "symbol": "CCI",
@@ -79,10 +103,10 @@
       "optionEntryTime": "2026-10-23T16:24:20.237136+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 86.505,
-      "lastPriceAt": "2026-10-23T16:59:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "lastPrice": 86.68,
+      "lastPriceAt": "2026-10-23T17:00:00Z",
+      "unrealizedDollar": -10.15,
+      "unrealizedPct": -0.2023
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -1061,8 +1085,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T17:00:50.337081+00:00",
-    "lastCheckEt": "2026-10-23T13:00:50.336590-04:00",
+    "lastCheckAt": "2026-10-23T17:01:24.156607+00:00",
+    "lastCheckEt": "2026-10-23T13:01:24.156107-04:00",
     "status": "ok"
   }
 }
