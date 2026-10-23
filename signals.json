@@ -651,5 +651,33 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 84.33,
     "allocDollar": 5032.43
+  },
+  {
+    "id": "SLM_2026-10-23_entry_2026-10-23T17:09:39.115397+00:00",
+    "tradeId": "SLM_2026-10-23",
+    "action": "entry",
+    "createdAt": "2026-10-23T17:09:39.115399+00:00",
+    "symbol": "SLM",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 19.39,
+    "allocDollar": 6234.99
+  },
+  {
+    "id": "NVS_2026-10-23_entry_2026-10-23T17:09:39.115409+00:00",
+    "tradeId": "NVS_2026-10-23",
+    "action": "entry",
+    "createdAt": "2026-10-23T17:09:39.115410+00:00",
+    "symbol": "NVS",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 150.41,
+    "allocDollar": 5146.31
   }
 ]
