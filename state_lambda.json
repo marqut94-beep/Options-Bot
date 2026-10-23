@@ -20,9 +20,13 @@
       "optionStrike": "85",
       "optionExpiration": "2026-10-23",
       "optionEntryPrice": 1,
-      "optionEntryTime": "2026-10-23T16:46:59.819293+00:00",
+      "optionEntryTime": "2026-10-23T16:46:26.622735+00:00",
       "optionContracts": 50,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 84.6,
+      "lastPriceAt": "2026-10-23T16:45:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "CCI_2026-10-23": {
       "symbol": "CCI",
@@ -1029,8 +1033,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T16:46:28.126445+00:00",
-    "lastCheckEt": "2026-10-23T12:46:28.125973-04:00",
+    "lastCheckAt": "2026-10-23T16:46:50.356384+00:00",
+    "lastCheckEt": "2026-10-23T12:46:50.355929-04:00",
     "status": "ok"
   }
 }
