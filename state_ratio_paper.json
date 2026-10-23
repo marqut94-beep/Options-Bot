@@ -11,7 +11,7 @@
       "allocDollar": 59.9,
       "stopPrice": 20.07985,
       "targetPrice": 18.7152,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.7918,
       "pctChangeAtScreen": -6.3191,
@@ -20,7 +20,12 @@
       "lastPrice": 19.62,
       "lastPriceAt": "2026-10-23T19:53:00Z",
       "unrealizedDollar": -0.38,
-      "unrealizedPct": -0.6412
+      "unrealizedPct": -0.6412,
+      "exitTime": "2026-10-23T19:55:50.063622+00:00",
+      "exitPrice": 19.555,
+      "exitReason": "eod",
+      "returnPct": -0.3078,
+      "dollarPnl": -0.18
     },
     "HXL_2026-10-22": {
       "symbol": "HXL",
@@ -132,8 +137,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T19:54:49.868735+00:00",
-    "lastCheckEt": "2026-10-23T15:54:49.868556-04:00",
+    "lastCheckAt": "2026-10-23T19:55:49.874500+00:00",
+    "lastCheckEt": "2026-10-23T15:55:49.874323-04:00",
     "status": "ok"
   }
 }
