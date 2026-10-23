@@ -20,7 +20,7 @@
       "optionStrike": "85",
       "optionExpiration": "2026-10-23",
       "optionEntryPrice": 1,
-      "optionEntryTime": "2026-10-23T16:46:26.622735+00:00",
+      "optionEntryTime": "2026-10-23T16:46:59.819293+00:00",
       "optionContracts": 50,
       "optionPricedVia": "trade"
     },
@@ -47,10 +47,10 @@
       "optionEntryTime": "2026-10-23T16:24:20.237136+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 86.02,
-      "lastPriceAt": "2026-10-23T16:44:00Z",
-      "unrealizedDollar": 28.13,
-      "unrealizedPct": 0.5607
+      "lastPrice": 86.12,
+      "lastPriceAt": "2026-10-23T16:45:00Z",
+      "unrealizedDollar": 22.33,
+      "unrealizedPct": 0.4451
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -1029,8 +1029,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T16:45:50.247447+00:00",
-    "lastCheckEt": "2026-10-23T12:45:50.246966-04:00",
+    "lastCheckAt": "2026-10-23T16:46:28.126445+00:00",
+    "lastCheckEt": "2026-10-23T12:46:28.125973-04:00",
     "status": "ok"
   }
 }
