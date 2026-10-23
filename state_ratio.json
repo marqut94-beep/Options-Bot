@@ -1,5 +1,23 @@
 {
   "trades": {
+    "SLM_2026-10-23": {
+      "symbol": "SLM",
+      "date": "2026-10-23",
+      "direction": "short",
+      "entryTime": "2026-10-23T17:01:00Z",
+      "entryPrice": 19.495,
+      "shares": 3,
+      "convictionScore": 0.1264,
+      "allocDollar": 59.48,
+      "stopPrice": 20.07985,
+      "targetPrice": 18.7152,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.7583,
+      "pctChangeAtScreen": -5.7665,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "HXL_2026-10-22": {
       "symbol": "HXL",
       "date": "2026-10-22",
@@ -110,8 +128,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T17:00:12.847206+00:00",
-    "lastCheckEt": "2026-10-23T13:00:12.847015-04:00",
+    "lastCheckAt": "2026-10-23T17:01:12.739844+00:00",
+    "lastCheckEt": "2026-10-23T13:01:12.739637-04:00",
     "status": "ok"
   }
 }
