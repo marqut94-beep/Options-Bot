@@ -679,5 +679,49 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 150.41,
     "allocDollar": 5146.31
+  },
+  {
+    "id": "SLM_2026-10-23_exit_close_all_2026-10-23T19:59:24.773178+00:00",
+    "tradeId": "SLM_2026-10-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-23T19:59:24.773181+00:00",
+    "symbol": "SLM",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "NVS_2026-10-23_exit_close_all_2026-10-23T19:59:25.000581+00:00",
+    "tradeId": "NVS_2026-10-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-23T19:59:25.000585+00:00",
+    "symbol": "NVS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "RNG_2026-10-23_exit_close_all_2026-10-23T19:59:25.420773+00:00",
+    "tradeId": "RNG_2026-10-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-23T19:59:25.420775+00:00",
+    "symbol": "RNG",
+    "optionSymbol": "RNG261023P00084000",
+    "contracts": 201,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "CCI_2026-10-23_exit_close_all_2026-10-23T19:59:25.649069+00:00",
+    "tradeId": "CCI_2026-10-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-23T19:59:25.649072+00:00",
+    "symbol": "CCI",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
