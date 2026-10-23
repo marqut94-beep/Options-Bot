@@ -24,7 +24,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-23T17:09:39.115387+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 19.255,
+      "lastPriceAt": "2026-10-23T17:35:00Z",
+      "unrealizedDollar": 43.47,
+      "unrealizedPct": 0.6962
     },
     "NVS_2026-10-23": {
       "symbol": "NVS",
@@ -50,7 +54,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-23T17:09:39.115406+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 151.03,
+      "lastPriceAt": "2026-10-23T17:35:00Z",
+      "unrealizedDollar": -21.08,
+      "unrealizedPct": -0.4122
     },
     "RNG_2026-10-23": {
       "symbol": "RNG",
@@ -77,10 +85,10 @@
       "optionEntryTime": "2026-10-23T16:48:48.863838+00:00",
       "optionContracts": 201,
       "optionPricedVia": "trade",
-      "lastPrice": 84.91,
-      "lastPriceAt": "2026-10-23T17:07:00Z",
-      "unrealizedDollar": -34.8,
-      "unrealizedPct": -0.6878
+      "lastPrice": 85.17,
+      "lastPriceAt": "2026-10-23T17:35:00Z",
+      "unrealizedDollar": -50.4,
+      "unrealizedPct": -0.9961
     },
     "CCI_2026-10-23": {
       "symbol": "CCI",
@@ -107,10 +115,10 @@
       "optionEntryTime": "2026-10-23T16:33:01.937441+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 86.475,
-      "lastPriceAt": "2026-10-23T17:07:00Z",
-      "unrealizedDollar": -31.86,
-      "unrealizedPct": -0.6284
+      "lastPrice": 86.635,
+      "lastPriceAt": "2026-10-23T17:35:00Z",
+      "unrealizedDollar": -41.3,
+      "unrealizedPct": -0.8146
     },
     "WCN_2026-10-22": {
       "symbol": "WCN",
@@ -1407,8 +1415,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T17:08:57.872331+00:00",
-    "lastCheckEt": "2026-10-23T13:08:57.872031-04:00",
+    "lastCheckAt": "2026-10-23T17:36:44.455047+00:00",
+    "lastCheckEt": "2026-10-23T13:36:44.454625-04:00",
     "status": "ok"
   }
 }
