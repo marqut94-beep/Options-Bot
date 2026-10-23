@@ -62,5 +62,15 @@
     "createdAt": "2026-10-22T19:55:50.206380+00:00",
     "symbol": "METU",
     "reason": "eod"
+  },
+  {
+    "id": "SLM_2026-10-23_entry_2026-10-23T17:02:35.264496+00:00",
+    "tradeId": "SLM_2026-10-23",
+    "action": "entry",
+    "createdAt": "2026-10-23T17:02:35.264507+00:00",
+    "symbol": "SLM",
+    "direction": "short",
+    "stockEntryPrice": 19.495,
+    "allocDollar": 59.9
   }
 ]
