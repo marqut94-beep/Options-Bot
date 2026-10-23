@@ -80,5 +80,13 @@
     "direction": "short",
     "stockEntryPrice": 19.495,
     "allocDollar": 59.48
+  },
+  {
+    "id": "SLM_2026-10-23_exit_close_all_2026-10-23T19:55:12.975542+00:00",
+    "tradeId": "SLM_2026-10-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-23T19:55:12.975547+00:00",
+    "symbol": "SLM",
+    "reason": "eod"
   }
 ]
