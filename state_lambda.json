@@ -24,7 +24,7 @@
       "optionContracts": null,
       "optionPricedVia": null,
       "lastPrice": 19.715,
-      "lastPriceAt": "2026-10-23T19:10:00Z",
+      "lastPriceAt": "2026-10-23T19:11:00Z",
       "unrealizedDollar": -69.08,
       "unrealizedPct": -1.1285
     },
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-23T16:56:24.847683+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 149.63,
-      "lastPriceAt": "2026-10-23T19:10:00Z",
-      "unrealizedDollar": 43.23,
-      "unrealizedPct": 0.8679
+      "lastPrice": 149.67,
+      "lastPriceAt": "2026-10-23T19:11:00Z",
+      "unrealizedDollar": 41.91,
+      "unrealizedPct": 0.8414
     },
     "RNG_2026-10-23": {
       "symbol": "RNG",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-23T16:46:26.622735+00:00",
       "optionContracts": 50,
       "optionPricedVia": "trade",
-      "lastPrice": 83.66,
-      "lastPriceAt": "2026-10-23T19:10:00Z",
-      "unrealizedDollar": 55.46,
-      "unrealizedPct": 1.1111
+      "lastPrice": 83.75,
+      "lastPriceAt": "2026-10-23T19:11:00Z",
+      "unrealizedDollar": 50.15,
+      "unrealizedPct": 1.0047
     },
     "CCI_2026-10-23": {
       "symbol": "CCI",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-10-23T16:24:20.237136+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 86.38,
-      "lastPriceAt": "2026-10-23T19:10:00Z",
-      "unrealizedDollar": 7.25,
-      "unrealizedPct": 0.1445
+      "lastPrice": 86.13,
+      "lastPriceAt": "2026-10-23T19:11:00Z",
+      "unrealizedDollar": 21.75,
+      "unrealizedPct": 0.4335
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -1089,8 +1089,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T19:11:50.353873+00:00",
-    "lastCheckEt": "2026-10-23T15:11:50.353324-04:00",
+    "lastCheckAt": "2026-10-23T19:12:50.210389+00:00",
+    "lastCheckEt": "2026-10-23T15:12:50.209845-04:00",
     "status": "ok"
   }
 }
