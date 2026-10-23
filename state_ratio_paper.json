@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -6.3191,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 19.681,
-      "lastPriceAt": "2026-10-23T19:44:00Z",
-      "unrealizedDollar": -0.56,
-      "unrealizedPct": -0.9541
+      "lastPrice": 19.675,
+      "lastPriceAt": "2026-10-23T19:45:00Z",
+      "unrealizedDollar": -0.54,
+      "unrealizedPct": -0.9233
     },
     "HXL_2026-10-22": {
       "symbol": "HXL",
@@ -132,8 +132,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T19:45:49.862507+00:00",
-    "lastCheckEt": "2026-10-23T15:45:49.862349-04:00",
+    "lastCheckAt": "2026-10-23T19:46:49.883676+00:00",
+    "lastCheckEt": "2026-10-23T15:46:49.883476-04:00",
     "status": "ok"
   }
 }
