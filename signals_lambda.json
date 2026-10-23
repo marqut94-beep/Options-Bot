@@ -698,5 +698,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "CCI_2026-10-23_entry_2026-10-23T16:24:20.237159+00:00",
+    "tradeId": "CCI_2026-10-23",
+    "action": "entry",
+    "createdAt": "2026-10-23T16:24:20.237162+00:00",
+    "symbol": "CCI",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 86.505,
+    "allocDollar": 5006.36
   }
 ]
