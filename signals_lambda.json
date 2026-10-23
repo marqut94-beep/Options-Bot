@@ -726,5 +726,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 150.94,
     "allocDollar": 5009.24
+  },
+  {
+    "id": "SLM_2026-10-23_entry_2026-10-23T17:02:14.969627+00:00",
+    "tradeId": "SLM_2026-10-23",
+    "action": "entry",
+    "createdAt": "2026-10-23T17:02:14.969630+00:00",
+    "symbol": "SLM",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 19.495,
+    "allocDollar": 6068.37
   }
 ]
