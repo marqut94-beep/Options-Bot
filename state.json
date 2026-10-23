@@ -1,5 +1,31 @@
 {
   "trades": {
+    "RNG_2026-10-23": {
+      "symbol": "RNG",
+      "date": "2026-10-23",
+      "direction": "short",
+      "entryTime": "2026-10-23T16:47:00Z",
+      "entryPrice": 84.33,
+      "shares": 60,
+      "signalTime": "2026-10-23T13:36:00Z",
+      "signalAgeMinutes": 192.8,
+      "convictionScore": 0.0043,
+      "allocDollar": 5032.43,
+      "stopPrice": 86.8599,
+      "targetPrice": 80.9568,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0519,
+      "pctChangeAtScreen": -7.3093,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "RNG261023P00084000",
+      "optionStrike": "84",
+      "optionExpiration": "2026-10-23",
+      "optionEntryPrice": 0.25,
+      "optionEntryTime": "2026-10-23T16:48:48.863838+00:00",
+      "optionContracts": 201,
+      "optionPricedVia": "trade"
+    },
     "CCI_2026-10-23": {
       "symbol": "CCI",
       "date": "2026-10-23",
@@ -24,7 +50,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-23T16:33:01.937441+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 86.285,
+      "lastPriceAt": "2026-10-23T16:47:00Z",
+      "unrealizedDollar": -20.65,
+      "unrealizedPct": -0.4073
     },
     "WCN_2026-10-22": {
       "symbol": "WCN",
@@ -1321,8 +1351,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T16:32:26.192820+00:00",
-    "lastCheckEt": "2026-10-23T12:32:26.192489-04:00",
+    "lastCheckAt": "2026-10-23T16:48:28.106288+00:00",
+    "lastCheckEt": "2026-10-23T12:48:28.105677-04:00",
     "status": "ok"
   }
 }
