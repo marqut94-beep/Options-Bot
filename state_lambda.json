@@ -1,5 +1,29 @@
 {
   "trades": {
+    "NVS_2026-10-23": {
+      "symbol": "NVS",
+      "date": "2026-10-23",
+      "direction": "short",
+      "entryTime": "2026-10-23T16:55:00Z",
+      "entryPrice": 150.94,
+      "shares": 33,
+      "convictionScore": 0.0012,
+      "allocDollar": 5009.24,
+      "stopPrice": 155.4682,
+      "targetPrice": 144.9024,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0148,
+      "pctChangeAtScreen": -3.2932,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-23T16:56:24.847683+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "RNG_2026-10-23": {
       "symbol": "RNG",
       "date": "2026-10-23",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-23T16:46:26.622735+00:00",
       "optionContracts": 50,
       "optionPricedVia": "trade",
-      "lastPrice": 85.1,
-      "lastPriceAt": "2026-10-23T16:53:00Z",
-      "unrealizedDollar": -29.5,
-      "unrealizedPct": -0.591
+      "lastPrice": 85.055,
+      "lastPriceAt": "2026-10-23T16:54:00Z",
+      "unrealizedDollar": -26.85,
+      "unrealizedPct": -0.5378
     },
     "CCI_2026-10-23": {
       "symbol": "CCI",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-10-23T16:24:20.237136+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 86.52,
-      "lastPriceAt": "2026-10-23T16:53:00Z",
-      "unrealizedDollar": -0.87,
-      "unrealizedPct": -0.0173
+      "lastPrice": 86.505,
+      "lastPriceAt": "2026-10-23T16:54:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -1033,8 +1057,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T16:54:16.859746+00:00",
-    "lastCheckEt": "2026-10-23T12:54:16.859262-04:00",
+    "lastCheckAt": "2026-10-23T16:55:50.331873+00:00",
+    "lastCheckEt": "2026-10-23T12:55:50.331378-04:00",
     "status": "ok"
   }
 }
