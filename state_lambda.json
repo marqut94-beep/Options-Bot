@@ -20,9 +20,13 @@
       "optionStrike": null,
       "optionExpiration": null,
       "optionEntryPrice": null,
-      "optionEntryTime": "2026-10-23T16:56:51.146955+00:00",
+      "optionEntryTime": "2026-10-23T16:56:24.847683+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 150.94,
+      "lastPriceAt": "2026-10-23T16:55:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "RNG_2026-10-23": {
       "symbol": "RNG",
@@ -1057,8 +1061,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T16:56:20.796087+00:00",
-    "lastCheckEt": "2026-10-23T12:56:20.795592-04:00",
+    "lastCheckAt": "2026-10-23T16:56:50.222234+00:00",
+    "lastCheckEt": "2026-10-23T12:56:50.221746-04:00",
     "status": "ok"
   }
 }
