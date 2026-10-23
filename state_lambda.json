@@ -1,5 +1,29 @@
 {
   "trades": {
+    "RNG_2026-10-23": {
+      "symbol": "RNG",
+      "date": "2026-10-23",
+      "direction": "short",
+      "entryTime": "2026-10-23T16:45:00Z",
+      "entryPrice": 84.6,
+      "shares": 59,
+      "convictionScore": 0.0028,
+      "allocDollar": 5021.1,
+      "stopPrice": 87.13799999999999,
+      "targetPrice": 81.216,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0338,
+      "pctChangeAtScreen": -7.0125,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "RNG261023P00085000",
+      "optionStrike": "85",
+      "optionExpiration": "2026-10-23",
+      "optionEntryPrice": 1,
+      "optionEntryTime": "2026-10-23T16:46:26.622735+00:00",
+      "optionContracts": 50,
+      "optionPricedVia": "trade"
+    },
     "CCI_2026-10-23": {
       "symbol": "CCI",
       "date": "2026-10-23",
@@ -1005,8 +1029,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T16:45:20.736718+00:00",
-    "lastCheckEt": "2026-10-23T12:45:20.724057-04:00",
+    "lastCheckAt": "2026-10-23T16:45:50.247447+00:00",
+    "lastCheckEt": "2026-10-23T12:45:50.246966-04:00",
     "status": "ok"
   }
 }
