@@ -712,5 +712,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 86.505,
     "allocDollar": 5006.36
+  },
+  {
+    "id": "RNG_2026-10-23_entry_2026-10-23T16:46:59.819316+00:00",
+    "tradeId": "RNG_2026-10-23",
+    "action": "entry",
+    "createdAt": "2026-10-23T16:46:59.819319+00:00",
+    "symbol": "RNG",
+    "direction": "short",
+    "optionSymbol": "RNG261023P00085000",
+    "contracts": 50,
+    "optionEntryPriceAtScreen": 1,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 84.6,
+    "allocDollar": 5021.1
   }
 ]
