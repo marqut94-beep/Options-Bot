@@ -11,7 +11,7 @@
       "allocDollar": 6112.51,
       "stopPrice": 20.07985,
       "targetPrice": 18.7152,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.78,
       "pctChangeAtScreen": -6.3191,
@@ -26,7 +26,12 @@
       "lastPrice": 19.62,
       "lastPriceAt": "2026-10-23T19:53:00Z",
       "unrealizedDollar": -39.25,
-      "unrealizedPct": -0.6412
+      "unrealizedPct": -0.6412,
+      "exitTime": "2026-10-23T19:55:50.560696+00:00",
+      "exitPrice": 19.555,
+      "exitReason": "eod",
+      "returnPct": -0.3078,
+      "dollarPnl": -18.84
     },
     "NVS_2026-10-23": {
       "symbol": "NVS",
@@ -39,7 +44,7 @@
       "allocDollar": 5009.24,
       "stopPrice": 155.4682,
       "targetPrice": 144.9024,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0148,
       "pctChangeAtScreen": -3.2932,
@@ -54,7 +59,12 @@
       "lastPrice": 151.01,
       "lastPriceAt": "2026-10-23T19:53:00Z",
       "unrealizedDollar": -2.31,
-      "unrealizedPct": -0.0464
+      "unrealizedPct": -0.0464,
+      "exitTime": "2026-10-23T19:55:50.754879+00:00",
+      "exitPrice": 150.895,
+      "exitReason": "eod",
+      "returnPct": 0.0298,
+      "dollarPnl": 1.48
     },
     "RNG_2026-10-23": {
       "symbol": "RNG",
@@ -67,7 +77,7 @@
       "allocDollar": 5021.1,
       "stopPrice": 87.13799999999999,
       "targetPrice": 81.216,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0338,
       "pctChangeAtScreen": -7.0125,
@@ -82,7 +92,15 @@
       "lastPrice": 83.12,
       "lastPriceAt": "2026-10-23T19:53:00Z",
       "unrealizedDollar": 87.32,
-      "unrealizedPct": 1.7494
+      "unrealizedPct": 1.7494,
+      "optionExitPrice": 1.1,
+      "optionExitTime": "2026-10-23T19:55:51.194826+00:00",
+      "optionReturnPct": 10.0,
+      "exitTime": "2026-10-23T19:55:51.194855+00:00",
+      "exitPrice": 83.18,
+      "exitReason": "eod",
+      "returnPct": 1.6785,
+      "dollarPnl": 83.78
     },
     "CCI_2026-10-23": {
       "symbol": "CCI",
@@ -95,7 +113,7 @@
       "allocDollar": 5006.36,
       "stopPrice": 89.10015,
       "targetPrice": 83.0448,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0102,
       "pctChangeAtScreen": -5.0703,
@@ -110,7 +128,12 @@
       "lastPrice": 86.295,
       "lastPriceAt": "2026-10-23T19:53:00Z",
       "unrealizedDollar": 12.18,
-      "unrealizedPct": 0.2428
+      "unrealizedPct": 0.2428,
+      "exitTime": "2026-10-23T19:55:51.448540+00:00",
+      "exitPrice": 86.29,
+      "exitReason": "eod",
+      "returnPct": 0.2485,
+      "dollarPnl": 12.47
     },
     "SNA_2026-10-22": {
       "symbol": "SNA",
@@ -1089,8 +1112,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-23T19:54:50.286262+00:00",
-    "lastCheckEt": "2026-10-23T15:54:50.285745-04:00",
+    "lastCheckAt": "2026-10-23T19:55:50.268068+00:00",
+    "lastCheckEt": "2026-10-23T15:55:50.255358-04:00",
     "status": "ok"
   }
 }
