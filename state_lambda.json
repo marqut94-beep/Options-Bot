@@ -1,5 +1,29 @@
 {
   "trades": {
+    "WHR_2026-10-26": {
+      "symbol": "WHR",
+      "date": "2026-10-26",
+      "direction": "short",
+      "entryTime": "2026-10-26T18:01:00Z",
+      "entryPrice": 26.19,
+      "shares": 192,
+      "convictionScore": 0.003,
+      "allocDollar": 5022.83,
+      "stopPrice": 26.975700000000003,
+      "targetPrice": 25.1424,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0365,
+      "pctChangeAtScreen": -6.2299,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-26T18:02:13.803970+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "TSLQ_2026-10-26": {
       "symbol": "TSLQ",
       "date": "2026-10-26",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-26T17:33:05.843658+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 15.06,
-      "lastPriceAt": "2026-10-26T17:59:00Z",
-      "unrealizedDollar": 26.4,
-      "unrealizedPct": 0.5284
+      "lastPrice": 15.07,
+      "lastPriceAt": "2026-10-26T18:00:00Z",
+      "unrealizedDollar": 23.1,
+      "unrealizedPct": 0.4624
     },
     "EQT_2026-10-26": {
       "symbol": "EQT",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-10-26T17:05:38.026686+00:00",
       "optionContracts": 40,
       "optionPricedVia": "trade",
-      "lastPrice": 54.605,
-      "lastPriceAt": "2026-10-26T17:59:00Z",
-      "unrealizedDollar": 24.5,
-      "unrealizedPct": 0.4599
+      "lastPrice": 54.74,
+      "lastPriceAt": "2026-10-26T18:00:00Z",
+      "unrealizedDollar": 37.73,
+      "unrealizedPct": 0.7083
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -79,10 +103,10 @@
       "optionEntryTime": "2026-10-26T13:51:01.846301+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 53.36,
-      "lastPriceAt": "2026-10-26T17:59:00Z",
-      "unrealizedDollar": 48.51,
-      "unrealizedPct": 0.9268
+      "lastPrice": 53.49,
+      "lastPriceAt": "2026-10-26T18:00:00Z",
+      "unrealizedDollar": 61.38,
+      "unrealizedPct": 1.1727
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -1196,8 +1220,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T18:00:57.730037+00:00",
-    "lastCheckEt": "2026-10-26T14:00:57.729458-04:00",
+    "lastCheckAt": "2026-10-26T18:01:50.253188+00:00",
+    "lastCheckEt": "2026-10-26T14:01:50.252637-04:00",
     "status": "ok"
   }
 }
