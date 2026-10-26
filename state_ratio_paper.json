@@ -11,7 +11,7 @@
       "allocDollar": 50.03,
       "stopPrice": 17.63875,
       "targetPrice": 16.439999999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0027,
       "pctChangeAtScreen": -3.1391,
@@ -20,7 +20,12 @@
       "lastPrice": 17.235,
       "lastPriceAt": "2026-10-26T19:53:00Z",
       "unrealizedDollar": -0.33,
-      "unrealizedPct": -0.6423
+      "unrealizedPct": -0.6423,
+      "exitTime": "2026-10-26T19:55:50.061564+00:00",
+      "exitPrice": 17.185,
+      "exitReason": "eod",
+      "returnPct": -0.3504,
+      "dollarPnl": -0.18
     },
     "EQT_2026-10-26": {
       "symbol": "EQT",
@@ -33,7 +38,7 @@
       "allocDollar": 54.74,
       "stopPrice": 53.059000000000005,
       "targetPrice": 56.888000000000005,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.3794,
       "pctChangeAtScreen": 3.7834,
@@ -42,7 +47,12 @@
       "lastPrice": 54.79,
       "lastPriceAt": "2026-10-26T19:53:00Z",
       "unrealizedDollar": 0.09,
-      "unrealizedPct": 0.1645
+      "unrealizedPct": 0.1645,
+      "exitTime": "2026-10-26T19:55:50.265024+00:00",
+      "exitPrice": 54.645,
+      "exitReason": "eod",
+      "returnPct": -0.1005,
+      "dollarPnl": -0.05
     },
     "VIV_2026-10-26": {
       "symbol": "VIV",
@@ -55,7 +65,7 @@
       "allocDollar": 52.87,
       "stopPrice": 10.9125,
       "targetPrice": 11.700000000000001,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.2297,
       "pctChangeAtScreen": 3.2081,
@@ -64,7 +74,12 @@
       "lastPrice": 11.37,
       "lastPriceAt": "2026-10-26T19:53:00Z",
       "unrealizedDollar": 0.6,
-      "unrealizedPct": 1.0667
+      "unrealizedPct": 1.0667,
+      "exitTime": "2026-10-26T19:55:50.453989+00:00",
+      "exitPrice": 11.365,
+      "exitReason": "eod",
+      "returnPct": 1.0222,
+      "dollarPnl": 0.58
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -77,7 +92,7 @@
       "allocDollar": 53.07,
       "stopPrice": 51.3809,
       "targetPrice": 55.0888,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.2459,
       "pctChangeAtScreen": 4.2614,
@@ -86,7 +101,12 @@
       "lastPrice": 53.53,
       "lastPriceAt": "2026-10-26T19:53:00Z",
       "unrealizedDollar": 0.56,
-      "unrealizedPct": 1.0572
+      "unrealizedPct": 1.0572,
+      "exitTime": "2026-10-26T19:55:50.654688+00:00",
+      "exitPrice": 53.3775,
+      "exitReason": "eod",
+      "returnPct": 0.7693,
+      "dollarPnl": 0.41
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -225,8 +245,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T19:54:49.875009+00:00",
-    "lastCheckEt": "2026-10-26T15:54:49.874791-04:00",
+    "lastCheckAt": "2026-10-26T19:55:49.803952+00:00",
+    "lastCheckEt": "2026-10-26T15:55:49.803762-04:00",
     "status": "ok"
   }
 }
