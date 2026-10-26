@@ -88,5 +88,15 @@
     "createdAt": "2026-10-23T19:55:12.975547+00:00",
     "symbol": "SLM",
     "reason": "eod"
+  },
+  {
+    "id": "RRC_2026-10-26_entry_2026-10-26T14:07:22.063766+00:00",
+    "tradeId": "RRC_2026-10-26",
+    "action": "entry",
+    "createdAt": "2026-10-26T14:07:22.063778+00:00",
+    "symbol": "RRC",
+    "direction": "long",
+    "stockEntryPrice": 52.97,
+    "allocDollar": 53.07
   }
 ]
