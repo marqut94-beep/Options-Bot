@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -3.1391,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 17.26,
-      "lastPriceAt": "2026-10-26T19:49:00Z",
-      "unrealizedDollar": -0.41,
-      "unrealizedPct": -0.7883
+      "lastPrice": 17.205,
+      "lastPriceAt": "2026-10-26T19:50:00Z",
+      "unrealizedDollar": -0.24,
+      "unrealizedPct": -0.4672
     },
     "EQT_2026-10-26": {
       "symbol": "EQT",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": 3.7834,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 54.625,
-      "lastPriceAt": "2026-10-26T19:49:00Z",
+      "lastPrice": 54.62,
+      "lastPriceAt": "2026-10-26T19:50:00Z",
       "unrealizedDollar": -0.08,
-      "unrealizedPct": -0.1371
+      "unrealizedPct": -0.1463
     },
     "VIV_2026-10-26": {
       "symbol": "VIV",
@@ -61,10 +61,10 @@
       "pctChangeAtScreen": 3.2081,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 11.33,
-      "lastPriceAt": "2026-10-26T19:49:00Z",
-      "unrealizedDollar": 0.4,
-      "unrealizedPct": 0.7111
+      "lastPrice": 11.315,
+      "lastPriceAt": "2026-10-26T19:50:00Z",
+      "unrealizedDollar": 0.32,
+      "unrealizedPct": 0.5778
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -83,10 +83,10 @@
       "pctChangeAtScreen": 4.2614,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 53.39,
-      "lastPriceAt": "2026-10-26T19:49:00Z",
-      "unrealizedDollar": 0.42,
-      "unrealizedPct": 0.7929
+      "lastPrice": 53.37,
+      "lastPriceAt": "2026-10-26T19:50:00Z",
+      "unrealizedDollar": 0.4,
+      "unrealizedPct": 0.7551
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -225,8 +225,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T19:50:49.898360+00:00",
-    "lastCheckEt": "2026-10-26T15:50:49.898145-04:00",
+    "lastCheckAt": "2026-10-26T19:51:49.853404+00:00",
+    "lastCheckEt": "2026-10-26T15:51:49.853158-04:00",
     "status": "ok"
   }
 }
