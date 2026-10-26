@@ -128,5 +128,37 @@
     "direction": "short",
     "stockEntryPrice": 17.125,
     "allocDollar": 50.03
+  },
+  {
+    "id": "LKQ_2026-10-26_exit_close_all_2026-10-26T19:55:13.137863+00:00",
+    "tradeId": "LKQ_2026-10-26",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-26T19:55:13.137867+00:00",
+    "symbol": "LKQ",
+    "reason": "eod"
+  },
+  {
+    "id": "EQT_2026-10-26_exit_close_all_2026-10-26T19:55:13.387936+00:00",
+    "tradeId": "EQT_2026-10-26",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-26T19:55:13.387940+00:00",
+    "symbol": "EQT",
+    "reason": "eod"
+  },
+  {
+    "id": "VIV_2026-10-26_exit_close_all_2026-10-26T19:55:13.565032+00:00",
+    "tradeId": "VIV_2026-10-26",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-26T19:55:13.565036+00:00",
+    "symbol": "VIV",
+    "reason": "eod"
+  },
+  {
+    "id": "RRC_2026-10-26_exit_close_all_2026-10-26T19:55:13.805007+00:00",
+    "tradeId": "RRC_2026-10-26",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-26T19:55:13.805011+00:00",
+    "symbol": "RRC",
+    "reason": "eod"
   }
 ]
