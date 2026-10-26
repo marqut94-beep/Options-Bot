@@ -1,5 +1,29 @@
 {
   "trades": {
+    "EQT_2026-10-26": {
+      "symbol": "EQT",
+      "date": "2026-10-26",
+      "direction": "long",
+      "entryTime": "2026-10-26T17:04:00Z",
+      "entryPrice": 54.355,
+      "shares": 98,
+      "convictionScore": 0.0452,
+      "allocDollar": 5339.3,
+      "stopPrice": 52.724349999999994,
+      "targetPrice": 56.529199999999996,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.5429,
+      "pctChangeAtScreen": 3.0817,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "EQT261030C00054000",
+      "optionStrike": "54",
+      "optionExpiration": "2026-10-30",
+      "optionEntryPrice": 1.31,
+      "optionEntryTime": "2026-10-26T17:05:38.026686+00:00",
+      "optionContracts": 40,
+      "optionPricedVia": "trade"
+    },
     "RRC_2026-10-26": {
       "symbol": "RRC",
       "date": "2026-10-26",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-26T13:51:01.846301+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 53.145,
-      "lastPriceAt": "2026-10-26T17:03:00Z",
-      "unrealizedDollar": 27.23,
-      "unrealizedPct": 0.5201
+      "lastPrice": 53.19,
+      "lastPriceAt": "2026-10-26T17:04:00Z",
+      "unrealizedDollar": 31.68,
+      "unrealizedPct": 0.6053
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -1140,8 +1164,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T17:04:50.250751+00:00",
-    "lastCheckEt": "2026-10-26T13:04:50.250210-04:00",
+    "lastCheckAt": "2026-10-26T17:05:15.230019+00:00",
+    "lastCheckEt": "2026-10-26T13:05:15.229495-04:00",
     "status": "ok"
   }
 }
