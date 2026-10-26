@@ -1,5 +1,23 @@
 {
   "trades": {
+    "RRC_2026-10-26": {
+      "symbol": "RRC",
+      "date": "2026-10-26",
+      "direction": "long",
+      "entryTime": "2026-10-26T14:06:00Z",
+      "entryPrice": 52.97,
+      "shares": 1,
+      "convictionScore": 0.041,
+      "allocDollar": 53.07,
+      "stopPrice": 51.3809,
+      "targetPrice": 55.0888,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.2459,
+      "pctChangeAtScreen": 4.2614,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "SLM_2026-10-23": {
       "symbol": "SLM",
       "date": "2026-10-23",
@@ -137,8 +155,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T14:06:12.913636+00:00",
-    "lastCheckEt": "2026-10-26T10:06:12.913457-04:00",
+    "lastCheckAt": "2026-10-26T14:07:12.756897+00:00",
+    "lastCheckEt": "2026-10-26T10:07:12.756729-04:00",
     "status": "ok"
   }
 }
