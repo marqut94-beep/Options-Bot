@@ -826,5 +826,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 15.14,
     "allocDollar": 5000.58
+  },
+  {
+    "id": "WHR_2026-10-26_entry_2026-10-26T18:02:13.803997+00:00",
+    "tradeId": "WHR_2026-10-26",
+    "action": "entry",
+    "createdAt": "2026-10-26T18:02:13.804001+00:00",
+    "symbol": "WHR",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 26.19,
+    "allocDollar": 5022.83
   }
 ]
