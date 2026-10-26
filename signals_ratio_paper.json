@@ -72,5 +72,15 @@
     "direction": "short",
     "stockEntryPrice": 19.495,
     "allocDollar": 59.9
+  },
+  {
+    "id": "RRC_2026-10-26_entry_2026-10-26T14:07:59.121194+00:00",
+    "tradeId": "RRC_2026-10-26",
+    "action": "entry",
+    "createdAt": "2026-10-26T14:07:59.121205+00:00",
+    "symbol": "RRC",
+    "direction": "long",
+    "stockEntryPrice": 52.97,
+    "allocDollar": 53.07
   }
 ]
