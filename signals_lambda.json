@@ -798,5 +798,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 52.87,
     "allocDollar": 5211.86
+  },
+  {
+    "id": "EQT_2026-10-26_entry_2026-10-26T17:05:38.026708+00:00",
+    "tradeId": "EQT_2026-10-26",
+    "action": "entry",
+    "createdAt": "2026-10-26T17:05:38.026712+00:00",
+    "symbol": "EQT",
+    "direction": "long",
+    "optionSymbol": "EQT261030C00054000",
+    "contracts": 40,
+    "optionEntryPriceAtScreen": 1.31,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 54.355,
+    "allocDollar": 5339.3
   }
 ]
