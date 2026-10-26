@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-26T17:05:38.026686+00:00",
       "optionContracts": 40,
       "optionPricedVia": "trade",
-      "lastPrice": 54.465,
-      "lastPriceAt": "2026-10-26T17:13:00Z",
-      "unrealizedDollar": 10.78,
-      "unrealizedPct": 0.2024
+      "lastPrice": 54.56,
+      "lastPriceAt": "2026-10-26T17:14:00Z",
+      "unrealizedDollar": 20.09,
+      "unrealizedPct": 0.3772
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-26T13:51:01.846301+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 53.205,
-      "lastPriceAt": "2026-10-26T17:13:00Z",
-      "unrealizedDollar": 33.17,
-      "unrealizedPct": 0.6336
+      "lastPrice": 53.3,
+      "lastPriceAt": "2026-10-26T17:14:00Z",
+      "unrealizedDollar": 42.57,
+      "unrealizedPct": 0.8133
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -1168,8 +1168,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T17:14:55.959208+00:00",
-    "lastCheckEt": "2026-10-26T13:14:55.958684-04:00",
+    "lastCheckAt": "2026-10-26T17:15:50.250734+00:00",
+    "lastCheckEt": "2026-10-26T13:15:50.250129-04:00",
     "status": "ok"
   }
 }
