@@ -18,7 +18,7 @@
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
       "lastPrice": 17.215,
-      "lastPriceAt": "2026-10-26T18:54:00Z",
+      "lastPriceAt": "2026-10-26T18:55:00Z",
       "unrealizedDollar": -0.27,
       "unrealizedPct": -0.5255
     },
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": 3.7834,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 54.76,
-      "lastPriceAt": "2026-10-26T18:54:00Z",
-      "unrealizedDollar": 0.06,
-      "unrealizedPct": 0.1097
+      "lastPrice": 54.75,
+      "lastPriceAt": "2026-10-26T18:55:00Z",
+      "unrealizedDollar": 0.05,
+      "unrealizedPct": 0.0914
     },
     "VIV_2026-10-26": {
       "symbol": "VIV",
@@ -61,10 +61,10 @@
       "pctChangeAtScreen": 3.2081,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 11.235,
-      "lastPriceAt": "2026-10-26T18:54:00Z",
-      "unrealizedDollar": -0.08,
-      "unrealizedPct": -0.1333
+      "lastPrice": 11.2139,
+      "lastPriceAt": "2026-10-26T18:55:00Z",
+      "unrealizedDollar": -0.18,
+      "unrealizedPct": -0.3209
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -84,7 +84,7 @@
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
       "lastPrice": 53.51,
-      "lastPriceAt": "2026-10-26T18:54:00Z",
+      "lastPriceAt": "2026-10-26T18:55:00Z",
       "unrealizedDollar": 0.54,
       "unrealizedPct": 1.0194
     },
@@ -225,8 +225,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T18:55:49.956068+00:00",
-    "lastCheckEt": "2026-10-26T14:55:49.955910-04:00",
+    "lastCheckAt": "2026-10-26T18:56:49.848517+00:00",
+    "lastCheckEt": "2026-10-26T14:56:49.848345-04:00",
     "status": "ok"
   }
 }
