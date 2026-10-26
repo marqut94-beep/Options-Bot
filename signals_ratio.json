@@ -118,5 +118,15 @@
     "direction": "long",
     "stockEntryPrice": 54.725,
     "allocDollar": 54.74
+  },
+  {
+    "id": "LKQ_2026-10-26_entry_2026-10-26T18:44:25.403215+00:00",
+    "tradeId": "LKQ_2026-10-26",
+    "action": "entry",
+    "createdAt": "2026-10-26T18:44:25.403226+00:00",
+    "symbol": "LKQ",
+    "direction": "short",
+    "stockEntryPrice": 17.125,
+    "allocDollar": 50.03
   }
 ]
