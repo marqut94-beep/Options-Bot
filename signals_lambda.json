@@ -784,5 +784,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "RRC_2026-10-26_entry_2026-10-26T13:51:01.846327+00:00",
+    "tradeId": "RRC_2026-10-26",
+    "action": "entry",
+    "createdAt": "2026-10-26T13:51:01.846331+00:00",
+    "symbol": "RRC",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 52.87,
+    "allocDollar": 5211.86
   }
 ]
