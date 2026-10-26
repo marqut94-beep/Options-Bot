@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -3.1391,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 17.29,
-      "lastPriceAt": "2026-10-26T19:27:00Z",
-      "unrealizedDollar": -0.49,
-      "unrealizedPct": -0.9635
+      "lastPrice": 17.275,
+      "lastPriceAt": "2026-10-26T19:28:00Z",
+      "unrealizedDollar": -0.45,
+      "unrealizedPct": -0.8759
     },
     "EQT_2026-10-26": {
       "symbol": "EQT",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": 3.7834,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 54.065,
-      "lastPriceAt": "2026-10-26T19:27:00Z",
-      "unrealizedDollar": -0.66,
-      "unrealizedPct": -1.206
+      "lastPrice": 54.15,
+      "lastPriceAt": "2026-10-26T19:28:00Z",
+      "unrealizedDollar": -0.58,
+      "unrealizedPct": -1.0507
     },
     "VIV_2026-10-26": {
       "symbol": "VIV",
@@ -61,10 +61,10 @@
       "pctChangeAtScreen": 3.2081,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 11.345,
-      "lastPriceAt": "2026-10-26T19:27:00Z",
-      "unrealizedDollar": 0.43,
-      "unrealizedPct": 0.7549
+      "lastPrice": 11.355,
+      "lastPriceAt": "2026-10-26T19:28:00Z",
+      "unrealizedDollar": 0.48,
+      "unrealizedPct": 0.8437
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -83,10 +83,10 @@
       "pctChangeAtScreen": 4.2614,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 52.84,
-      "lastPriceAt": "2026-10-26T19:27:00Z",
-      "unrealizedDollar": -0.13,
-      "unrealizedPct": -0.2454
+      "lastPrice": 52.925,
+      "lastPriceAt": "2026-10-26T19:28:00Z",
+      "unrealizedDollar": -0.05,
+      "unrealizedPct": -0.085
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -225,8 +225,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T19:28:12.771946+00:00",
-    "lastCheckEt": "2026-10-26T15:28:12.763612-04:00",
+    "lastCheckAt": "2026-10-26T19:29:12.779108+00:00",
+    "lastCheckEt": "2026-10-26T15:29:12.778887-04:00",
     "status": "ok"
   }
 }
