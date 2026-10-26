@@ -108,5 +108,15 @@
     "direction": "long",
     "stockEntryPrice": 11.26,
     "allocDollar": 52.87
+  },
+  {
+    "id": "EQT_2026-10-26_entry_2026-10-26T18:32:34.976400+00:00",
+    "tradeId": "EQT_2026-10-26",
+    "action": "entry",
+    "createdAt": "2026-10-26T18:32:34.976412+00:00",
+    "symbol": "EQT",
+    "direction": "long",
+    "stockEntryPrice": 54.725,
+    "allocDollar": 54.74
   }
 ]
