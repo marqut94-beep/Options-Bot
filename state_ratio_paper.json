@@ -16,7 +16,11 @@
       "relVol": 2.0027,
       "pctChangeAtScreen": -3.1391,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 17.1342,
+      "lastPriceAt": "2026-10-26T18:44:00Z",
+      "unrealizedDollar": -0.03,
+      "unrealizedPct": -0.0537
     },
     "EQT_2026-10-26": {
       "symbol": "EQT",
@@ -35,10 +39,10 @@
       "pctChangeAtScreen": 3.7834,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 54.66,
-      "lastPriceAt": "2026-10-26T18:43:00Z",
-      "unrealizedDollar": -0.04,
-      "unrealizedPct": -0.0731
+      "lastPrice": 54.67,
+      "lastPriceAt": "2026-10-26T18:44:00Z",
+      "unrealizedDollar": -0.03,
+      "unrealizedPct": -0.0548
     },
     "VIV_2026-10-26": {
       "symbol": "VIV",
@@ -57,10 +61,10 @@
       "pctChangeAtScreen": 3.2081,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 11.225,
-      "lastPriceAt": "2026-10-26T18:43:00Z",
-      "unrealizedDollar": -0.13,
-      "unrealizedPct": -0.2222
+      "lastPrice": 11.21,
+      "lastPriceAt": "2026-10-26T18:44:00Z",
+      "unrealizedDollar": -0.2,
+      "unrealizedPct": -0.3556
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -79,10 +83,10 @@
       "pctChangeAtScreen": 4.2614,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 53.4,
-      "lastPriceAt": "2026-10-26T18:43:00Z",
-      "unrealizedDollar": 0.43,
-      "unrealizedPct": 0.8118
+      "lastPrice": 53.44,
+      "lastPriceAt": "2026-10-26T18:44:00Z",
+      "unrealizedDollar": 0.47,
+      "unrealizedPct": 0.8873
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -221,8 +225,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T18:44:49.916171+00:00",
-    "lastCheckEt": "2026-10-26T14:44:49.915991-04:00",
+    "lastCheckAt": "2026-10-26T18:45:49.804623+00:00",
+    "lastCheckEt": "2026-10-26T14:45:49.804430-04:00",
     "status": "ok"
   }
 }
