@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-26T13:51:01.846301+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 52.3,
-      "lastPriceAt": "2026-10-26T15:59:00Z",
-      "unrealizedDollar": -56.43,
-      "unrealizedPct": -1.0781
+      "lastPrice": 52.34,
+      "lastPriceAt": "2026-10-26T16:00:00Z",
+      "unrealizedDollar": -52.47,
+      "unrealizedPct": -1.0025
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -1140,8 +1140,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T16:00:59.039612+00:00",
-    "lastCheckEt": "2026-10-26T12:00:59.039065-04:00",
+    "lastCheckAt": "2026-10-26T16:01:50.299131+00:00",
+    "lastCheckEt": "2026-10-26T12:01:50.298563-04:00",
     "status": "ok"
   }
 }
