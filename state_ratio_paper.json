@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 4.2614,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 52.28,
-      "lastPriceAt": "2026-10-26T16:05:00Z",
-      "unrealizedDollar": -0.69,
-      "unrealizedPct": -1.3026
+      "lastPrice": 52.39,
+      "lastPriceAt": "2026-10-26T16:06:00Z",
+      "unrealizedDollar": -0.58,
+      "unrealizedPct": -1.095
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -159,8 +159,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T16:06:49.880473+00:00",
-    "lastCheckEt": "2026-10-26T12:06:49.880275-04:00",
+    "lastCheckAt": "2026-10-26T16:07:49.855472+00:00",
+    "lastCheckEt": "2026-10-26T12:07:49.855236-04:00",
     "status": "ok"
   }
 }
