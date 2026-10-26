@@ -1,5 +1,23 @@
 {
   "trades": {
+    "EQT_2026-10-26": {
+      "symbol": "EQT",
+      "date": "2026-10-26",
+      "direction": "long",
+      "entryTime": "2026-10-26T18:32:00Z",
+      "entryPrice": 54.7,
+      "shares": 1,
+      "convictionScore": 0.0632,
+      "allocDollar": 54.74,
+      "stopPrice": 53.059000000000005,
+      "targetPrice": 56.888000000000005,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.3794,
+      "pctChangeAtScreen": 3.7834,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "VIV_2026-10-26": {
       "symbol": "VIV",
       "date": "2026-10-26",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": 3.2081,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 11.25,
-      "lastPriceAt": "2026-10-26T18:30:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "lastPrice": 11.24,
+      "lastPriceAt": "2026-10-26T18:31:00Z",
+      "unrealizedDollar": -0.05,
+      "unrealizedPct": -0.0889
     },
     "RRC_2026-10-26": {
       "symbol": "RRC",
@@ -39,10 +57,10 @@
       "pctChangeAtScreen": 4.2614,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 53.51,
-      "lastPriceAt": "2026-10-26T18:30:00Z",
-      "unrealizedDollar": 0.54,
-      "unrealizedPct": 1.0194
+      "lastPrice": 53.495,
+      "lastPriceAt": "2026-10-26T18:31:00Z",
+      "unrealizedDollar": 0.52,
+      "unrealizedPct": 0.9911
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -181,8 +199,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-26T18:31:49.821281+00:00",
-    "lastCheckEt": "2026-10-26T14:31:49.821114-04:00",
+    "lastCheckAt": "2026-10-26T18:32:49.780849+00:00",
+    "lastCheckEt": "2026-10-26T14:32:49.780672-04:00",
     "status": "ok"
   }
 }
