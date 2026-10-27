@@ -723,5 +723,47 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "BA_2026-10-27_entry_2026-10-27T18:32:24.490637+00:00",
+    "tradeId": "BA_2026-10-27",
+    "action": "entry",
+    "createdAt": "2026-10-27T18:32:24.490638+00:00",
+    "symbol": "BA",
+    "direction": "short",
+    "optionSymbol": "BA261030P00170000",
+    "contracts": 27,
+    "optionEntryPriceAtScreen": 3.1,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 169.545,
+    "allocDollar": 8422.47
+  },
+  {
+    "id": "EEFT_2026-10-27_entry_2026-10-27T18:32:24.490654+00:00",
+    "tradeId": "EEFT_2026-10-27",
+    "action": "entry",
+    "createdAt": "2026-10-27T18:32:24.490655+00:00",
+    "symbol": "EEFT",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 59.66,
+    "allocDollar": 7734.89
+  },
+  {
+    "id": "XYL_2026-10-27_entry_2026-10-27T18:32:24.490819+00:00",
+    "tradeId": "XYL_2026-10-27",
+    "action": "entry",
+    "createdAt": "2026-10-27T18:32:24.490821+00:00",
+    "symbol": "XYL",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 94.285,
+    "allocDollar": 6898.76
   }
 ]
