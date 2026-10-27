@@ -22,7 +22,11 @@
       "optionEntryPrice": 2.15,
       "optionEntryTime": "2026-10-27T16:38:26.670533+00:00",
       "optionContracts": 23,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 214.145,
+      "lastPriceAt": "2026-10-27T16:37:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "EEFT_2026-10-27": {
       "symbol": "EEFT",
@@ -1355,8 +1359,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T16:38:10.334857+00:00",
-    "lastCheckEt": "2026-10-27T12:38:10.334254-04:00",
+    "lastCheckAt": "2026-10-27T16:38:50.269990+00:00",
+    "lastCheckEt": "2026-10-27T12:38:50.257287-04:00",
     "status": "ok"
   }
 }
