@@ -1,5 +1,29 @@
 {
   "trades": {
+    "XYL_2026-10-27": {
+      "symbol": "XYL",
+      "date": "2026-10-27",
+      "direction": "short",
+      "entryTime": "2026-10-27T16:07:00Z",
+      "entryPrice": 95.42,
+      "shares": 53,
+      "convictionScore": 0.0039,
+      "allocDollar": 5028.93,
+      "stopPrice": 98.2826,
+      "targetPrice": 91.6032,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0463,
+      "pctChangeAtScreen": -6.451,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-27T16:08:26.672860+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "BA_2026-10-27": {
       "symbol": "BA",
       "date": "2026-10-27",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-27T15:08:20.294433+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 170.1125,
-      "lastPriceAt": "2026-10-27T16:04:00Z",
-      "unrealizedDollar": -47.78,
-      "unrealizedPct": -0.945
+      "lastPrice": 170.09,
+      "lastPriceAt": "2026-10-27T16:07:00Z",
+      "unrealizedDollar": -47.1,
+      "unrealizedPct": -0.9316
     },
     "WHR_2026-10-26": {
       "symbol": "WHR",
@@ -1275,8 +1299,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T16:05:50.510093+00:00",
-    "lastCheckEt": "2026-10-27T12:05:50.509511-04:00",
+    "lastCheckAt": "2026-10-27T16:08:13.547237+00:00",
+    "lastCheckEt": "2026-10-27T12:08:13.542376-04:00",
     "status": "ok"
   }
 }
