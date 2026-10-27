@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-27T16:19:03.535111+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 59.86,
+      "lastPriceAt": "2026-10-27T16:17:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "XYL_2026-10-27": {
       "symbol": "XYL",
@@ -47,10 +51,10 @@
       "optionEntryTime": "2026-10-27T16:08:26.672860+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 95.72,
-      "lastPriceAt": "2026-10-27T16:17:00Z",
-      "unrealizedDollar": -15.9,
-      "unrealizedPct": -0.3144
+      "lastPrice": 95.85,
+      "lastPriceAt": "2026-10-27T16:18:00Z",
+      "unrealizedDollar": -22.79,
+      "unrealizedPct": -0.4506
     },
     "BA_2026-10-27": {
       "symbol": "BA",
@@ -75,10 +79,10 @@
       "optionEntryTime": "2026-10-27T15:08:20.294433+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 170.07,
-      "lastPriceAt": "2026-10-27T16:17:00Z",
-      "unrealizedDollar": -46.5,
-      "unrealizedPct": -0.9198
+      "lastPrice": 170.06,
+      "lastPriceAt": "2026-10-27T16:18:00Z",
+      "unrealizedDollar": -46.2,
+      "unrealizedPct": -0.9138
     },
     "WHR_2026-10-26": {
       "symbol": "WHR",
@@ -1327,8 +1331,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T16:18:50.292051+00:00",
-    "lastCheckEt": "2026-10-27T12:18:50.291429-04:00",
+    "lastCheckAt": "2026-10-27T16:19:50.294809+00:00",
+    "lastCheckEt": "2026-10-27T12:19:50.294235-04:00",
     "status": "ok"
   }
 }
