@@ -765,5 +765,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 94.285,
     "allocDollar": 6898.76
+  },
+  {
+    "id": "BA_2026-10-27_exit_close_all_2026-10-27T22:33:31.843674+00:00",
+    "tradeId": "BA_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T22:33:31.843676+00:00",
+    "symbol": "BA",
+    "optionSymbol": "BA261030P00170000",
+    "contracts": 27,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "EEFT_2026-10-27_exit_close_all_2026-10-27T22:33:31.889931+00:00",
+    "tradeId": "EEFT_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T22:33:31.889934+00:00",
+    "symbol": "EEFT",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "XYL_2026-10-27_exit_close_all_2026-10-27T22:33:31.938272+00:00",
+    "tradeId": "XYL_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T22:33:31.938275+00:00",
+    "symbol": "XYL",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]

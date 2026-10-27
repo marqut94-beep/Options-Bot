@@ -13,7 +13,7 @@
       "allocDollar": 8422.47,
       "stopPrice": 174.63135,
       "targetPrice": 162.76319999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 7.476,
       "pctChangeAtScreen": -7.6049,
@@ -28,7 +28,17 @@
       "lastPrice": 169.465,
       "lastPriceAt": "2026-10-27T18:33:00Z",
       "unrealizedDollar": 4.0,
-      "unrealizedPct": 0.0472
+      "unrealizedPct": 0.0472,
+      "optionExitPrice": 3.5,
+      "optionExitTime": "2026-10-27T22:33:31.843644+00:00",
+      "optionReturnPct": 12.9032,
+      "grossDollarPnl": 64.75,
+      "costDollar": 33.79,
+      "exitTime": "2026-10-27T22:33:31.843665+00:00",
+      "exitPrice": 168.25,
+      "exitReason": "eod",
+      "returnPct": 0.3652,
+      "dollarPnl": 30.96
     },
     "EEFT_2026-10-27": {
       "symbol": "EEFT",
@@ -43,7 +53,7 @@
       "allocDollar": 7734.89,
       "stopPrice": 61.449799999999996,
       "targetPrice": 57.273599999999995,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 6.3758,
       "pctChangeAtScreen": -6.5623,
@@ -58,7 +68,14 @@
       "lastPrice": 59.66,
       "lastPriceAt": "2026-10-27T18:33:00Z",
       "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "unrealizedPct": 0.0,
+      "grossDollarPnl": 234.0,
+      "costDollar": 31.41,
+      "exitTime": "2026-10-27T22:33:31.889918+00:00",
+      "exitPrice": 57.86,
+      "exitReason": "eod",
+      "returnPct": 2.6121,
+      "dollarPnl": 202.59
     },
     "XYL_2026-10-27": {
       "symbol": "XYL",
@@ -73,7 +90,7 @@
       "allocDollar": 6898.76,
       "stopPrice": 97.11355,
       "targetPrice": 90.5136,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 5.038,
       "pctChangeAtScreen": -7.5637,
@@ -88,7 +105,14 @@
       "lastPrice": 94.405,
       "lastPriceAt": "2026-10-27T18:33:00Z",
       "unrealizedDollar": -8.76,
-      "unrealizedPct": -0.1273
+      "unrealizedPct": -0.1273,
+      "grossDollarPnl": 82.85,
+      "costDollar": 27.7,
+      "exitTime": "2026-10-27T22:33:31.938258+00:00",
+      "exitPrice": 93.15,
+      "exitReason": "eod",
+      "returnPct": 0.8013,
+      "dollarPnl": 55.15
     },
     "SLM_2026-10-23": {
       "symbol": "SLM",
@@ -1536,8 +1560,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T18:34:54.336907+00:00",
-    "lastCheckEt": "2026-10-27T14:34:54.336402-04:00",
+    "lastCheckAt": "2026-10-27T22:33:31.542460+00:00",
+    "lastCheckEt": "2026-10-27T18:33:31.541897-04:00",
     "status": "ok"
   }
 }
