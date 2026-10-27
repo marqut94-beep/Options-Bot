@@ -170,5 +170,13 @@
     "direction": "short",
     "stockEntryPrice": 59.91,
     "allocDollar": 60.01
+  },
+  {
+    "id": "EEFT_2026-10-27_exit_close_all_2026-10-27T19:55:12.936904+00:00",
+    "tradeId": "EEFT_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T19:55:12.936907+00:00",
+    "symbol": "EEFT",
+    "reason": "eod"
   }
 ]
