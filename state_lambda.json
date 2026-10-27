@@ -1,5 +1,29 @@
 {
   "trades": {
+    "BA_2026-10-27": {
+      "symbol": "BA",
+      "date": "2026-10-27",
+      "direction": "short",
+      "entryTime": "2026-10-27T15:07:00Z",
+      "entryPrice": 168.52,
+      "shares": 30,
+      "convictionScore": 0.0043,
+      "allocDollar": 5032.6,
+      "stopPrice": 173.5756,
+      "targetPrice": 161.7792,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0522,
+      "pctChangeAtScreen": -8.1635,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "BA261030P00167500",
+      "optionStrike": "167.5",
+      "optionExpiration": "2026-10-30",
+      "optionEntryPrice": 2.5,
+      "optionEntryTime": "2026-10-27T15:08:20.294433+00:00",
+      "optionContracts": 20,
+      "optionPricedVia": "trade"
+    },
     "WHR_2026-10-26": {
       "symbol": "WHR",
       "date": "2026-10-26",
@@ -1247,8 +1271,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T15:07:50.365549+00:00",
-    "lastCheckEt": "2026-10-27T11:07:50.364987-04:00",
+    "lastCheckAt": "2026-10-27T15:08:07.589775+00:00",
+    "lastCheckEt": "2026-10-27T11:08:07.589245-04:00",
     "status": "ok"
   }
 }
