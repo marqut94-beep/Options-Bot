@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-27T16:38:26.670533+00:00",
       "optionContracts": 23,
       "optionPricedVia": "trade",
-      "lastPrice": 214.125,
-      "lastPriceAt": "2026-10-27T18:55:00Z",
-      "unrealizedDollar": 0.46,
-      "unrealizedPct": 0.0093
+      "lastPrice": 214.16,
+      "lastPriceAt": "2026-10-27T18:56:00Z",
+      "unrealizedDollar": -0.34,
+      "unrealizedPct": -0.007
     },
     "EEFT_2026-10-27": {
       "symbol": "EEFT",
@@ -52,7 +52,7 @@
       "optionContracts": null,
       "optionPricedVia": null,
       "lastPrice": 60.01,
-      "lastPriceAt": "2026-10-27T18:55:00Z",
+      "lastPriceAt": "2026-10-27T18:56:00Z",
       "unrealizedDollar": -12.6,
       "unrealizedPct": -0.2506
     },
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-27T16:08:26.672860+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 93.995,
-      "lastPriceAt": "2026-10-27T18:55:00Z",
-      "unrealizedDollar": 75.52,
-      "unrealizedPct": 1.4934
+      "lastPrice": 93.725,
+      "lastPriceAt": "2026-10-27T18:56:00Z",
+      "unrealizedDollar": 89.84,
+      "unrealizedPct": 1.7764
     },
     "BA_2026-10-27": {
       "symbol": "BA",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-10-27T15:08:20.294433+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 169.021,
-      "lastPriceAt": "2026-10-27T18:55:00Z",
-      "unrealizedDollar": -15.03,
-      "unrealizedPct": -0.2973
+      "lastPrice": 169.065,
+      "lastPriceAt": "2026-10-27T18:56:00Z",
+      "unrealizedDollar": -16.35,
+      "unrealizedPct": -0.3234
     },
     "WHR_2026-10-26": {
       "symbol": "WHR",
@@ -1359,8 +1359,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T18:56:50.332488+00:00",
-    "lastCheckEt": "2026-10-27T14:56:50.331865-04:00",
+    "lastCheckAt": "2026-10-27T18:57:50.322173+00:00",
+    "lastCheckEt": "2026-10-27T14:57:50.321550-04:00",
     "status": "ok"
   }
 }
