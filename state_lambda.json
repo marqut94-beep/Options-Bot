@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-27T16:08:26.672860+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 95.42,
+      "lastPriceAt": "2026-10-27T16:07:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "BA_2026-10-27": {
       "symbol": "BA",
@@ -1299,8 +1303,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T16:08:13.547237+00:00",
-    "lastCheckEt": "2026-10-27T12:08:13.542376-04:00",
+    "lastCheckAt": "2026-10-27T16:08:34.833986+00:00",
+    "lastCheckEt": "2026-10-27T12:08:34.833384-04:00",
     "status": "ok"
   }
 }
