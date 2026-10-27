@@ -160,5 +160,15 @@
     "createdAt": "2026-10-26T19:55:13.805011+00:00",
     "symbol": "RRC",
     "reason": "eod"
+  },
+  {
+    "id": "EEFT_2026-10-27_entry_2026-10-27T19:02:33.039597+00:00",
+    "tradeId": "EEFT_2026-10-27",
+    "action": "entry",
+    "createdAt": "2026-10-27T19:02:33.039610+00:00",
+    "symbol": "EEFT",
+    "direction": "short",
+    "stockEntryPrice": 59.91,
+    "allocDollar": 60.01
   }
 ]
