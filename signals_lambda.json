@@ -882,5 +882,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 59.86,
     "allocDollar": 5017.61
+  },
+  {
+    "id": "CTAS_2026-10-27_entry_2026-10-27T16:38:26.670562+00:00",
+    "tradeId": "CTAS_2026-10-27",
+    "action": "entry",
+    "createdAt": "2026-10-27T16:38:26.670565+00:00",
+    "symbol": "CTAS",
+    "direction": "short",
+    "optionSymbol": "CTAS261030P00215000",
+    "contracts": 23,
+    "optionEntryPriceAtScreen": 2.15,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 214.145,
+    "allocDollar": 5005.13
   }
 ]
