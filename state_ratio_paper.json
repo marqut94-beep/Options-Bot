@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -6.1707,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 60.12,
-      "lastPriceAt": "2026-10-27T19:23:00Z",
-      "unrealizedDollar": -0.18,
-      "unrealizedPct": -0.3087
+      "lastPrice": 60.085,
+      "lastPriceAt": "2026-10-27T19:24:00Z",
+      "unrealizedDollar": -0.15,
+      "unrealizedPct": -0.2503
     },
     "LKQ_2026-10-26": {
       "symbol": "LKQ",
@@ -267,8 +267,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T19:24:49.826323+00:00",
-    "lastCheckEt": "2026-10-27T15:24:49.826092-04:00",
+    "lastCheckAt": "2026-10-27T19:25:50.069405+00:00",
+    "lastCheckEt": "2026-10-27T15:25:50.069141-04:00",
     "status": "ok"
   }
 }
