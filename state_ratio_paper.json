@@ -11,7 +11,7 @@
       "allocDollar": 60.01,
       "stopPrice": 61.733050000000006,
       "targetPrice": 57.5376,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.8005,
       "pctChangeAtScreen": -6.1707,
@@ -20,7 +20,12 @@
       "lastPrice": 59.25,
       "lastPriceAt": "2026-10-27T19:53:00Z",
       "unrealizedDollar": 0.69,
-      "unrealizedPct": 1.1429
+      "unrealizedPct": 1.1429,
+      "exitTime": "2026-10-27T19:55:50.206810+00:00",
+      "exitPrice": 59.11,
+      "exitReason": "eod",
+      "returnPct": 1.3765,
+      "dollarPnl": 0.83
     },
     "LKQ_2026-10-26": {
       "symbol": "LKQ",
@@ -267,8 +272,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T19:54:49.902312+00:00",
-    "lastCheckEt": "2026-10-27T15:54:49.902042-04:00",
+    "lastCheckAt": "2026-10-27T19:55:49.889500+00:00",
+    "lastCheckEt": "2026-10-27T15:55:49.889287-04:00",
     "status": "ok"
   }
 }
