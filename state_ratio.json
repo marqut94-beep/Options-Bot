@@ -1,5 +1,23 @@
 {
   "trades": {
+    "EEFT_2026-10-27": {
+      "symbol": "EEFT",
+      "date": "2026-10-27",
+      "direction": "short",
+      "entryTime": "2026-10-27T19:01:00Z",
+      "entryPrice": 59.91,
+      "shares": 1,
+      "convictionScore": 0.1334,
+      "allocDollar": 60.01,
+      "stopPrice": 61.7073,
+      "targetPrice": 57.5136,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.8005,
+      "pctChangeAtScreen": -6.1707,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "LKQ_2026-10-26": {
       "symbol": "LKQ",
       "date": "2026-10-26",
@@ -245,8 +263,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-27T19:01:12.975483+00:00",
-    "lastCheckEt": "2026-10-27T15:01:12.975248-04:00",
+    "lastCheckAt": "2026-10-27T19:02:12.782559+00:00",
+    "lastCheckEt": "2026-10-27T15:02:12.782355-04:00",
     "status": "ok"
   }
 }
