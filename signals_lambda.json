@@ -896,5 +896,49 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 214.145,
     "allocDollar": 5005.13
+  },
+  {
+    "id": "CTAS_2026-10-27_exit_close_all_2026-10-27T19:55:50.709706+00:00",
+    "tradeId": "CTAS_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T19:55:50.709710+00:00",
+    "symbol": "CTAS",
+    "optionSymbol": "CTAS261030P00215000",
+    "contracts": 23,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "EEFT_2026-10-27_exit_close_all_2026-10-27T19:55:50.961211+00:00",
+    "tradeId": "EEFT_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T19:55:50.961216+00:00",
+    "symbol": "EEFT",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "XYL_2026-10-27_exit_close_all_2026-10-27T19:55:51.180713+00:00",
+    "tradeId": "XYL_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T19:55:51.180717+00:00",
+    "symbol": "XYL",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "BA_2026-10-27_exit_close_all_2026-10-27T19:55:51.646851+00:00",
+    "tradeId": "BA_2026-10-27",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-27T19:55:51.646854+00:00",
+    "symbol": "BA",
+    "optionSymbol": "BA261030P00167500",
+    "contracts": 20,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
