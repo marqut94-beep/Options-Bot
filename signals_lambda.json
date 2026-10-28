@@ -951,5 +951,19 @@
     "contracts": 64,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "FFIV_2026-10-28_entry_2026-10-28T14:32:23.438576+00:00",
+    "tradeId": "FFIV_2026-10-28",
+    "action": "entry",
+    "createdAt": "2026-10-28T14:32:23.438580+00:00",
+    "symbol": "FFIV",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 375.895,
+    "allocDollar": 5058.46
   }
 ]
