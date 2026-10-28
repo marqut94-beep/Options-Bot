@@ -13,7 +13,7 @@
       "allocDollar": 8979.78,
       "stopPrice": 382.0373,
       "targetPrice": 356.0736,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 8.3676,
       "pctChangeAtScreen": -11.9616,
@@ -28,7 +28,14 @@
       "lastPrice": 371.36,
       "lastPriceAt": "2026-10-28T18:38:00Z",
       "unrealizedDollar": -10.8,
-      "unrealizedPct": -0.1213
+      "unrealizedPct": -0.1213,
+      "grossDollarPnl": 177.84,
+      "costDollar": 34.98,
+      "exitTime": "2026-10-28T22:50:32.858552+00:00",
+      "exitPrice": 363.5,
+      "exitReason": "eod",
+      "returnPct": 1.6048,
+      "dollarPnl": 142.86
     },
     "WING_2026-10-28": {
       "symbol": "WING",
@@ -43,7 +50,7 @@
       "allocDollar": 5896.79,
       "stopPrice": 135.0143,
       "targetPrice": 144.7576,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.4349,
       "pctChangeAtScreen": 4.5834,
@@ -58,7 +65,14 @@
       "lastPrice": 138.36,
       "lastPriceAt": "2026-10-28T18:39:00Z",
       "unrealizedDollar": -34.86,
-      "unrealizedPct": -0.5963
+      "unrealizedPct": -0.5963,
+      "grossDollarPnl": 0.0,
+      "costDollar": 23.46,
+      "exitTime": "2026-10-28T22:50:33.097104+00:00",
+      "exitPrice": 139.19,
+      "exitReason": "eod",
+      "returnPct": -0.4013,
+      "dollarPnl": -23.46
     },
     "XYL_2026-10-28": {
       "symbol": "XYL",
@@ -73,7 +87,7 @@
       "allocDollar": 5545.46,
       "stopPrice": 90.7842,
       "targetPrice": 84.6144,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.8727,
       "pctChangeAtScreen": -3.1429,
@@ -88,7 +102,14 @@
       "lastPrice": 88.195,
       "lastPriceAt": "2026-10-28T18:38:00Z",
       "unrealizedDollar": -3.46,
-      "unrealizedPct": -0.0624
+      "unrealizedPct": -0.0624,
+      "grossDollarPnl": -13.94,
+      "costDollar": 22.55,
+      "exitTime": "2026-10-28T22:50:33.355651+00:00",
+      "exitPrice": 88.3613,
+      "exitReason": "eod",
+      "returnPct": -0.6571,
+      "dollarPnl": -36.49
     },
     "BA_2026-10-27": {
       "symbol": "BA",
@@ -1650,8 +1671,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T18:40:57.675424+00:00",
-    "lastCheckEt": "2026-10-28T14:40:57.674914-04:00",
+    "lastCheckAt": "2026-10-28T22:50:32.604750+00:00",
+    "lastCheckEt": "2026-10-28T18:50:32.604381-04:00",
     "status": "ok"
   }
 }
