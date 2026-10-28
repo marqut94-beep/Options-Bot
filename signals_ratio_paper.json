@@ -174,5 +174,15 @@
     "direction": "short",
     "stockEntryPrice": 41.555,
     "allocDollar": 50.01
+  },
+  {
+    "id": "UCTT_2026-10-28_entry_2026-10-28T19:08:19.590159+00:00",
+    "tradeId": "UCTT_2026-10-28",
+    "action": "entry",
+    "createdAt": "2026-10-28T19:08:19.590170+00:00",
+    "symbol": "UCTT",
+    "direction": "long",
+    "stockEntryPrice": 55.89,
+    "allocDollar": 56.21
   }
 ]
