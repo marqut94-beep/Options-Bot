@@ -940,5 +940,16 @@
     "contracts": 20,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "ENPH_2026-10-28_exit_close_all_2026-10-28T14:12:50.913471+00:00",
+    "tradeId": "ENPH_2026-10-28",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-28T14:12:50.913476+00:00",
+    "symbol": "ENPH",
+    "optionSymbol": "ENPH261030C00025500",
+    "contracts": 64,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
