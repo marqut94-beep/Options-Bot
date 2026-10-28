@@ -1,5 +1,29 @@
 {
   "trades": {
+    "WING_2026-10-28": {
+      "symbol": "WING",
+      "date": "2026-10-28",
+      "direction": "long",
+      "entryTime": "2026-10-28T16:19:00Z",
+      "entryPrice": 137.725,
+      "shares": 36,
+      "convictionScore": 0.0006,
+      "allocDollar": 5004.44,
+      "stopPrice": 133.59324999999998,
+      "targetPrice": 143.234,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0071,
+      "pctChangeAtScreen": 3.4826,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-28T16:20:14.445948+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "FFIV_2026-10-28": {
       "symbol": "FFIV",
       "date": "2026-10-28",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-28T14:32:23.438548+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 369.7,
-      "lastPriceAt": "2026-10-28T16:16:00Z",
-      "unrealizedDollar": 80.53,
-      "unrealizedPct": 1.6481
+      "lastPrice": 370.5,
+      "lastPriceAt": "2026-10-28T16:18:00Z",
+      "unrealizedDollar": 70.13,
+      "unrealizedPct": 1.4352
     },
     "ENPH_2026-10-28": {
       "symbol": "ENPH",
@@ -1449,8 +1473,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T16:17:50.371795+00:00",
-    "lastCheckEt": "2026-10-28T12:17:50.371192-04:00",
+    "lastCheckAt": "2026-10-28T16:19:50.439612+00:00",
+    "lastCheckEt": "2026-10-28T12:19:50.438999-04:00",
     "status": "ok"
   }
 }
