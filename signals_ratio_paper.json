@@ -184,5 +184,29 @@
     "direction": "long",
     "stockEntryPrice": 55.89,
     "allocDollar": 56.21
+  },
+  {
+    "id": "UCTT_2026-10-28_exit_close_all_2026-10-28T19:55:50.163720+00:00",
+    "tradeId": "UCTT_2026-10-28",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-28T19:55:50.163727+00:00",
+    "symbol": "UCTT",
+    "reason": "eod"
+  },
+  {
+    "id": "RUSHA_2026-10-28_exit_close_all_2026-10-28T19:55:50.397990+00:00",
+    "tradeId": "RUSHA_2026-10-28",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-28T19:55:50.397995+00:00",
+    "symbol": "RUSHA",
+    "reason": "eod"
+  },
+  {
+    "id": "CSGP_2026-10-28_exit_close_all_2026-10-28T19:55:50.578180+00:00",
+    "tradeId": "CSGP_2026-10-28",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-28T19:55:50.578184+00:00",
+    "symbol": "CSGP",
+    "reason": "eod"
   }
 ]
