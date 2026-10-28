@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 3.6247,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 55.565,
-      "lastPriceAt": "2026-10-28T19:19:00Z",
-      "unrealizedDollar": -0.33,
-      "unrealizedPct": -0.5815
+      "lastPrice": 55.51,
+      "lastPriceAt": "2026-10-28T19:20:00Z",
+      "unrealizedDollar": -0.38,
+      "unrealizedPct": -0.6799
     },
     "RUSHA_2026-10-28": {
       "symbol": "RUSHA",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": -6.2387,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 41.31,
-      "lastPriceAt": "2026-10-28T19:19:00Z",
-      "unrealizedDollar": 0.24,
-      "unrealizedPct": 0.5896
+      "lastPrice": 41.34,
+      "lastPriceAt": "2026-10-28T19:20:00Z",
+      "unrealizedDollar": 0.21,
+      "unrealizedPct": 0.5174
     },
     "CSGP_2026-10-28": {
       "symbol": "CSGP",
@@ -61,10 +61,10 @@
       "pctChangeAtScreen": -8.6833,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 27.025,
-      "lastPriceAt": "2026-10-28T19:19:00Z",
-      "unrealizedDollar": 0.74,
-      "unrealizedPct": 1.3506
+      "lastPrice": 27.08,
+      "lastPriceAt": "2026-10-28T19:20:00Z",
+      "unrealizedDollar": 0.63,
+      "unrealizedPct": 1.1498
     },
     "EEFT_2026-10-27": {
       "symbol": "EEFT",
@@ -338,8 +338,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T19:20:13.532544+00:00",
-    "lastCheckEt": "2026-10-28T15:20:13.532267-04:00",
+    "lastCheckAt": "2026-10-28T19:21:12.734071+00:00",
+    "lastCheckEt": "2026-10-28T15:21:12.733851-04:00",
     "status": "ok"
   }
 }
