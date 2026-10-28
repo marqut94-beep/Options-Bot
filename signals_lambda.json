@@ -993,5 +993,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 88.16,
     "allocDollar": 5007.56
+  },
+  {
+    "id": "XYL_2026-10-28_exit_close_all_2026-10-28T19:55:50.803622+00:00",
+    "tradeId": "XYL_2026-10-28",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-28T19:55:50.803627+00:00",
+    "symbol": "XYL",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "WING_2026-10-28_exit_close_all_2026-10-28T19:55:51.248758+00:00",
+    "tradeId": "WING_2026-10-28",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-28T19:55:51.248762+00:00",
+    "symbol": "WING",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "FFIV_2026-10-28_exit_close_all_2026-10-28T19:55:51.514295+00:00",
+    "tradeId": "FFIV_2026-10-28",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-28T19:55:51.514299+00:00",
+    "symbol": "FFIV",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
