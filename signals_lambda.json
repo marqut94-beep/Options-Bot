@@ -979,5 +979,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 137.725,
     "allocDollar": 5004.44
+  },
+  {
+    "id": "XYL_2026-10-28_entry_2026-10-28T17:22:16.141401+00:00",
+    "tradeId": "XYL_2026-10-28",
+    "action": "entry",
+    "createdAt": "2026-10-28T17:22:16.141404+00:00",
+    "symbol": "XYL",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 88.16,
+    "allocDollar": 5007.56
   }
 ]
