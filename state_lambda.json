@@ -1,5 +1,29 @@
 {
   "trades": {
+    "XYL_2026-10-28": {
+      "symbol": "XYL",
+      "date": "2026-10-28",
+      "direction": "short",
+      "entryTime": "2026-10-28T17:21:00Z",
+      "entryPrice": 88.16,
+      "shares": 57,
+      "convictionScore": 0.001,
+      "allocDollar": 5007.56,
+      "stopPrice": 90.8048,
+      "targetPrice": 84.63359999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0121,
+      "pctChangeAtScreen": -3.1209,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-28T17:22:16.141379+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "WING_2026-10-28": {
       "symbol": "WING",
       "date": "2026-10-28",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-28T16:20:14.445948+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 138.11,
-      "lastPriceAt": "2026-10-28T17:18:00Z",
-      "unrealizedDollar": 13.86,
-      "unrealizedPct": 0.2795
+      "lastPrice": 138.51,
+      "lastPriceAt": "2026-10-28T17:20:00Z",
+      "unrealizedDollar": 28.26,
+      "unrealizedPct": 0.57
     },
     "FFIV_2026-10-28": {
       "symbol": "FFIV",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-10-28T14:32:23.438548+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 365.47,
-      "lastPriceAt": "2026-10-28T17:18:00Z",
-      "unrealizedDollar": 135.52,
-      "unrealizedPct": 2.7734
+      "lastPrice": 365.04,
+      "lastPriceAt": "2026-10-28T17:20:00Z",
+      "unrealizedDollar": 141.11,
+      "unrealizedPct": 2.8878
     },
     "ENPH_2026-10-28": {
       "symbol": "ENPH",
@@ -1477,8 +1501,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T17:19:50.325976+00:00",
-    "lastCheckEt": "2026-10-28T13:19:50.325335-04:00",
+    "lastCheckAt": "2026-10-28T17:21:50.257487+00:00",
+    "lastCheckEt": "2026-10-28T13:21:50.256866-04:00",
     "status": "ok"
   }
 }
