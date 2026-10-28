@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-28T17:22:16.141379+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 87.89,
-      "lastPriceAt": "2026-10-28T18:34:00Z",
-      "unrealizedDollar": 15.39,
-      "unrealizedPct": 0.3063
+      "lastPrice": 88.05,
+      "lastPriceAt": "2026-10-28T18:35:00Z",
+      "unrealizedDollar": 6.27,
+      "unrealizedPct": 0.1248
     },
     "WING_2026-10-28": {
       "symbol": "WING",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-28T16:20:14.445948+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 139,
-      "lastPriceAt": "2026-10-28T18:34:00Z",
-      "unrealizedDollar": 45.9,
-      "unrealizedPct": 0.9258
+      "lastPrice": 139.14,
+      "lastPriceAt": "2026-10-28T18:35:00Z",
+      "unrealizedDollar": 50.94,
+      "unrealizedPct": 1.0274
     },
     "FFIV_2026-10-28": {
       "symbol": "FFIV",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-28T14:32:23.438548+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 370.02,
-      "lastPriceAt": "2026-10-28T18:34:00Z",
-      "unrealizedDollar": 76.38,
-      "unrealizedPct": 1.5629
+      "lastPrice": 370.235,
+      "lastPriceAt": "2026-10-28T18:35:00Z",
+      "unrealizedDollar": 73.58,
+      "unrealizedPct": 1.5057
     },
     "ENPH_2026-10-28": {
       "symbol": "ENPH",
@@ -1505,8 +1505,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T18:36:50.354480+00:00",
-    "lastCheckEt": "2026-10-28T14:36:50.353795-04:00",
+    "lastCheckAt": "2026-10-28T18:37:50.272405+00:00",
+    "lastCheckEt": "2026-10-28T14:37:50.271702-04:00",
     "status": "ok"
   }
 }
