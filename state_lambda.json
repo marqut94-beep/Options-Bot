@@ -1,5 +1,29 @@
 {
   "trades": {
+    "FFIV_2026-10-28": {
+      "symbol": "FFIV",
+      "date": "2026-10-28",
+      "direction": "short",
+      "entryTime": "2026-10-28T14:31:00Z",
+      "entryPrice": 375.895,
+      "shares": 13,
+      "convictionScore": 0.0078,
+      "allocDollar": 5058.46,
+      "stopPrice": 387.17185,
+      "targetPrice": 360.8592,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0935,
+      "pctChangeAtScreen": -10.7784,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-28T14:32:23.438548+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "ENPH_2026-10-28": {
       "symbol": "ENPH",
       "date": "2026-10-28",
@@ -1421,8 +1445,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T14:29:50.297651+00:00",
-    "lastCheckEt": "2026-10-28T10:29:50.276896-04:00",
+    "lastCheckAt": "2026-10-28T14:31:50.415849+00:00",
+    "lastCheckEt": "2026-10-28T10:31:50.415166-04:00",
     "status": "ok"
   }
 }
