@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-28T14:00:08.373614+00:00",
       "optionContracts": 64,
       "optionPricedVia": "trade",
-      "lastPrice": 25.02,
-      "lastPriceAt": "2026-10-28T14:02:00Z",
-      "unrealizedDollar": -101.92,
-      "unrealizedPct": -2.036
+      "lastPrice": 25.03,
+      "lastPriceAt": "2026-10-28T14:03:00Z",
+      "unrealizedDollar": -99.96,
+      "unrealizedPct": -1.9969
     },
     "CTAS_2026-10-27": {
       "symbol": "CTAS",
@@ -1413,8 +1413,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T14:03:50.347695+00:00",
-    "lastCheckEt": "2026-10-28T10:03:50.347075-04:00",
+    "lastCheckAt": "2026-10-28T14:04:25.078287+00:00",
+    "lastCheckEt": "2026-10-28T10:04:25.077625-04:00",
     "status": "ok"
   }
 }
