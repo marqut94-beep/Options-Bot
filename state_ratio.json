@@ -1,5 +1,23 @@
 {
   "trades": {
+    "UCTT_2026-10-28": {
+      "symbol": "UCTT",
+      "date": "2026-10-28",
+      "direction": "long",
+      "entryTime": "2026-10-28T19:07:00Z",
+      "entryPrice": 55.89,
+      "shares": 1,
+      "convictionScore": 0.0828,
+      "allocDollar": 56.21,
+      "stopPrice": 54.2133,
+      "targetPrice": 58.125600000000006,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.4968,
+      "pctChangeAtScreen": 3.6247,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "RUSHA_2026-10-28": {
       "symbol": "RUSHA",
       "date": "2026-10-28",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -6.2387,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 41.385,
-      "lastPriceAt": "2026-10-28T19:06:00Z",
+      "lastPrice": 41.38,
+      "lastPriceAt": "2026-10-28T19:07:00Z",
       "unrealizedDollar": 0.17,
-      "unrealizedPct": 0.4091
+      "unrealizedPct": 0.4211
     },
     "CSGP_2026-10-28": {
       "symbol": "CSGP",
@@ -39,10 +57,10 @@
       "pctChangeAtScreen": -8.6833,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 27.095,
-      "lastPriceAt": "2026-10-28T19:06:00Z",
-      "unrealizedDollar": 0.6,
-      "unrealizedPct": 1.0951
+      "lastPrice": 27.13,
+      "lastPriceAt": "2026-10-28T19:07:00Z",
+      "unrealizedDollar": 0.53,
+      "unrealizedPct": 0.9673
     },
     "EEFT_2026-10-27": {
       "symbol": "EEFT",
@@ -316,8 +334,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T19:07:12.798170+00:00",
-    "lastCheckEt": "2026-10-28T15:07:12.797919-04:00",
+    "lastCheckAt": "2026-10-28T19:08:12.830418+00:00",
+    "lastCheckEt": "2026-10-28T15:08:12.830186-04:00",
     "status": "ok"
   }
 }
