@@ -1,5 +1,23 @@
 {
   "trades": {
+    "RUSHA_2026-10-28": {
+      "symbol": "RUSHA",
+      "date": "2026-10-28",
+      "direction": "short",
+      "entryTime": "2026-10-28T18:52:00Z",
+      "entryPrice": 41.555,
+      "shares": 1,
+      "convictionScore": 0.0001,
+      "allocDollar": 50.01,
+      "stopPrice": 42.80165,
+      "targetPrice": 39.8928,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0009,
+      "pctChangeAtScreen": -6.2387,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "CSGP_2026-10-28": {
       "symbol": "CSGP",
       "date": "2026-10-28",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -8.6833,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 27.395,
-      "lastPriceAt": "2026-10-28T18:50:00Z",
-      "unrealizedDollar": -0.04,
-      "unrealizedPct": -0.0731
+      "lastPrice": 27.335,
+      "lastPriceAt": "2026-10-28T18:51:00Z",
+      "unrealizedDollar": 0.08,
+      "unrealizedPct": 0.1461
     },
     "EEFT_2026-10-27": {
       "symbol": "EEFT",
@@ -294,8 +312,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T18:51:49.866073+00:00",
-    "lastCheckEt": "2026-10-28T14:51:49.865853-04:00",
+    "lastCheckAt": "2026-10-28T18:52:49.985855+00:00",
+    "lastCheckEt": "2026-10-28T14:52:49.985644-04:00",
     "status": "ok"
   }
 }
