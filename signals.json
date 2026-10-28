@@ -798,5 +798,47 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "FFIV_2026-10-28_entry_2026-10-28T18:38:55.816659+00:00",
+    "tradeId": "FFIV_2026-10-28",
+    "action": "entry",
+    "createdAt": "2026-10-28T18:38:55.816662+00:00",
+    "symbol": "FFIV",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 370.91,
+    "allocDollar": 8979.78
+  },
+  {
+    "id": "WING_2026-10-28_entry_2026-10-28T18:38:55.816682+00:00",
+    "tradeId": "WING_2026-10-28",
+    "action": "entry",
+    "createdAt": "2026-10-28T18:38:55.816684+00:00",
+    "symbol": "WING",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 139.19,
+    "allocDollar": 5896.79
+  },
+  {
+    "id": "XYL_2026-10-28_entry_2026-10-28T18:38:55.816699+00:00",
+    "tradeId": "XYL_2026-10-28",
+    "action": "entry",
+    "createdAt": "2026-10-28T18:38:55.816701+00:00",
+    "symbol": "XYL",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 88.14,
+    "allocDollar": 5545.46
   }
 ]
