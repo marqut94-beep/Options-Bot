@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ENPH_2026-10-28": {
+      "symbol": "ENPH",
+      "date": "2026-10-28",
+      "direction": "long",
+      "entryTime": "2026-10-28T13:46:00Z",
+      "entryPrice": 25.54,
+      "shares": 196,
+      "convictionScore": 0.0021,
+      "allocDollar": 5015.47,
+      "stopPrice": 24.773799999999998,
+      "targetPrice": 26.5616,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0247,
+      "pctChangeAtScreen": 6.2055,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "ENPH261030C00025500",
+      "optionStrike": "25.5",
+      "optionExpiration": "2026-10-30",
+      "optionEntryPrice": 0.78,
+      "optionEntryTime": "2026-10-28T14:00:08.373614+00:00",
+      "optionContracts": 64,
+      "optionPricedVia": "trade"
+    },
     "CTAS_2026-10-27": {
       "symbol": "CTAS",
       "date": "2026-10-27",
@@ -1385,8 +1409,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T13:57:50.370448+00:00",
-    "lastCheckEt": "2026-10-28T09:57:50.345732-04:00",
+    "lastCheckAt": "2026-10-28T13:59:50.286034+00:00",
+    "lastCheckEt": "2026-10-28T09:59:50.285438-04:00",
     "status": "ok"
   }
 }
