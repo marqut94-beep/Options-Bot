@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-28T14:32:23.438548+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 375.895,
-      "lastPriceAt": "2026-10-28T14:31:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "lastPrice": 376.34,
+      "lastPriceAt": "2026-10-28T14:33:00Z",
+      "unrealizedDollar": -5.78,
+      "unrealizedPct": -0.1184
     },
     "ENPH_2026-10-28": {
       "symbol": "ENPH",
@@ -1449,8 +1449,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T14:32:51.099565+00:00",
-    "lastCheckEt": "2026-10-28T10:32:51.098921-04:00",
+    "lastCheckAt": "2026-10-28T14:34:50.392797+00:00",
+    "lastCheckEt": "2026-10-28T10:34:50.392186-04:00",
     "status": "ok"
   }
 }
