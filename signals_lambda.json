@@ -965,5 +965,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 375.895,
     "allocDollar": 5058.46
+  },
+  {
+    "id": "WING_2026-10-28_entry_2026-10-28T16:20:14.446441+00:00",
+    "tradeId": "WING_2026-10-28",
+    "action": "entry",
+    "createdAt": "2026-10-28T16:20:14.446446+00:00",
+    "symbol": "WING",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 137.725,
+    "allocDollar": 5004.44
   }
 ]
