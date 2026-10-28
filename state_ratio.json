@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -8.6833,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 27.375,
-      "lastPriceAt": "2026-10-28T18:49:00Z",
-      "unrealizedDollar": 0.04,
-      "unrealizedPct": 0.073
+      "lastPrice": 27.395,
+      "lastPriceAt": "2026-10-28T18:50:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "EEFT_2026-10-27": {
       "symbol": "EEFT",
@@ -294,8 +294,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-28T18:50:12.814748+00:00",
-    "lastCheckEt": "2026-10-28T14:50:12.814514-04:00",
+    "lastCheckAt": "2026-10-28T18:51:12.800560+00:00",
+    "lastCheckEt": "2026-10-28T14:51:12.800321-04:00",
     "status": "ok"
   }
 }
