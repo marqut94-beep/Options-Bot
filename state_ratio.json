@@ -1,5 +1,23 @@
 {
   "trades": {
+    "ALKT_2026-10-29": {
+      "symbol": "ALKT",
+      "date": "2026-10-29",
+      "direction": "short",
+      "entryTime": "2026-10-29T17:20:00Z",
+      "entryPrice": 12.41,
+      "shares": 4,
+      "convictionScore": 0.0004,
+      "allocDollar": 50.03,
+      "stopPrice": 12.782300000000001,
+      "targetPrice": 11.913599999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0023,
+      "pctChangeAtScreen": -9.6798,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "MSFU_2026-10-29": {
       "symbol": "MSFU",
       "date": "2026-10-29",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -6.0329,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 40.64,
-      "lastPriceAt": "2026-10-29T17:19:00Z",
-      "unrealizedDollar": -0.06,
-      "unrealizedPct": -0.1602
+      "lastPrice": 40.68,
+      "lastPriceAt": "2026-10-29T17:20:00Z",
+      "unrealizedDollar": -0.1,
+      "unrealizedPct": -0.2588
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -402,8 +420,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T17:20:12.730159+00:00",
-    "lastCheckEt": "2026-10-29T13:20:12.729936-04:00",
+    "lastCheckAt": "2026-10-29T17:21:12.784170+00:00",
+    "lastCheckEt": "2026-10-29T13:21:12.783921-04:00",
     "status": "ok"
   }
 }
