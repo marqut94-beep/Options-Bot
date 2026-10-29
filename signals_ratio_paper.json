@@ -247,5 +247,15 @@
     "direction": "short",
     "stockEntryPrice": 12.44,
     "allocDollar": 50.03
+  },
+  {
+    "id": "RUSHA_2026-10-29_entry_2026-10-29T17:31:41.257821+00:00",
+    "tradeId": "RUSHA_2026-10-29",
+    "action": "entry",
+    "createdAt": "2026-10-29T17:31:41.257833+00:00",
+    "symbol": "RUSHA",
+    "direction": "long",
+    "stockEntryPrice": 43.48,
+    "allocDollar": 50.18
   }
 ]
