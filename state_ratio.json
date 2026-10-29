@@ -11,7 +11,7 @@
       "allocDollar": 50.18,
       "stopPrice": 42.175599999999996,
       "targetPrice": 45.2192,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0146,
       "pctChangeAtScreen": 3.1799,
@@ -20,7 +20,12 @@
       "lastPrice": 43.56,
       "lastPriceAt": "2026-10-29T19:53:00Z",
       "unrealizedDollar": 0.08,
-      "unrealizedPct": 0.184
+      "unrealizedPct": 0.184,
+      "exitTime": "2026-10-29T19:55:12.971531+00:00",
+      "exitPrice": 43.64,
+      "exitReason": "eod",
+      "returnPct": 0.368,
+      "dollarPnl": 0.16
     },
     "ALKT_2026-10-29": {
       "symbol": "ALKT",
@@ -60,7 +65,7 @@
       "allocDollar": 50.07,
       "stopPrice": 41.79225,
       "targetPrice": 38.952,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0055,
       "pctChangeAtScreen": -6.0329,
@@ -69,7 +74,12 @@
       "lastPrice": 41.47,
       "lastPriceAt": "2026-10-29T19:53:00Z",
       "unrealizedDollar": -0.89,
-      "unrealizedPct": -2.2058
+      "unrealizedPct": -2.2058,
+      "exitTime": "2026-10-29T19:55:13.177263+00:00",
+      "exitPrice": 41.48,
+      "exitReason": "eod",
+      "returnPct": -2.2304,
+      "dollarPnl": -0.9
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -451,8 +461,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T19:54:12.705892+00:00",
-    "lastCheckEt": "2026-10-29T15:54:12.705654-04:00",
+    "lastCheckAt": "2026-10-29T19:55:12.755629+00:00",
+    "lastCheckEt": "2026-10-29T15:55:12.755421-04:00",
     "status": "ok"
   }
 }
