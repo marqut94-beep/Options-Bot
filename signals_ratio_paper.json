@@ -218,5 +218,15 @@
     "direction": "long",
     "stockEntryPrice": 50.315,
     "allocDollar": 50.61
+  },
+  {
+    "id": "MSFU_2026-10-29_entry_2026-10-29T14:46:25.409061+00:00",
+    "tradeId": "MSFU_2026-10-29",
+    "action": "entry",
+    "createdAt": "2026-10-29T14:46:25.409072+00:00",
+    "symbol": "MSFU",
+    "direction": "short",
+    "stockEntryPrice": 40.52,
+    "allocDollar": 50.07
   }
 ]
