@@ -65,10 +65,10 @@
       "optionEntryTime": "2026-10-29T14:28:11.070125+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 110.51,
-      "lastPriceAt": "2026-10-29T17:29:00Z",
-      "unrealizedDollar": 125.58,
-      "unrealizedPct": 2.4108
+      "lastPrice": 110.3255,
+      "lastPriceAt": "2026-10-29T17:31:00Z",
+      "unrealizedDollar": 134.07,
+      "unrealizedPct": 2.5737
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -1656,8 +1656,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T17:30:50.307794+00:00",
-    "lastCheckEt": "2026-10-29T13:30:50.307063-04:00",
+    "lastCheckAt": "2026-10-29T17:32:46.854372+00:00",
+    "lastCheckEt": "2026-10-29T13:32:46.853657-04:00",
     "status": "ok"
   }
 }
