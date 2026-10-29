@@ -232,5 +232,15 @@
     "createdAt": "2026-10-28T19:55:13.540439+00:00",
     "symbol": "CSGP",
     "reason": "eod"
+  },
+  {
+    "id": "SFM_2026-10-29_entry_2026-10-29T13:46:46.952141+00:00",
+    "tradeId": "SFM_2026-10-29",
+    "action": "entry",
+    "createdAt": "2026-10-29T13:46:46.952151+00:00",
+    "symbol": "SFM",
+    "direction": "long",
+    "stockEntryPrice": 50.315,
+    "allocDollar": 50.61
   }
 ]
