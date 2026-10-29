@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SFM_2026-10-29": {
+      "symbol": "SFM",
+      "date": "2026-10-29",
+      "direction": "long",
+      "entryTime": "2026-10-29T13:38:00Z",
+      "entryPrice": 50.315,
+      "shares": 102,
+      "convictionScore": 0.0179,
+      "allocDollar": 5134.06,
+      "stopPrice": 48.80555,
+      "targetPrice": 52.3276,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.2145,
+      "pctChangeAtScreen": 5.9799,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-29T13:42:36.084203+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "XYL_2026-10-28": {
       "symbol": "XYL",
       "date": "2026-10-28",
@@ -1520,8 +1544,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T13:39:50.382114+00:00",
-    "lastCheckEt": "2026-10-29T09:39:50.381487-04:00",
+    "lastCheckAt": "2026-10-29T13:42:21.418087+00:00",
+    "lastCheckEt": "2026-10-29T09:42:21.409336-04:00",
     "status": "ok"
   }
 }
