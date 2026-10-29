@@ -251,5 +251,15 @@
     "symbol": "SFM",
     "stockEntryPrice": 50.315,
     "reason": "stop"
+  },
+  {
+    "id": "ALKT_2026-10-29_entry_2026-10-29T17:21:44.250043+00:00",
+    "tradeId": "ALKT_2026-10-29",
+    "action": "entry",
+    "createdAt": "2026-10-29T17:21:44.250054+00:00",
+    "symbol": "ALKT",
+    "direction": "short",
+    "stockEntryPrice": 12.41,
+    "allocDollar": 50.03
   }
 ]
