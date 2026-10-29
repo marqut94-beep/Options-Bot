@@ -1127,5 +1127,17 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "NOW_2026-10-29_exit_close_partial_2026-10-29T19:15:50.587098+00:00",
+    "tradeId": "NOW_2026-10-29",
+    "action": "exit_close_partial",
+    "createdAt": "2026-10-29T19:15:50.587113+00:00",
+    "symbol": "NOW",
+    "optionSymbol": "NOW261030P00113000",
+    "contracts": 2,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
