@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 3.1799,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 43.115,
-      "lastPriceAt": "2026-10-29T19:24:00Z",
-      "unrealizedDollar": -0.36,
-      "unrealizedPct": -0.8395
+      "lastPrice": 43.07,
+      "lastPriceAt": "2026-10-29T19:25:00Z",
+      "unrealizedDollar": -0.41,
+      "unrealizedPct": -0.943
     },
     "ALKT_2026-10-29": {
       "symbol": "ALKT",
@@ -66,10 +66,10 @@
       "pctChangeAtScreen": -6.0329,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 41.32,
-      "lastPriceAt": "2026-10-29T19:24:00Z",
-      "unrealizedDollar": -0.8,
-      "unrealizedPct": -1.9743
+      "lastPrice": 41.31,
+      "lastPriceAt": "2026-10-29T19:25:00Z",
+      "unrealizedDollar": -0.79,
+      "unrealizedPct": -1.9497
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -451,8 +451,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T19:25:49.877301+00:00",
-    "lastCheckEt": "2026-10-29T15:25:49.877013-04:00",
+    "lastCheckAt": "2026-10-29T19:26:49.957184+00:00",
+    "lastCheckEt": "2026-10-29T15:26:49.956894-04:00",
     "status": "ok"
   }
 }
