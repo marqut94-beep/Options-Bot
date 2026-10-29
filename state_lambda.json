@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-29T13:42:36.084203+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 50.4,
-      "lastPriceAt": "2026-10-29T13:50:00Z",
-      "unrealizedDollar": 8.67,
-      "unrealizedPct": 0.1689
+      "lastPrice": 50.18,
+      "lastPriceAt": "2026-10-29T13:51:00Z",
+      "unrealizedDollar": -13.77,
+      "unrealizedPct": -0.2683
     },
     "GGLL_2026-10-29": {
       "symbol": "GGLL",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-29T13:49:24.210619+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 65.31,
-      "lastPriceAt": "2026-10-29T13:50:00Z",
-      "unrealizedDollar": -84.46,
-      "unrealizedPct": -1.6024
+      "lastPrice": 65.4389,
+      "lastPriceAt": "2026-10-29T13:51:00Z",
+      "unrealizedDollar": -95.03,
+      "unrealizedPct": -1.8029
     },
     "XYL_2026-10-28": {
       "symbol": "XYL",
@@ -1576,8 +1576,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T13:51:50.267582+00:00",
-    "lastCheckEt": "2026-10-29T09:51:50.266781-04:00",
+    "lastCheckAt": "2026-10-29T13:52:09.781530+00:00",
+    "lastCheckEt": "2026-10-29T09:52:09.780842-04:00",
     "status": "ok"
   }
 }
