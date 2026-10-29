@@ -1026,5 +1026,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "SFM_2026-10-29_entry_2026-10-29T13:42:36.084227+00:00",
+    "tradeId": "SFM_2026-10-29",
+    "action": "entry",
+    "createdAt": "2026-10-29T13:42:36.084231+00:00",
+    "symbol": "SFM",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 50.315,
+    "allocDollar": 5134.06
   }
 ]
