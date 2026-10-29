@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 6.0428,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 50.465,
-      "lastPriceAt": "2026-10-29T14:20:00Z",
-      "unrealizedDollar": 0.15,
-      "unrealizedPct": 0.2981
+      "lastPrice": 50.3,
+      "lastPriceAt": "2026-10-29T14:21:00Z",
+      "unrealizedDollar": -0.02,
+      "unrealizedPct": -0.0298
     },
     "UCTT_2026-10-28": {
       "symbol": "UCTT",
@@ -375,8 +375,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T14:21:12.818496+00:00",
-    "lastCheckEt": "2026-10-29T10:21:12.802048-04:00",
+    "lastCheckAt": "2026-10-29T14:22:12.838318+00:00",
+    "lastCheckEt": "2026-10-29T10:22:12.825941-04:00",
     "status": "ok"
   }
 }
