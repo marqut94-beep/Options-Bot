@@ -39,10 +39,10 @@
       "pctChangeAtScreen": -9.6798,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 12.69,
-      "lastPriceAt": "2026-10-29T17:54:00Z",
-      "unrealizedDollar": -1.0,
-      "unrealizedPct": -2.0096
+      "lastPrice": 12.67,
+      "lastPriceAt": "2026-10-29T17:55:00Z",
+      "unrealizedDollar": -0.92,
+      "unrealizedPct": -1.8489
     },
     "MSFU_2026-10-29": {
       "symbol": "MSFU",
@@ -446,8 +446,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T17:55:49.829573+00:00",
-    "lastCheckEt": "2026-10-29T13:55:49.829228-04:00",
+    "lastCheckAt": "2026-10-29T17:56:00.449798+00:00",
+    "lastCheckEt": "2026-10-29T13:56:00.449518-04:00",
     "status": "ok"
   }
 }
