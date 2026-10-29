@@ -242,5 +242,14 @@
     "direction": "long",
     "stockEntryPrice": 50.315,
     "allocDollar": 50.61
+  },
+  {
+    "id": "SFM_2026-10-29_exit_close_all_2026-10-29T15:00:13.518059+00:00",
+    "tradeId": "SFM_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T15:00:13.518086+00:00",
+    "symbol": "SFM",
+    "stockEntryPrice": 50.315,
+    "reason": "stop"
   }
 ]
