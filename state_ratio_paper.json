@@ -1,5 +1,23 @@
 {
   "trades": {
+    "SFM_2026-10-29": {
+      "symbol": "SFM",
+      "date": "2026-10-29",
+      "direction": "long",
+      "entryTime": "2026-10-29T13:38:00Z",
+      "entryPrice": 50.315,
+      "shares": 1,
+      "convictionScore": 0.0082,
+      "allocDollar": 50.61,
+      "stopPrice": 48.80555,
+      "targetPrice": 52.3276,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.049,
+      "pctChangeAtScreen": 6.0428,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "UCTT_2026-10-28": {
       "symbol": "UCTT",
       "date": "2026-10-28",
@@ -353,8 +371,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T13:44:49.844801+00:00",
-    "lastCheckEt": "2026-10-29T09:44:49.844566-04:00",
+    "lastCheckAt": "2026-10-29T13:45:49.889015+00:00",
+    "lastCheckEt": "2026-10-29T09:45:49.888742-04:00",
     "status": "ok"
   }
 }
