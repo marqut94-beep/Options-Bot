@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-29T14:29:07.239798+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 236.89,
-      "lastPriceAt": "2026-10-29T15:21:00Z",
-      "unrealizedDollar": 136.51,
-      "unrealizedPct": 2.6898
+      "lastPrice": 237.71,
+      "lastPriceAt": "2026-10-29T15:22:00Z",
+      "unrealizedDollar": 154.55,
+      "unrealizedPct": 3.0453
     },
     "NOW_2026-10-29": {
       "symbol": "NOW",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-29T14:28:11.070125+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 112.0846,
-      "lastPriceAt": "2026-10-29T15:21:00Z",
-      "unrealizedDollar": 53.15,
-      "unrealizedPct": 1.0203
+      "lastPrice": 112.15,
+      "lastPriceAt": "2026-10-29T15:22:00Z",
+      "unrealizedDollar": 50.14,
+      "unrealizedPct": 0.9626
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -1642,8 +1642,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T15:22:50.375124+00:00",
-    "lastCheckEt": "2026-10-29T11:22:50.374301-04:00",
+    "lastCheckAt": "2026-10-29T15:23:50.347083+00:00",
+    "lastCheckEt": "2026-10-29T11:23:50.346317-04:00",
     "status": "ok"
   }
 }
