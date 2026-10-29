@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-29T14:29:07.239798+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 234.81,
-      "lastPriceAt": "2026-10-29T14:58:00Z",
-      "unrealizedDollar": 90.75,
-      "unrealizedPct": 1.7882
+      "lastPrice": 235.125,
+      "lastPriceAt": "2026-10-29T14:59:00Z",
+      "unrealizedDollar": 97.68,
+      "unrealizedPct": 1.9247
     },
     "NOW_2026-10-29": {
       "symbol": "NOW",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-29T14:28:11.070125+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 112.84,
-      "lastPriceAt": "2026-10-29T14:58:00Z",
-      "unrealizedDollar": 18.4,
-      "unrealizedPct": 0.3532
+      "lastPrice": 113.05,
+      "lastPriceAt": "2026-10-29T14:59:00Z",
+      "unrealizedDollar": 8.74,
+      "unrealizedPct": 0.1678
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -67,7 +67,7 @@
       "allocDollar": 5134.06,
       "stopPrice": 48.80555,
       "targetPrice": 52.3276,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.2145,
       "pctChangeAtScreen": 5.9799,
@@ -82,7 +82,12 @@
       "lastPrice": 49.16,
       "lastPriceAt": "2026-10-29T14:58:00Z",
       "unrealizedDollar": -117.81,
-      "unrealizedPct": -2.2955
+      "unrealizedPct": -2.2955,
+      "exitTime": "2026-10-29T15:00:51.321683+00:00",
+      "exitPrice": 48.80555,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -153.96
     },
     "GGLL_2026-10-29": {
       "symbol": "GGLL",
@@ -1637,8 +1642,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T14:59:50.283590+00:00",
-    "lastCheckEt": "2026-10-29T10:59:50.282825-04:00",
+    "lastCheckAt": "2026-10-29T15:00:50.406696+00:00",
+    "lastCheckEt": "2026-10-29T11:00:50.397744-04:00",
     "status": "ok"
   }
 }
