@@ -280,5 +280,21 @@
     "symbol": "ALKT",
     "stockEntryPrice": 12.41,
     "reason": "stop"
+  },
+  {
+    "id": "RUSHA_2026-10-29_exit_close_all_2026-10-29T19:55:12.971561+00:00",
+    "tradeId": "RUSHA_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T19:55:12.971565+00:00",
+    "symbol": "RUSHA",
+    "reason": "eod"
+  },
+  {
+    "id": "MSFU_2026-10-29_exit_close_all_2026-10-29T19:55:13.177296+00:00",
+    "tradeId": "MSFU_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T19:55:13.177299+00:00",
+    "symbol": "MSFU",
+    "reason": "eod"
   }
 ]
