@@ -1,5 +1,29 @@
 {
   "trades": {
+    "GKOS_2026-10-29": {
+      "symbol": "GKOS",
+      "date": "2026-10-29",
+      "direction": "long",
+      "entryTime": "2026-10-29T14:28:00Z",
+      "entryPrice": 230.685,
+      "shares": 22,
+      "convictionScore": 0.0009,
+      "allocDollar": 5006.75,
+      "stopPrice": 223.76444999999998,
+      "targetPrice": 239.91240000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0108,
+      "pctChangeAtScreen": 8.8436,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-10-29T14:29:07.239798+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "NOW_2026-10-29": {
       "symbol": "NOW",
       "date": "2026-10-29",
@@ -22,7 +46,11 @@
       "optionEntryPrice": 2.47,
       "optionEntryTime": "2026-10-29T14:28:11.070125+00:00",
       "optionContracts": 21,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 113.24,
+      "lastPriceAt": "2026-10-29T14:27:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -47,10 +75,10 @@
       "optionEntryTime": "2026-10-29T13:42:36.084203+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 49.97,
-      "lastPriceAt": "2026-10-29T14:26:00Z",
-      "unrealizedDollar": -35.19,
-      "unrealizedPct": -0.6857
+      "lastPrice": 49.985,
+      "lastPriceAt": "2026-10-29T14:27:00Z",
+      "unrealizedDollar": -33.66,
+      "unrealizedPct": -0.6559
     },
     "GGLL_2026-10-29": {
       "symbol": "GGLL",
@@ -1605,8 +1633,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T14:27:50.552314+00:00",
-    "lastCheckEt": "2026-10-29T10:27:50.551593-04:00",
+    "lastCheckAt": "2026-10-29T14:28:50.299899+00:00",
+    "lastCheckEt": "2026-10-29T10:28:50.299100-04:00",
     "status": "ok"
   }
 }
