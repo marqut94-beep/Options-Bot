@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-29T14:29:07.239798+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 230.685,
+      "lastPriceAt": "2026-10-29T14:28:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "NOW_2026-10-29": {
       "symbol": "NOW",
@@ -47,10 +51,10 @@
       "optionEntryTime": "2026-10-29T14:28:11.070125+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 113.24,
-      "lastPriceAt": "2026-10-29T14:27:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "lastPrice": 113.165,
+      "lastPriceAt": "2026-10-29T14:28:00Z",
+      "unrealizedDollar": 3.45,
+      "unrealizedPct": 0.0662
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -75,10 +79,10 @@
       "optionEntryTime": "2026-10-29T13:42:36.084203+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 49.985,
-      "lastPriceAt": "2026-10-29T14:27:00Z",
-      "unrealizedDollar": -33.66,
-      "unrealizedPct": -0.6559
+      "lastPrice": 49.73,
+      "lastPriceAt": "2026-10-29T14:28:00Z",
+      "unrealizedDollar": -59.67,
+      "unrealizedPct": -1.1627
     },
     "GGLL_2026-10-29": {
       "symbol": "GGLL",
@@ -1633,8 +1637,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T14:28:50.299899+00:00",
-    "lastCheckEt": "2026-10-29T10:28:50.299100-04:00",
+    "lastCheckAt": "2026-10-29T14:29:50.310120+00:00",
+    "lastCheckEt": "2026-10-29T10:29:50.309424-04:00",
     "status": "ok"
   }
 }
