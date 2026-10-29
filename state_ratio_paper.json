@@ -18,7 +18,7 @@
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
       "lastPrice": 43.215,
-      "lastPriceAt": "2026-10-29T17:56:00Z",
+      "lastPriceAt": "2026-10-29T17:57:00Z",
       "unrealizedDollar": -0.26,
       "unrealizedPct": -0.6095
     },
@@ -33,7 +33,7 @@
       "allocDollar": 50.03,
       "stopPrice": 12.8132,
       "targetPrice": 11.9424,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0023,
       "pctChangeAtScreen": -9.6798,
@@ -42,7 +42,12 @@
       "lastPrice": 12.72,
       "lastPriceAt": "2026-10-29T17:56:00Z",
       "unrealizedDollar": -1.12,
-      "unrealizedPct": -2.2508
+      "unrealizedPct": -2.2508,
+      "exitTime": "2026-10-29T17:58:50.241793+00:00",
+      "exitPrice": 12.8132,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.49
     },
     "MSFU_2026-10-29": {
       "symbol": "MSFU",
@@ -61,10 +66,10 @@
       "pctChangeAtScreen": -6.0329,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 40.85,
-      "lastPriceAt": "2026-10-29T17:56:00Z",
-      "unrealizedDollar": -0.33,
-      "unrealizedPct": -0.8144
+      "lastPrice": 40.86,
+      "lastPriceAt": "2026-10-29T17:57:00Z",
+      "unrealizedDollar": -0.34,
+      "unrealizedPct": -0.8391
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -446,8 +451,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T17:57:49.911239+00:00",
-    "lastCheckEt": "2026-10-29T13:57:49.910930-04:00",
+    "lastCheckAt": "2026-10-29T17:58:49.828965+00:00",
+    "lastCheckEt": "2026-10-29T13:58:49.828699-04:00",
     "status": "ok"
   }
 }
