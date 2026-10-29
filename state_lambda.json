@@ -54,7 +54,7 @@
       "stopPrice": 116.63719999999999,
       "targetPrice": 108.71039999999999,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.3763,
       "pctChangeAtScreen": -5.7979,
       "dataSource": "alpaca-sip",
@@ -68,7 +68,16 @@
       "lastPrice": 108.8,
       "lastPriceAt": "2026-10-29T19:13:00Z",
       "unrealizedDollar": 204.24,
-      "unrealizedPct": 3.9209
+      "unrealizedPct": 3.9209,
+      "partialExitPrice": 108.71039999999999,
+      "partialExitTime": "2026-10-29T19:14:00Z",
+      "partialDollarPnl": 22.65,
+      "sharesPartial": 5,
+      "sharesRemainder": 41,
+      "remainderFloor": 110.97519999999999,
+      "remainderTarget": 99.6512,
+      "optionContractsPartial": 2,
+      "optionContractsRemainder": 19
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -1656,8 +1665,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T19:14:51.591735+00:00",
-    "lastCheckEt": "2026-10-29T15:14:51.591005-04:00",
+    "lastCheckAt": "2026-10-29T19:15:50.292628+00:00",
+    "lastCheckEt": "2026-10-29T15:15:50.291954-04:00",
     "status": "ok"
   }
 }
