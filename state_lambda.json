@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-29T13:42:36.084203+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 50.51,
+      "lastPriceAt": "2026-10-29T13:41:00Z",
+      "unrealizedDollar": 19.89,
+      "unrealizedPct": 0.3876
     },
     "XYL_2026-10-28": {
       "symbol": "XYL",
@@ -1544,8 +1548,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T13:42:21.418087+00:00",
-    "lastCheckEt": "2026-10-29T09:42:21.409336-04:00",
+    "lastCheckAt": "2026-10-29T13:42:50.258785+00:00",
+    "lastCheckEt": "2026-10-29T09:42:50.258107-04:00",
     "status": "ok"
   }
 }
