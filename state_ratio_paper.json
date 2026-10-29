@@ -1,5 +1,23 @@
 {
   "trades": {
+    "RUSHA_2026-10-29": {
+      "symbol": "RUSHA",
+      "date": "2026-10-29",
+      "direction": "long",
+      "entryTime": "2026-10-29T17:30:00Z",
+      "entryPrice": 43.48,
+      "shares": 1,
+      "convictionScore": 0.0024,
+      "allocDollar": 50.18,
+      "stopPrice": 42.175599999999996,
+      "targetPrice": 45.2192,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0146,
+      "pctChangeAtScreen": 3.1799,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "ALKT_2026-10-29": {
       "symbol": "ALKT",
       "date": "2026-10-29",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -9.6798,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 12.57,
-      "lastPriceAt": "2026-10-29T17:28:00Z",
-      "unrealizedDollar": -0.52,
-      "unrealizedPct": -1.045
+      "lastPrice": 12.54,
+      "lastPriceAt": "2026-10-29T17:29:00Z",
+      "unrealizedDollar": -0.4,
+      "unrealizedPct": -0.8039
     },
     "MSFU_2026-10-29": {
       "symbol": "MSFU",
@@ -39,10 +57,10 @@
       "pctChangeAtScreen": -6.0329,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 40.81,
-      "lastPriceAt": "2026-10-29T17:28:00Z",
-      "unrealizedDollar": -0.29,
-      "unrealizedPct": -0.7157
+      "lastPrice": 40.8498,
+      "lastPriceAt": "2026-10-29T17:29:00Z",
+      "unrealizedDollar": -0.33,
+      "unrealizedPct": -0.8139
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -424,8 +442,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T17:29:49.876810+00:00",
-    "lastCheckEt": "2026-10-29T13:29:49.864419-04:00",
+    "lastCheckAt": "2026-10-29T17:30:49.868815+00:00",
+    "lastCheckEt": "2026-10-29T13:30:49.868537-04:00",
     "status": "ok"
   }
 }
