@@ -1065,5 +1065,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "NOW_2026-10-29_entry_2026-10-29T14:28:11.070149+00:00",
+    "tradeId": "NOW_2026-10-29",
+    "action": "entry",
+    "createdAt": "2026-10-29T14:28:11.070153+00:00",
+    "symbol": "NOW",
+    "direction": "short",
+    "optionSymbol": "NOW261030P00113000",
+    "contracts": 21,
+    "optionEntryPriceAtScreen": 2.47,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 113.24,
+    "allocDollar": 5235.19
   }
 ]
