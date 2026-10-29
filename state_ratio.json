@@ -1,5 +1,23 @@
 {
   "trades": {
+    "MSFU_2026-10-29": {
+      "symbol": "MSFU",
+      "date": "2026-10-29",
+      "direction": "short",
+      "entryTime": "2026-10-29T14:44:00Z",
+      "entryPrice": 40.575,
+      "shares": 1,
+      "convictionScore": 0.0009,
+      "allocDollar": 50.07,
+      "stopPrice": 41.79225,
+      "targetPrice": 38.952,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0055,
+      "pctChangeAtScreen": -6.0329,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "SFM_2026-10-29": {
       "symbol": "SFM",
       "date": "2026-10-29",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": 6.0428,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 49.305,
-      "lastPriceAt": "2026-10-29T14:43:00Z",
-      "unrealizedDollar": -1.01,
-      "unrealizedPct": -2.0074
+      "lastPrice": 49.22,
+      "lastPriceAt": "2026-10-29T14:44:00Z",
+      "unrealizedDollar": -1.09,
+      "unrealizedPct": -2.1763
     },
     "UCTT_2026-10-28": {
       "symbol": "UCTT",
@@ -375,8 +393,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T14:44:12.764815+00:00",
-    "lastCheckEt": "2026-10-29T10:44:12.764530-04:00",
+    "lastCheckAt": "2026-10-29T14:45:12.868931+00:00",
+    "lastCheckEt": "2026-10-29T10:45:12.868661-04:00",
     "status": "ok"
   }
 }
