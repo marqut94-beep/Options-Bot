@@ -271,5 +271,14 @@
     "direction": "long",
     "stockEntryPrice": 43.48,
     "allocDollar": 50.18
+  },
+  {
+    "id": "ALKT_2026-10-29_exit_close_all_2026-10-29T17:58:13.429685+00:00",
+    "tradeId": "ALKT_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T17:58:13.429689+00:00",
+    "symbol": "ALKT",
+    "stockEntryPrice": 12.41,
+    "reason": "stop"
   }
 ]
