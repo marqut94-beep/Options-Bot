@@ -53,7 +53,7 @@
       "allocDollar": 5235.19,
       "stopPrice": 116.63719999999999,
       "targetPrice": 108.71039999999999,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.3763,
       "pctChangeAtScreen": -5.7979,
@@ -77,7 +77,15 @@
       "remainderFloor": 110.97519999999999,
       "remainderTarget": 99.6512,
       "optionContractsPartial": 2,
-      "optionContractsRemainder": 19
+      "optionContractsRemainder": 19,
+      "optionExitPrice": 3.81,
+      "optionExitTime": "2026-10-29T19:55:50.933029+00:00",
+      "optionReturnPct": 54.251,
+      "exitTime": "2026-10-29T19:55:50.933058+00:00",
+      "exitPrice": 110.125,
+      "exitReason": "eod",
+      "returnPct": 2.8866,
+      "dollarPnl": 150.36
     },
     "SFM_2026-10-29": {
       "symbol": "SFM",
@@ -1665,8 +1673,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T19:54:48.881563+00:00",
-    "lastCheckEt": "2026-10-29T15:54:48.880841-04:00",
+    "lastCheckAt": "2026-10-29T19:55:50.236180+00:00",
+    "lastCheckEt": "2026-10-29T15:55:50.235472-04:00",
     "status": "ok"
   }
 }
