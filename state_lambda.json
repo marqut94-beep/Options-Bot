@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-29T13:42:36.084203+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 50.145,
-      "lastPriceAt": "2026-10-29T13:59:00Z",
-      "unrealizedDollar": -17.34,
-      "unrealizedPct": -0.3379
+      "lastPrice": 50.275,
+      "lastPriceAt": "2026-10-29T14:01:00Z",
+      "unrealizedDollar": -4.08,
+      "unrealizedPct": -0.0795
     },
     "GGLL_2026-10-29": {
       "symbol": "GGLL",
@@ -39,7 +39,7 @@
       "allocDollar": 5301.41,
       "stopPrice": 66.2084,
       "targetPrice": 61.7088,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.4823,
       "pctChangeAtScreen": -3.6023,
@@ -54,7 +54,12 @@
       "lastPrice": 65.92,
       "lastPriceAt": "2026-10-29T13:59:00Z",
       "unrealizedDollar": -134.48,
-      "unrealizedPct": -2.5513
+      "unrealizedPct": -2.5513,
+      "exitTime": "2026-10-29T14:02:50.844713+00:00",
+      "exitPrice": 66.2084,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -158.13
     },
     "XYL_2026-10-28": {
       "symbol": "XYL",
@@ -1576,8 +1581,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T14:00:50.329871+00:00",
-    "lastCheckEt": "2026-10-29T10:00:50.321046-04:00",
+    "lastCheckAt": "2026-10-29T14:02:50.372889+00:00",
+    "lastCheckEt": "2026-10-29T10:02:50.368035-04:00",
     "status": "ok"
   }
 }
