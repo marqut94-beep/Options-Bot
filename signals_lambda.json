@@ -1093,5 +1093,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 230.685,
     "allocDollar": 5006.75
+  },
+  {
+    "id": "SFM_2026-10-29_exit_close_all_2026-10-29T15:00:51.321713+00:00",
+    "tradeId": "SFM_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T15:00:51.321717+00:00",
+    "symbol": "SFM",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
