@@ -915,5 +915,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 239.83,
     "allocDollar": 6662.27
+  },
+  {
+    "id": "NOW_2026-10-29_exit_close_all_2026-10-29T22:59:34.360681+00:00",
+    "tradeId": "NOW_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T22:59:34.360683+00:00",
+    "symbol": "NOW",
+    "optionSymbol": "NOW261030P00109000",
+    "contracts": 49,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "CROX_2026-10-29_exit_close_all_2026-10-29T22:59:34.634735+00:00",
+    "tradeId": "CROX_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T22:59:34.634738+00:00",
+    "symbol": "CROX",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "GKOS_2026-10-29_exit_close_all_2026-10-29T22:59:34.819204+00:00",
+    "tradeId": "GKOS_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T22:59:34.819206+00:00",
+    "symbol": "GKOS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]

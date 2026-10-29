@@ -13,7 +13,7 @@
       "allocDollar": 10537.49,
       "stopPrice": 112.32665000000001,
       "targetPrice": 104.6928,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 10.86,
       "pctChangeAtScreen": -9.8011,
@@ -24,7 +24,17 @@
       "optionEntryPrice": 2.14,
       "optionEntryTime": "2026-10-29T18:49:58.529348+00:00",
       "optionContracts": 49,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "optionExitPrice": 1.54,
+      "optionExitTime": "2026-10-29T22:59:34.360652+00:00",
+      "optionReturnPct": -28.0374,
+      "grossDollarPnl": 87.52,
+      "costDollar": 42.5,
+      "exitTime": "2026-10-29T22:59:34.360673+00:00",
+      "exitPrice": 108.1527,
+      "exitReason": "eod",
+      "returnPct": 0.4256,
+      "dollarPnl": 45.02
     },
     "CROX_2026-10-29": {
       "symbol": "CROX",
@@ -39,7 +49,7 @@
       "allocDollar": 7800.24,
       "stopPrice": 145.65519999999998,
       "targetPrice": 156.1664,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 6.4804,
       "pctChangeAtScreen": 7.2571,
@@ -50,7 +60,14 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-29T18:49:58.529379+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "grossDollarPnl": -12.35,
+      "costDollar": 31.28,
+      "exitTime": "2026-10-29T22:59:34.634721+00:00",
+      "exitPrice": 149.9225,
+      "exitReason": "eod",
+      "returnPct": -0.5588,
+      "dollarPnl": -43.63
     },
     "GKOS_2026-10-29": {
       "symbol": "GKOS",
@@ -65,7 +82,7 @@
       "allocDollar": 6662.27,
       "stopPrice": 232.6351,
       "targetPrice": 249.4232,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 6.1882,
       "pctChangeAtScreen": 13.6635,
@@ -76,7 +93,14 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-10-29T18:49:58.529395+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "grossDollarPnl": 88.48,
+      "costDollar": 26.93,
+      "exitTime": "2026-10-29T22:59:34.819190+00:00",
+      "exitPrice": 242.99,
+      "exitReason": "eod",
+      "returnPct": 0.9166,
+      "dollarPnl": 61.55
     },
     "FFIV_2026-10-28": {
       "symbol": "FFIV",
@@ -1749,8 +1773,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T18:49:36.744731+00:00",
-    "lastCheckEt": "2026-10-29T14:49:36.744243-04:00",
+    "lastCheckAt": "2026-10-29T22:59:33.939814+00:00",
+    "lastCheckEt": "2026-10-29T18:59:33.939448-04:00",
     "status": "ok"
   }
 }
