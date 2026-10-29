@@ -1104,5 +1104,17 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "GKOS_2026-10-29_exit_close_partial_2026-10-29T15:38:50.499526+00:00",
+    "tradeId": "GKOS_2026-10-29",
+    "action": "exit_close_partial",
+    "createdAt": "2026-10-29T15:38:50.499540+00:00",
+    "symbol": "GKOS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
