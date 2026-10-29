@@ -1,5 +1,29 @@
 {
   "trades": {
+    "NOW_2026-10-29": {
+      "symbol": "NOW",
+      "date": "2026-10-29",
+      "direction": "short",
+      "entryTime": "2026-10-29T14:27:00Z",
+      "entryPrice": 113.24,
+      "shares": 46,
+      "convictionScore": 0.0314,
+      "allocDollar": 5235.19,
+      "stopPrice": 116.63719999999999,
+      "targetPrice": 108.71039999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.3763,
+      "pctChangeAtScreen": -5.7979,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "NOW261030P00113000",
+      "optionStrike": "113",
+      "optionExpiration": "2026-10-30",
+      "optionEntryPrice": 2.47,
+      "optionEntryTime": "2026-10-29T14:28:11.070125+00:00",
+      "optionContracts": 21,
+      "optionPricedVia": "trade"
+    },
     "SFM_2026-10-29": {
       "symbol": "SFM",
       "date": "2026-10-29",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-10-29T13:42:36.084203+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 49.9001,
-      "lastPriceAt": "2026-10-29T14:25:00Z",
-      "unrealizedDollar": -42.32,
-      "unrealizedPct": -0.8246
+      "lastPrice": 49.97,
+      "lastPriceAt": "2026-10-29T14:26:00Z",
+      "unrealizedDollar": -35.19,
+      "unrealizedPct": -0.6857
     },
     "GGLL_2026-10-29": {
       "symbol": "GGLL",
@@ -1581,8 +1605,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-29T14:26:50.397276+00:00",
-    "lastCheckEt": "2026-10-29T10:26:50.376454-04:00",
+    "lastCheckAt": "2026-10-29T14:27:50.552314+00:00",
+    "lastCheckEt": "2026-10-29T10:27:50.551593-04:00",
     "status": "ok"
   }
 }
