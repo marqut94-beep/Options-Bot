@@ -1054,5 +1054,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 64.28,
     "allocDollar": 5301.41
+  },
+  {
+    "id": "GGLL_2026-10-29_exit_close_all_2026-10-29T14:02:50.844755+00:00",
+    "tradeId": "GGLL_2026-10-29",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-29T14:02:50.844760+00:00",
+    "symbol": "GGLL",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
