@@ -1164,5 +1164,31 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 96.0717,
     "allocDollar": 5078.87
+  },
+  {
+    "id": "RDDT_2026-10-30_exit_close_partial_2026-10-30T16:03:50.638716+00:00",
+    "tradeId": "RDDT_2026-10-30",
+    "action": "exit_close_partial",
+    "createdAt": "2026-10-30T16:03:50.638733+00:00",
+    "symbol": "RDDT",
+    "optionSymbol": "RDDT261106P00096000",
+    "contracts": 1,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
+  },
+  {
+    "id": "INTC_2026-10-30_entry_2026-10-30T16:04:47.571020+00:00",
+    "tradeId": "INTC_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T16:04:47.571025+00:00",
+    "symbol": "INTC",
+    "direction": "short",
+    "optionSymbol": "INTC261030P00065000",
+    "contracts": 78,
+    "optionEntryPriceAtScreen": 0.86,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 64.92,
+    "allocDollar": 6754.14
   }
 ]
