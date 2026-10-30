@@ -326,5 +326,29 @@
     "direction": "long",
     "stockEntryPrice": 33.825,
     "allocDollar": 50.0
+  },
+  {
+    "id": "FAZ_2026-10-30_exit_close_all_2026-10-30T19:55:13.076674+00:00",
+    "tradeId": "FAZ_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T19:55:13.076678+00:00",
+    "symbol": "FAZ",
+    "reason": "eod"
+  },
+  {
+    "id": "RDDT_2026-10-30_exit_close_all_2026-10-30T19:55:13.400476+00:00",
+    "tradeId": "RDDT_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T19:55:13.400479+00:00",
+    "symbol": "RDDT",
+    "reason": "eod"
+  },
+  {
+    "id": "INTC_2026-10-30_exit_close_all_2026-10-30T19:55:13.620544+00:00",
+    "tradeId": "INTC_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T19:55:13.620548+00:00",
+    "symbol": "INTC",
+    "reason": "eod"
   }
 ]
