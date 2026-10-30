@@ -990,5 +990,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 466.515,
     "allocDollar": 5751.9
+  },
+  {
+    "id": "INTC_2026-10-30_exit_close_all_2026-10-30T22:31:45.087472+00:00",
+    "tradeId": "INTC_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T22:31:45.087474+00:00",
+    "symbol": "INTC",
+    "optionSymbol": "INTC261030P00064000",
+    "contracts": 130,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
+  },
+  {
+    "id": "RDDT_2026-10-30_exit_close_all_2026-10-30T22:31:45.484206+00:00",
+    "tradeId": "RDDT_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T22:31:45.484208+00:00",
+    "symbol": "RDDT",
+    "optionSymbol": "RDDT261030P00090000",
+    "contracts": 97,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
+  },
+  {
+    "id": "CACC_2026-10-30_exit_close_all_2026-10-30T22:31:45.625969+00:00",
+    "tradeId": "CACC_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T22:31:45.625972+00:00",
+    "symbol": "CACC",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
