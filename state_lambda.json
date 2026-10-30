@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-30T16:05:50.515066+00:00",
       "optionContracts": 77,
       "optionPricedVia": "trade",
-      "lastPrice": 64.665,
-      "lastPriceAt": "2026-10-30T16:08:00Z",
-      "unrealizedDollar": 16.8,
-      "unrealizedPct": 0.2468
+      "lastPrice": 64.54,
+      "lastPriceAt": "2026-10-30T16:09:00Z",
+      "unrealizedDollar": 29.92,
+      "unrealizedPct": 0.4396
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-30T14:34:38.122659+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 91.6753,
-      "lastPriceAt": "2026-10-30T16:08:00Z",
-      "unrealizedDollar": 230.24,
-      "unrealizedPct": 4.5217,
+      "lastPrice": 91.71,
+      "lastPriceAt": "2026-10-30T16:09:00Z",
+      "unrealizedDollar": 228.57,
+      "unrealizedPct": 4.489,
       "partialExitPrice": 92.228832,
       "partialExitTime": "2026-10-30T16:02:00Z",
       "partialDollarPnl": 19.21,
@@ -1738,8 +1738,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T16:09:50.308011+00:00",
-    "lastCheckEt": "2026-10-30T12:09:50.307303-04:00",
+    "lastCheckAt": "2026-10-30T16:10:50.265799+00:00",
+    "lastCheckEt": "2026-10-30T12:10:50.264993-04:00",
     "status": "ok"
   }
 }
