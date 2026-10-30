@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-30T16:43:26.106160+00:00",
       "optionContracts": 39,
       "optionPricedVia": "trade",
-      "lastPrice": 239.65,
-      "lastPriceAt": "2026-10-30T19:39:00Z",
-      "unrealizedDollar": -8.61,
-      "unrealizedPct": -0.1708
+      "lastPrice": 239.82,
+      "lastPriceAt": "2026-10-30T19:40:00Z",
+      "unrealizedDollar": -5.04,
+      "unrealizedPct": -0.1
     },
     "CACC_2026-10-30": {
       "symbol": "CACC",
@@ -52,7 +52,7 @@
       "optionContracts": null,
       "optionPricedVia": null,
       "lastPrice": 466.04,
-      "lastPriceAt": "2026-10-30T19:39:00Z",
+      "lastPriceAt": "2026-10-30T19:40:00Z",
       "unrealizedDollar": -0.36,
       "unrealizedPct": -0.007
     },
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-30T16:05:50.515066+00:00",
       "optionContracts": 77,
       "optionPricedVia": "trade",
-      "lastPrice": 63.895,
-      "lastPriceAt": "2026-10-30T19:39:00Z",
-      "unrealizedDollar": 97.65,
-      "unrealizedPct": 1.4346
+      "lastPrice": 64.1,
+      "lastPriceAt": "2026-10-30T19:40:00Z",
+      "unrealizedDollar": 76.13,
+      "unrealizedPct": 1.1184
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-10-30T14:34:38.122659+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 91.51,
-      "lastPriceAt": "2026-10-30T19:39:00Z",
-      "unrealizedDollar": 238.17,
-      "unrealizedPct": 4.6776,
+      "lastPrice": 91.655,
+      "lastPriceAt": "2026-10-30T19:40:00Z",
+      "unrealizedDollar": 231.21,
+      "unrealizedPct": 4.5409,
       "partialExitPrice": 92.228832,
       "partialExitTime": "2026-10-30T16:02:00Z",
       "partialDollarPnl": 19.21,
@@ -1794,8 +1794,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T19:40:50.326628+00:00",
-    "lastCheckEt": "2026-10-30T15:40:50.317719-04:00",
+    "lastCheckAt": "2026-10-30T19:41:50.266407+00:00",
+    "lastCheckEt": "2026-10-30T15:41:50.265619-04:00",
     "status": "ok"
   }
 }
