@@ -1218,5 +1218,49 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 240.06,
     "allocDollar": 5001.53
+  },
+  {
+    "id": "AMZN_2026-10-30_exit_close_all_2026-10-30T19:55:50.748667+00:00",
+    "tradeId": "AMZN_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T19:55:50.748671+00:00",
+    "symbol": "AMZN",
+    "optionSymbol": "AMZN261030C00240000",
+    "contracts": 39,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "CACC_2026-10-30_exit_close_all_2026-10-30T19:55:51.036647+00:00",
+    "tradeId": "CACC_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T19:55:51.036652+00:00",
+    "symbol": "CACC",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "INTC_2026-10-30_exit_close_all_2026-10-30T19:55:51.553843+00:00",
+    "tradeId": "INTC_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T19:55:51.553847+00:00",
+    "symbol": "INTC",
+    "optionSymbol": "INTC261030P00065000",
+    "contracts": 77,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "RDDT_2026-10-30_exit_close_all_2026-10-30T19:55:52.040138+00:00",
+    "tradeId": "RDDT_2026-10-30",
+    "action": "exit_close_all",
+    "createdAt": "2026-10-30T19:55:52.040142+00:00",
+    "symbol": "RDDT",
+    "optionSymbol": "RDDT261106P00096000",
+    "contracts": 11,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
