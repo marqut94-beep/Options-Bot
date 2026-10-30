@@ -948,5 +948,47 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "INTC_2026-10-30_entry_2026-10-30T18:23:53.705756+00:00",
+    "tradeId": "INTC_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T18:23:53.705758+00:00",
+    "symbol": "INTC",
+    "direction": "short",
+    "optionSymbol": "INTC261030P00064000",
+    "contracts": 130,
+    "optionEntryPriceAtScreen": 0.66,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 63.811,
+    "allocDollar": 8581.53
+  },
+  {
+    "id": "RDDT_2026-10-30_entry_2026-10-30T18:23:53.705776+00:00",
+    "tradeId": "RDDT_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T18:23:53.705777+00:00",
+    "symbol": "RDDT",
+    "direction": "short",
+    "optionSymbol": "RDDT261030P00090000",
+    "contracts": 97,
+    "optionEntryPriceAtScreen": 0.8,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 89.88,
+    "allocDollar": 7780.62
+  },
+  {
+    "id": "CACC_2026-10-30_entry_2026-10-30T18:23:53.705785+00:00",
+    "tradeId": "CACC_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T18:23:53.705786+00:00",
+    "symbol": "CACC",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 466.515,
+    "allocDollar": 5751.9
   }
 ]
