@@ -1150,5 +1150,19 @@
     "contracts": 19,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "RDDT_2026-10-30_entry_2026-10-30T14:34:38.122685+00:00",
+    "tradeId": "RDDT_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T14:34:38.122690+00:00",
+    "symbol": "RDDT",
+    "direction": "short",
+    "optionSymbol": "RDDT261106P00096000",
+    "contracts": 12,
+    "optionEntryPriceAtScreen": 4,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 96.0717,
+    "allocDollar": 5078.87
   }
 ]
