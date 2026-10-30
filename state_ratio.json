@@ -1,5 +1,23 @@
 {
   "trades": {
+    "INTC_2026-10-30": {
+      "symbol": "INTC",
+      "date": "2026-10-30",
+      "direction": "short",
+      "entryTime": "2026-10-30T18:27:00Z",
+      "entryPrice": 63.74,
+      "shares": 1,
+      "convictionScore": 0.1835,
+      "allocDollar": 63.76,
+      "stopPrice": 65.65220000000001,
+      "targetPrice": 61.1904,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.1008,
+      "pctChangeAtScreen": -6.7583,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "RUSHA_2026-10-29": {
       "symbol": "RUSHA",
       "date": "2026-10-29",
@@ -461,8 +479,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T18:27:12.827615+00:00",
-    "lastCheckEt": "2026-10-30T14:27:12.827314-04:00",
+    "lastCheckAt": "2026-10-30T18:28:12.752489+00:00",
+    "lastCheckEt": "2026-10-30T14:28:12.752190-04:00",
     "status": "ok"
   }
 }
