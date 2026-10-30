@@ -1,5 +1,23 @@
 {
   "trades": {
+    "FAZ_2026-10-30": {
+      "symbol": "FAZ",
+      "date": "2026-10-30",
+      "direction": "long",
+      "entryTime": "2026-10-30T19:17:00Z",
+      "entryPrice": 33.765,
+      "shares": 1,
+      "convictionScore": 0.0,
+      "allocDollar": 50.0,
+      "stopPrice": 32.75205,
+      "targetPrice": 35.1156,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0002,
+      "pctChangeAtScreen": 4.213,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
       "date": "2026-10-30",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -10.2294,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 91.16,
-      "lastPriceAt": "2026-10-30T19:15:00Z",
-      "unrealizedDollar": -1.16,
-      "unrealizedPct": -1.2945
+      "lastPrice": 91.0225,
+      "lastPriceAt": "2026-10-30T19:16:00Z",
+      "unrealizedDollar": -1.03,
+      "unrealizedPct": -1.1417
     },
     "INTC_2026-10-30": {
       "symbol": "INTC",
@@ -39,10 +57,10 @@
       "pctChangeAtScreen": -6.7583,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 63.7801,
-      "lastPriceAt": "2026-10-30T19:15:00Z",
-      "unrealizedDollar": -0.04,
-      "unrealizedPct": -0.0629
+      "lastPrice": 63.675,
+      "lastPriceAt": "2026-10-30T19:16:00Z",
+      "unrealizedDollar": 0.07,
+      "unrealizedPct": 0.102
     },
     "RUSHA_2026-10-29": {
       "symbol": "RUSHA",
@@ -505,8 +523,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T19:16:49.889818+00:00",
-    "lastCheckEt": "2026-10-30T15:16:49.889499-04:00",
+    "lastCheckAt": "2026-10-30T19:17:49.954710+00:00",
+    "lastCheckEt": "2026-10-30T15:17:49.954402-04:00",
     "status": "ok"
   }
 }
