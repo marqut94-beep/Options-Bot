@@ -1204,5 +1204,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 466.0075,
     "allocDollar": 5006.16
+  },
+  {
+    "id": "AMZN_2026-10-30_entry_2026-10-30T16:43:26.106183+00:00",
+    "tradeId": "AMZN_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T16:43:26.106186+00:00",
+    "symbol": "AMZN",
+    "direction": "long",
+    "optionSymbol": "AMZN261030C00240000",
+    "contracts": 39,
+    "optionEntryPriceAtScreen": 1.26,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 240.06,
+    "allocDollar": 5001.53
   }
 ]
