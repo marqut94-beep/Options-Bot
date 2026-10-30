@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 4.213,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 33.675,
-      "lastPriceAt": "2026-10-30T19:34:00Z",
-      "unrealizedDollar": -0.15,
-      "unrealizedPct": -0.4435
+      "lastPrice": 33.655,
+      "lastPriceAt": "2026-10-30T19:35:00Z",
+      "unrealizedDollar": -0.17,
+      "unrealizedPct": -0.5026
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": -10.2294,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 91.3,
-      "lastPriceAt": "2026-10-30T19:34:00Z",
-      "unrealizedDollar": -1.3,
-      "unrealizedPct": -1.4501
+      "lastPrice": 91.208,
+      "lastPriceAt": "2026-10-30T19:35:00Z",
+      "unrealizedDollar": -1.21,
+      "unrealizedPct": -1.3479
     },
     "INTC_2026-10-30": {
       "symbol": "INTC",
@@ -61,10 +61,10 @@
       "pctChangeAtScreen": -6.7583,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 63.7299,
-      "lastPriceAt": "2026-10-30T19:34:00Z",
-      "unrealizedDollar": 0.01,
-      "unrealizedPct": 0.0158
+      "lastPrice": 63.84,
+      "lastPriceAt": "2026-10-30T19:35:00Z",
+      "unrealizedDollar": -0.1,
+      "unrealizedPct": -0.1569
     },
     "RUSHA_2026-10-29": {
       "symbol": "RUSHA",
@@ -527,8 +527,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T19:35:12.780996+00:00",
-    "lastCheckEt": "2026-10-30T15:35:12.780689-04:00",
+    "lastCheckAt": "2026-10-30T19:36:12.791252+00:00",
+    "lastCheckEt": "2026-10-30T15:36:12.790943-04:00",
     "status": "ok"
   }
 }
