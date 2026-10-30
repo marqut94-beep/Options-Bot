@@ -292,5 +292,15 @@
     "direction": "short",
     "stockEntryPrice": 63.74,
     "allocDollar": 63.76
+  },
+  {
+    "id": "RDDT_2026-10-30_entry_2026-10-30T18:49:36.432422+00:00",
+    "tradeId": "RDDT_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T18:49:36.432443+00:00",
+    "symbol": "RDDT",
+    "direction": "short",
+    "stockEntryPrice": 89.995,
+    "allocDollar": 90.06
   }
 ]
