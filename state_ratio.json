@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -6.7583,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 63.215,
-      "lastPriceAt": "2026-10-30T18:35:00Z",
-      "unrealizedDollar": 0.52,
-      "unrealizedPct": 0.8237
+      "lastPrice": 63.34,
+      "lastPriceAt": "2026-10-30T18:36:00Z",
+      "unrealizedDollar": 0.4,
+      "unrealizedPct": 0.6275
     },
     "RUSHA_2026-10-29": {
       "symbol": "RUSHA",
@@ -483,8 +483,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T18:36:12.861036+00:00",
-    "lastCheckEt": "2026-10-30T14:36:12.860726-04:00",
+    "lastCheckAt": "2026-10-30T18:37:12.717729+00:00",
+    "lastCheckEt": "2026-10-30T14:37:12.717387-04:00",
     "status": "ok"
   }
 }
