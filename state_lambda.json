@@ -1,5 +1,29 @@
 {
   "trades": {
+    "INTC_2026-10-30": {
+      "symbol": "INTC",
+      "date": "2026-10-30",
+      "direction": "short",
+      "entryTime": "2026-10-30T16:03:00Z",
+      "entryPrice": 64.92,
+      "shares": 104,
+      "convictionScore": 0.2339,
+      "allocDollar": 6754.14,
+      "stopPrice": 66.86760000000001,
+      "targetPrice": 62.3232,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 4.8066,
+      "pctChangeAtScreen": -5.0322,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "INTC261030P00065000",
+      "optionStrike": "65",
+      "optionExpiration": "2026-10-30",
+      "optionEntryPrice": 0.86,
+      "optionEntryTime": "2026-10-30T16:04:47.570997+00:00",
+      "optionContracts": 78,
+      "optionPricedVia": "trade"
+    },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
       "date": "2026-10-30",
@@ -12,7 +36,7 @@
       "stopPrice": 98.95385100000001,
       "targetPrice": 92.228832,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.1262,
       "pctChangeAtScreen": -4.1679,
       "dataSource": "alpaca-sip",
@@ -23,10 +47,19 @@
       "optionEntryTime": "2026-10-30T14:34:38.122659+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 92.59,
-      "lastPriceAt": "2026-10-30T16:01:00Z",
-      "unrealizedDollar": 184.53,
-      "unrealizedPct": 3.6241
+      "lastPrice": 92.86,
+      "lastPriceAt": "2026-10-30T16:00:00Z",
+      "unrealizedDollar": 170.22,
+      "unrealizedPct": 3.343,
+      "partialExitPrice": 92.228832,
+      "partialExitTime": "2026-10-30T16:02:00Z",
+      "partialDollarPnl": 19.21,
+      "sharesPartial": 5,
+      "sharesRemainder": 48,
+      "remainderFloor": 94.150266,
+      "remainderTarget": 84.543096,
+      "optionContractsPartial": 1,
+      "optionContractsRemainder": 11
     },
     "GKOS_2026-10-29": {
       "symbol": "GKOS",
@@ -1701,8 +1734,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T16:02:50.200366+00:00",
-    "lastCheckEt": "2026-10-30T12:02:50.199667-04:00",
+    "lastCheckAt": "2026-10-30T16:03:50.315962+00:00",
+    "lastCheckEt": "2026-10-30T12:03:50.315209-04:00",
     "status": "ok"
   }
 }
