@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-30T16:43:26.106160+00:00",
       "optionContracts": 39,
       "optionPricedVia": "trade",
-      "lastPrice": 238.765,
-      "lastPriceAt": "2026-10-30T17:37:00Z",
-      "unrealizedDollar": -27.2,
-      "unrealizedPct": -0.5394
+      "lastPrice": 239.085,
+      "lastPriceAt": "2026-10-30T17:38:00Z",
+      "unrealizedDollar": -20.47,
+      "unrealizedPct": -0.4061
     },
     "CACC_2026-10-30": {
       "symbol": "CACC",
@@ -52,7 +52,7 @@
       "optionContracts": null,
       "optionPricedVia": null,
       "lastPrice": 472.455,
-      "lastPriceAt": "2026-10-30T17:37:00Z",
+      "lastPriceAt": "2026-10-30T17:38:00Z",
       "unrealizedDollar": -70.92,
       "unrealizedPct": -1.3836
     },
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-30T16:05:50.515066+00:00",
       "optionContracts": 77,
       "optionPricedVia": "trade",
-      "lastPrice": 64.225,
-      "lastPriceAt": "2026-10-30T17:37:00Z",
-      "unrealizedDollar": 63.0,
-      "unrealizedPct": 0.9256
+      "lastPrice": 64.32,
+      "lastPriceAt": "2026-10-30T17:38:00Z",
+      "unrealizedDollar": 53.03,
+      "unrealizedPct": 0.779
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-10-30T14:34:38.122659+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 90.085,
-      "lastPriceAt": "2026-10-30T17:37:00Z",
-      "unrealizedDollar": 306.57,
-      "unrealizedPct": 6.0209,
+      "lastPrice": 90.1,
+      "lastPriceAt": "2026-10-30T17:38:00Z",
+      "unrealizedDollar": 305.85,
+      "unrealizedPct": 6.0067,
       "partialExitPrice": 92.228832,
       "partialExitTime": "2026-10-30T16:02:00Z",
       "partialDollarPnl": 19.21,
@@ -1794,8 +1794,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T17:38:50.361529+00:00",
-    "lastCheckEt": "2026-10-30T13:38:50.360800-04:00",
+    "lastCheckAt": "2026-10-30T17:39:50.354818+00:00",
+    "lastCheckEt": "2026-10-30T13:39:50.354071-04:00",
     "status": "ok"
   }
 }
