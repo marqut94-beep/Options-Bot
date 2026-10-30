@@ -1,5 +1,29 @@
 {
   "trades": {
+    "RDDT_2026-10-30": {
+      "symbol": "RDDT",
+      "date": "2026-10-30",
+      "direction": "short",
+      "entryTime": "2026-10-30T14:33:00Z",
+      "entryPrice": 96.0717,
+      "shares": 53,
+      "convictionScore": 0.0105,
+      "allocDollar": 5078.87,
+      "stopPrice": 98.95385100000001,
+      "targetPrice": 92.228832,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1262,
+      "pctChangeAtScreen": -4.1679,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "RDDT261106P00096000",
+      "optionStrike": "96",
+      "optionExpiration": "2026-11-06",
+      "optionEntryPrice": 4,
+      "optionEntryTime": "2026-10-30T14:34:38.122659+00:00",
+      "optionContracts": 12,
+      "optionPricedVia": "trade"
+    },
     "GKOS_2026-10-29": {
       "symbol": "GKOS",
       "date": "2026-10-29",
@@ -1673,8 +1697,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T14:32:50.223943+00:00",
-    "lastCheckEt": "2026-10-30T10:32:50.223216-04:00",
+    "lastCheckAt": "2026-10-30T14:33:50.302511+00:00",
+    "lastCheckEt": "2026-10-30T10:33:50.297713-04:00",
     "status": "ok"
   }
 }
