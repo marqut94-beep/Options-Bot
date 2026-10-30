@@ -282,5 +282,15 @@
     "createdAt": "2026-10-29T19:55:50.257050+00:00",
     "symbol": "MSFU",
     "reason": "eod"
+  },
+  {
+    "id": "INTC_2026-10-30_entry_2026-10-30T18:28:22.651009+00:00",
+    "tradeId": "INTC_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T18:28:22.651020+00:00",
+    "symbol": "INTC",
+    "direction": "short",
+    "stockEntryPrice": 63.74,
+    "allocDollar": 63.76
   }
 ]
