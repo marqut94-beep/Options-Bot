@@ -1190,5 +1190,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 64.825,
     "allocDollar": 6776.02
+  },
+  {
+    "id": "CACC_2026-10-30_entry_2026-10-30T16:36:42.362161+00:00",
+    "tradeId": "CACC_2026-10-30",
+    "action": "entry",
+    "createdAt": "2026-10-30T16:36:42.362165+00:00",
+    "symbol": "CACC",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 466.0075,
+    "allocDollar": 5006.16
   }
 ]
