@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-30T16:43:26.106160+00:00",
       "optionContracts": 39,
       "optionPricedVia": "trade",
-      "lastPrice": 238.26,
-      "lastPriceAt": "2026-10-30T18:19:00Z",
-      "unrealizedDollar": -37.8,
-      "unrealizedPct": -0.7498
+      "lastPrice": 237.895,
+      "lastPriceAt": "2026-10-30T18:20:00Z",
+      "unrealizedDollar": -45.46,
+      "unrealizedPct": -0.9019
     },
     "CACC_2026-10-30": {
       "symbol": "CACC",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-30T16:05:50.515066+00:00",
       "optionContracts": 77,
       "optionPricedVia": "trade",
-      "lastPrice": 63.665,
-      "lastPriceAt": "2026-10-30T18:19:00Z",
-      "unrealizedDollar": 121.8,
-      "unrealizedPct": 1.7894
+      "lastPrice": 63.62,
+      "lastPriceAt": "2026-10-30T18:20:00Z",
+      "unrealizedDollar": 126.53,
+      "unrealizedPct": 1.8589
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-10-30T14:34:38.122659+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 90,
-      "lastPriceAt": "2026-10-30T18:19:00Z",
-      "unrealizedDollar": 310.65,
-      "unrealizedPct": 6.101,
+      "lastPrice": 89.78,
+      "lastPriceAt": "2026-10-30T18:20:00Z",
+      "unrealizedDollar": 321.21,
+      "unrealizedPct": 6.3084,
       "partialExitPrice": 92.228832,
       "partialExitTime": "2026-10-30T16:02:00Z",
       "partialDollarPnl": 19.21,
@@ -1794,8 +1794,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T18:20:50.465388+00:00",
-    "lastCheckEt": "2026-10-30T14:20:50.464612-04:00",
+    "lastCheckAt": "2026-10-30T18:21:50.327696+00:00",
+    "lastCheckEt": "2026-10-30T14:21:50.310775-04:00",
     "status": "ok"
   }
 }
