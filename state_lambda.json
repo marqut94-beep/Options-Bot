@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-30T16:43:26.106160+00:00",
       "optionContracts": 39,
       "optionPricedVia": "trade",
-      "lastPrice": 237.62,
-      "lastPriceAt": "2026-10-30T18:46:00Z",
-      "unrealizedDollar": -51.24,
-      "unrealizedPct": -1.0164
+      "lastPrice": 237.44,
+      "lastPriceAt": "2026-10-30T18:47:00Z",
+      "unrealizedDollar": -55.02,
+      "unrealizedPct": -1.0914
     },
     "CACC_2026-10-30": {
       "symbol": "CACC",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-30T16:36:42.362140+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 466.73,
-      "lastPriceAt": "2026-10-30T18:44:00Z",
-      "unrealizedDollar": -7.95,
-      "unrealizedPct": -0.155
+      "lastPrice": 465.495,
+      "lastPriceAt": "2026-10-30T18:47:00Z",
+      "unrealizedDollar": 5.64,
+      "unrealizedPct": 0.11
     },
     "INTC_2026-10-30": {
       "symbol": "INTC",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-30T16:05:50.515066+00:00",
       "optionContracts": 77,
       "optionPricedVia": "trade",
-      "lastPrice": 63.5501,
-      "lastPriceAt": "2026-10-30T18:46:00Z",
-      "unrealizedDollar": 133.86,
-      "unrealizedPct": 1.9667
+      "lastPrice": 63.57,
+      "lastPriceAt": "2026-10-30T18:47:00Z",
+      "unrealizedDollar": 131.78,
+      "unrealizedPct": 1.936
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-10-30T14:34:38.122659+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 90.18,
-      "lastPriceAt": "2026-10-30T18:46:00Z",
-      "unrealizedDollar": 302.01,
-      "unrealizedPct": 5.9313,
+      "lastPrice": 90.0642,
+      "lastPriceAt": "2026-10-30T18:47:00Z",
+      "unrealizedDollar": 307.57,
+      "unrealizedPct": 6.0405,
       "partialExitPrice": 92.228832,
       "partialExitTime": "2026-10-30T16:02:00Z",
       "partialDollarPnl": 19.21,
@@ -1794,8 +1794,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T18:47:50.328945+00:00",
-    "lastCheckEt": "2026-10-30T14:47:50.324095-04:00",
+    "lastCheckAt": "2026-10-30T18:48:50.309401+00:00",
+    "lastCheckEt": "2026-10-30T14:48:50.292521-04:00",
     "status": "ok"
   }
 }
