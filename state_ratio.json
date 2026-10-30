@@ -1,5 +1,23 @@
 {
   "trades": {
+    "RDDT_2026-10-30": {
+      "symbol": "RDDT",
+      "date": "2026-10-30",
+      "direction": "short",
+      "entryTime": "2026-10-30T18:48:00Z",
+      "entryPrice": 89.995,
+      "shares": 1,
+      "convictionScore": 0.5342,
+      "allocDollar": 90.06,
+      "stopPrice": 92.69485,
+      "targetPrice": 86.3952,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 5.2049,
+      "pctChangeAtScreen": -10.2294,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "INTC_2026-10-30": {
       "symbol": "INTC",
       "date": "2026-10-30",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -6.7583,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 63.57,
-      "lastPriceAt": "2026-10-30T18:47:00Z",
-      "unrealizedDollar": 0.17,
-      "unrealizedPct": 0.2667
+      "lastPrice": 63.4684,
+      "lastPriceAt": "2026-10-30T18:48:00Z",
+      "unrealizedDollar": 0.27,
+      "unrealizedPct": 0.4261
     },
     "RUSHA_2026-10-29": {
       "symbol": "RUSHA",
@@ -483,8 +501,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T18:48:12.779862+00:00",
-    "lastCheckEt": "2026-10-30T14:48:12.779562-04:00",
+    "lastCheckAt": "2026-10-30T18:49:12.743836+00:00",
+    "lastCheckEt": "2026-10-30T14:49:12.743542-04:00",
     "status": "ok"
   }
 }
