@@ -11,7 +11,7 @@
       "allocDollar": 5001.53,
       "stopPrice": 232.85819999999998,
       "targetPrice": 249.66240000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0025,
       "pctChangeAtScreen": 3.5134,
@@ -26,7 +26,15 @@
       "lastPrice": 239.765,
       "lastPriceAt": "2026-10-30T19:52:00Z",
       "unrealizedDollar": -6.2,
-      "unrealizedPct": -0.1229
+      "unrealizedPct": -0.1229,
+      "optionExitPrice": 0.46,
+      "optionExitTime": "2026-10-30T19:55:50.748623+00:00",
+      "optionReturnPct": -63.4921,
+      "exitTime": "2026-10-30T19:55:50.748653+00:00",
+      "exitPrice": 240.54,
+      "exitReason": "eod",
+      "returnPct": 0.2,
+      "dollarPnl": 10.08
     },
     "CACC_2026-10-30": {
       "symbol": "CACC",
@@ -39,7 +47,7 @@
       "allocDollar": 5006.16,
       "stopPrice": 479.987725,
       "targetPrice": 447.36719999999997,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0099,
       "pctChangeAtScreen": -6.6096,
@@ -54,7 +62,12 @@
       "lastPrice": 472.41,
       "lastPriceAt": "2026-10-30T19:52:00Z",
       "unrealizedDollar": -70.43,
-      "unrealizedPct": -1.3739
+      "unrealizedPct": -1.3739,
+      "exitTime": "2026-10-30T19:55:51.036616+00:00",
+      "exitPrice": 467.67,
+      "exitReason": "eod",
+      "returnPct": -0.3568,
+      "dollarPnl": -18.29
     },
     "INTC_2026-10-30": {
       "symbol": "INTC",
@@ -67,7 +80,7 @@
       "allocDollar": 6776.02,
       "stopPrice": 66.76975,
       "targetPrice": 62.232,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 4.8416,
       "pctChangeAtScreen": -5.1712,
@@ -82,7 +95,15 @@
       "lastPrice": 64.86,
       "lastPriceAt": "2026-10-30T19:52:00Z",
       "unrealizedDollar": -3.67,
-      "unrealizedPct": -0.054
+      "unrealizedPct": -0.054,
+      "optionExitPrice": 0.23,
+      "optionExitTime": "2026-10-30T19:55:51.553792+00:00",
+      "optionReturnPct": -73.5632,
+      "exitTime": "2026-10-30T19:55:51.553828+00:00",
+      "exitPrice": 65.22,
+      "exitReason": "eod",
+      "returnPct": -0.6093,
+      "dollarPnl": -41.47
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -95,7 +116,7 @@
       "allocDollar": 5078.87,
       "stopPrice": 98.95385100000001,
       "targetPrice": 92.228832,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.1262,
       "pctChangeAtScreen": -4.1679,
@@ -119,7 +140,15 @@
       "remainderFloor": 94.150266,
       "remainderTarget": 84.543096,
       "optionContractsPartial": 1,
-      "optionContractsRemainder": 11
+      "optionContractsRemainder": 11,
+      "optionExitPrice": 6.05,
+      "optionExitTime": "2026-10-30T19:55:52.039873+00:00",
+      "optionReturnPct": 51.25,
+      "exitTime": "2026-10-30T19:55:52.039901+00:00",
+      "exitPrice": 92.09,
+      "exitReason": "eod",
+      "returnPct": 4.1308,
+      "dollarPnl": 210.33
     },
     "GKOS_2026-10-29": {
       "symbol": "GKOS",
@@ -1794,8 +1823,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T19:53:50.312742+00:00",
-    "lastCheckEt": "2026-10-30T15:53:50.303884-04:00",
+    "lastCheckAt": "2026-10-30T19:55:50.303090+00:00",
+    "lastCheckEt": "2026-10-30T15:55:50.302303-04:00",
     "status": "ok"
   }
 }
