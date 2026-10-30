@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-10-30T16:43:26.106160+00:00",
       "optionContracts": 39,
       "optionPricedVia": "trade",
-      "lastPrice": 238.94,
-      "lastPriceAt": "2026-10-30T19:20:00Z",
-      "unrealizedDollar": -23.52,
-      "unrealizedPct": -0.4666
+      "lastPrice": 238.87,
+      "lastPriceAt": "2026-10-30T19:21:00Z",
+      "unrealizedDollar": -24.99,
+      "unrealizedPct": -0.4957
     },
     "CACC_2026-10-30": {
       "symbol": "CACC",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-10-30T16:36:42.362140+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 465.03,
-      "lastPriceAt": "2026-10-30T19:20:00Z",
-      "unrealizedDollar": 10.75,
-      "unrealizedPct": 0.2098
+      "lastPrice": 465.2,
+      "lastPriceAt": "2026-10-30T19:21:00Z",
+      "unrealizedDollar": 8.88,
+      "unrealizedPct": 0.1733
     },
     "INTC_2026-10-30": {
       "symbol": "INTC",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-10-30T16:05:50.515066+00:00",
       "optionContracts": 77,
       "optionPricedVia": "trade",
-      "lastPrice": 63.395,
-      "lastPriceAt": "2026-10-30T19:20:00Z",
-      "unrealizedDollar": 150.15,
-      "unrealizedPct": 2.2059
+      "lastPrice": 63.475,
+      "lastPriceAt": "2026-10-30T19:21:00Z",
+      "unrealizedDollar": 141.75,
+      "unrealizedPct": 2.0825
     },
     "RDDT_2026-10-30": {
       "symbol": "RDDT",
@@ -108,7 +108,7 @@
       "optionContracts": 12,
       "optionPricedVia": "trade",
       "lastPrice": 91.015,
-      "lastPriceAt": "2026-10-30T19:20:00Z",
+      "lastPriceAt": "2026-10-30T19:21:00Z",
       "unrealizedDollar": 261.93,
       "unrealizedPct": 5.1442,
       "partialExitPrice": 92.228832,
@@ -1794,8 +1794,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-10-30T19:21:50.321202+00:00",
-    "lastCheckEt": "2026-10-30T15:21:50.320450-04:00",
+    "lastCheckAt": "2026-10-30T19:22:08.889369+00:00",
+    "lastCheckEt": "2026-10-30T15:22:08.888621-04:00",
     "status": "ok"
   }
 }
