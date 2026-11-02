@@ -1301,5 +1301,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 172.826,
     "allocDollar": 5002.53
+  },
+  {
+    "id": "EL_2026-11-02_entry_2026-11-02T20:23:14.476361+00:00",
+    "tradeId": "EL_2026-11-02",
+    "action": "entry",
+    "createdAt": "2026-11-02T20:23:14.476365+00:00",
+    "symbol": "EL",
+    "direction": "short",
+    "optionSymbol": "EL261106P00105000",
+    "contracts": 25,
+    "optionEntryPriceAtScreen": 1.93,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 105.06,
+    "allocDollar": 5000.8
   }
 ]
