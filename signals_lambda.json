@@ -1315,5 +1315,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 105.06,
     "allocDollar": 5000.8
+  },
+  {
+    "id": "WAT_2026-11-02_entry_2026-11-02T20:29:07.845699+00:00",
+    "tradeId": "WAT_2026-11-02",
+    "action": "entry",
+    "createdAt": "2026-11-02T20:29:07.845703+00:00",
+    "symbol": "WAT",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 449.73,
+    "allocDollar": 5301.12
   }
 ]
