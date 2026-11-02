@@ -1,5 +1,29 @@
 {
   "trades": {
+    "MRVL_2026-11-02": {
+      "symbol": "MRVL",
+      "date": "2026-11-02",
+      "direction": "short",
+      "entryTime": "2026-11-02T19:26:00Z",
+      "entryPrice": 172.826,
+      "shares": 29,
+      "convictionScore": 0.0003,
+      "allocDollar": 5002.53,
+      "stopPrice": 178.01078,
+      "targetPrice": 165.91296,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.004,
+      "pctChangeAtScreen": -9.6891,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "MRVL261106P00172500",
+      "optionStrike": "172.5",
+      "optionExpiration": "2026-11-06",
+      "optionEntryPrice": 7.35,
+      "optionEntryTime": "2026-11-02T19:27:09.113552+00:00",
+      "optionContracts": 6,
+      "optionPricedVia": "trade"
+    },
     "EW_2026-11-02": {
       "symbol": "EW",
       "date": "2026-11-02",
@@ -1856,8 +1880,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-02T19:25:03.292072+00:00",
-    "lastCheckEt": "2026-11-02T14:25:03.291543-05:00",
+    "lastCheckAt": "2026-11-02T19:26:50.289227+00:00",
+    "lastCheckEt": "2026-11-02T14:26:50.288671-05:00",
     "status": "ok"
   }
 }
