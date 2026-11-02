@@ -11,7 +11,7 @@
       "allocDollar": 5301.12,
       "stopPrice": 463.2219,
       "targetPrice": 431.7408,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.4818,
       "pctChangeAtScreen": -3.0064,
@@ -26,7 +26,12 @@
       "lastPrice": 450.25,
       "lastPriceAt": "2026-11-02T20:53:00Z",
       "unrealizedDollar": -6.24,
-      "unrealizedPct": -0.1156
+      "unrealizedPct": -0.1156,
+      "exitTime": "2026-11-02T20:55:50.705671+00:00",
+      "exitPrice": 449.86,
+      "exitReason": "eod",
+      "returnPct": -0.0289,
+      "dollarPnl": -1.56
     },
     "EL_2026-11-02": {
       "symbol": "EL",
@@ -39,7 +44,7 @@
       "allocDollar": 5000.8,
       "stopPrice": 108.21180000000001,
       "targetPrice": 100.8576,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0013,
       "pctChangeAtScreen": -6.3335,
@@ -54,7 +59,15 @@
       "lastPrice": 104.025,
       "lastPriceAt": "2026-11-02T20:53:00Z",
       "unrealizedDollar": 49.68,
-      "unrealizedPct": 0.9852
+      "unrealizedPct": 0.9852,
+      "optionExitPrice": 3.1,
+      "optionExitTime": "2026-11-02T20:55:51.775778+00:00",
+      "optionReturnPct": 60.6218,
+      "exitTime": "2026-11-02T20:55:51.775808+00:00",
+      "exitPrice": 104.195,
+      "exitReason": "eod",
+      "returnPct": 0.8233,
+      "dollarPnl": 41.52
     },
     "MRVL_2026-11-02": {
       "symbol": "MRVL",
@@ -67,7 +80,7 @@
       "allocDollar": 5002.53,
       "stopPrice": 178.01078,
       "targetPrice": 165.91296,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.004,
       "pctChangeAtScreen": -9.6891,
@@ -82,7 +95,15 @@
       "lastPrice": 171.223,
       "lastPriceAt": "2026-11-02T20:53:00Z",
       "unrealizedDollar": 46.49,
-      "unrealizedPct": 0.9275
+      "unrealizedPct": 0.9275,
+      "optionExitPrice": 8.5,
+      "optionExitTime": "2026-11-02T20:55:52.320031+00:00",
+      "optionReturnPct": 15.6463,
+      "exitTime": "2026-11-02T20:55:52.320059+00:00",
+      "exitPrice": 171.71,
+      "exitReason": "eod",
+      "returnPct": 0.6457,
+      "dollarPnl": 32.36
     },
     "EW_2026-11-02": {
       "symbol": "EW",
@@ -1940,8 +1961,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-02T20:54:50.384855+00:00",
-    "lastCheckEt": "2026-11-02T15:54:50.384058-05:00",
+    "lastCheckAt": "2026-11-02T20:55:50.507743+00:00",
+    "lastCheckEt": "2026-11-02T15:55:50.506924-05:00",
     "status": "ok"
   }
 }
