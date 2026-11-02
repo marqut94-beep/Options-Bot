@@ -1329,5 +1329,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 449.73,
     "allocDollar": 5301.12
+  },
+  {
+    "id": "WAT_2026-11-02_exit_close_all_2026-11-02T20:55:50.705702+00:00",
+    "tradeId": "WAT_2026-11-02",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-02T20:55:50.705707+00:00",
+    "symbol": "WAT",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "EL_2026-11-02_exit_close_all_2026-11-02T20:55:51.775823+00:00",
+    "tradeId": "EL_2026-11-02",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-02T20:55:51.775826+00:00",
+    "symbol": "EL",
+    "optionSymbol": "EL261106P00105000",
+    "contracts": 25,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "MRVL_2026-11-02_exit_close_all_2026-11-02T20:55:52.320070+00:00",
+    "tradeId": "MRVL_2026-11-02",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-02T20:55:52.320073+00:00",
+    "symbol": "MRVL",
+    "optionSymbol": "MRVL261106P00172500",
+    "contracts": 6,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
