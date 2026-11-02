@@ -11,7 +11,7 @@
       "allocDollar": 5007.84,
       "stopPrice": 91.30950000000001,
       "targetPrice": 85.104,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0125,
       "pctChangeAtScreen": -4.8411,
@@ -26,7 +26,12 @@
       "lastPrice": 91.07,
       "lastPriceAt": "2026-11-02T18:24:00Z",
       "unrealizedDollar": -135.52,
-      "unrealizedPct": -2.7298
+      "unrealizedPct": -2.7298,
+      "exitTime": "2026-11-02T18:27:50.590823+00:00",
+      "exitPrice": 91.30950000000001,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -148.93
     },
     "AMZN_2026-10-30": {
       "symbol": "AMZN",
@@ -1851,8 +1856,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-02T18:25:50.357791+00:00",
-    "lastCheckEt": "2026-11-02T13:25:50.357014-05:00",
+    "lastCheckAt": "2026-11-02T18:27:50.397422+00:00",
+    "lastCheckEt": "2026-11-02T13:27:50.376516-05:00",
     "status": "ok"
   }
 }
