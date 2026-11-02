@@ -1287,5 +1287,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "MRVL_2026-11-02_entry_2026-11-02T19:27:09.113574+00:00",
+    "tradeId": "MRVL_2026-11-02",
+    "action": "entry",
+    "createdAt": "2026-11-02T19:27:09.113577+00:00",
+    "symbol": "MRVL",
+    "direction": "short",
+    "optionSymbol": "MRVL261106P00172500",
+    "contracts": 6,
+    "optionEntryPriceAtScreen": 7.35,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 172.826,
+    "allocDollar": 5002.53
   }
 ]
