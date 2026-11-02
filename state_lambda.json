@@ -1,5 +1,29 @@
 {
   "trades": {
+    "EW_2026-11-02": {
+      "symbol": "EW",
+      "date": "2026-11-02",
+      "direction": "short",
+      "entryTime": "2026-11-02T18:09:00Z",
+      "entryPrice": 88.65,
+      "shares": 56,
+      "convictionScore": 0.001,
+      "allocDollar": 5007.84,
+      "stopPrice": 91.30950000000001,
+      "targetPrice": 85.104,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0125,
+      "pctChangeAtScreen": -4.8411,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-02T18:10:36.879070+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "AMZN_2026-10-30": {
       "symbol": "AMZN",
       "date": "2026-10-30",
@@ -1823,8 +1847,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-02T18:09:50.242706+00:00",
-    "lastCheckEt": "2026-11-02T13:09:50.241910-05:00",
+    "lastCheckAt": "2026-11-02T18:10:06.666647+00:00",
+    "lastCheckEt": "2026-11-02T13:10:06.665817-05:00",
     "status": "ok"
   }
 }
