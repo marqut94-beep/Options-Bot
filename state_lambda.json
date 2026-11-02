@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-02T20:29:07.845676+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 448.34,
-      "lastPriceAt": "2026-11-02T20:43:00Z",
-      "unrealizedDollar": 16.68,
-      "unrealizedPct": 0.3091
+      "lastPrice": 448.43,
+      "lastPriceAt": "2026-11-02T20:44:00Z",
+      "unrealizedDollar": 15.6,
+      "unrealizedPct": 0.2891
     },
     "EL_2026-11-02": {
       "symbol": "EL",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-02T20:23:14.476340+00:00",
       "optionContracts": 25,
       "optionPricedVia": "trade",
-      "lastPrice": 104.68,
-      "lastPriceAt": "2026-11-02T20:43:00Z",
-      "unrealizedDollar": 18.24,
-      "unrealizedPct": 0.3617
+      "lastPrice": 104.75,
+      "lastPriceAt": "2026-11-02T20:44:00Z",
+      "unrealizedDollar": 14.88,
+      "unrealizedPct": 0.2951
     },
     "MRVL_2026-11-02": {
       "symbol": "MRVL",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-02T19:27:09.113552+00:00",
       "optionContracts": 6,
       "optionPricedVia": "trade",
-      "lastPrice": 170.89,
-      "lastPriceAt": "2026-11-02T20:43:00Z",
-      "unrealizedDollar": 56.14,
-      "unrealizedPct": 1.1202
+      "lastPrice": 170.7,
+      "lastPriceAt": "2026-11-02T20:44:00Z",
+      "unrealizedDollar": 61.65,
+      "unrealizedPct": 1.2301
     },
     "EW_2026-11-02": {
       "symbol": "EW",
@@ -1940,8 +1940,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-02T20:44:50.310513+00:00",
-    "lastCheckEt": "2026-11-02T15:44:50.309705-05:00",
+    "lastCheckAt": "2026-11-02T20:45:50.325199+00:00",
+    "lastCheckEt": "2026-11-02T15:45:50.311853-05:00",
     "status": "ok"
   }
 }
