@@ -1276,5 +1276,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 88.65,
     "allocDollar": 5007.84
+  },
+  {
+    "id": "EW_2026-11-02_exit_close_all_2026-11-02T18:27:50.590857+00:00",
+    "tradeId": "EW_2026-11-02",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-02T18:27:50.590862+00:00",
+    "symbol": "EW",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
