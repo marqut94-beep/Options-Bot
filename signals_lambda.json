@@ -1262,5 +1262,19 @@
     "contracts": 11,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "EW_2026-11-02_entry_2026-11-02T18:10:36.879094+00:00",
+    "tradeId": "EW_2026-11-02",
+    "action": "entry",
+    "createdAt": "2026-11-02T18:10:36.879098+00:00",
+    "symbol": "EW",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 88.65,
+    "allocDollar": 5007.84
   }
 ]
