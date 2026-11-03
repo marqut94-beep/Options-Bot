@@ -370,5 +370,21 @@
     "direction": "long",
     "stockEntryPrice": 46.83,
     "allocDollar": 50.02
+  },
+  {
+    "id": "PLTU_2026-11-03_exit_close_all_2026-11-03T20:55:13.330695+00:00",
+    "tradeId": "PLTU_2026-11-03",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-03T20:55:13.330700+00:00",
+    "symbol": "PLTU",
+    "reason": "eod"
+  },
+  {
+    "id": "HSTM_2026-11-03_exit_close_all_2026-11-03T20:55:13.566526+00:00",
+    "tradeId": "HSTM_2026-11-03",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-03T20:55:13.566531+00:00",
+    "symbol": "HSTM",
+    "reason": "eod"
   }
 ]
