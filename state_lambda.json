@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-03T18:44:16.019970+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 41.445,
-      "lastPriceAt": "2026-11-03T20:43:00Z",
-      "unrealizedDollar": 135.7,
-      "unrealizedPct": 2.6998
+      "lastPrice": 41.65,
+      "lastPriceAt": "2026-11-03T20:45:00Z",
+      "unrealizedDollar": 111.51,
+      "unrealizedPct": 2.2186
     },
     "SHOP_2026-11-03": {
       "symbol": "SHOP",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-03T18:41:25.825110+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 143.33,
-      "lastPriceAt": "2026-11-03T20:43:00Z",
-      "unrealizedDollar": -133.96,
-      "unrealizedPct": -2.6754
+      "lastPrice": 143.47,
+      "lastPriceAt": "2026-11-03T20:45:00Z",
+      "unrealizedDollar": -129.2,
+      "unrealizedPct": -2.5803
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -2092,8 +2092,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T20:44:50.620609+00:00",
-    "lastCheckEt": "2026-11-03T15:44:50.619784-05:00",
+    "lastCheckAt": "2026-11-03T20:46:50.405511+00:00",
+    "lastCheckEt": "2026-11-03T15:46:50.404658-05:00",
     "status": "ok"
   }
 }
