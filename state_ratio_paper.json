@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 6.5529,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 48.484,
-      "lastPriceAt": "2026-11-03T20:19:00Z",
-      "unrealizedDollar": 1.65,
-      "unrealizedPct": 3.5319
+      "lastPrice": 48.42,
+      "lastPriceAt": "2026-11-03T20:20:00Z",
+      "unrealizedDollar": 1.59,
+      "unrealizedPct": 3.3953
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": -3.3943,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 32.145,
-      "lastPriceAt": "2026-11-03T20:18:00Z",
-      "unrealizedDollar": 1.32,
-      "unrealizedPct": 2.0119
+      "lastPrice": 32.15,
+      "lastPriceAt": "2026-11-03T20:20:00Z",
+      "unrealizedDollar": 1.31,
+      "unrealizedPct": 1.9966
     },
     "FAZ_2026-10-30": {
       "symbol": "FAZ",
@@ -586,8 +586,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T20:20:49.915241+00:00",
-    "lastCheckEt": "2026-11-03T15:20:49.914892-05:00",
+    "lastCheckAt": "2026-11-03T20:21:49.865380+00:00",
+    "lastCheckEt": "2026-11-03T15:21:49.844863-05:00",
     "status": "ok"
   }
 }
