@@ -16,7 +16,11 @@
       "relVol": 2.0014,
       "pctChangeAtScreen": 6.5529,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 46.96,
+      "lastPriceAt": "2026-11-03T19:36:00Z",
+      "unrealizedDollar": 0.13,
+      "unrealizedPct": 0.2776
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -582,8 +586,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T19:36:12.780209+00:00",
-    "lastCheckEt": "2026-11-03T14:36:12.779891-05:00",
+    "lastCheckAt": "2026-11-03T19:37:12.790269+00:00",
+    "lastCheckEt": "2026-11-03T14:37:12.789900-05:00",
     "status": "ok"
   }
 }
