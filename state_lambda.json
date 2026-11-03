@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-03T17:58:29.862594+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 32.45,
-      "lastPriceAt": "2026-11-03T18:05:00Z",
-      "unrealizedDollar": -25.54,
-      "unrealizedPct": -0.507
+      "lastPrice": 32.52,
+      "lastPriceAt": "2026-11-03T18:06:00Z",
+      "unrealizedDollar": -36.46,
+      "unrealizedPct": -0.7238
     },
     "ZBRA_2026-11-03": {
       "symbol": "ZBRA",
@@ -40,7 +40,7 @@
       "stopPrice": 315.9581,
       "targetPrice": 338.7592,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0314,
       "pctChangeAtScreen": 4.5296,
       "dataSource": "alpaca-sip",
@@ -54,7 +54,16 @@
       "lastPrice": 337.69,
       "lastPriceAt": "2026-11-03T18:05:00Z",
       "unrealizedDollar": 179.4,
-      "unrealizedPct": 3.6718
+      "unrealizedPct": 3.6718,
+      "partialExitPrice": 338.7592,
+      "partialExitTime": "2026-11-03T18:06:00Z",
+      "partialDollarPnl": 26.06,
+      "sharesPartial": 2,
+      "sharesRemainder": 13,
+      "remainderFloor": 332.24460000000005,
+      "remainderTarget": 364.8176,
+      "optionContractsPartial": null,
+      "optionContractsRemainder": null
     },
     "WAT_2026-11-02": {
       "symbol": "WAT",
@@ -2017,8 +2026,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T18:06:50.352665+00:00",
-    "lastCheckEt": "2026-11-03T13:06:50.351796-05:00",
+    "lastCheckAt": "2026-11-03T18:07:50.433891+00:00",
+    "lastCheckEt": "2026-11-03T13:07:50.433072-05:00",
     "status": "ok"
   }
 }
