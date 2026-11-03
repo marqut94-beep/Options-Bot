@@ -24,7 +24,7 @@
       "optionContracts": null,
       "optionPricedVia": null,
       "lastPrice": 42.19,
-      "lastPriceAt": "2026-11-03T19:32:00Z",
+      "lastPriceAt": "2026-11-03T19:33:00Z",
       "unrealizedDollar": 47.79,
       "unrealizedPct": 0.9508
     },
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-03T18:41:25.825110+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 144.665,
-      "lastPriceAt": "2026-11-03T19:32:00Z",
-      "unrealizedDollar": -88.57,
-      "unrealizedPct": -1.7689
+      "lastPrice": 144.4741,
+      "lastPriceAt": "2026-11-03T19:33:00Z",
+      "unrealizedDollar": -95.06,
+      "unrealizedPct": -1.8985
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -2092,8 +2092,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T19:33:50.424387+00:00",
-    "lastCheckEt": "2026-11-03T14:33:50.403388-05:00",
+    "lastCheckAt": "2026-11-03T19:34:50.345158+00:00",
+    "lastCheckEt": "2026-11-03T14:34:50.344249-05:00",
     "status": "ok"
   }
 }
