@@ -1362,5 +1362,19 @@
     "contracts": 6,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "ZBRA_2026-11-03_entry_2026-11-03T16:41:24.211433+00:00",
+    "tradeId": "ZBRA_2026-11-03",
+    "action": "entry",
+    "createdAt": "2026-11-03T16:41:24.211437+00:00",
+    "symbol": "ZBRA",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 325.73,
+    "allocDollar": 5019.6
   }
 ]
