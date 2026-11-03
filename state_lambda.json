@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ZBRA_2026-11-03": {
+      "symbol": "ZBRA",
+      "date": "2026-11-03",
+      "direction": "long",
+      "entryTime": "2026-11-03T16:40:00Z",
+      "entryPrice": 325.73,
+      "shares": 15,
+      "convictionScore": 0.0026,
+      "allocDollar": 5019.6,
+      "stopPrice": 315.9581,
+      "targetPrice": 338.7592,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0314,
+      "pctChangeAtScreen": 4.5296,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-03T16:41:24.211409+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "WAT_2026-11-02": {
       "symbol": "WAT",
       "date": "2026-11-02",
@@ -1961,8 +1985,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T16:40:05.714513+00:00",
-    "lastCheckEt": "2026-11-03T11:40:05.713647-05:00",
+    "lastCheckAt": "2026-11-03T16:40:50.342459+00:00",
+    "lastCheckEt": "2026-11-03T11:40:50.341588-05:00",
     "status": "ok"
   }
 }
