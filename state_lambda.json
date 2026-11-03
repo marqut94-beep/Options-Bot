@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-03T18:44:16.019970+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 42.595,
+      "lastPriceAt": "2026-11-03T18:43:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "SHOP_2026-11-03": {
       "symbol": "SHOP",
@@ -47,10 +51,10 @@
       "optionEntryTime": "2026-11-03T18:41:25.825110+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 147.1602,
-      "lastPriceAt": "2026-11-03T18:42:00Z",
-      "unrealizedDollar": -3.73,
-      "unrealizedPct": -0.0746
+      "lastPrice": 146.915,
+      "lastPriceAt": "2026-11-03T18:43:00Z",
+      "unrealizedDollar": -12.07,
+      "unrealizedPct": -0.2411
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -103,10 +107,10 @@
       "optionEntryTime": "2026-11-03T16:41:24.211409+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 335.06,
-      "lastPriceAt": "2026-11-03T18:42:00Z",
-      "unrealizedDollar": 147.35,
-      "unrealizedPct": 3.0158,
+      "lastPrice": 334.83,
+      "lastPriceAt": "2026-11-03T18:43:00Z",
+      "unrealizedDollar": 144.36,
+      "unrealizedPct": 2.9546,
       "partialExitPrice": 338.7592,
       "partialExitTime": "2026-11-03T18:06:00Z",
       "partialDollarPnl": 26.06,
@@ -2078,8 +2082,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T18:43:50.444712+00:00",
-    "lastCheckEt": "2026-11-03T13:43:50.443849-05:00",
+    "lastCheckAt": "2026-11-03T18:44:50.397573+00:00",
+    "lastCheckEt": "2026-11-03T13:44:50.396769-05:00",
     "status": "ok"
   }
 }
