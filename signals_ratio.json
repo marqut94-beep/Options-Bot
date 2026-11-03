@@ -350,5 +350,15 @@
     "createdAt": "2026-10-30T19:55:13.620548+00:00",
     "symbol": "INTC",
     "reason": "eod"
+  },
+  {
+    "id": "HSTM_2026-11-03_entry_2026-11-03T18:42:38.817657+00:00",
+    "tradeId": "HSTM_2026-11-03",
+    "action": "entry",
+    "createdAt": "2026-11-03T18:42:38.817674+00:00",
+    "symbol": "HSTM",
+    "direction": "short",
+    "stockEntryPrice": 32.73,
+    "allocDollar": 50.34
   }
 ]
