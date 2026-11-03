@@ -322,5 +322,15 @@
     "direction": "short",
     "stockEntryPrice": 32.805,
     "allocDollar": 50.34
+  },
+  {
+    "id": "PLTU_2026-11-03_entry_2026-11-03T19:36:27.967034+00:00",
+    "tradeId": "PLTU_2026-11-03",
+    "action": "entry",
+    "createdAt": "2026-11-03T19:36:27.967046+00:00",
+    "symbol": "PLTU",
+    "direction": "long",
+    "stockEntryPrice": 46.83,
+    "allocDollar": 50.02
   }
 ]
