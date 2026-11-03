@@ -1376,5 +1376,17 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 325.73,
     "allocDollar": 5019.6
+  },
+  {
+    "id": "ZBRA_2026-11-03_exit_close_partial_2026-11-03T18:07:50.873287+00:00",
+    "tradeId": "ZBRA_2026-11-03",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-03T18:07:50.873302+00:00",
+    "symbol": "ZBRA",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
