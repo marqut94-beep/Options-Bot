@@ -1,5 +1,29 @@
 {
   "trades": {
+    "APTV_2026-11-03": {
+      "symbol": "APTV",
+      "date": "2026-11-03",
+      "direction": "short",
+      "entryTime": "2026-11-03T18:43:00Z",
+      "entryPrice": 42.595,
+      "shares": 118,
+      "convictionScore": 0.0008,
+      "allocDollar": 5005.8,
+      "stopPrice": 43.87285,
+      "targetPrice": 40.8912,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0093,
+      "pctChangeAtScreen": -5.2936,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-03T18:44:16.019970+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "SHOP_2026-11-03": {
       "symbol": "SHOP",
       "date": "2026-11-03",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-03T18:41:25.825110+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 146.97,
-      "lastPriceAt": "2026-11-03T18:41:00Z",
-      "unrealizedDollar": -10.2,
-      "unrealizedPct": -0.2037
+      "lastPrice": 147.1602,
+      "lastPriceAt": "2026-11-03T18:42:00Z",
+      "unrealizedDollar": -3.73,
+      "unrealizedPct": -0.0746
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-03T17:58:29.862594+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 32.73,
-      "lastPriceAt": "2026-11-03T18:41:00Z",
-      "unrealizedDollar": -69.22,
-      "unrealizedPct": -1.3743
+      "lastPrice": 32.805,
+      "lastPriceAt": "2026-11-03T18:42:00Z",
+      "unrealizedDollar": -80.92,
+      "unrealizedPct": -1.6066
     },
     "ZBRA_2026-11-03": {
       "symbol": "ZBRA",
@@ -79,10 +103,10 @@
       "optionEntryTime": "2026-11-03T16:41:24.211409+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 334.94,
-      "lastPriceAt": "2026-11-03T18:41:00Z",
-      "unrealizedDollar": 145.79,
-      "unrealizedPct": 2.9839,
+      "lastPrice": 335.06,
+      "lastPriceAt": "2026-11-03T18:42:00Z",
+      "unrealizedDollar": 147.35,
+      "unrealizedPct": 3.0158,
       "partialExitPrice": 338.7592,
       "partialExitTime": "2026-11-03T18:06:00Z",
       "partialDollarPnl": 26.06,
@@ -2054,8 +2078,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T18:42:50.320905+00:00",
-    "lastCheckEt": "2026-11-03T13:42:50.320068-05:00",
+    "lastCheckAt": "2026-11-03T18:43:50.444712+00:00",
+    "lastCheckEt": "2026-11-03T13:43:50.443849-05:00",
     "status": "ok"
   }
 }
