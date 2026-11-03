@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-03T18:44:16.019970+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 42.81,
-      "lastPriceAt": "2026-11-03T18:58:00Z",
-      "unrealizedDollar": -25.37,
-      "unrealizedPct": -0.5048
+      "lastPrice": 42.825,
+      "lastPriceAt": "2026-11-03T18:59:00Z",
+      "unrealizedDollar": -27.14,
+      "unrealizedPct": -0.54
     },
     "SHOP_2026-11-03": {
       "symbol": "SHOP",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-03T18:41:25.825110+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 147.425,
-      "lastPriceAt": "2026-11-03T18:58:00Z",
-      "unrealizedDollar": 5.27,
-      "unrealizedPct": 0.1052
+      "lastPrice": 147.3903,
+      "lastPriceAt": "2026-11-03T18:59:00Z",
+      "unrealizedDollar": 4.09,
+      "unrealizedPct": 0.0817
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-03T17:58:29.862594+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 33.07,
-      "lastPriceAt": "2026-11-03T18:58:00Z",
-      "unrealizedDollar": -122.26,
-      "unrealizedPct": -2.4273
+      "lastPrice": 32.87,
+      "lastPriceAt": "2026-11-03T18:59:00Z",
+      "unrealizedDollar": -91.06,
+      "unrealizedPct": -1.8079
     },
     "ZBRA_2026-11-03": {
       "symbol": "ZBRA",
@@ -2087,8 +2087,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T18:59:50.340355+00:00",
-    "lastCheckEt": "2026-11-03T13:59:50.339369-05:00",
+    "lastCheckAt": "2026-11-03T19:00:50.431281+00:00",
+    "lastCheckEt": "2026-11-03T14:00:50.430402-05:00",
     "status": "ok"
   }
 }
