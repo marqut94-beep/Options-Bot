@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-03T17:58:29.862594+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 32.9275,
-      "lastPriceAt": "2026-11-03T18:31:00Z",
-      "unrealizedDollar": -100.03,
-      "unrealizedPct": -1.986
+      "lastPrice": 32.81,
+      "lastPriceAt": "2026-11-03T18:32:00Z",
+      "unrealizedDollar": -81.7,
+      "unrealizedPct": -1.6221
     },
     "ZBRA_2026-11-03": {
       "symbol": "ZBRA",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-03T16:41:24.211409+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 335.41,
-      "lastPriceAt": "2026-11-03T18:31:00Z",
-      "unrealizedDollar": 151.9,
-      "unrealizedPct": 3.1089,
+      "lastPrice": 334.105,
+      "lastPriceAt": "2026-11-03T18:32:00Z",
+      "unrealizedDollar": 134.94,
+      "unrealizedPct": 2.7617,
       "partialExitPrice": 338.7592,
       "partialExitTime": "2026-11-03T18:06:00Z",
       "partialDollarPnl": 26.06,
@@ -2026,8 +2026,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T18:32:50.330319+00:00",
-    "lastCheckEt": "2026-11-03T13:32:50.329475-05:00",
+    "lastCheckAt": "2026-11-03T18:33:23.897947+00:00",
+    "lastCheckEt": "2026-11-03T13:33:23.897088-05:00",
     "status": "ok"
   }
 }
