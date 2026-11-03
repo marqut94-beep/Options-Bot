@@ -11,7 +11,7 @@
       "allocDollar": 50.02,
       "stopPrice": 45.4251,
       "targetPrice": 48.7032,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0014,
       "pctChangeAtScreen": 6.5529,
@@ -20,7 +20,12 @@
       "lastPrice": 48.5,
       "lastPriceAt": "2026-11-03T20:53:00Z",
       "unrealizedDollar": 1.67,
-      "unrealizedPct": 3.5661
+      "unrealizedPct": 3.5661,
+      "exitTime": "2026-11-03T20:55:50.270426+00:00",
+      "exitPrice": 48.43,
+      "exitReason": "eod",
+      "returnPct": 3.4166,
+      "dollarPnl": 1.6
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -33,7 +38,7 @@
       "allocDollar": 50.34,
       "stopPrice": 33.78915,
       "targetPrice": 31.4928,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0269,
       "pctChangeAtScreen": -3.3943,
@@ -42,7 +47,12 @@
       "lastPrice": 31.865,
       "lastPriceAt": "2026-11-03T20:53:00Z",
       "unrealizedDollar": 1.88,
-      "unrealizedPct": 2.8654
+      "unrealizedPct": 2.8654,
+      "exitTime": "2026-11-03T20:55:50.495231+00:00",
+      "exitPrice": 31.78,
+      "exitReason": "eod",
+      "returnPct": 3.1245,
+      "dollarPnl": 2.05
     },
     "FAZ_2026-10-30": {
       "symbol": "FAZ",
@@ -586,8 +596,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T20:54:49.921855+00:00",
-    "lastCheckEt": "2026-11-03T15:54:49.917505-05:00",
+    "lastCheckAt": "2026-11-03T20:55:49.931718+00:00",
+    "lastCheckEt": "2026-11-03T15:55:49.931387-05:00",
     "status": "ok"
   }
 }
