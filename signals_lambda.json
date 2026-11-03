@@ -1438,5 +1438,27 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "APTV_2026-11-03_exit_close_all_2026-11-03T20:55:50.841681+00:00",
+    "tradeId": "APTV_2026-11-03",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-03T20:55:50.841686+00:00",
+    "symbol": "APTV",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "SHOP_2026-11-03_exit_close_all_2026-11-03T20:55:51.389376+00:00",
+    "tradeId": "SHOP_2026-11-03",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-03T20:55:51.389380+00:00",
+    "symbol": "SHOP",
+    "optionSymbol": "SHOP261106C00147000",
+    "contracts": 9,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
