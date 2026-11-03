@@ -11,7 +11,7 @@
       "allocDollar": 5005.8,
       "stopPrice": 43.87285,
       "targetPrice": 40.8912,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0093,
       "pctChangeAtScreen": -5.2936,
@@ -26,7 +26,12 @@
       "lastPrice": 41.22,
       "lastPriceAt": "2026-11-03T20:53:00Z",
       "unrealizedDollar": 162.25,
-      "unrealizedPct": 3.2281
+      "unrealizedPct": 3.2281,
+      "exitTime": "2026-11-03T20:55:50.841647+00:00",
+      "exitPrice": 41.18,
+      "exitReason": "eod",
+      "returnPct": 3.322,
+      "dollarPnl": 166.97
     },
     "SHOP_2026-11-03": {
       "symbol": "SHOP",
@@ -39,7 +44,7 @@
       "allocDollar": 5009.17,
       "stopPrice": 142.8519,
       "targetPrice": 153.16080000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0147,
       "pctChangeAtScreen": 7.9455,
@@ -54,7 +59,15 @@
       "lastPrice": 143.81,
       "lastPriceAt": "2026-11-03T20:53:00Z",
       "unrealizedDollar": -117.64,
-      "unrealizedPct": -2.3494
+      "unrealizedPct": -2.3494,
+      "optionExitPrice": 2.6,
+      "optionExitTime": "2026-11-03T20:55:51.389334+00:00",
+      "optionReturnPct": -51.8519,
+      "exitTime": "2026-11-03T20:55:51.389362+00:00",
+      "exitPrice": 143.75,
+      "exitReason": "eod",
+      "returnPct": -2.3902,
+      "dollarPnl": -119.68
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -2092,8 +2105,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T20:54:57.962224+00:00",
-    "lastCheckEt": "2026-11-03T15:54:57.937237-05:00",
+    "lastCheckAt": "2026-11-03T20:55:50.641418+00:00",
+    "lastCheckEt": "2026-11-03T15:55:50.640522-05:00",
     "status": "ok"
   }
 }
