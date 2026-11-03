@@ -1402,5 +1402,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 147.27,
     "allocDollar": 5009.17
+  },
+  {
+    "id": "APTV_2026-11-03_entry_2026-11-03T18:44:16.019994+00:00",
+    "tradeId": "APTV_2026-11-03",
+    "action": "entry",
+    "createdAt": "2026-11-03T18:44:16.019997+00:00",
+    "symbol": "APTV",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 42.595,
+    "allocDollar": 5005.8
   }
 ]
