@@ -1,5 +1,29 @@
 {
   "trades": {
+    "HSTM_2026-11-03": {
+      "symbol": "HSTM",
+      "date": "2026-11-03",
+      "direction": "short",
+      "entryTime": "2026-11-03T17:57:00Z",
+      "entryPrice": 32.2863,
+      "shares": 156,
+      "convictionScore": 0.0069,
+      "allocDollar": 5051.88,
+      "stopPrice": 33.254889,
+      "targetPrice": 30.994847999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.083,
+      "pctChangeAtScreen": -4.704,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-03T17:58:29.862594+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "ZBRA_2026-11-03": {
       "symbol": "ZBRA",
       "date": "2026-11-03",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-03T16:41:24.211409+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 337.94,
-      "lastPriceAt": "2026-11-03T17:54:00Z",
-      "unrealizedDollar": 183.15,
-      "unrealizedPct": 3.7485
+      "lastPrice": 338.045,
+      "lastPriceAt": "2026-11-03T17:57:00Z",
+      "unrealizedDollar": 184.72,
+      "unrealizedPct": 3.7807
     },
     "WAT_2026-11-02": {
       "symbol": "WAT",
@@ -1989,8 +2013,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T17:55:50.301305+00:00",
-    "lastCheckEt": "2026-11-03T12:55:50.300472-05:00",
+    "lastCheckAt": "2026-11-03T17:58:10.474864+00:00",
+    "lastCheckEt": "2026-11-03T12:58:10.473978-05:00",
     "status": "ok"
   }
 }
