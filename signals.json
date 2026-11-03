@@ -1023,5 +1023,47 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "HSTM_2026-11-03_entry_2026-11-03T19:59:11.036574+00:00",
+    "tradeId": "HSTM_2026-11-03",
+    "action": "entry",
+    "createdAt": "2026-11-03T19:59:11.036576+00:00",
+    "symbol": "HSTM",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 32.34,
+    "allocDollar": 8304.4
+  },
+  {
+    "id": "ZBRA_2026-11-03_entry_2026-11-03T19:59:11.036592+00:00",
+    "tradeId": "ZBRA_2026-11-03",
+    "action": "entry",
+    "createdAt": "2026-11-03T19:59:11.036593+00:00",
+    "symbol": "ZBRA",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 328.21,
+    "allocDollar": 7123.34
+  },
+  {
+    "id": "APTV_2026-11-03_entry_2026-11-03T19:59:11.036605+00:00",
+    "tradeId": "APTV_2026-11-03",
+    "action": "entry",
+    "createdAt": "2026-11-03T19:59:11.036607+00:00",
+    "symbol": "APTV",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 42.06,
+    "allocDollar": 5916.89
   }
 ]
