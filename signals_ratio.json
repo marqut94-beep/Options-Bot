@@ -434,5 +434,14 @@
     "direction": "short",
     "stockEntryPrice": 45.55,
     "allocDollar": 96.74
+  },
+  {
+    "id": "CVI_2026-11-04_exit_close_partial_2026-11-04T16:05:13.093259+00:00",
+    "tradeId": "CVI_2026-11-04",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-04T16:05:13.093276+00:00",
+    "symbol": "CVI",
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
