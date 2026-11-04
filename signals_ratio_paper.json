@@ -334,20 +334,20 @@
     "allocDollar": 50.02
   },
   {
-    "id": "ALIT_2026-11-04_entry_2026-11-04T14:40:04.074849+00:00",
+    "id": "ALIT_2026-11-04_entry_2026-11-04T14:40:29.532914+00:00",
     "tradeId": "ALIT_2026-11-04",
     "action": "entry",
-    "createdAt": "2026-11-04T14:40:04.074861+00:00",
+    "createdAt": "2026-11-04T14:40:29.532926+00:00",
     "symbol": "ALIT",
     "direction": "long",
     "stockEntryPrice": 16.2467,
     "allocDollar": 64.04
   },
   {
-    "id": "ALIT_2026-11-04_exit_close_all_2026-11-04T14:40:25.160702+00:00",
+    "id": "ALIT_2026-11-04_exit_close_all_2026-11-04T14:40:50.104363+00:00",
     "tradeId": "ALIT_2026-11-04",
     "action": "exit_close_all",
-    "createdAt": "2026-11-04T14:40:25.160707+00:00",
+    "createdAt": "2026-11-04T14:40:50.104367+00:00",
     "symbol": "ALIT",
     "stockEntryPrice": 16.2467,
     "reason": "stop"
