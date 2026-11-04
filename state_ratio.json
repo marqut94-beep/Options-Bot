@@ -1,5 +1,23 @@
 {
   "trades": {
+    "AMDL_2026-11-04": {
+      "symbol": "AMDL",
+      "date": "2026-11-04",
+      "direction": "long",
+      "entryTime": "2026-11-04T15:20:00Z",
+      "entryPrice": 49.225,
+      "shares": 1,
+      "convictionScore": 0.0004,
+      "allocDollar": 50.03,
+      "stopPrice": 47.74825,
+      "targetPrice": 51.194,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0023,
+      "pctChangeAtScreen": 5.112,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "ALIT_2026-11-04": {
       "symbol": "ALIT",
       "date": "2026-11-04",
@@ -619,8 +637,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T15:19:12.872542+00:00",
-    "lastCheckEt": "2026-11-04T10:19:12.872199-05:00",
+    "lastCheckAt": "2026-11-04T15:20:12.841670+00:00",
+    "lastCheckEt": "2026-11-04T10:20:12.829117-05:00",
     "status": "ok"
   }
 }
