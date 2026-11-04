@@ -1549,5 +1549,17 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 45.55,
     "allocDollar": 9069.03
+  },
+  {
+    "id": "CVI_2026-11-04_exit_close_partial_2026-11-04T16:05:47.272482+00:00",
+    "tradeId": "CVI_2026-11-04",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-04T16:05:47.272498+00:00",
+    "symbol": "CVI",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
