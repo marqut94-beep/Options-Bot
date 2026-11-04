@@ -11,7 +11,7 @@
       "allocDollar": 5023.07,
       "stopPrice": 47.753099999999996,
       "targetPrice": 51.1992,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0369,
       "pctChangeAtScreen": 8.0056,
@@ -22,7 +22,15 @@
       "optionEntryPrice": 4.05,
       "optionEntryTime": "2026-11-04T14:52:29.524474+00:00",
       "optionContracts": 12,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "optionExitPrice": 4.05,
+      "optionExitTime": "2026-11-04T14:53:51.059315+00:00",
+      "optionReturnPct": 0.0,
+      "exitTime": "2026-11-04T14:53:51.059342+00:00",
+      "exitPrice": 47.753099999999996,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -150.64
     },
     "ALIT_2026-11-04": {
       "symbol": "ALIT",
@@ -2158,8 +2166,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T14:51:50.290202+00:00",
-    "lastCheckEt": "2026-11-04T09:51:50.277188-05:00",
+    "lastCheckAt": "2026-11-04T14:53:50.400404+00:00",
+    "lastCheckEt": "2026-11-04T09:53:50.399475-05:00",
     "status": "ok"
   }
 }
