@@ -11,12 +11,17 @@
       "allocDollar": 64.04,
       "stopPrice": 15.759299,
       "targetPrice": 16.896568000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.1232,
       "pctChangeAtScreen": 20.7906,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "exitTime": "2026-11-04T14:40:25.160673+00:00",
+      "exitPrice": 15.759299,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.95
     },
     "PLTU_2026-11-03": {
       "symbol": "PLTU",
@@ -614,8 +619,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T14:39:49.961107+00:00",
-    "lastCheckEt": "2026-11-04T09:39:49.960759-05:00",
+    "lastCheckAt": "2026-11-04T14:40:24.912632+00:00",
+    "lastCheckEt": "2026-11-04T09:40:24.912295-05:00",
     "status": "ok"
   }
 }
