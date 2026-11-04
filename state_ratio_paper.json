@@ -1,5 +1,23 @@
 {
   "trades": {
+    "CVI_2026-11-04": {
+      "symbol": "CVI",
+      "date": "2026-11-04",
+      "direction": "short",
+      "entryTime": "2026-11-04T15:30:00Z",
+      "entryPrice": 45.79,
+      "shares": 2,
+      "convictionScore": 0.6232,
+      "allocDollar": 96.74,
+      "stopPrice": 47.1637,
+      "targetPrice": 43.9584,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 5.7393,
+      "pctChangeAtScreen": -3.0078,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "AMDL_2026-11-04": {
       "symbol": "AMDL",
       "date": "2026-11-04",
@@ -646,8 +664,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T15:29:49.932245+00:00",
-    "lastCheckEt": "2026-11-04T10:29:49.931861-05:00",
+    "lastCheckAt": "2026-11-04T15:30:50.146495+00:00",
+    "lastCheckEt": "2026-11-04T10:30:50.137951-05:00",
     "status": "ok"
   }
 }
