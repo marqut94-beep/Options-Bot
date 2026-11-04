@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-04T15:32:36.149190+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 45.55,
+      "lastPriceAt": "2026-11-04T15:31:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "AMUU_2026-11-04": {
       "symbol": "AMUU",
@@ -2223,8 +2227,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T15:31:50.309277+00:00",
-    "lastCheckEt": "2026-11-04T10:31:50.304223-05:00",
+    "lastCheckAt": "2026-11-04T15:32:43.494514+00:00",
+    "lastCheckEt": "2026-11-04T10:32:43.493590-05:00",
     "status": "ok"
   }
 }
