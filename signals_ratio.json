@@ -405,5 +405,15 @@
     "symbol": "ALIT",
     "stockEntryPrice": 16.2467,
     "reason": "stop"
+  },
+  {
+    "id": "AMDL_2026-11-04_entry_2026-11-04T15:21:02.295262+00:00",
+    "tradeId": "AMDL_2026-11-04",
+    "action": "entry",
+    "createdAt": "2026-11-04T15:21:02.295274+00:00",
+    "symbol": "AMDL",
+    "direction": "long",
+    "stockEntryPrice": 49.225,
+    "allocDollar": 50.03
   }
 ]
