@@ -1,5 +1,29 @@
 {
   "trades": {
+    "CVI_2026-11-04": {
+      "symbol": "CVI",
+      "date": "2026-11-04",
+      "direction": "short",
+      "entryTime": "2026-11-04T15:31:00Z",
+      "entryPrice": 45.55,
+      "shares": 199,
+      "convictionScore": 0.585,
+      "allocDollar": 9069.03,
+      "stopPrice": 46.9165,
+      "targetPrice": 43.727999999999994,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 9.0195,
+      "pctChangeAtScreen": -3.0078,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-04T15:32:36.149190+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "AMUU_2026-11-04": {
       "symbol": "AMUU",
       "date": "2026-11-04",
@@ -2199,8 +2223,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T15:30:17.871746+00:00",
-    "lastCheckEt": "2026-11-04T10:30:17.870793-05:00",
+    "lastCheckAt": "2026-11-04T15:31:50.309277+00:00",
+    "lastCheckEt": "2026-11-04T10:31:50.304223-05:00",
     "status": "ok"
   }
 }
