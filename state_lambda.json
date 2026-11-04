@@ -1,5 +1,29 @@
 {
   "trades": {
+    "AMDL_2026-11-04": {
+      "symbol": "AMDL",
+      "date": "2026-11-04",
+      "direction": "long",
+      "entryTime": "2026-11-04T14:39:00Z",
+      "entryPrice": 49.23,
+      "shares": 102,
+      "convictionScore": 0.0031,
+      "allocDollar": 5023.07,
+      "stopPrice": 47.753099999999996,
+      "targetPrice": 51.1992,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0369,
+      "pctChangeAtScreen": 8.0056,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "AMDL261106C00049000",
+      "optionStrike": "49",
+      "optionExpiration": "2026-11-06",
+      "optionEntryPrice": 4.05,
+      "optionEntryTime": "2026-11-04T14:52:29.524474+00:00",
+      "optionContracts": 12,
+      "optionPricedVia": "trade"
+    },
     "ALIT_2026-11-04": {
       "symbol": "ALIT",
       "date": "2026-11-04",
@@ -2134,8 +2158,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T14:50:50.310201+00:00",
-    "lastCheckEt": "2026-11-04T09:50:50.297141-05:00",
+    "lastCheckAt": "2026-11-04T14:51:50.290202+00:00",
+    "lastCheckEt": "2026-11-04T09:51:50.277188-05:00",
     "status": "ok"
   }
 }
