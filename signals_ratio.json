@@ -424,5 +424,15 @@
     "symbol": "AMDL",
     "stockEntryPrice": 49.225,
     "reason": "stop"
+  },
+  {
+    "id": "CVI_2026-11-04_entry_2026-11-04T15:32:00.335209+00:00",
+    "tradeId": "CVI_2026-11-04",
+    "action": "entry",
+    "createdAt": "2026-11-04T15:32:00.335221+00:00",
+    "symbol": "CVI",
+    "direction": "short",
+    "stockEntryPrice": 45.55,
+    "allocDollar": 96.74
   }
 ]
