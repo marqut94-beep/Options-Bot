@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ALIT_2026-11-04": {
+      "symbol": "ALIT",
+      "date": "2026-11-04",
+      "direction": "long",
+      "entryTime": "2026-11-04T14:35:00Z",
+      "entryPrice": 16.2467,
+      "shares": 356,
+      "convictionScore": 0.1037,
+      "allocDollar": 5777.89,
+      "stopPrice": 15.759299,
+      "targetPrice": 16.896568000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.2446,
+      "pctChangeAtScreen": 18.9363,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-04T14:37:36.835469+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "APTV_2026-11-03": {
       "symbol": "APTV",
       "date": "2026-11-03",
@@ -2105,8 +2129,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T14:35:50.412086+00:00",
-    "lastCheckEt": "2026-11-04T09:35:50.411138-05:00",
+    "lastCheckAt": "2026-11-04T14:36:50.406637+00:00",
+    "lastCheckEt": "2026-11-04T09:36:50.405687-05:00",
     "status": "ok"
   }
 }
