@@ -11,7 +11,7 @@
       "allocDollar": 5777.89,
       "stopPrice": 15.759299,
       "targetPrice": 16.896568000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.2446,
       "pctChangeAtScreen": 18.9363,
@@ -22,7 +22,12 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-04T14:37:36.835469+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "exitTime": "2026-11-04T14:37:50.566547+00:00",
+      "exitPrice": 15.759299,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -173.51
     },
     "APTV_2026-11-03": {
       "symbol": "APTV",
@@ -2129,8 +2134,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T14:36:50.406637+00:00",
-    "lastCheckEt": "2026-11-04T09:36:50.405687-05:00",
+    "lastCheckAt": "2026-11-04T14:37:50.346579+00:00",
+    "lastCheckEt": "2026-11-04T09:37:50.345651-05:00",
     "status": "ok"
   }
 }
