@@ -11,7 +11,7 @@
       "allocDollar": 9069.03,
       "stopPrice": 46.9165,
       "targetPrice": 43.727999999999994,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 9.0195,
       "pctChangeAtScreen": -3.0078,
@@ -35,7 +35,12 @@
       "remainderFloor": 44.638999999999996,
       "remainderTarget": 40.083999999999996,
       "optionContractsPartial": null,
-      "optionContractsRemainder": null
+      "optionContractsRemainder": null,
+      "exitTime": "2026-11-04T17:19:50.565417+00:00",
+      "exitPrice": 40.083999999999996,
+      "exitReason": "target",
+      "returnPct": 11.196,
+      "dollarPnl": 1014.85
     },
     "AMUU_2026-11-04": {
       "symbol": "AMUU",
@@ -2236,8 +2241,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T17:18:48.699691+00:00",
-    "lastCheckEt": "2026-11-04T12:18:48.698779-05:00",
+    "lastCheckAt": "2026-11-04T17:19:50.305957+00:00",
+    "lastCheckEt": "2026-11-04T12:19:50.292983-05:00",
     "status": "ok"
   }
 }
