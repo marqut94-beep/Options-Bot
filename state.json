@@ -13,7 +13,7 @@
       "allocDollar": 7123.34,
       "stopPrice": 318.3637,
       "targetPrice": 341.3384,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 5.3973,
       "pctChangeAtScreen": 5.3255,
@@ -24,7 +24,14 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-03T19:59:11.036588+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "grossDollarPnl": 80.96,
+      "costDollar": 28.84,
+      "exitTime": "2026-11-04T00:20:15.062062+00:00",
+      "exitPrice": 331.89,
+      "exitReason": "eod",
+      "returnPct": 0.7218,
+      "dollarPnl": 52.12
     },
     "APTV_2026-11-03": {
       "symbol": "APTV",
@@ -39,7 +46,7 @@
       "allocDollar": 5916.89,
       "stopPrice": 43.3218,
       "targetPrice": 40.3776,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.467,
       "pctChangeAtScreen": -6.4168,
@@ -50,7 +57,14 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-03T19:59:11.036601+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "grossDollarPnl": 104.34,
+      "costDollar": 24.58,
+      "exitTime": "2026-11-04T00:20:15.306139+00:00",
+      "exitPrice": 41.32,
+      "exitReason": "eod",
+      "returnPct": 1.3449,
+      "dollarPnl": 79.76
     },
     "HSTM_2026-11-03": {
       "symbol": "HSTM",
@@ -65,7 +79,7 @@
       "allocDollar": 8304.4,
       "stopPrice": 33.3102,
       "targetPrice": 31.046400000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 7.287,
       "pctChangeAtScreen": -4.5455,
@@ -76,7 +90,14 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-03T19:59:11.036556+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "grossDollarPnl": 172.19,
+      "costDollar": 34.99,
+      "exitTime": "2026-11-04T00:20:15.527662+00:00",
+      "exitPrice": 31.67,
+      "exitReason": "eod",
+      "returnPct": 1.6507,
+      "dollarPnl": 137.2
     },
     "INTC_2026-10-30": {
       "symbol": "INTC",
@@ -1970,8 +1991,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-03T19:58:45.200780+00:00",
-    "lastCheckEt": "2026-11-03T14:58:45.200299-05:00",
+    "lastCheckAt": "2026-11-04T00:20:14.816920+00:00",
+    "lastCheckEt": "2026-11-03T19:20:14.816410-05:00",
     "status": "ok"
   }
 }

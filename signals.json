@@ -1065,5 +1065,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 42.06,
     "allocDollar": 5916.89
+  },
+  {
+    "id": "ZBRA_2026-11-03_exit_close_all_2026-11-04T00:20:15.062077+00:00",
+    "tradeId": "ZBRA_2026-11-03",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-04T00:20:15.062080+00:00",
+    "symbol": "ZBRA",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "APTV_2026-11-03_exit_close_all_2026-11-04T00:20:15.306153+00:00",
+    "tradeId": "APTV_2026-11-03",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-04T00:20:15.306156+00:00",
+    "symbol": "APTV",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "HSTM_2026-11-03_exit_close_all_2026-11-04T00:20:15.527674+00:00",
+    "tradeId": "HSTM_2026-11-03",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-04T00:20:15.527677+00:00",
+    "symbol": "HSTM",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
