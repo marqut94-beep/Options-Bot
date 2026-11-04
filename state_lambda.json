@@ -1,5 +1,29 @@
 {
   "trades": {
+    "AMUU_2026-11-04": {
+      "symbol": "AMUU",
+      "date": "2026-11-04",
+      "direction": "long",
+      "entryTime": "2026-11-04T15:01:00Z",
+      "entryPrice": 175.39,
+      "shares": 29,
+      "convictionScore": 0.0173,
+      "allocDollar": 5130.01,
+      "stopPrice": 170.1283,
+      "targetPrice": 182.4056,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.208,
+      "pctChangeAtScreen": 3.6773,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-04T15:02:37.336524+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "AMDL_2026-11-04": {
       "symbol": "AMDL",
       "date": "2026-11-04",
@@ -2166,8 +2190,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T15:00:50.419764+00:00",
-    "lastCheckEt": "2026-11-04T10:00:50.418801-05:00",
+    "lastCheckAt": "2026-11-04T15:01:50.540115+00:00",
+    "lastCheckEt": "2026-11-04T10:01:50.539240-05:00",
     "status": "ok"
   }
 }
