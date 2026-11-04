@@ -443,5 +443,13 @@
     "symbol": "CVI",
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "CVI_2026-11-04_exit_close_all_2026-11-04T17:06:13.063680+00:00",
+    "tradeId": "CVI_2026-11-04",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-04T17:06:13.063683+00:00",
+    "symbol": "CVI",
+    "reason": "target"
   }
 ]
