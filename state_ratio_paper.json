@@ -17,7 +17,7 @@
       "pctChangeAtScreen": 20.7906,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "exitTime": "2026-11-04T14:40:25.160673+00:00",
+      "exitTime": "2026-11-04T14:40:50.104332+00:00",
       "exitPrice": 15.759299,
       "exitReason": "stop",
       "returnPct": -3.0,
@@ -619,8 +619,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T14:40:24.912632+00:00",
-    "lastCheckEt": "2026-11-04T09:40:24.912295-05:00",
+    "lastCheckAt": "2026-11-04T14:40:49.917744+00:00",
+    "lastCheckEt": "2026-11-04T09:40:49.917411-05:00",
     "status": "ok"
   }
 }
