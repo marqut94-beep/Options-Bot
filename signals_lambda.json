@@ -1510,5 +1510,19 @@
     "contracts": 12,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "AMUU_2026-11-04_entry_2026-11-04T15:02:37.336547+00:00",
+    "tradeId": "AMUU_2026-11-04",
+    "action": "entry",
+    "createdAt": "2026-11-04T15:02:37.336551+00:00",
+    "symbol": "AMUU",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 175.39,
+    "allocDollar": 5130.01
   }
 ]
