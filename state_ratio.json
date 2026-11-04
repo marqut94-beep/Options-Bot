@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -3.0078,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 41.38,
-      "lastPriceAt": "2026-11-04T16:54:00Z",
-      "unrealizedDollar": 5.99,
-      "unrealizedPct": 6.5752,
+      "lastPrice": 41.53,
+      "lastPriceAt": "2026-11-04T16:55:00Z",
+      "unrealizedDollar": 5.84,
+      "unrealizedPct": 6.4105,
       "partialExitPrice": 43.727999999999994,
       "partialExitTime": "2026-11-04T16:04:00Z",
       "partialDollarPnl": 1.82,
@@ -675,8 +675,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T16:55:12.752522+00:00",
-    "lastCheckEt": "2026-11-04T11:55:12.752249-05:00",
+    "lastCheckAt": "2026-11-04T16:56:12.884826+00:00",
+    "lastCheckEt": "2026-11-04T11:56:12.884522-05:00",
     "status": "ok"
   }
 }
