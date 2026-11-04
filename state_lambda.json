@@ -11,7 +11,7 @@
       "allocDollar": 5130.01,
       "stopPrice": 170.1283,
       "targetPrice": 182.4056,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.208,
       "pctChangeAtScreen": 3.6773,
@@ -26,7 +26,12 @@
       "lastPrice": 172.32,
       "lastPriceAt": "2026-11-04T15:22:00Z",
       "unrealizedDollar": -89.03,
-      "unrealizedPct": -1.7504
+      "unrealizedPct": -1.7504,
+      "exitTime": "2026-11-04T15:25:50.603795+00:00",
+      "exitPrice": 170.1283,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -152.59
     },
     "AMDL_2026-11-04": {
       "symbol": "AMDL",
@@ -2194,8 +2199,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T15:24:50.387616+00:00",
-    "lastCheckEt": "2026-11-04T10:24:50.386674-05:00",
+    "lastCheckAt": "2026-11-04T15:25:50.405117+00:00",
+    "lastCheckEt": "2026-11-04T10:25:50.388075-05:00",
     "status": "ok"
   }
 }
