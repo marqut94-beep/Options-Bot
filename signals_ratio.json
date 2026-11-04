@@ -386,5 +386,15 @@
     "createdAt": "2026-11-03T20:55:13.566531+00:00",
     "symbol": "HSTM",
     "reason": "eod"
+  },
+  {
+    "id": "ALIT_2026-11-04_entry_2026-11-04T14:37:56.188186+00:00",
+    "tradeId": "ALIT_2026-11-04",
+    "action": "entry",
+    "createdAt": "2026-11-04T14:37:56.188197+00:00",
+    "symbol": "ALIT",
+    "direction": "long",
+    "stockEntryPrice": 16.2467,
+    "allocDollar": 54.49
   }
 ]
