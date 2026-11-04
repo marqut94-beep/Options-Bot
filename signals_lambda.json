@@ -1474,5 +1474,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 16.2467,
     "allocDollar": 5777.89
+  },
+  {
+    "id": "ALIT_2026-11-04_exit_close_all_2026-11-04T14:37:50.566576+00:00",
+    "tradeId": "ALIT_2026-11-04",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-04T14:37:50.566580+00:00",
+    "symbol": "ALIT",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
