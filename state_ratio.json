@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 5.112,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 48.5,
-      "lastPriceAt": "2026-11-04T15:22:00Z",
-      "unrealizedDollar": -0.73,
-      "unrealizedPct": -1.4728
+      "lastPrice": 48.005,
+      "lastPriceAt": "2026-11-04T15:23:00Z",
+      "unrealizedDollar": -1.22,
+      "unrealizedPct": -2.4784
     },
     "ALIT_2026-11-04": {
       "symbol": "ALIT",
@@ -641,8 +641,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T15:23:12.805651+00:00",
-    "lastCheckEt": "2026-11-04T10:23:12.805295-05:00",
+    "lastCheckAt": "2026-11-04T15:24:12.995390+00:00",
+    "lastCheckEt": "2026-11-04T10:24:12.995001-05:00",
     "status": "ok"
   }
 }
