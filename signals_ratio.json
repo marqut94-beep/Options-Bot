@@ -396,5 +396,14 @@
     "direction": "long",
     "stockEntryPrice": 16.2467,
     "allocDollar": 54.49
+  },
+  {
+    "id": "ALIT_2026-11-04_exit_close_all_2026-11-04T14:38:13.286857+00:00",
+    "tradeId": "ALIT_2026-11-04",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-04T14:38:13.286862+00:00",
+    "symbol": "ALIT",
+    "stockEntryPrice": 16.2467,
+    "reason": "stop"
   }
 ]
