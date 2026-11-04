@@ -1,5 +1,57 @@
 {
   "trades": {
+    "CVI_2026-11-04": {
+      "symbol": "CVI",
+      "date": "2026-11-04",
+      "direction": "short",
+      "entryTime": "2026-11-04T20:14:00Z",
+      "entryPrice": 41.975,
+      "shares": 298,
+      "signalTime": "2026-11-04T14:35:00Z",
+      "signalAgeMinutes": 340.3,
+      "convictionScore": 1.0,
+      "allocDollar": 12500.0,
+      "stopPrice": 43.23425,
+      "targetPrice": 40.296,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 22.123,
+      "pctChangeAtScreen": -11.1311,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-04T20:15:33.884802+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
+    "BTU_2026-11-04": {
+      "symbol": "BTU",
+      "date": "2026-11-04",
+      "direction": "short",
+      "entryTime": "2026-11-04T20:14:00Z",
+      "entryPrice": 17.12,
+      "shares": 571,
+      "signalTime": "2026-11-04T14:36:00Z",
+      "signalAgeMinutes": 339.3,
+      "convictionScore": 0.6367,
+      "allocDollar": 9774.92,
+      "stopPrice": 17.6336,
+      "targetPrice": 16.435200000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 9.6399,
+      "pctChangeAtScreen": -9.7368,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "BTU261106P00017000",
+      "optionStrike": "17",
+      "optionExpiration": "2026-11-06",
+      "optionEntryPrice": 0.33,
+      "optionEntryTime": "2026-11-04T20:15:33.884839+00:00",
+      "optionContracts": 296,
+      "optionPricedVia": "trade"
+    },
     "ZBRA_2026-11-03": {
       "symbol": "ZBRA",
       "date": "2026-11-03",
@@ -1991,8 +2043,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T00:32:23.176602+00:00",
-    "lastCheckEt": "2026-11-03T19:32:23.176119-05:00",
+    "lastCheckAt": "2026-11-04T20:14:47.590675+00:00",
+    "lastCheckEt": "2026-11-04T15:14:47.590292-05:00",
     "status": "ok"
   }
 }
