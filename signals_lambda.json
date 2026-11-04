@@ -1485,5 +1485,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "AMDL_2026-11-04_entry_2026-11-04T14:52:29.524497+00:00",
+    "tradeId": "AMDL_2026-11-04",
+    "action": "entry",
+    "createdAt": "2026-11-04T14:52:29.524501+00:00",
+    "symbol": "AMDL",
+    "direction": "long",
+    "optionSymbol": "AMDL261106C00049000",
+    "contracts": 12,
+    "optionEntryPriceAtScreen": 4.05,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 49.23,
+    "allocDollar": 5023.07
   }
 ]
