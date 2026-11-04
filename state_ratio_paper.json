@@ -1,5 +1,23 @@
 {
   "trades": {
+    "ALIT_2026-11-04": {
+      "symbol": "ALIT",
+      "date": "2026-11-04",
+      "direction": "long",
+      "entryTime": "2026-11-04T14:35:00Z",
+      "entryPrice": 16.2467,
+      "shares": 4,
+      "convictionScore": 0.1872,
+      "allocDollar": 64.04,
+      "stopPrice": 15.759299,
+      "targetPrice": 16.896568000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.1232,
+      "pctChangeAtScreen": 20.7906,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "PLTU_2026-11-03": {
       "symbol": "PLTU",
       "date": "2026-11-03",
@@ -596,8 +614,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T14:36:50.032007+00:00",
-    "lastCheckEt": "2026-11-04T09:36:50.031661-05:00",
+    "lastCheckAt": "2026-11-04T14:39:31.569322+00:00",
+    "lastCheckEt": "2026-11-04T09:39:31.568991-05:00",
     "status": "ok"
   }
 }
