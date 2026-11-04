@@ -1535,5 +1535,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "CVI_2026-11-04_entry_2026-11-04T15:32:36.149218+00:00",
+    "tradeId": "CVI_2026-11-04",
+    "action": "entry",
+    "createdAt": "2026-11-04T15:32:36.149222+00:00",
+    "symbol": "CVI",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 45.55,
+    "allocDollar": 9069.03
   }
 ]
