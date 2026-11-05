@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -14.4862,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 47.455,
-      "lastPriceAt": "2026-11-05T15:40:00Z",
-      "unrealizedDollar": 1.37,
-      "unrealizedPct": 2.8059
+      "lastPrice": 47.5295,
+      "lastPriceAt": "2026-11-05T15:41:00Z",
+      "unrealizedDollar": 1.3,
+      "unrealizedPct": 2.6534
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -702,8 +702,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:41:12.935553+00:00",
-    "lastCheckEt": "2026-11-05T10:41:12.935133-05:00",
+    "lastCheckAt": "2026-11-05T15:42:12.804418+00:00",
+    "lastCheckEt": "2026-11-05T10:42:12.804063-05:00",
     "status": "ok"
   }
 }
