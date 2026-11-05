@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SOXL_2026-11-05": {
+      "symbol": "SOXL",
+      "date": "2026-11-05",
+      "direction": "short",
+      "entryTime": "2026-11-05T15:33:00Z",
+      "entryPrice": 48.825,
+      "shares": 103,
+      "convictionScore": 0.0006,
+      "allocDollar": 5004.77,
+      "stopPrice": 50.289750000000005,
+      "targetPrice": 46.872,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0076,
+      "pctChangeAtScreen": -14.4862,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SOXL261106P00050000",
+      "optionStrike": "50",
+      "optionExpiration": "2026-11-06",
+      "optionEntryPrice": 3.99,
+      "optionEntryTime": "2026-11-05T15:34:02.919384+00:00",
+      "optionContracts": 12,
+      "optionPricedVia": "trade"
+    },
     "CVI_2026-11-04": {
       "symbol": "CVI",
       "date": "2026-11-04",
@@ -2241,8 +2265,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:31:50.529595+00:00",
-    "lastCheckEt": "2026-11-05T10:31:50.528652-05:00",
+    "lastCheckAt": "2026-11-05T15:32:50.339441+00:00",
+    "lastCheckEt": "2026-11-05T10:32:50.322398-05:00",
     "status": "ok"
   }
 }
