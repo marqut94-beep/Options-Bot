@@ -89,10 +89,10 @@
       "optionEntryTime": "2026-11-05T15:49:36.470349+00:00",
       "optionContracts": 157,
       "optionPricedVia": "trade",
-      "lastPrice": 26.065,
-      "lastPriceAt": "2026-11-05T18:23:00Z",
-      "unrealizedDollar": -1.93,
-      "unrealizedPct": -0.0384
+      "lastPrice": 26.11,
+      "lastPriceAt": "2026-11-05T18:25:00Z",
+      "unrealizedDollar": -10.61,
+      "unrealizedPct": -0.2111
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -2380,8 +2380,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T18:24:50.192713+00:00",
-    "lastCheckEt": "2026-11-05T13:24:50.192128-05:00",
+    "lastCheckAt": "2026-11-05T18:26:46.240025+00:00",
+    "lastCheckEt": "2026-11-05T13:26:46.239447-05:00",
     "status": "ok"
   }
 }
