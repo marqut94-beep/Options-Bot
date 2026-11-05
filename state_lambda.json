@@ -7,26 +7,26 @@
       "entryTime": "2026-11-05T15:33:00Z",
       "entryPrice": 48.825,
       "shares": 103,
-      "convictionScore": 0.0006,
-      "allocDollar": 5004.77,
+      "convictionScore": 0.0038,
+      "allocDollar": 5028.32,
       "stopPrice": 50.289750000000005,
       "targetPrice": 46.872,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0076,
-      "pctChangeAtScreen": -14.4862,
+      "relVol": 2.0453,
+      "pctChangeAtScreen": -14.2669,
       "dataSource": "alpaca-sip",
       "optionSymbol": "SOXL261106P00050000",
       "optionStrike": "50",
       "optionExpiration": "2026-11-06",
-      "optionEntryPrice": 3.75,
-      "optionEntryTime": "2026-11-05T15:34:25.357022+00:00",
-      "optionContracts": 13,
+      "optionEntryPrice": 3.96,
+      "optionEntryTime": "2026-11-05T15:34:59.124859+00:00",
+      "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 49.445,
-      "lastPriceAt": "2026-11-05T15:35:00Z",
-      "unrealizedDollar": -63.86,
-      "unrealizedPct": -1.2698
+      "lastPrice": 48.197,
+      "lastPriceAt": "2026-11-05T15:36:00Z",
+      "unrealizedDollar": 64.68,
+      "unrealizedPct": 1.2862
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -2269,8 +2269,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:36:52.318763+00:00",
-    "lastCheckEt": "2026-11-05T10:36:52.317779-05:00",
+    "lastCheckAt": "2026-11-05T15:37:50.320847+00:00",
+    "lastCheckEt": "2026-11-05T10:37:50.319977-05:00",
     "status": "ok"
   }
 }
