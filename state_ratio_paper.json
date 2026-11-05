@@ -4,19 +4,23 @@
       "symbol": "SOXL",
       "date": "2026-11-05",
       "direction": "short",
-      "entryTime": "2026-11-05T15:34:00Z",
-      "entryPrice": 48.93,
+      "entryTime": "2026-11-05T15:32:00Z",
+      "entryPrice": 48.7001,
       "shares": 1,
-      "convictionScore": 0.0041,
-      "allocDollar": 50.31,
-      "stopPrice": 50.3979,
-      "targetPrice": 46.9728,
+      "convictionScore": 0.001,
+      "allocDollar": 50.07,
+      "stopPrice": 50.161103,
+      "targetPrice": 46.752095999999995,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0246,
-      "pctChangeAtScreen": -14.2669,
+      "relVol": 2.0057,
+      "pctChangeAtScreen": -14.4862,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 48.825,
+      "lastPriceAt": "2026-11-05T15:33:00Z",
+      "unrealizedDollar": -0.12,
+      "unrealizedPct": -0.2565
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -698,8 +702,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:33:49.981456+00:00",
-    "lastCheckEt": "2026-11-05T10:33:49.981082-05:00",
+    "lastCheckAt": "2026-11-05T15:34:06.749776+00:00",
+    "lastCheckEt": "2026-11-05T10:34:06.749502-05:00",
     "status": "ok"
   }
 }
