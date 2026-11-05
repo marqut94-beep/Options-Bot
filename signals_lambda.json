@@ -1673,5 +1673,16 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "YINN_2026-11-05_exit_close_all_2026-11-05T20:55:50.747267+00:00",
+    "tradeId": "YINN_2026-11-05",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-05T20:55:50.747270+00:00",
+    "symbol": "YINN",
+    "optionSymbol": "YINN261106P00026000",
+    "contracts": 157,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
