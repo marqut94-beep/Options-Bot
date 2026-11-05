@@ -461,5 +461,13 @@
     "direction": "short",
     "stockEntryPrice": 48.7001,
     "allocDollar": 50.07
+  },
+  {
+    "id": "SOXL_2026-11-05_exit_close_all_2026-11-05T15:43:13.359340+00:00",
+    "tradeId": "SOXL_2026-11-05",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-05T15:43:13.359345+00:00",
+    "symbol": "SOXL",
+    "reason": "target"
   }
 ]
