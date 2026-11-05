@@ -1148,5 +1148,47 @@
     "contracts": 296,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "UPRO_2026-11-05_entry_2026-11-05T20:28:26.580482+00:00",
+    "tradeId": "UPRO_2026-11-05",
+    "action": "entry",
+    "createdAt": "2026-11-05T20:28:26.580485+00:00",
+    "symbol": "UPRO",
+    "direction": "short",
+    "optionSymbol": "UPRO261106P00129000",
+    "contracts": 38,
+    "optionEntryPriceAtScreen": 2.22,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 129.3479,
+    "allocDollar": 8642.48
+  },
+  {
+    "id": "SOXL_2026-11-05_entry_2026-11-05T20:28:26.580509+00:00",
+    "tradeId": "SOXL_2026-11-05",
+    "action": "entry",
+    "createdAt": "2026-11-05T20:28:26.580510+00:00",
+    "symbol": "SOXL",
+    "direction": "short",
+    "optionSymbol": "SOXL261106P00045000",
+    "contracts": 26,
+    "optionEntryPriceAtScreen": 3.2,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 44.948,
+    "allocDollar": 8458.88
+  },
+  {
+    "id": "TQQQ_2026-11-05_entry_2026-11-05T20:28:26.580524+00:00",
+    "tradeId": "TQQQ_2026-11-05",
+    "action": "entry",
+    "createdAt": "2026-11-05T20:28:26.580525+00:00",
+    "symbol": "TQQQ",
+    "direction": "short",
+    "optionSymbol": "TQQQ261106P00051000",
+    "contracts": 49,
+    "optionEntryPriceAtScreen": 1.6,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 51.44,
+    "allocDollar": 7898.64
   }
 ]
