@@ -397,5 +397,13 @@
     "createdAt": "2026-11-04T17:02:50.145047+00:00",
     "symbol": "CVI",
     "reason": "target"
+  },
+  {
+    "id": "SOXL_2026-11-05_exit_close_all_2026-11-05T15:43:50.122627+00:00",
+    "tradeId": "SOXL_2026-11-05",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-05T15:43:50.122631+00:00",
+    "symbol": "SOXL",
+    "reason": "target"
   }
 ]
