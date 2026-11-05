@@ -11,7 +11,7 @@
       "allocDollar": 50.03,
       "stopPrice": 32.824864,
       "targetPrice": 30.594048,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0022,
       "pctChangeAtScreen": -21.0683,
@@ -20,7 +20,12 @@
       "lastPrice": 32.6606,
       "lastPriceAt": "2026-11-05T16:09:00Z",
       "unrealizedDollar": -1.58,
-      "unrealizedPct": -2.4846
+      "unrealizedPct": -2.4846,
+      "exitTime": "2026-11-05T16:13:30.186283+00:00",
+      "exitPrice": 32.824864,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.91
     },
     "YINN_2026-11-05": {
       "symbol": "YINN",
@@ -39,10 +44,10 @@
       "pctChangeAtScreen": -3.7655,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 25.96,
-      "lastPriceAt": "2026-11-05T16:09:00Z",
-      "unrealizedDollar": 0.2,
-      "unrealizedPct": 0.3849
+      "lastPrice": 26.025,
+      "lastPriceAt": "2026-11-05T16:12:00Z",
+      "unrealizedDollar": 0.07,
+      "unrealizedPct": 0.1355
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -751,8 +756,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:10:12.363426+00:00",
-    "lastCheckEt": "2026-11-05T11:10:12.363040-05:00",
+    "lastCheckAt": "2026-11-05T16:13:29.996045+00:00",
+    "lastCheckEt": "2026-11-05T11:13:29.995641-05:00",
     "status": "ok"
   }
 }
