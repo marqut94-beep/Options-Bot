@@ -444,5 +444,13 @@
     "symbol": "MUU",
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "MUU_2026-11-05_exit_close_all_2026-11-05T16:49:50.134850+00:00",
+    "tradeId": "MUU_2026-11-05",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-05T16:49:50.134854+00:00",
+    "symbol": "MUU",
+    "reason": "floor"
   }
 ]
