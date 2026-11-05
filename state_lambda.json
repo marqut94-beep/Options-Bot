@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SITM_2026-11-05": {
+      "symbol": "SITM",
+      "date": "2026-11-05",
+      "direction": "short",
+      "entryTime": "2026-11-05T15:56:00Z",
+      "entryPrice": 347.64,
+      "shares": 14,
+      "convictionScore": 0.0043,
+      "allocDollar": 5031.89,
+      "stopPrice": 358.0692,
+      "targetPrice": 333.7344,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.051,
+      "pctChangeAtScreen": -11.9899,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-05T15:57:43.488030+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "YINN_2026-11-05": {
       "symbol": "YINN",
       "date": "2026-11-05",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-05T15:49:36.470349+00:00",
       "optionContracts": 157,
       "optionPricedVia": "trade",
-      "lastPrice": 25.9,
-      "lastPriceAt": "2026-11-05T15:54:00Z",
-      "unrealizedDollar": 29.92,
-      "unrealizedPct": 0.5949
+      "lastPrice": 25.97,
+      "lastPriceAt": "2026-11-05T15:55:00Z",
+      "unrealizedDollar": 16.41,
+      "unrealizedPct": 0.3262
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -2314,8 +2338,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:55:51.218300+00:00",
-    "lastCheckEt": "2026-11-05T10:55:51.217194-05:00",
+    "lastCheckAt": "2026-11-05T15:56:50.322707+00:00",
+    "lastCheckEt": "2026-11-05T10:56:50.321715-05:00",
     "status": "ok"
   }
 }
