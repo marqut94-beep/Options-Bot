@@ -11,16 +11,17 @@
       "allocDollar": 50.03,
       "stopPrice": 32.824864,
       "targetPrice": 30.594048,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0022,
       "pctChangeAtScreen": -21.0683,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 32.6606,
-      "lastPriceAt": "2026-11-05T16:09:00Z",
-      "unrealizedDollar": -1.58,
-      "unrealizedPct": -2.4846
+      "exitTime": "2026-11-05T16:11:50.028815+00:00",
+      "exitPrice": 32.824864,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.91
     },
     "YINN_2026-11-05": {
       "symbol": "YINN",
@@ -40,7 +41,7 @@
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
       "lastPrice": 25.96,
-      "lastPriceAt": "2026-11-05T16:09:00Z",
+      "lastPriceAt": "2026-11-05T16:10:00Z",
       "unrealizedDollar": 0.23,
       "unrealizedPct": 0.441
     },
@@ -751,8 +752,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:10:49.981136+00:00",
-    "lastCheckEt": "2026-11-05T11:10:49.980779-05:00",
+    "lastCheckAt": "2026-11-05T16:11:49.826613+00:00",
+    "lastCheckEt": "2026-11-05T11:11:49.826189-05:00",
     "status": "ok"
   }
 }
