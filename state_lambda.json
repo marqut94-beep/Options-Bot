@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-05T16:02:14.472690+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 114.07,
-      "lastPriceAt": "2026-11-05T16:08:00Z",
-      "unrealizedDollar": -13.2,
-      "unrealizedPct": -0.2637
+      "lastPrice": 116.7,
+      "lastPriceAt": "2026-11-05T16:10:00Z",
+      "unrealizedDollar": -128.92,
+      "unrealizedPct": -2.5754
     },
     "SITM_2026-11-05": {
       "symbol": "SITM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-05T15:57:43.488030+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 343.06,
-      "lastPriceAt": "2026-11-05T16:08:00Z",
-      "unrealizedDollar": 64.12,
-      "unrealizedPct": 1.3175
+      "lastPrice": 345.685,
+      "lastPriceAt": "2026-11-05T16:10:00Z",
+      "unrealizedDollar": 27.37,
+      "unrealizedPct": 0.5624
     },
     "YINN_2026-11-05": {
       "symbol": "YINN",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-05T15:49:36.470349+00:00",
       "optionContracts": 157,
       "optionPricedVia": "trade",
-      "lastPrice": 25.92,
-      "lastPriceAt": "2026-11-05T16:08:00Z",
-      "unrealizedDollar": 26.05,
-      "unrealizedPct": 0.5181
+      "lastPrice": 25.96,
+      "lastPriceAt": "2026-11-05T16:10:00Z",
+      "unrealizedDollar": 18.33,
+      "unrealizedPct": 0.3646
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -2370,8 +2370,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:09:50.314985+00:00",
-    "lastCheckEt": "2026-11-05T11:09:50.314035-05:00",
+    "lastCheckAt": "2026-11-05T16:11:49.768701+00:00",
+    "lastCheckEt": "2026-11-05T11:11:49.767818-05:00",
     "status": "ok"
   }
 }
