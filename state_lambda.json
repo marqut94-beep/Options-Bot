@@ -1,5 +1,29 @@
 {
   "trades": {
+    "YINN_2026-11-05": {
+      "symbol": "YINN",
+      "date": "2026-11-05",
+      "direction": "short",
+      "entryTime": "2026-11-05T15:48:00Z",
+      "entryPrice": 26.055,
+      "shares": 193,
+      "convictionScore": 0.0033,
+      "allocDollar": 5024.87,
+      "stopPrice": 26.83665,
+      "targetPrice": 25.0128,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0398,
+      "pctChangeAtScreen": -3.7851,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "YINN261106P00026000",
+      "optionStrike": "26",
+      "optionExpiration": "2026-11-06",
+      "optionEntryPrice": 0.32,
+      "optionEntryTime": "2026-11-05T15:49:33.976926+00:00",
+      "optionContracts": 157,
+      "optionPricedVia": "trade"
+    },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
       "date": "2026-11-05",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-05T15:34:59.124859+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 45.15,
-      "lastPriceAt": "2026-11-05T15:46:00Z",
-      "unrealizedDollar": 361.31,
-      "unrealizedPct": 7.1845,
+      "lastPrice": 45.476,
+      "lastPriceAt": "2026-11-05T15:47:00Z",
+      "unrealizedDollar": 330.99,
+      "unrealizedPct": 6.5816,
       "partialExitPrice": 46.872,
       "partialExitTime": "2026-11-05T15:42:00Z",
       "partialDollarPnl": 19.53,
@@ -2278,8 +2302,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:47:50.346278+00:00",
-    "lastCheckEt": "2026-11-05T10:47:50.345416-05:00",
+    "lastCheckAt": "2026-11-05T15:48:46.408713+00:00",
+    "lastCheckEt": "2026-11-05T10:48:46.407828-05:00",
     "status": "ok"
   }
 }
