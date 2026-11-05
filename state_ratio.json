@@ -11,7 +11,7 @@
       "allocDollar": 50.07,
       "stopPrice": 50.289750000000005,
       "targetPrice": 46.872,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0057,
       "pctChangeAtScreen": -14.4862,
@@ -20,7 +20,12 @@
       "lastPrice": 47.5295,
       "lastPriceAt": "2026-11-05T15:41:00Z",
       "unrealizedDollar": 1.3,
-      "unrealizedPct": 2.6534
+      "unrealizedPct": 2.6534,
+      "exitTime": "2026-11-05T15:43:13.359310+00:00",
+      "exitPrice": 46.872,
+      "exitReason": "target",
+      "returnPct": 4.0,
+      "dollarPnl": 1.95
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -702,8 +707,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:42:12.804418+00:00",
-    "lastCheckEt": "2026-11-05T10:42:12.804063-05:00",
+    "lastCheckAt": "2026-11-05T15:43:12.891762+00:00",
+    "lastCheckEt": "2026-11-05T10:43:12.891332-05:00",
     "status": "ok"
   }
 }
