@@ -56,10 +56,10 @@
       "optionEntryTime": "2026-11-05T15:57:43.488030+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 350.15,
-      "lastPriceAt": "2026-11-05T16:13:00Z",
-      "unrealizedDollar": -35.14,
-      "unrealizedPct": -0.722
+      "lastPrice": 349.5,
+      "lastPriceAt": "2026-11-05T16:14:00Z",
+      "unrealizedDollar": -26.04,
+      "unrealizedPct": -0.535
     },
     "YINN_2026-11-05": {
       "symbol": "YINN",
@@ -85,7 +85,7 @@
       "optionContracts": 157,
       "optionPricedVia": "trade",
       "lastPrice": 26.005,
-      "lastPriceAt": "2026-11-05T16:13:00Z",
+      "lastPriceAt": "2026-11-05T16:14:00Z",
       "unrealizedDollar": 9.65,
       "unrealizedPct": 0.1919
     },
@@ -2375,8 +2375,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:14:57.055583+00:00",
-    "lastCheckEt": "2026-11-05T11:14:57.054651-05:00",
+    "lastCheckAt": "2026-11-05T16:15:58.708706+00:00",
+    "lastCheckEt": "2026-11-05T11:15:58.707781-05:00",
     "status": "ok"
   }
 }
