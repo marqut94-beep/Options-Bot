@@ -19,9 +19,9 @@
       "optionSymbol": "SOXL261106P00050000",
       "optionStrike": "50",
       "optionExpiration": "2026-11-06",
-      "optionEntryPrice": 3.99,
-      "optionEntryTime": "2026-11-05T15:34:02.919384+00:00",
-      "optionContracts": 12,
+      "optionEntryPrice": 3.75,
+      "optionEntryTime": "2026-11-05T15:34:25.357022+00:00",
+      "optionContracts": 13,
       "optionPricedVia": "trade"
     },
     "CVI_2026-11-04": {
@@ -2265,8 +2265,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:32:50.339441+00:00",
-    "lastCheckEt": "2026-11-05T10:32:50.322398-05:00",
+    "lastCheckAt": "2026-11-05T15:33:12.260677+00:00",
+    "lastCheckEt": "2026-11-05T10:33:12.230375-05:00",
     "status": "ok"
   }
 }
