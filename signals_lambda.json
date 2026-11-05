@@ -1574,17 +1574,17 @@
     "reason": "target"
   },
   {
-    "id": "SOXL_2026-11-05_entry_2026-11-05T15:34:59.124881+00:00",
+    "id": "SOXL_2026-11-05_entry_2026-11-05T15:34:25.357044+00:00",
     "tradeId": "SOXL_2026-11-05",
     "action": "entry",
-    "createdAt": "2026-11-05T15:34:59.124885+00:00",
+    "createdAt": "2026-11-05T15:34:25.357048+00:00",
     "symbol": "SOXL",
     "direction": "short",
     "optionSymbol": "SOXL261106P00050000",
-    "contracts": 12,
-    "optionEntryPriceAtScreen": 3.96,
+    "contracts": 13,
+    "optionEntryPriceAtScreen": 3.75,
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 48.825,
-    "allocDollar": 5028.32
+    "allocDollar": 5004.77
   }
 ]
