@@ -1,5 +1,23 @@
 {
   "trades": {
+    "MUU_2026-11-05": {
+      "symbol": "MUU",
+      "date": "2026-11-05",
+      "direction": "short",
+      "entryTime": "2026-11-05T16:36:00Z",
+      "entryPrice": 15.09,
+      "shares": 3,
+      "convictionScore": 0.0008,
+      "allocDollar": 50.06,
+      "stopPrice": 15.5427,
+      "targetPrice": 14.4864,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0046,
+      "pctChangeAtScreen": -12.0886,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "AMDL_2026-11-05": {
       "symbol": "AMDL",
       "date": "2026-11-05",
@@ -40,10 +58,10 @@
       "pctChangeAtScreen": -3.7112,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 26.115,
-      "lastPriceAt": "2026-11-05T16:34:00Z",
-      "unrealizedDollar": -0.08,
-      "unrealizedPct": -0.1534
+      "lastPrice": 26.245,
+      "lastPriceAt": "2026-11-05T16:35:00Z",
+      "unrealizedDollar": -0.34,
+      "unrealizedPct": -0.652
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -752,8 +770,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:35:49.950736+00:00",
-    "lastCheckEt": "2026-11-05T11:35:49.934224-05:00",
+    "lastCheckAt": "2026-11-05T16:36:50.030389+00:00",
+    "lastCheckEt": "2026-11-05T11:36:50.030003-05:00",
     "status": "ok"
   }
 }
