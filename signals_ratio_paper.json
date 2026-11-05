@@ -452,5 +452,13 @@
     "createdAt": "2026-11-05T16:49:50.134854+00:00",
     "symbol": "MUU",
     "reason": "floor"
+  },
+  {
+    "id": "YINN_2026-11-05_exit_close_all_2026-11-05T20:55:50.174999+00:00",
+    "tradeId": "YINN_2026-11-05",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-05T20:55:50.175002+00:00",
+    "symbol": "YINN",
+    "reason": "eod"
   }
 ]
