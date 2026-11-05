@@ -11,7 +11,7 @@
       "allocDollar": 5004.5,
       "stopPrice": 117.1831,
       "targetPrice": 109.21919999999999,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0072,
       "pctChangeAtScreen": -20.3898,
@@ -26,7 +26,12 @@
       "lastPrice": 116.7,
       "lastPriceAt": "2026-11-05T16:10:00Z",
       "unrealizedDollar": -128.92,
-      "unrealizedPct": -2.5754
+      "unrealizedPct": -2.5754,
+      "exitTime": "2026-11-05T16:12:50.622664+00:00",
+      "exitPrice": 117.1831,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -150.18
     },
     "SITM_2026-11-05": {
       "symbol": "SITM",
@@ -51,10 +56,10 @@
       "optionEntryTime": "2026-11-05T15:57:43.488030+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 345.685,
-      "lastPriceAt": "2026-11-05T16:10:00Z",
-      "unrealizedDollar": 27.37,
-      "unrealizedPct": 0.5624
+      "lastPrice": 347.35,
+      "lastPriceAt": "2026-11-05T16:11:00Z",
+      "unrealizedDollar": 4.06,
+      "unrealizedPct": 0.0834
     },
     "YINN_2026-11-05": {
       "symbol": "YINN",
@@ -79,10 +84,10 @@
       "optionEntryTime": "2026-11-05T15:49:36.470349+00:00",
       "optionContracts": 157,
       "optionPricedVia": "trade",
-      "lastPrice": 25.96,
-      "lastPriceAt": "2026-11-05T16:10:00Z",
-      "unrealizedDollar": 18.33,
-      "unrealizedPct": 0.3646
+      "lastPrice": 25.995,
+      "lastPriceAt": "2026-11-05T16:11:00Z",
+      "unrealizedDollar": 11.58,
+      "unrealizedPct": 0.2303
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -2370,8 +2375,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:11:49.768701+00:00",
-    "lastCheckEt": "2026-11-05T11:11:49.767818-05:00",
+    "lastCheckAt": "2026-11-05T16:12:50.362045+00:00",
+    "lastCheckEt": "2026-11-05T11:12:50.361101-05:00",
     "status": "ok"
   }
 }
