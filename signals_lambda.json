@@ -1598,5 +1598,19 @@
     "needsRobinhoodPricing": false,
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "YINN_2026-11-05_entry_2026-11-05T15:49:36.470372+00:00",
+    "tradeId": "YINN_2026-11-05",
+    "action": "entry",
+    "createdAt": "2026-11-05T15:49:36.470376+00:00",
+    "symbol": "YINN",
+    "direction": "short",
+    "optionSymbol": "YINN261106P00026000",
+    "contracts": 157,
+    "optionEntryPriceAtScreen": 0.32,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 26.055,
+    "allocDollar": 5024.87
   }
 ]
