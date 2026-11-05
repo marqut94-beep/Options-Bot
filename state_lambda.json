@@ -12,7 +12,7 @@
       "stopPrice": 50.289750000000005,
       "targetPrice": 46.872,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0453,
       "pctChangeAtScreen": -14.2669,
       "dataSource": "alpaca-sip",
@@ -26,7 +26,16 @@
       "lastPrice": 47.44,
       "lastPriceAt": "2026-11-05T15:40:00Z",
       "unrealizedDollar": 142.66,
-      "unrealizedPct": 2.8367
+      "unrealizedPct": 2.8367,
+      "partialExitPrice": 46.872,
+      "partialExitTime": "2026-11-05T15:42:00Z",
+      "partialDollarPnl": 19.53,
+      "sharesPartial": 10,
+      "sharesRemainder": 93,
+      "remainderFloor": 47.8485,
+      "remainderTarget": 42.966,
+      "optionContractsPartial": 1,
+      "optionContractsRemainder": 11
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -2269,8 +2278,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:41:50.390548+00:00",
-    "lastCheckEt": "2026-11-05T10:41:50.369515-05:00",
+    "lastCheckAt": "2026-11-05T15:44:50.281492+00:00",
+    "lastCheckEt": "2026-11-05T10:44:50.280611-05:00",
     "status": "ok"
   }
 }
