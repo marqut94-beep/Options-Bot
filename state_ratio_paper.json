@@ -16,7 +16,11 @@
       "relVol": 2.0022,
       "pctChangeAtScreen": -21.0683,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 32.6606,
+      "lastPriceAt": "2026-11-05T16:09:00Z",
+      "unrealizedDollar": -1.58,
+      "unrealizedPct": -2.4846
     },
     "YINN_2026-11-05": {
       "symbol": "YINN",
@@ -35,10 +39,10 @@
       "pctChangeAtScreen": -3.7112,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 25.9112,
-      "lastPriceAt": "2026-11-05T16:06:00Z",
-      "unrealizedDollar": 0.33,
-      "unrealizedPct": 0.6282
+      "lastPrice": 25.96,
+      "lastPriceAt": "2026-11-05T16:09:00Z",
+      "unrealizedDollar": 0.23,
+      "unrealizedPct": 0.441
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -747,8 +751,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:07:49.881317+00:00",
-    "lastCheckEt": "2026-11-05T11:07:49.880945-05:00",
+    "lastCheckAt": "2026-11-05T16:10:49.981136+00:00",
+    "lastCheckEt": "2026-11-05T11:10:49.980779-05:00",
     "status": "ok"
   }
 }
