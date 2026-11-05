@@ -1,5 +1,23 @@
 {
   "trades": {
+    "AMDL_2026-11-05": {
+      "symbol": "AMDL",
+      "date": "2026-11-05",
+      "direction": "short",
+      "entryTime": "2026-11-05T16:07:00Z",
+      "entryPrice": 31.8688,
+      "shares": 2,
+      "convictionScore": 0.0004,
+      "allocDollar": 50.03,
+      "stopPrice": 32.824864,
+      "targetPrice": 30.594048,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0022,
+      "pctChangeAtScreen": -21.0683,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "YINN_2026-11-05": {
       "symbol": "YINN",
       "date": "2026-11-05",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -3.7655,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 25.89,
-      "lastPriceAt": "2026-11-05T16:05:00Z",
-      "unrealizedDollar": 0.34,
-      "unrealizedPct": 0.6535
+      "lastPrice": 25.9112,
+      "lastPriceAt": "2026-11-05T16:06:00Z",
+      "unrealizedDollar": 0.3,
+      "unrealizedPct": 0.5721
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -729,8 +747,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:06:12.843631+00:00",
-    "lastCheckEt": "2026-11-05T11:06:12.843249-05:00",
+    "lastCheckAt": "2026-11-05T16:07:12.849487+00:00",
+    "lastCheckEt": "2026-11-05T11:07:12.849104-05:00",
     "status": "ok"
   }
 }
