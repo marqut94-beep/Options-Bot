@@ -40,10 +40,10 @@
       "pctChangeAtScreen": -3.7112,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 26.025,
-      "lastPriceAt": "2026-11-05T16:12:00Z",
-      "unrealizedDollar": 0.1,
-      "unrealizedPct": 0.1918
+      "lastPrice": 26.005,
+      "lastPriceAt": "2026-11-05T16:13:00Z",
+      "unrealizedDollar": 0.14,
+      "unrealizedPct": 0.2685
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -752,8 +752,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:13:49.819443+00:00",
-    "lastCheckEt": "2026-11-05T11:13:49.819132-05:00",
+    "lastCheckAt": "2026-11-05T16:14:03.507031+00:00",
+    "lastCheckEt": "2026-11-05T11:14:03.506605-05:00",
     "status": "ok"
   }
 }
