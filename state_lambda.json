@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-05T15:49:36.470349+00:00",
       "optionContracts": 157,
       "optionPricedVia": "trade",
-      "lastPrice": 25.94,
-      "lastPriceAt": "2026-11-05T15:51:00Z",
-      "unrealizedDollar": 22.19,
-      "unrealizedPct": 0.4414
+      "lastPrice": 25.935,
+      "lastPriceAt": "2026-11-05T15:52:00Z",
+      "unrealizedDollar": 23.16,
+      "unrealizedPct": 0.4606
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -39,7 +39,7 @@
       "allocDollar": 5028.32,
       "stopPrice": 50.289750000000005,
       "targetPrice": 46.872,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0453,
       "pctChangeAtScreen": -14.2669,
@@ -63,7 +63,15 @@
       "remainderFloor": 47.8485,
       "remainderTarget": 42.966,
       "optionContractsPartial": 1,
-      "optionContractsRemainder": 11
+      "optionContractsRemainder": 11,
+      "optionExitPrice": 8,
+      "optionExitTime": "2026-11-05T15:53:50.964286+00:00",
+      "optionReturnPct": 102.0202,
+      "exitTime": "2026-11-05T15:53:50.964322+00:00",
+      "exitPrice": 42.966,
+      "exitReason": "target",
+      "returnPct": 11.2233,
+      "dollarPnl": 564.42
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -2306,8 +2314,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:52:50.272455+00:00",
-    "lastCheckEt": "2026-11-05T10:52:50.271553-05:00",
+    "lastCheckAt": "2026-11-05T15:53:50.284034+00:00",
+    "lastCheckEt": "2026-11-05T10:53:50.258999-05:00",
     "status": "ok"
   }
 }
