@@ -435,5 +435,14 @@
     "direction": "short",
     "stockEntryPrice": 15.09,
     "allocDollar": 50.06
+  },
+  {
+    "id": "MUU_2026-11-05_exit_close_partial_2026-11-05T16:46:50.091662+00:00",
+    "tradeId": "MUU_2026-11-05",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-05T16:46:50.091719+00:00",
+    "symbol": "MUU",
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
