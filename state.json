@@ -13,7 +13,7 @@
       "allocDollar": 12500.0,
       "stopPrice": 43.23425,
       "targetPrice": 40.296,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 22.123,
       "pctChangeAtScreen": -11.1311,
@@ -28,7 +28,14 @@
       "lastPrice": 42.12,
       "lastPriceAt": "2026-11-04T20:17:00Z",
       "unrealizedDollar": -43.21,
-      "unrealizedPct": -0.3454
+      "unrealizedPct": -0.3454,
+      "grossDollarPnl": -305.45,
+      "costDollar": 52.89,
+      "exitTime": "2026-11-05T00:54:41.202429+00:00",
+      "exitPrice": 43,
+      "exitReason": "eod",
+      "returnPct": -2.8648,
+      "dollarPnl": -358.34
     },
     "BTU_2026-11-04": {
       "symbol": "BTU",
@@ -43,7 +50,7 @@
       "allocDollar": 9774.92,
       "stopPrice": 17.6336,
       "targetPrice": 16.435200000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 9.6399,
       "pctChangeAtScreen": -9.7368,
@@ -58,7 +65,17 @@
       "lastPrice": 17.12,
       "lastPriceAt": "2026-11-04T20:17:00Z",
       "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "unrealizedPct": 0.0,
+      "optionExitPrice": 0.4,
+      "optionExitTime": "2026-11-05T00:54:41.615107+00:00",
+      "optionReturnPct": 21.2121,
+      "grossDollarPnl": 68.52,
+      "costDollar": 44.11,
+      "exitTime": "2026-11-05T00:54:41.615129+00:00",
+      "exitPrice": 17,
+      "exitReason": "eod",
+      "returnPct": 0.2497,
+      "dollarPnl": 24.41
     },
     "ZBRA_2026-11-03": {
       "symbol": "ZBRA",
@@ -2051,8 +2068,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-04T20:18:52.913679+00:00",
-    "lastCheckEt": "2026-11-04T15:18:52.912612-05:00",
+    "lastCheckAt": "2026-11-05T00:54:40.979630+00:00",
+    "lastCheckEt": "2026-11-04T19:54:40.979212-05:00",
     "status": "ok"
   }
 }
