@@ -469,5 +469,15 @@
     "createdAt": "2026-11-05T15:43:13.359345+00:00",
     "symbol": "SOXL",
     "reason": "target"
+  },
+  {
+    "id": "YINN_2026-11-05_entry_2026-11-05T15:46:18.508869+00:00",
+    "tradeId": "YINN_2026-11-05",
+    "action": "entry",
+    "createdAt": "2026-11-05T15:46:18.508881+00:00",
+    "symbol": "YINN",
+    "direction": "short",
+    "stockEntryPrice": 26.075,
+    "allocDollar": 50.27
   }
 ]
