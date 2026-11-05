@@ -4,17 +4,17 @@
       "symbol": "YINN",
       "date": "2026-11-05",
       "direction": "short",
-      "entryTime": "2026-11-05T15:45:00Z",
-      "entryPrice": 26.075,
+      "entryTime": "2026-11-05T15:46:00Z",
+      "entryPrice": 26.0603,
       "shares": 2,
-      "convictionScore": 0.0037,
-      "allocDollar": 50.27,
-      "stopPrice": 26.85725,
-      "targetPrice": 25.032,
+      "convictionScore": 0.0067,
+      "allocDollar": 50.5,
+      "stopPrice": 26.842109,
+      "targetPrice": 25.017888,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0219,
-      "pctChangeAtScreen": -3.7112,
+      "relVol": 2.0403,
+      "pctChangeAtScreen": -3.7655,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol"
     },
@@ -725,8 +725,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:45:12.844792+00:00",
-    "lastCheckEt": "2026-11-05T10:45:12.844413-05:00",
+    "lastCheckAt": "2026-11-05T15:46:12.924657+00:00",
+    "lastCheckEt": "2026-11-05T10:46:12.904116-05:00",
     "status": "ok"
   }
 }
