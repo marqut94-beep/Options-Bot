@@ -12,7 +12,7 @@
       "stopPrice": 15.5427,
       "targetPrice": 14.4864,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0046,
       "pctChangeAtScreen": -12.0886,
       "dataSource": "alpaca-sip",
@@ -20,7 +20,14 @@
       "lastPrice": 14.65,
       "lastPriceAt": "2026-11-05T16:44:00Z",
       "unrealizedDollar": 1.32,
-      "unrealizedPct": 2.9158
+      "unrealizedPct": 2.9158,
+      "partialExitPrice": 14.4864,
+      "partialExitTime": "2026-11-05T16:45:00Z",
+      "partialDollarPnl": 0.6,
+      "sharesPartial": 1,
+      "sharesRemainder": 2,
+      "remainderFloor": 14.7882,
+      "remainderTarget": 13.581
     },
     "AMDL_2026-11-05": {
       "symbol": "AMDL",
@@ -66,10 +73,10 @@
       "pctChangeAtScreen": -3.7655,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 26.18,
-      "lastPriceAt": "2026-11-05T16:44:00Z",
-      "unrealizedDollar": -0.24,
-      "unrealizedPct": -0.4593
+      "lastPrice": 26.14,
+      "lastPriceAt": "2026-11-05T16:45:00Z",
+      "unrealizedDollar": -0.16,
+      "unrealizedPct": -0.3058
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -778,8 +785,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T16:45:12.931620+00:00",
-    "lastCheckEt": "2026-11-05T11:45:12.931188-05:00",
+    "lastCheckAt": "2026-11-05T16:46:12.980883+00:00",
+    "lastCheckEt": "2026-11-05T11:46:12.968370-05:00",
     "status": "ok"
   }
 }
