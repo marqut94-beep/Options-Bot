@@ -24,7 +24,11 @@
       "optionEntryPrice": 2.22,
       "optionEntryTime": "2026-11-05T20:28:26.580464+00:00",
       "optionContracts": 38,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 129.16,
+      "lastPriceAt": "2026-11-05T20:28:00Z",
+      "unrealizedDollar": 12.59,
+      "unrealizedPct": 0.1453
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -50,7 +54,11 @@
       "optionEntryPrice": 3.2,
       "optionEntryTime": "2026-11-05T20:28:26.580504+00:00",
       "optionContracts": 26,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 45.0085,
+      "lastPriceAt": "2026-11-05T20:28:00Z",
+      "unrealizedDollar": -11.37,
+      "unrealizedPct": -0.1346
     },
     "TQQQ_2026-11-05": {
       "symbol": "TQQQ",
@@ -76,7 +84,11 @@
       "optionEntryPrice": 1.6,
       "optionEntryTime": "2026-11-05T20:28:26.580520+00:00",
       "optionContracts": 49,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 51.4199,
+      "lastPriceAt": "2026-11-05T20:28:00Z",
+      "unrealizedDollar": 3.1,
+      "unrealizedPct": 0.0391
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -2146,8 +2158,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T20:27:15.030386+00:00",
-    "lastCheckEt": "2026-11-05T15:27:15.029795-05:00",
+    "lastCheckAt": "2026-11-05T20:29:40.595285+00:00",
+    "lastCheckEt": "2026-11-05T15:29:40.594732-05:00",
     "status": "ok"
   }
 }
