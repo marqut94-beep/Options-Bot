@@ -1,5 +1,29 @@
 {
   "trades": {
+    "AMUU_2026-11-05": {
+      "symbol": "AMUU",
+      "date": "2026-11-05",
+      "direction": "short",
+      "entryTime": "2026-11-05T16:00:00Z",
+      "entryPrice": 114.57,
+      "shares": 44,
+      "convictionScore": 0.0,
+      "allocDollar": 5000.15,
+      "stopPrice": 118.0071,
+      "targetPrice": 109.98719999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0002,
+      "pctChangeAtScreen": -19.8766,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-05T16:01:15.757299+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "SITM_2026-11-05": {
       "symbol": "SITM",
       "date": "2026-11-05",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-05T15:57:43.488030+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 347.64,
-      "lastPriceAt": "2026-11-05T15:56:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "lastPrice": 345.09,
+      "lastPriceAt": "2026-11-05T15:58:00Z",
+      "unrealizedDollar": 35.7,
+      "unrealizedPct": 0.7335
     },
     "YINN_2026-11-05": {
       "symbol": "YINN",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-05T15:49:36.470349+00:00",
       "optionContracts": 157,
       "optionPricedVia": "trade",
-      "lastPrice": 26.07,
-      "lastPriceAt": "2026-11-05T15:56:00Z",
-      "unrealizedDollar": -2.9,
-      "unrealizedPct": -0.0576
+      "lastPrice": 26.045,
+      "lastPriceAt": "2026-11-05T15:58:00Z",
+      "unrealizedDollar": 1.93,
+      "unrealizedPct": 0.0384
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -2342,8 +2366,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T15:57:50.308493+00:00",
-    "lastCheckEt": "2026-11-05T10:57:50.307444-05:00",
+    "lastCheckAt": "2026-11-05T15:59:50.427862+00:00",
+    "lastCheckEt": "2026-11-05T10:59:50.406727-05:00",
     "status": "ok"
   }
 }
