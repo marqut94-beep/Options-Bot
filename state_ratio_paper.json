@@ -75,7 +75,7 @@
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
       "lastPrice": 26.14,
-      "lastPriceAt": "2026-11-05T17:22:00Z",
+      "lastPriceAt": "2026-11-05T17:23:00Z",
       "unrealizedDollar": -0.13,
       "unrealizedPct": -0.2493
     },
@@ -786,8 +786,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T17:23:49.905615+00:00",
-    "lastCheckEt": "2026-11-05T12:23:49.905215-05:00",
+    "lastCheckAt": "2026-11-05T17:24:49.903319+00:00",
+    "lastCheckEt": "2026-11-05T12:24:49.902909-05:00",
     "status": "ok"
   }
 }
