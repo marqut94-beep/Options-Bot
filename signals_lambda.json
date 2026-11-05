@@ -1662,5 +1662,16 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "SITM_2026-11-05_exit_close_all_2026-11-05T16:21:50.554973+00:00",
+    "tradeId": "SITM_2026-11-05",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-05T16:21:50.554978+00:00",
+    "symbol": "SITM",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
