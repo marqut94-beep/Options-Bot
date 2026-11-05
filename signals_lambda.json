@@ -1623,5 +1623,19 @@
     "contracts": 11,
     "needsRobinhoodPricing": false,
     "reason": "target"
+  },
+  {
+    "id": "SITM_2026-11-05_entry_2026-11-05T15:57:43.488058+00:00",
+    "tradeId": "SITM_2026-11-05",
+    "action": "entry",
+    "createdAt": "2026-11-05T15:57:43.488062+00:00",
+    "symbol": "SITM",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 347.64,
+    "allocDollar": 5031.89
   }
 ]
