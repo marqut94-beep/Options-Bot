@@ -451,5 +451,15 @@
     "createdAt": "2026-11-04T17:06:13.063683+00:00",
     "symbol": "CVI",
     "reason": "target"
+  },
+  {
+    "id": "SOXL_2026-11-05_entry_2026-11-05T15:33:28.494679+00:00",
+    "tradeId": "SOXL_2026-11-05",
+    "action": "entry",
+    "createdAt": "2026-11-05T15:33:28.494690+00:00",
+    "symbol": "SOXL",
+    "direction": "short",
+    "stockEntryPrice": 48.7001,
+    "allocDollar": 50.07
   }
 ]
