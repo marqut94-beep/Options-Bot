@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -20.9091,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 87.04,
-      "lastPriceAt": "2026-11-06T17:01:00Z",
-      "unrealizedDollar": 0.53,
-      "unrealizedPct": 0.6052
+      "lastPrice": 86.77,
+      "lastPriceAt": "2026-11-06T17:02:00Z",
+      "unrealizedDollar": 0.8,
+      "unrealizedPct": 0.9136
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.185,
-      "lastPriceAt": "2026-11-06T17:01:00Z",
-      "unrealizedDollar": -0.23,
-      "unrealizedPct": -0.4152
+      "lastPrice": 28.25,
+      "lastPriceAt": "2026-11-06T17:02:00Z",
+      "unrealizedDollar": -0.1,
+      "unrealizedPct": -0.1855
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -839,8 +839,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:02:13.601807+00:00",
-    "lastCheckEt": "2026-11-06T12:02:13.601290-05:00",
+    "lastCheckAt": "2026-11-06T17:03:12.802999+00:00",
+    "lastCheckEt": "2026-11-06T12:03:12.802560-05:00",
     "status": "ok"
   }
 }
