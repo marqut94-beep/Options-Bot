@@ -1698,5 +1698,17 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 93.055,
     "allocDollar": 5183.17
+  },
+  {
+    "id": "IRTC_2026-11-06_exit_close_partial_2026-11-06T15:01:50.723891+00:00",
+    "tradeId": "IRTC_2026-11-06",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-06T15:01:50.723907+00:00",
+    "symbol": "IRTC",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
