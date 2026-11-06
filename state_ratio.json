@@ -11,7 +11,7 @@
       "allocDollar": 50.57,
       "stopPrice": 46.2108,
       "targetPrice": 49.5456,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0455,
       "pctChangeAtScreen": 5.5271,
@@ -20,7 +20,12 @@
       "lastPrice": 49.065,
       "lastPriceAt": "2026-11-06T20:05:00Z",
       "unrealizedDollar": 1.42,
-      "unrealizedPct": 2.9912
+      "unrealizedPct": 2.9912,
+      "exitTime": "2026-11-06T20:11:13.090997+00:00",
+      "exitPrice": 49.5456,
+      "exitReason": "target",
+      "returnPct": 4.0,
+      "dollarPnl": 1.91
     },
     "SOXL_2026-11-06": {
       "symbol": "SOXL",
@@ -93,10 +98,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.39,
-      "lastPriceAt": "2026-11-06T20:09:00Z",
-      "unrealizedDollar": 0.18,
-      "unrealizedPct": 0.3092
+      "lastPrice": 28.375,
+      "lastPriceAt": "2026-11-06T20:10:00Z",
+      "unrealizedDollar": 0.15,
+      "unrealizedPct": 0.2562
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -893,8 +898,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T20:10:12.912238+00:00",
-    "lastCheckEt": "2026-11-06T15:10:12.911748-05:00",
+    "lastCheckAt": "2026-11-06T20:11:12.892689+00:00",
+    "lastCheckEt": "2026-11-06T15:11:12.892235-05:00",
     "status": "ok"
   }
 }
