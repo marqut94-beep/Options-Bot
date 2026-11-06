@@ -498,5 +498,14 @@
     "createdAt": "2026-11-06T17:40:50.113635+00:00",
     "symbol": "SOXL",
     "reason": "target"
+  },
+  {
+    "id": "IRTC_2026-11-06_exit_close_all_2026-11-06T17:56:50.031032+00:00",
+    "tradeId": "IRTC_2026-11-06",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-06T17:56:50.031036+00:00",
+    "symbol": "IRTC",
+    "stockEntryPrice": 87.2808,
+    "reason": "stop"
   }
 ]
