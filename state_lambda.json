@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-06T18:11:07.475105+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 13.31,
+      "lastPriceAt": "2026-11-06T18:10:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "AXON_2026-11-06": {
       "symbol": "AXON",
@@ -47,10 +51,10 @@
       "optionEntryTime": "2026-11-06T17:41:03.234922+00:00",
       "optionContracts": 16,
       "optionPricedVia": "trade",
-      "lastPrice": 313.42,
-      "lastPriceAt": "2026-11-06T18:08:00Z",
-      "unrealizedDollar": -74.48,
-      "unrealizedPct": -1.2666
+      "lastPrice": 313.78,
+      "lastPriceAt": "2026-11-06T18:10:00Z",
+      "unrealizedDollar": -81.32,
+      "unrealizedPct": -1.3829
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -75,10 +79,10 @@
       "optionEntryTime": "2026-11-06T15:49:49.161824+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 28.48,
-      "lastPriceAt": "2026-11-06T18:08:00Z",
-      "unrealizedDollar": 168.35,
-      "unrealizedPct": 3.3007
+      "lastPrice": 28.4,
+      "lastPriceAt": "2026-11-06T18:10:00Z",
+      "unrealizedDollar": 153.55,
+      "unrealizedPct": 3.0105
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2510,8 +2514,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T18:09:50.435010+00:00",
-    "lastCheckEt": "2026-11-06T13:09:50.433919-05:00",
+    "lastCheckAt": "2026-11-06T18:11:50.316720+00:00",
+    "lastCheckEt": "2026-11-06T13:11:50.315695-05:00",
     "status": "ok"
   }
 }
