@@ -1,5 +1,23 @@
 {
   "trades": {
+    "IBEX_2026-11-06": {
+      "symbol": "IBEX",
+      "date": "2026-11-06",
+      "direction": "long",
+      "entryTime": "2026-11-06T18:22:00Z",
+      "entryPrice": 47.35,
+      "shares": 1,
+      "convictionScore": 0.0076,
+      "allocDollar": 50.57,
+      "stopPrice": 45.9295,
+      "targetPrice": 49.244,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0455,
+      "pctChangeAtScreen": 5.5271,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "SOXL_2026-11-06": {
       "symbol": "SOXL",
       "date": "2026-11-06",
@@ -71,10 +89,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.34,
-      "lastPriceAt": "2026-11-06T18:20:00Z",
-      "unrealizedDollar": 0.08,
-      "unrealizedPct": 0.1325
+      "lastPrice": 28.17,
+      "lastPriceAt": "2026-11-06T18:21:00Z",
+      "unrealizedDollar": -0.26,
+      "unrealizedPct": -0.4682
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -867,8 +885,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T18:21:49.909834+00:00",
-    "lastCheckEt": "2026-11-06T13:21:49.909345-05:00",
+    "lastCheckAt": "2026-11-06T18:22:49.863466+00:00",
+    "lastCheckEt": "2026-11-06T13:22:49.863011-05:00",
     "status": "ok"
   }
 }
