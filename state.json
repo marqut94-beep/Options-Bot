@@ -1,5 +1,57 @@
 {
   "trades": {
+    "IRTC_2026-11-06": {
+      "symbol": "IRTC",
+      "date": "2026-11-06",
+      "direction": "short",
+      "entryTime": "2026-11-06T19:49:00Z",
+      "entryPrice": 89.815,
+      "shares": 139,
+      "signalTime": "2026-11-06T14:35:00Z",
+      "signalAgeMinutes": 315.5,
+      "convictionScore": 1.0,
+      "allocDollar": 12500.0,
+      "stopPrice": 92.50945,
+      "targetPrice": 86.2224,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 21.1751,
+      "pctChangeAtScreen": -18.8619,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-06T19:50:33.979433+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
+    "IBEX_2026-11-06": {
+      "symbol": "IBEX",
+      "date": "2026-11-06",
+      "direction": "long",
+      "entryTime": "2026-11-06T19:49:00Z",
+      "entryPrice": 48.99,
+      "shares": 167,
+      "signalTime": "2026-11-06T15:33:00Z",
+      "signalAgeMinutes": 257.5,
+      "convictionScore": 0.4245,
+      "allocDollar": 8183.76,
+      "stopPrice": 47.5203,
+      "targetPrice": 50.949600000000004,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 7.094,
+      "pctChangeAtScreen": 9.0706,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-06T19:50:33.979462+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "UPRO_2026-11-05": {
       "symbol": "UPRO",
       "date": "2026-11-05",
@@ -2210,8 +2262,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T01:04:28.896505+00:00",
-    "lastCheckEt": "2026-11-05T20:04:28.895897-05:00",
+    "lastCheckAt": "2026-11-06T19:49:30.367290+00:00",
+    "lastCheckEt": "2026-11-06T14:49:30.366707-05:00",
     "status": "ok"
   }
 }

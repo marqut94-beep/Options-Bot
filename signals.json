@@ -1247,5 +1247,33 @@
     "contracts": 44,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "IRTC_2026-11-06_entry_2026-11-06T19:50:33.979448+00:00",
+    "tradeId": "IRTC_2026-11-06",
+    "action": "entry",
+    "createdAt": "2026-11-06T19:50:33.979450+00:00",
+    "symbol": "IRTC",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 89.815,
+    "allocDollar": 12500.0
+  },
+  {
+    "id": "IBEX_2026-11-06_entry_2026-11-06T19:50:33.979466+00:00",
+    "tradeId": "IBEX_2026-11-06",
+    "action": "entry",
+    "createdAt": "2026-11-06T19:50:33.979467+00:00",
+    "symbol": "IBEX",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 48.99,
+    "allocDollar": 8183.76
   }
 ]
