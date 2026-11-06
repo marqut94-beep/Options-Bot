@@ -507,5 +507,15 @@
     "symbol": "IRTC",
     "stockEntryPrice": 87.2808,
     "reason": "stop"
+  },
+  {
+    "id": "IBEX_2026-11-06_entry_2026-11-06T18:23:42.810739+00:00",
+    "tradeId": "IBEX_2026-11-06",
+    "action": "entry",
+    "createdAt": "2026-11-06T18:23:42.810750+00:00",
+    "symbol": "IBEX",
+    "direction": "long",
+    "stockEntryPrice": 47.35,
+    "allocDollar": 50.57
   }
 ]
