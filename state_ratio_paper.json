@@ -93,10 +93,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.28,
-      "lastPriceAt": "2026-11-06T18:34:00Z",
-      "unrealizedDollar": -0.04,
-      "unrealizedPct": -0.0795
+      "lastPrice": 28.09,
+      "lastPriceAt": "2026-11-06T18:35:00Z",
+      "unrealizedDollar": -0.42,
+      "unrealizedPct": -0.7508
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -889,8 +889,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T18:35:49.851110+00:00",
-    "lastCheckEt": "2026-11-06T13:35:49.850772-05:00",
+    "lastCheckAt": "2026-11-06T18:36:49.830151+00:00",
+    "lastCheckEt": "2026-11-06T13:36:49.829773-05:00",
     "status": "ok"
   }
 }
