@@ -525,5 +525,13 @@
     "createdAt": "2026-11-06T20:05:51.339254+00:00",
     "symbol": "IBEX",
     "reason": "target"
+  },
+  {
+    "id": "FIVN_2026-11-06_exit_close_all_2026-11-06T20:55:50.019180+00:00",
+    "tradeId": "FIVN_2026-11-06",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-06T20:55:50.019184+00:00",
+    "symbol": "FIVN",
+    "reason": "eod"
   }
 ]
