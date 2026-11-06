@@ -4,17 +4,17 @@
       "symbol": "SOXL",
       "date": "2026-11-06",
       "direction": "short",
-      "entryTime": "2026-11-06T17:24:00Z",
-      "entryPrice": 45.83,
+      "entryTime": "2026-11-06T17:25:00Z",
+      "entryPrice": 45.755,
       "shares": 1,
-      "convictionScore": 0.0009,
-      "allocDollar": 50.06,
-      "stopPrice": 47.2049,
-      "targetPrice": 43.99679999999999,
+      "convictionScore": 0.0011,
+      "allocDollar": 50.08,
+      "stopPrice": 47.12765,
+      "targetPrice": 43.9248,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0052,
-      "pctChangeAtScreen": -6.0572,
+      "relVol": 2.0066,
+      "pctChangeAtScreen": -6.2109,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol"
     },
@@ -35,10 +35,10 @@
       "pctChangeAtScreen": -20.9091,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 87.8508,
-      "lastPriceAt": "2026-11-06T17:23:00Z",
-      "unrealizedDollar": -0.57,
-      "unrealizedPct": -0.6531
+      "lastPrice": 88.2,
+      "lastPriceAt": "2026-11-06T17:24:00Z",
+      "unrealizedDollar": -0.92,
+      "unrealizedPct": -1.0532
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -57,10 +57,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.265,
-      "lastPriceAt": "2026-11-06T17:23:00Z",
-      "unrealizedDollar": -0.07,
-      "unrealizedPct": -0.1325
+      "lastPrice": 28.29,
+      "lastPriceAt": "2026-11-06T17:24:00Z",
+      "unrealizedDollar": -0.02,
+      "unrealizedPct": -0.0442
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -853,8 +853,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:24:49.803831+00:00",
-    "lastCheckEt": "2026-11-06T12:24:49.803410-05:00",
+    "lastCheckAt": "2026-11-06T17:25:48.646799+00:00",
+    "lastCheckEt": "2026-11-06T12:25:48.646342-05:00",
     "status": "ok"
   }
 }
