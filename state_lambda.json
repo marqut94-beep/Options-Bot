@@ -1,5 +1,29 @@
 {
   "trades": {
+    "IRTC_2026-11-06": {
+      "symbol": "IRTC",
+      "date": "2026-11-06",
+      "direction": "short",
+      "entryTime": "2026-11-06T14:53:00Z",
+      "entryPrice": 92.885,
+      "shares": 55,
+      "convictionScore": 0.0086,
+      "allocDollar": 5064.19,
+      "stopPrice": 95.67155000000001,
+      "targetPrice": 89.1696,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1027,
+      "pctChangeAtScreen": -15.8307,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-06T14:54:52.228643+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "AMUU_2026-11-05": {
       "symbol": "AMUU",
       "date": "2026-11-05",
@@ -2388,8 +2412,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T14:52:50.350145+00:00",
-    "lastCheckEt": "2026-11-06T09:52:50.349218-05:00",
+    "lastCheckAt": "2026-11-06T14:53:50.468197+00:00",
+    "lastCheckEt": "2026-11-06T09:53:50.467219-05:00",
     "status": "ok"
   }
 }
