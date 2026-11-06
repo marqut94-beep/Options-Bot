@@ -38,7 +38,7 @@
       "allocDollar": 88.38,
       "stopPrice": 89.899224,
       "targetPrice": 83.789568,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 5.0707,
       "pctChangeAtScreen": -20.9091,
@@ -47,7 +47,12 @@
       "lastPrice": 89.34,
       "lastPriceAt": "2026-11-06T17:54:00Z",
       "unrealizedDollar": -2.06,
-      "unrealizedPct": -2.3593
+      "unrealizedPct": -2.3593,
+      "exitTime": "2026-11-06T17:56:50.030999+00:00",
+      "exitPrice": 89.899224,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -2.62
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -66,10 +71,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.39,
-      "lastPriceAt": "2026-11-06T17:54:00Z",
-      "unrealizedDollar": 0.18,
-      "unrealizedPct": 0.3092
+      "lastPrice": 28.44,
+      "lastPriceAt": "2026-11-06T17:55:00Z",
+      "unrealizedDollar": 0.28,
+      "unrealizedPct": 0.4858
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -862,8 +867,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:55:50.610518+00:00",
-    "lastCheckEt": "2026-11-06T12:55:50.610112-05:00",
+    "lastCheckAt": "2026-11-06T17:56:49.827329+00:00",
+    "lastCheckEt": "2026-11-06T12:56:49.826868-05:00",
     "status": "ok"
   }
 }
