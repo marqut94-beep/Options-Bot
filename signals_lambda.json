@@ -1749,5 +1749,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 309.5,
     "allocDollar": 5959.7
+  },
+  {
+    "id": "PRAA_2026-11-06_entry_2026-11-06T18:09:52.449617+00:00",
+    "tradeId": "PRAA_2026-11-06",
+    "action": "entry",
+    "createdAt": "2026-11-06T18:09:52.449620+00:00",
+    "symbol": "PRAA",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 13.335,
+    "allocDollar": 5007.99
   }
 ]
