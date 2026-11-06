@@ -1721,5 +1721,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "FIVN_2026-11-06_entry_2026-11-06T15:49:49.161846+00:00",
+    "tradeId": "FIVN_2026-11-06",
+    "action": "entry",
+    "createdAt": "2026-11-06T15:49:49.161850+00:00",
+    "symbol": "FIVN",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 27.57,
+    "allocDollar": 5113.37
   }
 ]
