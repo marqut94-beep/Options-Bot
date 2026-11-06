@@ -23,8 +23,8 @@
       "optionEntryTime": "2026-11-06T17:41:03.234922+00:00",
       "optionContracts": 16,
       "optionPricedVia": "trade",
-      "lastPrice": 311.21,
-      "lastPriceAt": "2026-11-06T17:46:00Z",
+      "lastPrice": 311.2099,
+      "lastPriceAt": "2026-11-06T17:48:00Z",
       "unrealizedDollar": -32.49,
       "unrealizedPct": -0.5525
     },
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-06T15:49:49.161824+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 28.29,
-      "lastPriceAt": "2026-11-06T17:46:00Z",
-      "unrealizedDollar": 133.2,
-      "unrealizedPct": 2.6115
+      "lastPrice": 28.325,
+      "lastPriceAt": "2026-11-06T17:48:00Z",
+      "unrealizedDollar": 139.67,
+      "unrealizedPct": 2.7385
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2486,8 +2486,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:47:50.340617+00:00",
-    "lastCheckEt": "2026-11-06T12:47:50.339594-05:00",
+    "lastCheckAt": "2026-11-06T17:49:50.439509+00:00",
+    "lastCheckEt": "2026-11-06T12:49:50.438504-05:00",
     "status": "ok"
   }
 }
