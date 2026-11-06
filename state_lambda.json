@@ -44,7 +44,7 @@
       "allocDollar": 5959.7,
       "stopPrice": 318.785,
       "targetPrice": 297.12,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.5355,
       "pctChangeAtScreen": -7.9852,
@@ -59,7 +59,15 @@
       "lastPrice": 318.655,
       "lastPriceAt": "2026-11-06T18:46:00Z",
       "unrealizedDollar": -173.94,
-      "unrealizedPct": -2.958
+      "unrealizedPct": -2.958,
+      "optionExitPrice": 1.92,
+      "optionExitTime": "2026-11-06T18:48:50.847467+00:00",
+      "optionReturnPct": -47.6839,
+      "exitTime": "2026-11-06T18:48:50.847497+00:00",
+      "exitPrice": 318.785,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -176.42
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -84,10 +92,10 @@
       "optionEntryTime": "2026-11-06T15:49:49.161824+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 28.315,
-      "lastPriceAt": "2026-11-06T18:46:00Z",
-      "unrealizedDollar": 137.83,
-      "unrealizedPct": 2.7022
+      "lastPrice": 28.295,
+      "lastPriceAt": "2026-11-06T18:47:00Z",
+      "unrealizedDollar": 134.13,
+      "unrealizedPct": 2.6297
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2519,8 +2527,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T18:47:54.099105+00:00",
-    "lastCheckEt": "2026-11-06T13:47:54.057859-05:00",
+    "lastCheckAt": "2026-11-06T18:48:50.419947+00:00",
+    "lastCheckEt": "2026-11-06T13:48:50.418825-05:00",
     "status": "ok"
   }
 }
