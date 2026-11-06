@@ -13,7 +13,7 @@
       "allocDollar": 12500.0,
       "stopPrice": 92.50945,
       "targetPrice": 86.2224,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 21.1751,
       "pctChangeAtScreen": -18.8619,
@@ -28,7 +28,14 @@
       "lastPrice": 88.65,
       "lastPriceAt": "2026-11-06T19:51:00Z",
       "unrealizedDollar": 161.93,
-      "unrealizedPct": 1.2971
+      "unrealizedPct": 1.2971,
+      "grossDollarPnl": -103.56,
+      "costDollar": 50.81,
+      "exitTime": "2026-11-06T23:50:13.504965+00:00",
+      "exitPrice": 90.56,
+      "exitReason": "eod",
+      "returnPct": -1.2365,
+      "dollarPnl": -154.37
     },
     "IBEX_2026-11-06": {
       "symbol": "IBEX",
@@ -43,7 +50,7 @@
       "allocDollar": 8183.76,
       "stopPrice": 47.5203,
       "targetPrice": 50.949600000000004,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 7.094,
       "pctChangeAtScreen": 9.0706,
@@ -58,7 +65,14 @@
       "lastPrice": 48.99,
       "lastPriceAt": "2026-11-06T19:51:00Z",
       "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "unrealizedPct": 0.0,
+      "grossDollarPnl": 88.51,
+      "costDollar": 34.1,
+      "exitTime": "2026-11-06T23:50:13.929967+00:00",
+      "exitPrice": 49.52,
+      "exitReason": "eod",
+      "returnPct": 0.6651,
+      "dollarPnl": 54.41
     },
     "UPRO_2026-11-05": {
       "symbol": "UPRO",
@@ -2270,8 +2284,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T19:52:46.664156+00:00",
-    "lastCheckEt": "2026-11-06T14:52:46.663434-05:00",
+    "lastCheckAt": "2026-11-06T23:50:13.287785+00:00",
+    "lastCheckEt": "2026-11-06T18:50:13.287230-05:00",
     "status": "ok"
   }
 }

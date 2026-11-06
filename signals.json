@@ -1275,5 +1275,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 48.99,
     "allocDollar": 8183.76
+  },
+  {
+    "id": "IRTC_2026-11-06_exit_close_all_2026-11-06T23:50:13.504985+00:00",
+    "tradeId": "IRTC_2026-11-06",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-06T23:50:13.504988+00:00",
+    "symbol": "IRTC",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "IBEX_2026-11-06_exit_close_all_2026-11-06T23:50:13.929987+00:00",
+    "tradeId": "IBEX_2026-11-06",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-06T23:50:13.929991+00:00",
+    "symbol": "IBEX",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
