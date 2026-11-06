@@ -16,7 +16,11 @@
       "relVol": 2.0021,
       "pctChangeAtScreen": -5.7528,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 45.801,
+      "lastPriceAt": "2026-11-06T17:23:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -35,10 +39,10 @@
       "pctChangeAtScreen": -20.9091,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 87.92,
-      "lastPriceAt": "2026-11-06T17:22:00Z",
-      "unrealizedDollar": -0.35,
-      "unrealizedPct": -0.3997
+      "lastPrice": 87.8508,
+      "lastPriceAt": "2026-11-06T17:23:00Z",
+      "unrealizedDollar": -0.28,
+      "unrealizedPct": -0.3207
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -57,10 +61,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.275,
-      "lastPriceAt": "2026-11-06T17:22:00Z",
-      "unrealizedDollar": -0.05,
-      "unrealizedPct": -0.0972
+      "lastPrice": 28.265,
+      "lastPriceAt": "2026-11-06T17:23:00Z",
+      "unrealizedDollar": -0.07,
+      "unrealizedPct": -0.1325
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -857,8 +861,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:23:12.743609+00:00",
-    "lastCheckEt": "2026-11-06T12:23:12.743154-05:00",
+    "lastCheckAt": "2026-11-06T17:24:12.813722+00:00",
+    "lastCheckEt": "2026-11-06T12:24:12.813258-05:00",
     "status": "ok"
   }
 }
