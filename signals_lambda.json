@@ -1774,16 +1774,5 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "stop"
-  },
-  {
-    "id": "AXON_2026-11-06_exit_close_all_2026-11-06T18:48:50.847511+00:00",
-    "tradeId": "AXON_2026-11-06",
-    "action": "exit_close_all",
-    "createdAt": "2026-11-06T18:48:50.847515+00:00",
-    "symbol": "AXON",
-    "optionSymbol": "AXON261106P00310000",
-    "contracts": 16,
-    "needsRobinhoodPricing": false,
-    "reason": "stop"
   }
 ]
