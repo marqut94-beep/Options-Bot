@@ -1,5 +1,29 @@
 {
   "trades": {
+    "AXON_2026-11-06": {
+      "symbol": "AXON",
+      "date": "2026-11-06",
+      "direction": "short",
+      "entryTime": "2026-11-06T17:40:00Z",
+      "entryPrice": 309.5,
+      "shares": 19,
+      "convictionScore": 0.128,
+      "allocDollar": 5959.7,
+      "stopPrice": 318.785,
+      "targetPrice": 297.12,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.5355,
+      "pctChangeAtScreen": -7.9852,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "AXON261106P00310000",
+      "optionStrike": "310",
+      "optionExpiration": "2026-11-06",
+      "optionEntryPrice": 3.67,
+      "optionEntryTime": "2026-11-06T17:41:03.234922+00:00",
+      "optionContracts": 16,
+      "optionPricedVia": "trade"
+    },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
       "date": "2026-11-06",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-06T15:49:49.161824+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 28.24,
-      "lastPriceAt": "2026-11-06T17:37:00Z",
-      "unrealizedDollar": 123.95,
-      "unrealizedPct": 2.4302
+      "lastPrice": 28.4,
+      "lastPriceAt": "2026-11-06T17:38:00Z",
+      "unrealizedDollar": 153.55,
+      "unrealizedPct": 3.0105
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2458,8 +2482,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:39:01.216171+00:00",
-    "lastCheckEt": "2026-11-06T12:39:01.215248-05:00",
+    "lastCheckAt": "2026-11-06T17:39:50.298399+00:00",
+    "lastCheckEt": "2026-11-06T12:39:50.297429-05:00",
     "status": "ok"
   }
 }
