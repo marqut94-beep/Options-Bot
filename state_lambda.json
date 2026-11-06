@@ -12,7 +12,7 @@
       "stopPrice": 95.84665000000001,
       "targetPrice": 89.3328,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.2931,
       "pctChangeAtScreen": -15.6631,
       "dataSource": "alpaca-sip",
@@ -23,10 +23,19 @@
       "optionEntryTime": "2026-11-06T14:56:05.720209+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 89.895,
-      "lastPriceAt": "2026-11-06T14:59:00Z",
-      "unrealizedDollar": 176.96,
-      "unrealizedPct": 3.3958
+      "lastPrice": 90.235,
+      "lastPriceAt": "2026-11-06T14:58:00Z",
+      "unrealizedDollar": 157.92,
+      "unrealizedPct": 3.0305,
+      "partialExitPrice": 89.3328,
+      "partialExitTime": "2026-11-06T15:00:00Z",
+      "partialDollarPnl": 22.33,
+      "sharesPartial": 6,
+      "sharesRemainder": 50,
+      "remainderFloor": 91.1939,
+      "remainderTarget": 81.8884,
+      "optionContractsPartial": null,
+      "optionContractsRemainder": null
     },
     "AMUU_2026-11-05": {
       "symbol": "AMUU",
@@ -2416,8 +2425,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T15:00:52.324443+00:00",
-    "lastCheckEt": "2026-11-06T10:00:52.323489-05:00",
+    "lastCheckAt": "2026-11-06T15:01:50.438728+00:00",
+    "lastCheckEt": "2026-11-06T10:01:50.437719-05:00",
     "status": "ok"
   }
 }
