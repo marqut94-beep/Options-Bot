@@ -460,5 +460,15 @@
     "createdAt": "2026-11-05T20:55:50.175002+00:00",
     "symbol": "YINN",
     "reason": "eod"
+  },
+  {
+    "id": "FIVN_2026-11-06_entry_2026-11-06T16:56:05.036231+00:00",
+    "tradeId": "FIVN_2026-11-06",
+    "action": "entry",
+    "createdAt": "2026-11-06T16:56:05.036243+00:00",
+    "symbol": "FIVN",
+    "direction": "long",
+    "stockEntryPrice": 28.3025,
+    "allocDollar": 50.19
   }
 ]
