@@ -11,7 +11,7 @@
       "allocDollar": 50.03,
       "stopPrice": 47.17503000000001,
       "targetPrice": 43.96896,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0021,
       "pctChangeAtScreen": -5.7528,
@@ -20,7 +20,12 @@
       "lastPrice": 44.06,
       "lastPriceAt": "2026-11-06T17:37:00Z",
       "unrealizedDollar": 1.74,
-      "unrealizedPct": 3.8012
+      "unrealizedPct": 3.8012,
+      "exitTime": "2026-11-06T17:39:13.010290+00:00",
+      "exitPrice": 43.96896,
+      "exitReason": "target",
+      "returnPct": 4.0,
+      "dollarPnl": 1.83
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -39,10 +44,10 @@
       "pctChangeAtScreen": -20.9091,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 87.73,
-      "lastPriceAt": "2026-11-06T17:37:00Z",
-      "unrealizedDollar": -0.16,
-      "unrealizedPct": -0.1827
+      "lastPrice": 87.9999,
+      "lastPriceAt": "2026-11-06T17:38:00Z",
+      "unrealizedDollar": -0.43,
+      "unrealizedPct": -0.4909
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -61,10 +66,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.24,
-      "lastPriceAt": "2026-11-06T17:37:00Z",
-      "unrealizedDollar": -0.12,
-      "unrealizedPct": -0.2208
+      "lastPrice": 28.4,
+      "lastPriceAt": "2026-11-06T17:38:00Z",
+      "unrealizedDollar": 0.2,
+      "unrealizedPct": 0.3445
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -861,8 +866,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:38:12.756827+00:00",
-    "lastCheckEt": "2026-11-06T12:38:12.756378-05:00",
+    "lastCheckAt": "2026-11-06T17:39:12.775033+00:00",
+    "lastCheckEt": "2026-11-06T12:39:12.770475-05:00",
     "status": "ok"
   }
 }
