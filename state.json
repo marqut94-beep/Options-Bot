@@ -53,7 +53,7 @@
       "allocDollar": 8458.88,
       "stopPrice": 46.296440000000004,
       "targetPrice": 43.150079999999996,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 7.5342,
       "pctChangeAtScreen": -21.0746,
@@ -79,7 +79,17 @@
       "remainderFloor": 44.04904,
       "remainderTarget": 39.55424,
       "optionContractsPartial": 3,
-      "optionContractsRemainder": 23
+      "optionContractsRemainder": 23,
+      "optionExitPrice": 5,
+      "optionExitTime": "2026-11-06T01:04:29.399018+00:00",
+      "optionReturnPct": 56.25,
+      "exitTime": "2026-11-06T01:04:29.399029+00:00",
+      "exitPrice": 44.04904,
+      "exitReason": "floor",
+      "returnPct": 1.7901,
+      "grossDollarPnl": 186.08,
+      "costDollar": 34.82,
+      "dollarPnl": 151.26
     },
     "TQQQ_2026-11-05": {
       "symbol": "TQQQ",
@@ -94,7 +104,7 @@
       "allocDollar": 7898.64,
       "stopPrice": 52.9832,
       "targetPrice": 49.3824,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 7.292,
       "pctChangeAtScreen": -14.0302,
@@ -120,7 +130,17 @@
       "remainderFloor": 50.411199999999994,
       "remainderTarget": 45.267199999999995,
       "optionContractsPartial": 5,
-      "optionContractsRemainder": 44
+      "optionContractsRemainder": 44,
+      "optionExitPrice": 2.13,
+      "optionExitTime": "2026-11-06T01:04:29.853312+00:00",
+      "optionReturnPct": 33.125,
+      "exitTime": "2026-11-06T01:04:29.853326+00:00",
+      "exitPrice": 50.411199999999994,
+      "exitReason": "floor",
+      "returnPct": 1.7855,
+      "grossDollarPnl": 173.86,
+      "costDollar": 32.42,
+      "dollarPnl": 141.44
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -2190,8 +2210,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T01:02:21.960854+00:00",
-    "lastCheckEt": "2026-11-05T20:02:21.960095-05:00",
+    "lastCheckAt": "2026-11-06T01:04:28.896505+00:00",
+    "lastCheckEt": "2026-11-05T20:04:28.895897-05:00",
     "status": "ok"
   }
 }
