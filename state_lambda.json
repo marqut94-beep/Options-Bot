@@ -1,5 +1,29 @@
 {
   "trades": {
+    "PRAA_2026-11-06": {
+      "symbol": "PRAA",
+      "date": "2026-11-06",
+      "direction": "short",
+      "entryTime": "2026-11-06T18:08:00Z",
+      "entryPrice": 13.335,
+      "shares": 376,
+      "convictionScore": 0.0011,
+      "allocDollar": 5007.99,
+      "stopPrice": 13.735050000000001,
+      "targetPrice": 12.8016,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0128,
+      "pctChangeAtScreen": -16.8122,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-06T18:09:52.449593+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "AXON_2026-11-06": {
       "symbol": "AXON",
       "date": "2026-11-06",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-06T17:41:03.234922+00:00",
       "optionContracts": 16,
       "optionPricedVia": "trade",
-      "lastPrice": 312.68,
-      "lastPriceAt": "2026-11-06T18:06:00Z",
-      "unrealizedDollar": -60.42,
-      "unrealizedPct": -1.0275
+      "lastPrice": 313.5532,
+      "lastPriceAt": "2026-11-06T18:07:00Z",
+      "unrealizedDollar": -77.01,
+      "unrealizedPct": -1.3096
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-06T15:49:49.161824+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 28.425,
-      "lastPriceAt": "2026-11-06T18:06:00Z",
-      "unrealizedDollar": 158.18,
-      "unrealizedPct": 3.1012
+      "lastPrice": 28.45,
+      "lastPriceAt": "2026-11-06T18:07:00Z",
+      "unrealizedDollar": 162.8,
+      "unrealizedPct": 3.1919
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2486,8 +2510,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T18:07:50.349180+00:00",
-    "lastCheckEt": "2026-11-06T13:07:50.348160-05:00",
+    "lastCheckAt": "2026-11-06T18:08:50.294334+00:00",
+    "lastCheckEt": "2026-11-06T13:08:50.293380-05:00",
     "status": "ok"
   }
 }
