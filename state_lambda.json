@@ -4,29 +4,25 @@
       "symbol": "PRAA",
       "date": "2026-11-06",
       "direction": "short",
-      "entryTime": "2026-11-06T18:08:00Z",
-      "entryPrice": 13.335,
-      "shares": 376,
-      "convictionScore": 0.0011,
-      "allocDollar": 5007.99,
-      "stopPrice": 13.735050000000001,
-      "targetPrice": 12.8016,
+      "entryTime": "2026-11-06T18:10:00Z",
+      "entryPrice": 13.31,
+      "shares": 377,
+      "convictionScore": 0.0019,
+      "allocDollar": 5014.47,
+      "stopPrice": 13.7093,
+      "targetPrice": 12.7776,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0128,
-      "pctChangeAtScreen": -16.8122,
+      "relVol": 2.0232,
+      "pctChangeAtScreen": -17.1553,
       "dataSource": "alpaca-sip",
       "optionSymbol": null,
       "optionStrike": null,
       "optionExpiration": null,
       "optionEntryPrice": null,
-      "optionEntryTime": "2026-11-06T18:09:52.449593+00:00",
+      "optionEntryTime": "2026-11-06T18:11:07.475105+00:00",
       "optionContracts": null,
-      "optionPricedVia": null,
-      "lastPrice": 13.28,
-      "lastPriceAt": "2026-11-06T18:09:00Z",
-      "unrealizedDollar": 20.68,
-      "unrealizedPct": 0.4124
+      "optionPricedVia": null
     },
     "AXON_2026-11-06": {
       "symbol": "AXON",
@@ -51,10 +47,10 @@
       "optionEntryTime": "2026-11-06T17:41:03.234922+00:00",
       "optionContracts": 16,
       "optionPricedVia": "trade",
-      "lastPrice": 313.615,
-      "lastPriceAt": "2026-11-06T18:09:00Z",
-      "unrealizedDollar": -78.19,
-      "unrealizedPct": -1.3296
+      "lastPrice": 313.42,
+      "lastPriceAt": "2026-11-06T18:08:00Z",
+      "unrealizedDollar": -74.48,
+      "unrealizedPct": -1.2666
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -79,10 +75,10 @@
       "optionEntryTime": "2026-11-06T15:49:49.161824+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 28.445,
-      "lastPriceAt": "2026-11-06T18:09:00Z",
-      "unrealizedDollar": 161.88,
-      "unrealizedPct": 3.1737
+      "lastPrice": 28.48,
+      "lastPriceAt": "2026-11-06T18:08:00Z",
+      "unrealizedDollar": 168.35,
+      "unrealizedPct": 3.3007
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2514,8 +2510,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T18:10:50.683838+00:00",
-    "lastCheckEt": "2026-11-06T13:10:50.658695-05:00",
+    "lastCheckAt": "2026-11-06T18:09:50.435010+00:00",
+    "lastCheckEt": "2026-11-06T13:09:50.433919-05:00",
     "status": "ok"
   }
 }
