@@ -1,5 +1,23 @@
 {
   "trades": {
+    "SOXL_2026-11-06": {
+      "symbol": "SOXL",
+      "date": "2026-11-06",
+      "direction": "short",
+      "entryTime": "2026-11-06T17:24:00Z",
+      "entryPrice": 45.83,
+      "shares": 1,
+      "convictionScore": 0.0009,
+      "allocDollar": 50.06,
+      "stopPrice": 47.2049,
+      "targetPrice": 43.99679999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0052,
+      "pctChangeAtScreen": -6.0572,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
       "date": "2026-11-06",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -20.9091,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 87.295,
-      "lastPriceAt": "2026-11-06T17:20:00Z",
-      "unrealizedDollar": -0.01,
-      "unrealizedPct": -0.0163
+      "lastPrice": 87.8508,
+      "lastPriceAt": "2026-11-06T17:23:00Z",
+      "unrealizedDollar": -0.57,
+      "unrealizedPct": -0.6531
     },
     "FIVN_2026-11-06": {
       "symbol": "FIVN",
@@ -39,10 +57,10 @@
       "pctChangeAtScreen": 5.515,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 28.25,
-      "lastPriceAt": "2026-11-06T17:20:00Z",
-      "unrealizedDollar": -0.1,
-      "unrealizedPct": -0.1855
+      "lastPrice": 28.265,
+      "lastPriceAt": "2026-11-06T17:23:00Z",
+      "unrealizedDollar": -0.07,
+      "unrealizedPct": -0.1325
     },
     "MUU_2026-11-05": {
       "symbol": "MUU",
@@ -835,8 +853,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T17:21:49.959891+00:00",
-    "lastCheckEt": "2026-11-06T12:21:49.959463-05:00",
+    "lastCheckAt": "2026-11-06T17:24:47.566934+00:00",
+    "lastCheckEt": "2026-11-06T12:24:47.566512-05:00",
     "status": "ok"
   }
 }
