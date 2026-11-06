@@ -554,5 +554,14 @@
     "direction": "short",
     "stockEntryPrice": 45.801,
     "allocDollar": 50.03
+  },
+  {
+    "id": "IRTC_2026-11-06_exit_close_all_2026-11-06T17:57:13.004549+00:00",
+    "tradeId": "IRTC_2026-11-06",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-06T17:57:13.004553+00:00",
+    "symbol": "IRTC",
+    "stockEntryPrice": 87.57,
+    "reason": "stop"
   }
 ]
