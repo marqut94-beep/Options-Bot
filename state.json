@@ -13,7 +13,7 @@
       "allocDollar": 8642.48,
       "stopPrice": 133.228337,
       "targetPrice": 124.173984,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 7.828,
       "pctChangeAtScreen": -11.6959,
@@ -28,7 +28,17 @@
       "lastPrice": 129.16,
       "lastPriceAt": "2026-11-05T20:28:00Z",
       "unrealizedDollar": 12.59,
-      "unrealizedPct": 0.1453
+      "unrealizedPct": 0.1453,
+      "optionExitPrice": 2.22,
+      "optionExitTime": "2026-11-06T01:02:22.439550+00:00",
+      "optionReturnPct": 0.0,
+      "grossDollarPnl": 57.48,
+      "costDollar": 34.72,
+      "exitTime": "2026-11-06T01:02:22.439571+00:00",
+      "exitPrice": 128.49,
+      "exitReason": "eod",
+      "returnPct": 0.2626,
+      "dollarPnl": 22.76
     },
     "SOXL_2026-11-05": {
       "symbol": "SOXL",
@@ -44,7 +54,7 @@
       "stopPrice": 46.296440000000004,
       "targetPrice": 43.150079999999996,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 7.5342,
       "pctChangeAtScreen": -21.0746,
       "dataSource": "alpaca-sip",
@@ -58,7 +68,18 @@
       "lastPrice": 45.0085,
       "lastPriceAt": "2026-11-05T20:28:00Z",
       "unrealizedDollar": -11.37,
-      "unrealizedPct": -0.1346
+      "unrealizedPct": -0.1346,
+      "partialExitPrice": 43.150079999999996,
+      "partialExitTime": "2026-11-05T20:55:00Z",
+      "partialDollarPnl": 30.67,
+      "partialGrossDollarPnl": 34.16,
+      "partialCostDollar": 3.49,
+      "sharesPartial": 19,
+      "sharesRemainder": 169,
+      "remainderFloor": 44.04904,
+      "remainderTarget": 39.55424,
+      "optionContractsPartial": 3,
+      "optionContractsRemainder": 23
     },
     "TQQQ_2026-11-05": {
       "symbol": "TQQQ",
@@ -74,7 +95,7 @@
       "stopPrice": 52.9832,
       "targetPrice": 49.3824,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 7.292,
       "pctChangeAtScreen": -14.0302,
       "dataSource": "alpaca-sip",
@@ -88,7 +109,18 @@
       "lastPrice": 51.4199,
       "lastPriceAt": "2026-11-05T20:28:00Z",
       "unrealizedDollar": 3.1,
-      "unrealizedPct": 0.0391
+      "unrealizedPct": 0.0391,
+      "partialExitPrice": 49.3824,
+      "partialExitTime": "2026-11-05T23:10:00Z",
+      "partialDollarPnl": 27.73,
+      "partialGrossDollarPnl": 30.86,
+      "partialCostDollar": 3.13,
+      "sharesPartial": 15,
+      "sharesRemainder": 139,
+      "remainderFloor": 50.411199999999994,
+      "remainderTarget": 45.267199999999995,
+      "optionContractsPartial": 5,
+      "optionContractsRemainder": 44
     },
     "CVI_2026-11-04": {
       "symbol": "CVI",
@@ -2158,8 +2190,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-05T20:29:40.595285+00:00",
-    "lastCheckEt": "2026-11-05T15:29:40.594732-05:00",
+    "lastCheckAt": "2026-11-06T01:02:21.960854+00:00",
+    "lastCheckEt": "2026-11-05T20:02:21.960095-05:00",
     "status": "ok"
   }
 }

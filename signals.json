@@ -1190,5 +1190,40 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 51.44,
     "allocDollar": 7898.64
+  },
+  {
+    "id": "UPRO_2026-11-05_exit_close_all_2026-11-06T01:02:22.439581+00:00",
+    "tradeId": "UPRO_2026-11-05",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-06T01:02:22.439584+00:00",
+    "symbol": "UPRO",
+    "optionSymbol": "UPRO261106P00129000",
+    "contracts": 38,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "SOXL_2026-11-05_exit_close_partial_2026-11-06T01:02:22.526333+00:00",
+    "tradeId": "SOXL_2026-11-05",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-06T01:02:22.526345+00:00",
+    "symbol": "SOXL",
+    "optionSymbol": "SOXL261106P00045000",
+    "contracts": 3,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
+  },
+  {
+    "id": "TQQQ_2026-11-05_exit_close_partial_2026-11-06T01:02:22.588291+00:00",
+    "tradeId": "TQQQ_2026-11-05",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-06T01:02:22.588303+00:00",
+    "symbol": "TQQQ",
+    "optionSymbol": "TQQQ261106P00051000",
+    "contracts": 5,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
