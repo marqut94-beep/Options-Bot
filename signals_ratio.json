@@ -573,5 +573,13 @@
     "direction": "long",
     "stockEntryPrice": 47.64,
     "allocDollar": 50.57
+  },
+  {
+    "id": "IBEX_2026-11-06_exit_close_all_2026-11-06T20:11:13.091029+00:00",
+    "tradeId": "IBEX_2026-11-06",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-06T20:11:13.091033+00:00",
+    "symbol": "IBEX",
+    "reason": "target"
   }
 ]
