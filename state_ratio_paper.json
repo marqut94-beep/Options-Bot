@@ -1,5 +1,23 @@
 {
   "trades": {
+    "FIVN_2026-11-06": {
+      "symbol": "FIVN",
+      "date": "2026-11-06",
+      "direction": "long",
+      "entryTime": "2026-11-06T16:55:00Z",
+      "entryPrice": 28.3025,
+      "shares": 2,
+      "convictionScore": 0.0025,
+      "allocDollar": 50.19,
+      "stopPrice": 27.453425,
+      "targetPrice": 29.4346,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0151,
+      "pctChangeAtScreen": 5.515,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "MUU_2026-11-05": {
       "symbol": "MUU",
       "date": "2026-11-05",
@@ -791,8 +809,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T16:54:49.935968+00:00",
-    "lastCheckEt": "2026-11-06T11:54:49.935553-05:00",
+    "lastCheckAt": "2026-11-06T16:54:56.089172+00:00",
+    "lastCheckEt": "2026-11-06T11:54:56.088698-05:00",
     "status": "ok"
   }
 }
