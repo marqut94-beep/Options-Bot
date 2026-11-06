@@ -1,5 +1,29 @@
 {
   "trades": {
+    "FIVN_2026-11-06": {
+      "symbol": "FIVN",
+      "date": "2026-11-06",
+      "direction": "long",
+      "entryTime": "2026-11-06T15:48:00Z",
+      "entryPrice": 27.57,
+      "shares": 185,
+      "convictionScore": 0.0151,
+      "allocDollar": 5113.37,
+      "stopPrice": 26.7429,
+      "targetPrice": 28.672800000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1814,
+      "pctChangeAtScreen": 3.0847,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-06T15:49:49.161824+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
       "date": "2026-11-06",
@@ -2430,8 +2454,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T15:48:11.992145+00:00",
-    "lastCheckEt": "2026-11-06T10:48:11.991186-05:00",
+    "lastCheckAt": "2026-11-06T15:48:50.437543+00:00",
+    "lastCheckEt": "2026-11-06T10:48:50.436646-05:00",
     "status": "ok"
   }
 }
