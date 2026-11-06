@@ -24,7 +24,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-06T19:50:33.979433+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 88.65,
+      "lastPriceAt": "2026-11-06T19:51:00Z",
+      "unrealizedDollar": 161.93,
+      "unrealizedPct": 1.2971
     },
     "IBEX_2026-11-06": {
       "symbol": "IBEX",
@@ -50,7 +54,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-06T19:50:33.979462+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 48.99,
+      "lastPriceAt": "2026-11-06T19:51:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "UPRO_2026-11-05": {
       "symbol": "UPRO",
@@ -2262,8 +2270,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-06T19:49:30.367290+00:00",
-    "lastCheckEt": "2026-11-06T14:49:30.366707-05:00",
+    "lastCheckAt": "2026-11-06T19:52:46.664156+00:00",
+    "lastCheckEt": "2026-11-06T14:52:46.663434-05:00",
     "status": "ok"
   }
 }
