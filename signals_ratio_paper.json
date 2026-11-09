@@ -581,5 +581,21 @@
     "symbol": "LFST",
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "AMDL_2026-11-09_exit_close_all_2026-11-09T20:55:50.210819+00:00",
+    "tradeId": "AMDL_2026-11-09",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-09T20:55:50.210823+00:00",
+    "symbol": "AMDL",
+    "reason": "eod"
+  },
+  {
+    "id": "LFST_2026-11-09_exit_close_all_2026-11-09T20:55:50.392546+00:00",
+    "tradeId": "LFST_2026-11-09",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-09T20:55:50.392551+00:00",
+    "symbol": "LFST",
+    "reason": "floor"
   }
 ]
