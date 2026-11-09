@@ -1785,5 +1785,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "NVDL_2026-11-09_entry_2026-11-09T14:52:16.683240+00:00",
+    "tradeId": "NVDL_2026-11-09",
+    "action": "entry",
+    "createdAt": "2026-11-09T14:52:16.683245+00:00",
+    "symbol": "NVDL",
+    "direction": "long",
+    "optionSymbol": "NVDL261113C00021000",
+    "contracts": 28,
+    "optionEntryPriceAtScreen": 1.75,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 20.82,
+    "allocDollar": 5023.0
   }
 ]
