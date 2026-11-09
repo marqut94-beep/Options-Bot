@@ -32,10 +32,10 @@
       "remainderTarget": 23.318400000000004,
       "optionContractsPartial": 3,
       "optionContractsRemainder": 25,
-      "lastPrice": 21.5695,
-      "lastPriceAt": "2026-11-09T15:16:00Z",
-      "unrealizedDollar": 182.63,
-      "unrealizedPct": 3.6398
+      "lastPrice": 21.65,
+      "lastPriceAt": "2026-11-09T15:17:00Z",
+      "unrealizedDollar": 200.1,
+      "unrealizedPct": 3.9879
     },
     "PRAA_2026-11-06": {
       "symbol": "PRAA",
@@ -2569,8 +2569,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T15:17:50.291321+00:00",
-    "lastCheckEt": "2026-11-09T10:17:50.290248-05:00",
+    "lastCheckAt": "2026-11-09T15:18:22.902502+00:00",
+    "lastCheckEt": "2026-11-09T10:18:22.877266-05:00",
     "status": "ok"
   }
 }
