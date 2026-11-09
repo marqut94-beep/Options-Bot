@@ -11,7 +11,7 @@
       "allocDollar": 5009.94,
       "stopPrice": 256.77354999999994,
       "targetPrice": 275.30359999999996,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0159,
       "pctChangeAtScreen": 5.1792,
@@ -26,7 +26,12 @@
       "lastPrice": 260.885,
       "lastPriceAt": "2026-11-09T20:53:00Z",
       "unrealizedDollar": -72.77,
-      "unrealizedPct": -1.4468
+      "unrealizedPct": -1.4468,
+      "exitTime": "2026-11-09T20:55:50.671821+00:00",
+      "exitPrice": 260.8,
+      "exitReason": "eod",
+      "returnPct": -1.4789,
+      "dollarPnl": -74.38
     },
     "LFST_2026-11-09": {
       "symbol": "LFST",
@@ -39,7 +44,7 @@
       "allocDollar": 6769.5,
       "stopPrice": 13.764299999999999,
       "targetPrice": 14.7576,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 4.8312,
       "pctChangeAtScreen": 3.125,
@@ -63,7 +68,12 @@
       "remainderFloor": 14.473799999999999,
       "remainderTarget": 15.892800000000001,
       "optionContractsPartial": null,
-      "optionContractsRemainder": null
+      "optionContractsRemainder": null,
+      "exitTime": "2026-11-09T20:55:50.878188+00:00",
+      "exitPrice": 14.473799999999999,
+      "exitReason": "floor",
+      "returnPct": 2.2012,
+      "dollarPnl": 148.99
     },
     "NVDA_2026-11-09": {
       "symbol": "NVDA",
@@ -76,7 +86,7 @@
       "allocDollar": 5003.48,
       "stopPrice": 173.7173,
       "targetPrice": 186.2536,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0056,
       "pctChangeAtScreen": 3.4814,
@@ -91,7 +101,15 @@
       "lastPrice": 177.99,
       "lastPriceAt": "2026-11-09T20:53:00Z",
       "unrealizedDollar": -30.8,
-      "unrealizedPct": -0.6142
+      "unrealizedPct": -0.6142,
+      "optionExitPrice": 0.05,
+      "optionExitTime": "2026-11-09T20:55:51.361406+00:00",
+      "optionReturnPct": -95.935,
+      "exitTime": "2026-11-09T20:55:51.361451+00:00",
+      "exitPrice": 178,
+      "exitReason": "eod",
+      "returnPct": -0.6086,
+      "dollarPnl": -30.52
     },
     "NVDL_2026-11-09": {
       "symbol": "NVDL",
@@ -2670,8 +2688,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T20:54:50.327230+00:00",
-    "lastCheckEt": "2026-11-09T15:54:50.326060-05:00",
+    "lastCheckAt": "2026-11-09T20:55:50.376809+00:00",
+    "lastCheckEt": "2026-11-09T15:55:50.375625-05:00",
     "status": "ok"
   }
 }
