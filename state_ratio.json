@@ -1,5 +1,23 @@
 {
   "trades": {
+    "NVDL_2026-11-09": {
+      "symbol": "NVDL",
+      "date": "2026-11-09",
+      "direction": "long",
+      "entryTime": "2026-11-09T14:56:00Z",
+      "entryPrice": 21.4191,
+      "shares": 2,
+      "convictionScore": 0.0018,
+      "allocDollar": 50.14,
+      "stopPrice": 20.776526999999998,
+      "targetPrice": 22.275864000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0108,
+      "pctChangeAtScreen": 5.8256,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "IBEX_2026-11-06": {
       "symbol": "IBEX",
       "date": "2026-11-06",
@@ -903,8 +921,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T14:56:12.801840+00:00",
-    "lastCheckEt": "2026-11-09T09:56:12.801406-05:00",
+    "lastCheckAt": "2026-11-09T14:57:12.815682+00:00",
+    "lastCheckEt": "2026-11-09T09:57:12.815266-05:00",
     "status": "ok"
   }
 }
