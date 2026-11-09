@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-09T16:01:45.706837+00:00",
       "optionContracts": 40,
       "optionPricedVia": "trade",
-      "lastPrice": 177.12,
-      "lastPriceAt": "2026-11-09T16:04:00Z",
-      "unrealizedDollar": -55.16,
-      "unrealizedPct": -1.1
+      "lastPrice": 177.06,
+      "lastPriceAt": "2026-11-09T16:05:00Z",
+      "unrealizedDollar": -56.84,
+      "unrealizedPct": -1.1335
     },
     "NVDL_2026-11-09": {
       "symbol": "NVDL",
@@ -39,7 +39,7 @@
       "allocDollar": 5023.0,
       "stopPrice": 20.1954,
       "targetPrice": 21.652800000000003,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0368,
       "pctChangeAtScreen": 6.9664,
@@ -63,7 +63,15 @@
       "lastPrice": 21.275,
       "lastPriceAt": "2026-11-09T16:04:00Z",
       "unrealizedDollar": 118.72,
-      "unrealizedPct": 2.3662
+      "unrealizedPct": 2.3662,
+      "optionExitPrice": 1.45,
+      "optionExitTime": "2026-11-09T16:06:51.220566+00:00",
+      "optionReturnPct": -17.1429,
+      "exitTime": "2026-11-09T16:06:51.220595+00:00",
+      "exitPrice": 21.2364,
+      "exitReason": "floor",
+      "returnPct": 2.1992,
+      "dollarPnl": 110.35
     },
     "PRAA_2026-11-06": {
       "symbol": "PRAA",
@@ -2597,8 +2605,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T16:05:50.349673+00:00",
-    "lastCheckEt": "2026-11-09T11:05:50.348668-05:00",
+    "lastCheckAt": "2026-11-09T16:06:50.437898+00:00",
+    "lastCheckEt": "2026-11-09T11:06:50.436899-05:00",
     "status": "ok"
   }
 }
