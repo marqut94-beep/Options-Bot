@@ -1850,5 +1850,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 14.19,
     "allocDollar": 6769.5
+  },
+  {
+    "id": "FERG_2026-11-09_entry_2026-11-09T18:28:17.055102+00:00",
+    "tradeId": "FERG_2026-11-09",
+    "action": "entry",
+    "createdAt": "2026-11-09T18:28:17.055105+00:00",
+    "symbol": "FERG",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 264.715,
+    "allocDollar": 5002.16
   }
 ]
