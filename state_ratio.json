@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 5.8256,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 20.915,
-      "lastPriceAt": "2026-11-09T16:14:00Z",
-      "unrealizedDollar": -1.01,
-      "unrealizedPct": -2.3535
+      "lastPrice": 20.8295,
+      "lastPriceAt": "2026-11-09T16:15:00Z",
+      "unrealizedDollar": -1.18,
+      "unrealizedPct": -2.7527
     },
     "IBEX_2026-11-06": {
       "symbol": "IBEX",
@@ -925,8 +925,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T16:15:12.905510+00:00",
-    "lastCheckEt": "2026-11-09T11:15:12.905018-05:00",
+    "lastCheckAt": "2026-11-09T16:16:12.944695+00:00",
+    "lastCheckEt": "2026-11-09T11:16:12.931918-05:00",
     "status": "ok"
   }
 }
