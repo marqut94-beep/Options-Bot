@@ -4,25 +4,29 @@
       "symbol": "NVDA",
       "date": "2026-11-09",
       "direction": "long",
-      "entryTime": "2026-11-09T16:01:00Z",
-      "entryPrice": 179.31,
+      "entryTime": "2026-11-09T16:00:00Z",
+      "entryPrice": 179.09,
       "shares": 28,
-      "convictionScore": 0.0018,
-      "allocDollar": 5013.85,
-      "stopPrice": 173.9307,
-      "targetPrice": 186.4824,
+      "convictionScore": 0.0005,
+      "allocDollar": 5003.48,
+      "stopPrice": 173.7173,
+      "targetPrice": 186.2536,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0222,
-      "pctChangeAtScreen": 3.6085,
+      "relVol": 2.0056,
+      "pctChangeAtScreen": 3.4814,
       "dataSource": "alpaca-sip",
       "optionSymbol": "NVDA261109C00180000",
       "optionStrike": "180",
       "optionExpiration": "2026-11-09",
-      "optionEntryPrice": 1.09,
-      "optionEntryTime": "2026-11-09T16:02:23.249403+00:00",
-      "optionContracts": 45,
-      "optionPricedVia": "trade"
+      "optionEntryPrice": 1.23,
+      "optionEntryTime": "2026-11-09T16:01:45.706837+00:00",
+      "optionContracts": 40,
+      "optionPricedVia": "trade",
+      "lastPrice": 179.09,
+      "lastPriceAt": "2026-11-09T16:00:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "NVDL_2026-11-09": {
       "symbol": "NVDL",
@@ -2593,8 +2597,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T16:01:33.790510+00:00",
-    "lastCheckEt": "2026-11-09T11:01:33.757328-05:00",
+    "lastCheckAt": "2026-11-09T16:01:51.211620+00:00",
+    "lastCheckEt": "2026-11-09T11:01:51.210609-05:00",
     "status": "ok"
   }
 }
