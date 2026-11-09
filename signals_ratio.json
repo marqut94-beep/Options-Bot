@@ -589,5 +589,15 @@
     "createdAt": "2026-11-06T20:55:13.128716+00:00",
     "symbol": "FIVN",
     "reason": "eod"
+  },
+  {
+    "id": "NVDL_2026-11-09_entry_2026-11-09T14:57:34.635080+00:00",
+    "tradeId": "NVDL_2026-11-09",
+    "action": "entry",
+    "createdAt": "2026-11-09T14:57:34.635091+00:00",
+    "symbol": "NVDL",
+    "direction": "long",
+    "stockEntryPrice": 21.4191,
+    "allocDollar": 50.14
   }
 ]
