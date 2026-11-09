@@ -16,7 +16,11 @@
       "relVol": 3.2389,
       "pctChangeAtScreen": 3.125,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 14.195,
+      "lastPriceAt": "2026-11-09T16:29:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "NVDL_2026-11-09": {
       "symbol": "NVDL",
@@ -29,7 +33,7 @@
       "allocDollar": 50.14,
       "stopPrice": 20.776526999999998,
       "targetPrice": 22.275864000000002,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0108,
       "pctChangeAtScreen": 5.8256,
@@ -38,7 +42,12 @@
       "lastPrice": 20.7797,
       "lastPriceAt": "2026-11-09T16:28:00Z",
       "unrealizedDollar": -1.28,
-      "unrealizedPct": -2.9852
+      "unrealizedPct": -2.9852,
+      "exitTime": "2026-11-09T16:30:50.317813+00:00",
+      "exitPrice": 20.776526999999998,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.29
     },
     "IBEX_2026-11-06": {
       "symbol": "IBEX",
@@ -939,8 +948,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T16:29:49.983016+00:00",
-    "lastCheckEt": "2026-11-09T11:29:49.982564-05:00",
+    "lastCheckAt": "2026-11-09T16:30:49.908623+00:00",
+    "lastCheckEt": "2026-11-09T11:30:49.908172-05:00",
     "status": "ok"
   }
 }
