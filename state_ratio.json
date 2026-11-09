@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 13.7555,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 47.49,
-      "lastPriceAt": "2026-11-09T19:37:00Z",
-      "unrealizedDollar": -0.06,
-      "unrealizedPct": -0.1258
+      "lastPrice": 47.99,
+      "lastPriceAt": "2026-11-09T19:38:00Z",
+      "unrealizedDollar": 0.44,
+      "unrealizedPct": 0.9258
     },
     "LFST_2026-11-09": {
       "symbol": "LFST",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": 3.125,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 14.825,
-      "lastPriceAt": "2026-11-09T19:37:00Z",
-      "unrealizedDollar": 3.11,
-      "unrealizedPct": 4.3834,
+      "lastPrice": 14.845,
+      "lastPriceAt": "2026-11-09T19:38:00Z",
+      "unrealizedDollar": 3.19,
+      "unrealizedPct": 4.4961,
       "partialExitPrice": 14.7576,
       "partialExitTime": "2026-11-09T19:20:00Z",
       "partialDollarPnl": 0.57,
@@ -981,8 +981,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T19:38:12.928464+00:00",
-    "lastCheckEt": "2026-11-09T14:38:12.915782-05:00",
+    "lastCheckAt": "2026-11-09T19:39:12.842044+00:00",
+    "lastCheckEt": "2026-11-09T14:39:12.841563-05:00",
     "status": "ok"
   }
 }
