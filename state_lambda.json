@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-09T18:28:41.655853+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 263.945,
-      "lastPriceAt": "2026-11-09T20:16:00Z",
-      "unrealizedDollar": -14.63,
-      "unrealizedPct": -0.2909
+      "lastPrice": 263.94,
+      "lastPriceAt": "2026-11-09T20:17:00Z",
+      "unrealizedDollar": -14.72,
+      "unrealizedPct": -0.2928
     },
     "LFST_2026-11-09": {
       "symbol": "LFST",
@@ -52,7 +52,7 @@
       "optionContracts": null,
       "optionPricedVia": null,
       "lastPrice": 14.695,
-      "lastPriceAt": "2026-11-09T20:16:00Z",
+      "lastPriceAt": "2026-11-09T20:17:00Z",
       "unrealizedDollar": 243.89,
       "unrealizedPct": 3.6032,
       "partialExitPrice": 14.7576,
@@ -88,10 +88,10 @@
       "optionEntryTime": "2026-11-09T16:01:45.706837+00:00",
       "optionContracts": 40,
       "optionPricedVia": "trade",
-      "lastPrice": 177.89,
-      "lastPriceAt": "2026-11-09T20:16:00Z",
-      "unrealizedDollar": -33.6,
-      "unrealizedPct": -0.6701
+      "lastPrice": 177.985,
+      "lastPriceAt": "2026-11-09T20:17:00Z",
+      "unrealizedDollar": -30.94,
+      "unrealizedPct": -0.617
     },
     "NVDL_2026-11-09": {
       "symbol": "NVDL",
@@ -2670,8 +2670,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T20:17:50.553831+00:00",
-    "lastCheckEt": "2026-11-09T15:17:50.552818-05:00",
+    "lastCheckAt": "2026-11-09T20:18:50.336321+00:00",
+    "lastCheckEt": "2026-11-09T15:18:50.331240-05:00",
     "status": "ok"
   }
 }
