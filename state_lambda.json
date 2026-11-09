@@ -12,7 +12,7 @@
       "stopPrice": 20.1954,
       "targetPrice": 21.652800000000003,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0368,
       "pctChangeAtScreen": 6.9664,
       "dataSource": "alpaca-sip",
@@ -22,7 +22,16 @@
       "optionEntryPrice": 1.75,
       "optionEntryTime": "2026-11-09T14:52:44.693842+00:00",
       "optionContracts": 28,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "partialExitPrice": 21.652800000000003,
+      "partialExitTime": "2026-11-09T14:51:00Z",
+      "partialDollarPnl": 19.99,
+      "sharesPartial": 24,
+      "sharesRemainder": 217,
+      "remainderFloor": 21.2364,
+      "remainderTarget": 23.318400000000004,
+      "optionContractsPartial": 3,
+      "optionContractsRemainder": 25
     },
     "PRAA_2026-11-06": {
       "symbol": "PRAA",
@@ -2556,8 +2565,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T14:52:19.080715+00:00",
-    "lastCheckEt": "2026-11-09T09:52:19.079643-05:00",
+    "lastCheckAt": "2026-11-09T14:52:50.253259+00:00",
+    "lastCheckEt": "2026-11-09T09:52:50.252192-05:00",
     "status": "ok"
   }
 }
