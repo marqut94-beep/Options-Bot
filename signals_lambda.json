@@ -1864,5 +1864,17 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 264.715,
     "allocDollar": 5009.94
+  },
+  {
+    "id": "LFST_2026-11-09_exit_close_partial_2026-11-09T19:21:50.931512+00:00",
+    "tradeId": "LFST_2026-11-09",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-09T19:21:50.931528+00:00",
+    "symbol": "LFST",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
