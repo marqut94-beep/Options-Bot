@@ -1813,17 +1813,17 @@
     "reason": "target"
   },
   {
-    "id": "NVDA_2026-11-09_entry_2026-11-09T16:01:45.706858+00:00",
+    "id": "NVDA_2026-11-09_entry_2026-11-09T16:02:23.249427+00:00",
     "tradeId": "NVDA_2026-11-09",
     "action": "entry",
-    "createdAt": "2026-11-09T16:01:45.706862+00:00",
+    "createdAt": "2026-11-09T16:02:23.249431+00:00",
     "symbol": "NVDA",
     "direction": "long",
     "optionSymbol": "NVDA261109C00180000",
-    "contracts": 40,
-    "optionEntryPriceAtScreen": 1.23,
+    "contracts": 45,
+    "optionEntryPriceAtScreen": 1.09,
     "needsRobinhoodPricing": false,
-    "stockEntryPrice": 179.09,
-    "allocDollar": 5003.48
+    "stockEntryPrice": 179.31,
+    "allocDollar": 5013.85
   }
 ]
