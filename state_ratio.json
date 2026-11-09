@@ -1,5 +1,23 @@
 {
   "trades": {
+    "LFST_2026-11-09": {
+      "symbol": "LFST",
+      "date": "2026-11-09",
+      "direction": "long",
+      "entryTime": "2026-11-09T16:28:00Z",
+      "entryPrice": 14.19,
+      "shares": 5,
+      "convictionScore": 0.2065,
+      "allocDollar": 65.49,
+      "stopPrice": 13.764299999999999,
+      "targetPrice": 14.7576,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.2389,
+      "pctChangeAtScreen": 3.125,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "NVDL_2026-11-09": {
       "symbol": "NVDL",
       "date": "2026-11-09",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": 5.8256,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 20.89,
-      "lastPriceAt": "2026-11-09T16:27:00Z",
-      "unrealizedDollar": -1.06,
-      "unrealizedPct": -2.4702
+      "lastPrice": 20.7797,
+      "lastPriceAt": "2026-11-09T16:28:00Z",
+      "unrealizedDollar": -1.28,
+      "unrealizedPct": -2.9852
     },
     "IBEX_2026-11-06": {
       "symbol": "IBEX",
@@ -925,8 +943,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T16:28:12.863667+00:00",
-    "lastCheckEt": "2026-11-09T11:28:12.863221-05:00",
+    "lastCheckAt": "2026-11-09T16:29:12.803945+00:00",
+    "lastCheckEt": "2026-11-09T11:29:12.803500-05:00",
     "status": "ok"
   }
 }
