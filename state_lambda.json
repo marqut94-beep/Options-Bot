@@ -22,7 +22,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-09T18:28:41.655853+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 264.715,
+      "lastPriceAt": "2026-11-09T18:27:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "LFST_2026-11-09": {
       "symbol": "LFST",
@@ -2657,8 +2661,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T18:28:17.768360+00:00",
-    "lastCheckEt": "2026-11-09T13:28:17.767689-05:00",
+    "lastCheckAt": "2026-11-09T18:28:50.120149+00:00",
+    "lastCheckEt": "2026-11-09T13:28:50.119411-05:00",
     "status": "ok"
   }
 }
