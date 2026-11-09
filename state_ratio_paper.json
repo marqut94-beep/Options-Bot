@@ -11,7 +11,7 @@
       "allocDollar": 50.02,
       "stopPrice": 46.237669000000004,
       "targetPrice": 49.574408000000005,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0016,
       "pctChangeAtScreen": 13.7555,
@@ -20,7 +20,12 @@
       "lastPrice": 47.63,
       "lastPriceAt": "2026-11-09T20:53:00Z",
       "unrealizedDollar": -0.04,
-      "unrealizedPct": -0.0791
+      "unrealizedPct": -0.0791,
+      "exitTime": "2026-11-09T20:55:50.210787+00:00",
+      "exitPrice": 47.47,
+      "exitReason": "eod",
+      "returnPct": -0.4147,
+      "dollarPnl": -0.2
     },
     "LFST_2026-11-09": {
       "symbol": "LFST",
@@ -33,7 +38,7 @@
       "allocDollar": 65.49,
       "stopPrice": 13.76915,
       "targetPrice": 14.7628,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 3.2389,
       "pctChangeAtScreen": 3.125,
@@ -49,7 +54,12 @@
       "sharesPartial": 1,
       "sharesRemainder": 4,
       "remainderFloor": 14.478900000000001,
-      "remainderTarget": 15.614500000000001
+      "remainderTarget": 15.614500000000001,
+      "exitTime": "2026-11-09T20:55:50.392515+00:00",
+      "exitPrice": 14.478900000000001,
+      "exitReason": "floor",
+      "returnPct": 2.4031,
+      "dollarPnl": 1.71
     },
     "NVDL_2026-11-09": {
       "symbol": "NVDL",
@@ -977,8 +987,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-09T20:54:49.909018+00:00",
-    "lastCheckEt": "2026-11-09T15:54:49.908551-05:00",
+    "lastCheckAt": "2026-11-09T20:55:49.928992+00:00",
+    "lastCheckEt": "2026-11-09T15:55:49.928503-05:00",
     "status": "ok"
   }
 }
