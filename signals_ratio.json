@@ -628,5 +628,14 @@
     "direction": "long",
     "stockEntryPrice": 47.5498,
     "allocDollar": 50.02
+  },
+  {
+    "id": "LFST_2026-11-09_exit_close_partial_2026-11-09T19:21:13.313419+00:00",
+    "tradeId": "LFST_2026-11-09",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-09T19:21:13.313438+00:00",
+    "symbol": "LFST",
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
