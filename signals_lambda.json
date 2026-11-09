@@ -1799,5 +1799,17 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 20.82,
     "allocDollar": 5023.0
+  },
+  {
+    "id": "NVDL_2026-11-09_exit_close_partial_2026-11-09T14:52:50.492268+00:00",
+    "tradeId": "NVDL_2026-11-09",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-09T14:52:50.492284+00:00",
+    "symbol": "NVDL",
+    "optionSymbol": "NVDL261113C00021000",
+    "contracts": 3,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
