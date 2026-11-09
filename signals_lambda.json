@@ -1836,5 +1836,19 @@
     "contracts": 25,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "LFST_2026-11-09_entry_2026-11-09T16:29:39.286932+00:00",
+    "tradeId": "LFST_2026-11-09",
+    "action": "entry",
+    "createdAt": "2026-11-09T16:29:39.286936+00:00",
+    "symbol": "LFST",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 14.19,
+    "allocDollar": 6769.5
   }
 ]
