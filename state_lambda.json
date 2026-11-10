@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-10T16:23:17.986406+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 81.79,
-      "lastPriceAt": "2026-11-10T17:02:00Z",
-      "unrealizedDollar": -39.65,
-      "unrealizedPct": -0.7885
+      "lastPrice": 81.57,
+      "lastPriceAt": "2026-11-10T17:03:00Z",
+      "unrealizedDollar": -53.07,
+      "unrealizedPct": -1.0553
     },
     "SANM_2026-11-10": {
       "symbol": "SANM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655369+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 152.885,
-      "lastPriceAt": "2026-11-10T17:02:00Z",
-      "unrealizedDollar": 92.35,
-      "unrealizedPct": 1.6502
+      "lastPrice": 151.98,
+      "lastPriceAt": "2026-11-10T17:03:00Z",
+      "unrealizedDollar": 124.93,
+      "unrealizedPct": 2.2324
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655415+00:00",
       "optionContracts": 47,
       "optionPricedVia": "trade",
-      "lastPrice": 18.7746,
-      "lastPriceAt": "2026-11-10T17:02:00Z",
-      "unrealizedDollar": 154.9,
-      "unrealizedPct": 3.0988
+      "lastPrice": 18.7199,
+      "lastPriceAt": "2026-11-10T17:03:00Z",
+      "unrealizedDollar": 169.02,
+      "unrealizedPct": 3.3812
     },
     "FERG_2026-11-09": {
       "symbol": "FERG",
@@ -2772,8 +2772,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T17:03:50.428106+00:00",
-    "lastCheckEt": "2026-11-10T12:03:50.427085-05:00",
+    "lastCheckAt": "2026-11-10T17:04:50.951308+00:00",
+    "lastCheckEt": "2026-11-10T12:04:50.950298-05:00",
     "status": "ok"
   }
 }
