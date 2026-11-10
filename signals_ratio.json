@@ -673,5 +673,14 @@
     "direction": "long",
     "stockEntryPrice": 49.99,
     "allocDollar": 50.16
+  },
+  {
+    "id": "AMDL_2026-11-10_exit_close_all_2026-11-10T16:49:13.249830+00:00",
+    "tradeId": "AMDL_2026-11-10",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-10T16:49:13.249834+00:00",
+    "symbol": "AMDL",
+    "stockEntryPrice": 49.99,
+    "reason": "stop"
   }
 ]
