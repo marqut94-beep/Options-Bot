@@ -682,5 +682,14 @@
     "symbol": "AMDL",
     "stockEntryPrice": 49.99,
     "reason": "stop"
+  },
+  {
+    "id": "NVDL_2026-11-10_exit_close_partial_2026-11-10T16:51:13.377134+00:00",
+    "tradeId": "NVDL_2026-11-10",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-10T16:51:13.377149+00:00",
+    "symbol": "NVDL",
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
