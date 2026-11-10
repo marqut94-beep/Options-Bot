@@ -1,5 +1,23 @@
 {
   "trades": {
+    "PRAA_2026-11-10": {
+      "symbol": "PRAA",
+      "date": "2026-11-10",
+      "direction": "short",
+      "entryTime": "2026-11-10T20:23:00Z",
+      "entryPrice": 12.035,
+      "shares": 4,
+      "convictionScore": 0.0014,
+      "allocDollar": 50.11,
+      "stopPrice": 12.39605,
+      "targetPrice": 11.5536,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0086,
+      "pctChangeAtScreen": -4.0271,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "AMDL_2026-11-10": {
       "symbol": "AMDL",
       "date": "2026-11-10",
@@ -1052,8 +1070,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T20:23:12.823831+00:00",
-    "lastCheckEt": "2026-11-10T15:23:12.823317-05:00",
+    "lastCheckAt": "2026-11-10T20:24:12.836874+00:00",
+    "lastCheckEt": "2026-11-10T15:24:12.824283-05:00",
     "status": "ok"
   }
 }
