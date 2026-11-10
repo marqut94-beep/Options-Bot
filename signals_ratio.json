@@ -653,5 +653,15 @@
     "createdAt": "2026-11-09T20:55:13.410853+00:00",
     "symbol": "LFST",
     "reason": "floor"
+  },
+  {
+    "id": "NVDL_2026-11-10_entry_2026-11-10T15:44:31.958808+00:00",
+    "tradeId": "NVDL_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T15:44:31.958820+00:00",
+    "symbol": "NVDL",
+    "direction": "short",
+    "stockEntryPrice": 19.63,
+    "allocDollar": 50.07
   }
 ]
