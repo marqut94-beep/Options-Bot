@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-10T17:08:18.104064+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 75.18,
-      "lastPriceAt": "2026-11-10T20:03:00Z",
-      "unrealizedDollar": -38.28,
-      "unrealizedPct": -0.7656
+      "lastPrice": 75.06,
+      "lastPriceAt": "2026-11-10T20:04:00Z",
+      "unrealizedDollar": -46.2,
+      "unrealizedPct": -0.924
     },
     "AKAM_2026-11-10": {
       "symbol": "AKAM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-10T16:23:17.986406+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 83.69,
-      "lastPriceAt": "2026-11-10T20:03:00Z",
-      "unrealizedDollar": 76.25,
-      "unrealizedPct": 1.5163
+      "lastPrice": 83.565,
+      "lastPriceAt": "2026-11-10T20:04:00Z",
+      "unrealizedDollar": 68.62,
+      "unrealizedPct": 1.3646
     },
     "SANM_2026-11-10": {
       "symbol": "SANM",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655369+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 156.085,
-      "lastPriceAt": "2026-11-10T20:03:00Z",
-      "unrealizedDollar": -22.85,
-      "unrealizedPct": -0.4084
+      "lastPrice": 156,
+      "lastPriceAt": "2026-11-10T20:04:00Z",
+      "unrealizedDollar": -19.79,
+      "unrealizedPct": -0.3537
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -96,7 +96,7 @@
       "stopPrice": 19.95625,
       "targetPrice": 18.599999999999998,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0014,
       "pctChangeAtScreen": -5.5339,
       "dataSource": "alpaca-sip",
@@ -110,7 +110,16 @@
       "lastPrice": 18.615,
       "lastPriceAt": "2026-11-10T20:03:00Z",
       "unrealizedDollar": 196.08,
-      "unrealizedPct": 3.9226
+      "unrealizedPct": 3.9226,
+      "partialExitPrice": 18.599999999999998,
+      "partialExitTime": "2026-11-10T20:04:00Z",
+      "partialDollarPnl": 20.15,
+      "sharesPartial": 26,
+      "sharesRemainder": 232,
+      "remainderFloor": 18.9875,
+      "remainderTarget": 17.05,
+      "optionContractsPartial": 5,
+      "optionContractsRemainder": 42
     },
     "FERG_2026-11-09": {
       "symbol": "FERG",
@@ -2800,8 +2809,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T20:04:50.489310+00:00",
-    "lastCheckEt": "2026-11-10T15:04:50.488233-05:00",
+    "lastCheckAt": "2026-11-10T20:05:50.417555+00:00",
+    "lastCheckEt": "2026-11-10T15:05:50.416383-05:00",
     "status": "ok"
   }
 }
