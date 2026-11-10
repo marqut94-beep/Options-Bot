@@ -1,5 +1,33 @@
 {
   "trades": {
+    "SANM_2026-11-10": {
+      "symbol": "SANM",
+      "date": "2026-11-10",
+      "direction": "short",
+      "entryTime": "2026-11-10T16:05:00Z",
+      "entryPrice": 155.4502,
+      "shares": 36,
+      "convictionScore": 0.0891,
+      "allocDollar": 5668.3,
+      "stopPrice": 160.113706,
+      "targetPrice": 149.232192,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.0693,
+      "pctChangeAtScreen": -6.5776,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-10T16:06:28.655369+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null,
+      "lastPrice": 155.4502,
+      "lastPriceAt": "2026-11-10T16:05:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
+    },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
       "date": "2026-11-10",
@@ -20,37 +48,13 @@
       "optionStrike": "19.5",
       "optionExpiration": "2026-11-13",
       "optionEntryPrice": 1.06,
-      "optionEntryTime": "2026-11-10T16:06:53.973579+00:00",
+      "optionEntryTime": "2026-11-10T16:06:28.655415+00:00",
       "optionContracts": 47,
-      "optionPricedVia": "trade"
-    },
-    "SANM_2026-11-10": {
-      "symbol": "SANM",
-      "date": "2026-11-10",
-      "direction": "short",
-      "entryTime": "2026-11-10T16:04:00Z",
-      "entryPrice": 155.6,
-      "shares": 36,
-      "convictionScore": 0.0864,
-      "allocDollar": 5648.13,
-      "stopPrice": 160.268,
-      "targetPrice": 149.37599999999998,
-      "status": "open",
-      "partialTaken": false,
-      "relVol": 3.037,
-      "pctChangeAtScreen": -6.4876,
-      "dataSource": "alpaca-sip",
-      "optionSymbol": null,
-      "optionStrike": null,
-      "optionExpiration": null,
-      "optionEntryPrice": null,
-      "optionEntryTime": "2026-11-10T16:05:59.070906+00:00",
-      "optionContracts": null,
-      "optionPricedVia": null,
-      "lastPrice": 155.4502,
+      "optionPricedVia": "trade",
+      "lastPrice": 19.375,
       "lastPriceAt": "2026-11-10T16:05:00Z",
-      "unrealizedDollar": 5.39,
-      "unrealizedPct": 0.0963
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "FERG_2026-11-09": {
       "symbol": "FERG",
@@ -2740,8 +2744,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:06:21.134121+00:00",
-    "lastCheckEt": "2026-11-10T11:06:21.133081-05:00",
+    "lastCheckAt": "2026-11-10T16:06:36.734105+00:00",
+    "lastCheckEt": "2026-11-10T11:06:36.712825-05:00",
     "status": "ok"
   }
 }
