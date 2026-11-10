@@ -1297,5 +1297,61 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "NVDL_2026-11-10_entry_2026-11-10T20:11:43.849117+00:00",
+    "tradeId": "NVDL_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T20:11:43.849119+00:00",
+    "symbol": "NVDL",
+    "direction": "short",
+    "optionSymbol": "NVDL261113P00019000",
+    "contracts": 57,
+    "optionEntryPriceAtScreen": 1.21,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 19.025,
+    "allocDollar": 6929.63
+  },
+  {
+    "id": "AKAM_2026-11-10_entry_2026-11-10T20:11:43.849135+00:00",
+    "tradeId": "AKAM_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T20:11:43.849137+00:00",
+    "symbol": "AKAM",
+    "direction": "long",
+    "optionSymbol": "AKAM261113C00084000",
+    "contracts": 31,
+    "optionEntryPriceAtScreen": 2.12,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 84,
+    "allocDollar": 6734.33
+  },
+  {
+    "id": "AAON_2026-11-10_entry_2026-11-10T20:11:43.849148+00:00",
+    "tradeId": "AAON_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T20:11:43.849149+00:00",
+    "symbol": "AAON",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 75.115,
+    "allocDollar": 5935.01
+  },
+  {
+    "id": "NVDA_2026-11-10_entry_2026-11-10T20:11:43.849161+00:00",
+    "tradeId": "NVDA_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T20:11:43.849162+00:00",
+    "symbol": "NVDA",
+    "direction": "short",
+    "optionSymbol": "NVDA261111P00167500",
+    "contracts": 19,
+    "optionEntryPriceAtScreen": 2.78,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 167.865,
+    "allocDollar": 5401.03
   }
 ]
