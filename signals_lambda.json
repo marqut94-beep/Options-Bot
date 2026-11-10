@@ -1909,5 +1909,19 @@
     "contracts": 40,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "SANM_2026-11-10_entry_2026-11-10T16:05:59.070933+00:00",
+    "tradeId": "SANM_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T16:05:59.070937+00:00",
+    "symbol": "SANM",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 155.6,
+    "allocDollar": 5648.13
   }
 ]
