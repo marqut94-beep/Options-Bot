@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-10T17:08:18.104064+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 74.95,
-      "lastPriceAt": "2026-11-10T20:23:00Z",
-      "unrealizedDollar": -53.46,
-      "unrealizedPct": -1.0692
+      "lastPrice": 74.99,
+      "lastPriceAt": "2026-11-10T20:25:00Z",
+      "unrealizedDollar": -50.82,
+      "unrealizedPct": -1.0164
     },
     "AKAM_2026-11-10": {
       "symbol": "AKAM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-10T16:23:17.986406+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 83.96,
-      "lastPriceAt": "2026-11-10T20:23:00Z",
-      "unrealizedDollar": 92.72,
-      "unrealizedPct": 1.8438
+      "lastPrice": 83.9,
+      "lastPriceAt": "2026-11-10T20:25:00Z",
+      "unrealizedDollar": 89.06,
+      "unrealizedPct": 1.771
     },
     "SANM_2026-11-10": {
       "symbol": "SANM",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655369+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 155.63,
-      "lastPriceAt": "2026-11-10T20:23:00Z",
-      "unrealizedDollar": -6.47,
-      "unrealizedPct": -0.1157
+      "lastPrice": 155.875,
+      "lastPriceAt": "2026-11-10T20:25:00Z",
+      "unrealizedDollar": -15.29,
+      "unrealizedPct": -0.2733
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -2817,8 +2817,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T20:24:50.385717+00:00",
-    "lastCheckEt": "2026-11-10T15:24:50.384650-05:00",
+    "lastCheckAt": "2026-11-10T20:26:50.556629+00:00",
+    "lastCheckEt": "2026-11-10T15:26:50.543440-05:00",
     "status": "ok"
   }
 }
