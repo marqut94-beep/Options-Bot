@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-10T17:08:18.104064+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 75.06,
-      "lastPriceAt": "2026-11-10T20:04:00Z",
-      "unrealizedDollar": -46.2,
-      "unrealizedPct": -0.924
+      "lastPrice": 75.19,
+      "lastPriceAt": "2026-11-10T20:05:00Z",
+      "unrealizedDollar": -37.62,
+      "unrealizedPct": -0.7524
     },
     "AKAM_2026-11-10": {
       "symbol": "AKAM",
@@ -52,7 +52,7 @@
       "optionContracts": 21,
       "optionPricedVia": "trade",
       "lastPrice": 83.565,
-      "lastPriceAt": "2026-11-10T20:04:00Z",
+      "lastPriceAt": "2026-11-10T20:05:00Z",
       "unrealizedDollar": 68.62,
       "unrealizedPct": 1.3646
     },
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655369+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 156,
-      "lastPriceAt": "2026-11-10T20:04:00Z",
-      "unrealizedDollar": -19.79,
-      "unrealizedPct": -0.3537
+      "lastPrice": 155.94,
+      "lastPriceAt": "2026-11-10T20:05:00Z",
+      "unrealizedDollar": -17.63,
+      "unrealizedPct": -0.3151
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655415+00:00",
       "optionContracts": 47,
       "optionPricedVia": "trade",
-      "lastPrice": 18.615,
-      "lastPriceAt": "2026-11-10T20:03:00Z",
-      "unrealizedDollar": 196.08,
-      "unrealizedPct": 3.9226,
+      "lastPrice": 18.76,
+      "lastPriceAt": "2026-11-10T20:05:00Z",
+      "unrealizedDollar": 162.83,
+      "unrealizedPct": 3.2574,
       "partialExitPrice": 18.599999999999998,
       "partialExitTime": "2026-11-10T20:04:00Z",
       "partialDollarPnl": 20.15,
@@ -2809,8 +2809,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T20:05:50.417555+00:00",
-    "lastCheckEt": "2026-11-10T15:05:50.416383-05:00",
+    "lastCheckAt": "2026-11-10T20:06:50.436395+00:00",
+    "lastCheckEt": "2026-11-10T15:06:50.419050-05:00",
     "status": "ok"
   }
 }
