@@ -1977,5 +1977,16 @@
     "needsRobinhoodPricing": false,
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "NVDL_2026-11-10_exit_close_all_2026-11-10T20:11:51.868098+00:00",
+    "tradeId": "NVDL_2026-11-10",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-10T20:11:51.868103+00:00",
+    "symbol": "NVDL",
+    "optionSymbol": "NVDL261113P00019500",
+    "contracts": 42,
+    "needsRobinhoodPricing": false,
+    "reason": "floor"
   }
 ]
