@@ -1,5 +1,23 @@
 {
   "trades": {
+    "AMDL_2026-11-10": {
+      "symbol": "AMDL",
+      "date": "2026-11-10",
+      "direction": "long",
+      "entryTime": "2026-11-10T16:30:00Z",
+      "entryPrice": 49.99,
+      "shares": 1,
+      "convictionScore": 0.0022,
+      "allocDollar": 50.16,
+      "stopPrice": 48.4903,
+      "targetPrice": 51.9896,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0129,
+      "pctChangeAtScreen": 7.2747,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
       "date": "2026-11-10",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -4.2906,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 19.32,
-      "lastPriceAt": "2026-11-10T16:29:00Z",
-      "unrealizedDollar": 0.93,
-      "unrealizedPct": 1.5792
+      "lastPrice": 19.311,
+      "lastPriceAt": "2026-11-10T16:30:00Z",
+      "unrealizedDollar": 0.96,
+      "unrealizedPct": 1.6251
     },
     "AMDL_2026-11-09": {
       "symbol": "AMDL",
@@ -1013,8 +1031,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:30:12.923417+00:00",
-    "lastCheckEt": "2026-11-10T11:30:12.922965-05:00",
+    "lastCheckAt": "2026-11-10T16:31:13.014166+00:00",
+    "lastCheckEt": "2026-11-10T11:31:13.013644-05:00",
     "status": "ok"
   }
 }
