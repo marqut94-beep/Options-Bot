@@ -1988,5 +1988,38 @@
     "contracts": 42,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "AAON_2026-11-10_exit_close_all_2026-11-10T20:55:00.957978+00:00",
+    "tradeId": "AAON_2026-11-10",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-10T20:55:00.957982+00:00",
+    "symbol": "AAON",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "AKAM_2026-11-10_exit_close_all_2026-11-10T20:55:01.557627+00:00",
+    "tradeId": "AKAM_2026-11-10",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-10T20:55:01.557631+00:00",
+    "symbol": "AKAM",
+    "optionSymbol": "AKAM261113C00082000",
+    "contracts": 21,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "SANM_2026-11-10_exit_close_all_2026-11-10T20:55:01.921921+00:00",
+    "tradeId": "SANM_2026-11-10",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-10T20:55:01.921925+00:00",
+    "symbol": "SANM",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
