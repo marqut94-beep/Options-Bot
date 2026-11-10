@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SANM_2026-11-10": {
+      "symbol": "SANM",
+      "date": "2026-11-10",
+      "direction": "short",
+      "entryTime": "2026-11-10T16:04:00Z",
+      "entryPrice": 155.6,
+      "shares": 36,
+      "convictionScore": 0.0864,
+      "allocDollar": 5648.13,
+      "stopPrice": 160.268,
+      "targetPrice": 149.37599999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 3.037,
+      "pctChangeAtScreen": -6.4876,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-10T16:05:59.070906+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "FERG_2026-11-09": {
       "symbol": "FERG",
       "date": "2026-11-09",
@@ -2688,8 +2712,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:02:51.838648+00:00",
-    "lastCheckEt": "2026-11-10T11:02:51.809463-05:00",
+    "lastCheckAt": "2026-11-10T16:05:20.161815+00:00",
+    "lastCheckEt": "2026-11-10T11:05:20.160803-05:00",
     "status": "ok"
   }
 }
