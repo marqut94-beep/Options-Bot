@@ -4,13 +4,13 @@
       "symbol": "AKAM",
       "date": "2026-11-10",
       "direction": "long",
-      "entryTime": "2026-11-10T16:21:00Z",
-      "entryPrice": 82.33,
+      "entryTime": "2026-11-10T16:22:00Z",
+      "entryPrice": 82.44,
       "shares": 61,
       "convictionScore": 0.0001,
       "allocDollar": 5000.94,
-      "stopPrice": 79.8601,
-      "targetPrice": 85.6232,
+      "stopPrice": 79.96679999999999,
+      "targetPrice": 85.7376,
       "status": "open",
       "partialTaken": false,
       "relVol": 2.0015,
@@ -20,7 +20,7 @@
       "optionStrike": "82",
       "optionExpiration": "2026-11-13",
       "optionEntryPrice": 2.35,
-      "optionEntryTime": "2026-11-10T16:22:53.458838+00:00",
+      "optionEntryTime": "2026-11-10T16:23:17.986406+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade"
     },
@@ -2768,8 +2768,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:22:26.005643+00:00",
-    "lastCheckEt": "2026-11-10T11:22:25.980373-05:00",
+    "lastCheckAt": "2026-11-10T16:22:50.466418+00:00",
+    "lastCheckEt": "2026-11-10T11:22:50.425190-05:00",
     "status": "ok"
   }
 }
