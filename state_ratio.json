@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 7.2747,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 49.71,
-      "lastPriceAt": "2026-11-10T16:36:00Z",
-      "unrealizedDollar": -0.28,
-      "unrealizedPct": -0.5601
+      "lastPrice": 49.62,
+      "lastPriceAt": "2026-11-10T16:37:00Z",
+      "unrealizedDollar": -0.37,
+      "unrealizedPct": -0.7401
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": -4.2906,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 19.195,
-      "lastPriceAt": "2026-11-10T16:36:00Z",
-      "unrealizedDollar": 1.3,
-      "unrealizedPct": 2.216
+      "lastPrice": 19.165,
+      "lastPriceAt": "2026-11-10T16:37:00Z",
+      "unrealizedDollar": 1.39,
+      "unrealizedPct": 2.3688
     },
     "AMDL_2026-11-09": {
       "symbol": "AMDL",
@@ -1035,8 +1035,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:37:12.910326+00:00",
-    "lastCheckEt": "2026-11-10T11:37:12.909834-05:00",
+    "lastCheckAt": "2026-11-10T16:38:12.810056+00:00",
+    "lastCheckEt": "2026-11-10T11:38:12.793438-05:00",
     "status": "ok"
   }
 }
