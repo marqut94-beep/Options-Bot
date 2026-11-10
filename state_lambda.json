@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655369+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 156.815,
-      "lastPriceAt": "2026-11-10T16:16:00Z",
-      "unrealizedDollar": -49.13,
-      "unrealizedPct": -0.878
+      "lastPrice": 155.76,
+      "lastPriceAt": "2026-11-10T16:18:00Z",
+      "unrealizedDollar": -11.15,
+      "unrealizedPct": -0.1993
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655415+00:00",
       "optionContracts": 47,
       "optionPricedVia": "trade",
-      "lastPrice": 19.495,
-      "lastPriceAt": "2026-11-10T16:16:00Z",
-      "unrealizedDollar": -30.96,
-      "unrealizedPct": -0.6194
+      "lastPrice": 19.36,
+      "lastPriceAt": "2026-11-10T16:18:00Z",
+      "unrealizedDollar": 3.87,
+      "unrealizedPct": 0.0774
     },
     "FERG_2026-11-09": {
       "symbol": "FERG",
@@ -2744,8 +2744,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:17:50.468197+00:00",
-    "lastCheckEt": "2026-11-10T11:17:50.467131-05:00",
+    "lastCheckAt": "2026-11-10T16:19:50.652495+00:00",
+    "lastCheckEt": "2026-11-10T11:19:50.651430-05:00",
     "status": "ok"
   }
 }
