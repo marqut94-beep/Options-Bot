@@ -691,5 +691,13 @@
     "symbol": "NVDL",
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "NVDL_2026-11-10_exit_close_all_2026-11-10T19:09:13.149324+00:00",
+    "tradeId": "NVDL_2026-11-10",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-10T19:09:13.149328+00:00",
+    "symbol": "NVDL",
+    "reason": "floor"
   }
 ]
