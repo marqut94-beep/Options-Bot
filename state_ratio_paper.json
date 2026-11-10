@@ -11,7 +11,7 @@
       "allocDollar": 50.1,
       "stopPrice": 48.4903,
       "targetPrice": 51.9896,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0076,
       "pctChangeAtScreen": 7.6609,
@@ -20,7 +20,12 @@
       "lastPrice": 48.5405,
       "lastPriceAt": "2026-11-10T16:47:00Z",
       "unrealizedDollar": -1.45,
-      "unrealizedPct": -2.8996
+      "unrealizedPct": -2.8996,
+      "exitTime": "2026-11-10T16:49:50.537421+00:00",
+      "exitPrice": 48.4903,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.5
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -39,10 +44,10 @@
       "pctChangeAtScreen": -4.2906,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 18.9105,
-      "lastPriceAt": "2026-11-10T16:47:00Z",
-      "unrealizedDollar": 1.65,
-      "unrealizedPct": 2.8237
+      "lastPrice": 18.902,
+      "lastPriceAt": "2026-11-10T16:48:00Z",
+      "unrealizedDollar": 1.67,
+      "unrealizedPct": 2.8674
     },
     "AMDL_2026-11-09": {
       "symbol": "AMDL",
@@ -1031,8 +1036,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:48:50.017708+00:00",
-    "lastCheckEt": "2026-11-10T11:48:50.017236-05:00",
+    "lastCheckAt": "2026-11-10T16:49:50.276343+00:00",
+    "lastCheckEt": "2026-11-10T11:49:50.267789-05:00",
     "status": "ok"
   }
 }
