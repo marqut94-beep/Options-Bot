@@ -1911,24 +1911,24 @@
     "reason": "eod"
   },
   {
-    "id": "SANM_2026-11-10_entry_2026-11-10T16:06:28.655392+00:00",
+    "id": "SANM_2026-11-10_entry_2026-11-10T16:05:59.070933+00:00",
     "tradeId": "SANM_2026-11-10",
     "action": "entry",
-    "createdAt": "2026-11-10T16:06:28.655396+00:00",
+    "createdAt": "2026-11-10T16:05:59.070937+00:00",
     "symbol": "SANM",
     "direction": "short",
     "optionSymbol": null,
     "contracts": null,
     "optionEntryPriceAtScreen": null,
     "needsRobinhoodPricing": false,
-    "stockEntryPrice": 155.4502,
-    "allocDollar": 5668.3
+    "stockEntryPrice": 155.6,
+    "allocDollar": 5648.13
   },
   {
-    "id": "NVDL_2026-11-10_entry_2026-11-10T16:06:28.655423+00:00",
+    "id": "NVDL_2026-11-10_entry_2026-11-10T16:06:53.973600+00:00",
     "tradeId": "NVDL_2026-11-10",
     "action": "entry",
-    "createdAt": "2026-11-10T16:06:28.655426+00:00",
+    "createdAt": "2026-11-10T16:06:53.973605+00:00",
     "symbol": "NVDL",
     "direction": "short",
     "optionSymbol": "NVDL261113P00019500",
