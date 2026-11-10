@@ -1951,5 +1951,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 82.44,
     "allocDollar": 5000.94
+  },
+  {
+    "id": "AAON_2026-11-10_entry_2026-11-10T17:08:18.104089+00:00",
+    "tradeId": "AAON_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T17:08:18.104092+00:00",
+    "symbol": "AAON",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 75.76,
+    "allocDollar": 5016.77
   }
 ]
