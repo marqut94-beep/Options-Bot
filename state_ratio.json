@@ -39,7 +39,7 @@
       "stopPrice": 20.218899999999998,
       "targetPrice": 18.8448,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0057,
       "pctChangeAtScreen": -4.2906,
       "dataSource": "alpaca-sip",
@@ -47,7 +47,14 @@
       "lastPrice": 18.8705,
       "lastPriceAt": "2026-11-10T16:49:00Z",
       "unrealizedDollar": 2.28,
-      "unrealizedPct": 3.8691
+      "unrealizedPct": 3.8691,
+      "partialExitPrice": 18.8448,
+      "partialExitTime": "2026-11-10T16:50:00Z",
+      "partialDollarPnl": 0.79,
+      "sharesPartial": 1,
+      "sharesRemainder": 2,
+      "remainderFloor": 19.237399999999997,
+      "remainderTarget": 17.666999999999998
     },
     "AMDL_2026-11-09": {
       "symbol": "AMDL",
@@ -1040,8 +1047,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:50:12.980675+00:00",
-    "lastCheckEt": "2026-11-10T11:50:12.972082-05:00",
+    "lastCheckAt": "2026-11-10T16:51:13.135924+00:00",
+    "lastCheckEt": "2026-11-10T11:51:13.135442-05:00",
     "status": "ok"
   }
 }
