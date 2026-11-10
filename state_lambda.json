@@ -1,5 +1,29 @@
 {
   "trades": {
+    "AAON_2026-11-10": {
+      "symbol": "AAON",
+      "date": "2026-11-10",
+      "direction": "long",
+      "entryTime": "2026-11-10T17:07:00Z",
+      "entryPrice": 75.76,
+      "shares": 66,
+      "convictionScore": 0.0022,
+      "allocDollar": 5016.77,
+      "stopPrice": 73.4872,
+      "targetPrice": 78.7904,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0268,
+      "pctChangeAtScreen": 5.5625,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-10T17:08:18.104064+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "AKAM_2026-11-10": {
       "symbol": "AKAM",
       "date": "2026-11-10",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-10T16:23:17.986406+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 81.34,
-      "lastPriceAt": "2026-11-10T17:05:00Z",
-      "unrealizedDollar": -67.1,
-      "unrealizedPct": -1.3343
+      "lastPrice": 81.48,
+      "lastPriceAt": "2026-11-10T17:06:00Z",
+      "unrealizedDollar": -58.56,
+      "unrealizedPct": -1.1645
     },
     "SANM_2026-11-10": {
       "symbol": "SANM",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655369+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 152.425,
-      "lastPriceAt": "2026-11-10T17:05:00Z",
-      "unrealizedDollar": 108.91,
-      "unrealizedPct": 1.9461
+      "lastPrice": 152.865,
+      "lastPriceAt": "2026-11-10T17:06:00Z",
+      "unrealizedDollar": 93.07,
+      "unrealizedPct": 1.663
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -79,10 +103,10 @@
       "optionEntryTime": "2026-11-10T16:06:28.655415+00:00",
       "optionContracts": 47,
       "optionPricedVia": "trade",
-      "lastPrice": 18.82,
-      "lastPriceAt": "2026-11-10T17:05:00Z",
-      "unrealizedDollar": 143.19,
-      "unrealizedPct": 2.8645
+      "lastPrice": 18.78,
+      "lastPriceAt": "2026-11-10T17:06:00Z",
+      "unrealizedDollar": 153.51,
+      "unrealizedPct": 3.071
     },
     "FERG_2026-11-09": {
       "symbol": "FERG",
@@ -2772,8 +2796,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T17:06:50.738584+00:00",
-    "lastCheckEt": "2026-11-10T12:06:50.737521-05:00",
+    "lastCheckAt": "2026-11-10T17:07:50.417290+00:00",
+    "lastCheckEt": "2026-11-10T12:07:50.380053-05:00",
     "status": "ok"
   }
 }
