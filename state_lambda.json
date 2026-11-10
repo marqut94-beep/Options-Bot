@@ -11,7 +11,7 @@
       "allocDollar": 5016.77,
       "stopPrice": 73.4872,
       "targetPrice": 78.7904,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0268,
       "pctChangeAtScreen": 5.5625,
@@ -26,7 +26,12 @@
       "lastPrice": 75.64,
       "lastPriceAt": "2026-11-10T20:53:00Z",
       "unrealizedDollar": -7.92,
-      "unrealizedPct": -0.1584
+      "unrealizedPct": -0.1584,
+      "exitTime": "2026-11-10T20:55:00.957945+00:00",
+      "exitPrice": 75.64,
+      "exitReason": "eod",
+      "returnPct": -0.1584,
+      "dollarPnl": -7.92
     },
     "AKAM_2026-11-10": {
       "symbol": "AKAM",
@@ -39,7 +44,7 @@
       "allocDollar": 5000.94,
       "stopPrice": 79.96679999999999,
       "targetPrice": 85.7376,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0015,
       "pctChangeAtScreen": 3.5597,
@@ -54,7 +59,15 @@
       "lastPrice": 83.75,
       "lastPriceAt": "2026-11-10T20:53:00Z",
       "unrealizedDollar": 79.91,
-      "unrealizedPct": 1.589
+      "unrealizedPct": 1.589,
+      "optionExitPrice": 3.4,
+      "optionExitTime": "2026-11-10T20:55:01.557581+00:00",
+      "optionReturnPct": 44.6809,
+      "exitTime": "2026-11-10T20:55:01.557614+00:00",
+      "exitPrice": 83.75,
+      "exitReason": "eod",
+      "returnPct": 1.589,
+      "dollarPnl": 79.91
     },
     "SANM_2026-11-10": {
       "symbol": "SANM",
@@ -67,7 +80,7 @@
       "allocDollar": 5668.3,
       "stopPrice": 160.113706,
       "targetPrice": 149.232192,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.0693,
       "pctChangeAtScreen": -6.5776,
@@ -82,7 +95,12 @@
       "lastPrice": 155.03,
       "lastPriceAt": "2026-11-10T20:53:00Z",
       "unrealizedDollar": 15.13,
-      "unrealizedPct": 0.2703
+      "unrealizedPct": 0.2703,
+      "exitTime": "2026-11-10T20:55:01.921887+00:00",
+      "exitPrice": 155.03,
+      "exitReason": "eod",
+      "returnPct": 0.2703,
+      "dollarPnl": 15.13
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -2817,8 +2835,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T20:54:50.337691+00:00",
-    "lastCheckEt": "2026-11-10T15:54:50.336548-05:00",
+    "lastCheckAt": "2026-11-10T20:55:00.635705+00:00",
+    "lastCheckEt": "2026-11-10T15:55:00.634549-05:00",
     "status": "ok"
   }
 }
