@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -4.2906,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 19.25,
-      "lastPriceAt": "2026-11-10T16:23:00Z",
-      "unrealizedDollar": 0.63,
-      "unrealizedPct": 1.0791
+      "lastPrice": 19.135,
+      "lastPriceAt": "2026-11-10T16:26:00Z",
+      "unrealizedDollar": 0.97,
+      "unrealizedPct": 1.6701
     },
     "AMDL_2026-11-09": {
       "symbol": "AMDL",
@@ -1009,8 +1009,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:24:50.099605+00:00",
-    "lastCheckEt": "2026-11-10T11:24:50.099100-05:00",
+    "lastCheckAt": "2026-11-10T16:27:35.080115+00:00",
+    "lastCheckEt": "2026-11-10T11:27:35.079646-05:00",
     "status": "ok"
   }
 }
