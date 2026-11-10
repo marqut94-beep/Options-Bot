@@ -617,5 +617,14 @@
     "direction": "long",
     "stockEntryPrice": 49.99,
     "allocDollar": 50.1
+  },
+  {
+    "id": "NVDL_2026-11-10_exit_close_partial_2026-11-10T17:40:50.143825+00:00",
+    "tradeId": "NVDL_2026-11-10",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-10T17:40:50.143840+00:00",
+    "symbol": "NVDL",
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
