@@ -24,7 +24,11 @@
       "optionEntryPrice": 1.21,
       "optionEntryTime": "2026-11-10T20:11:43.849103+00:00",
       "optionContracts": 57,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 18.995,
+      "lastPriceAt": "2026-11-10T20:16:00Z",
+      "unrealizedDollar": 10.92,
+      "unrealizedPct": 0.1577
     },
     "AKAM_2026-11-10": {
       "symbol": "AKAM",
@@ -50,7 +54,11 @@
       "optionEntryPrice": 2.12,
       "optionEntryTime": "2026-11-10T20:11:43.849132+00:00",
       "optionContracts": 31,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 83.91,
+      "lastPriceAt": "2026-11-10T20:16:00Z",
+      "unrealizedDollar": -7.2,
+      "unrealizedPct": -0.1071
     },
     "AAON_2026-11-10": {
       "symbol": "AAON",
@@ -76,7 +84,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-10T20:11:43.849144+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 75.1375,
+      "lastPriceAt": "2026-11-10T20:16:00Z",
+      "unrealizedDollar": 1.78,
+      "unrealizedPct": 0.03
     },
     "NVDA_2026-11-10": {
       "symbol": "NVDA",
@@ -102,7 +114,11 @@
       "optionEntryPrice": 2.78,
       "optionEntryTime": "2026-11-10T20:11:43.849158+00:00",
       "optionContracts": 19,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 167.74,
+      "lastPriceAt": "2026-11-10T20:16:00Z",
+      "unrealizedDollar": 4.0,
+      "unrealizedPct": 0.0745
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2388,8 +2404,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T20:11:04.626011+00:00",
-    "lastCheckEt": "2026-11-10T15:11:04.625490-05:00",
+    "lastCheckAt": "2026-11-10T20:17:25.389034+00:00",
+    "lastCheckEt": "2026-11-10T15:17:25.388542-05:00",
     "status": "ok"
   }
 }
