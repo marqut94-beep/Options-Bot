@@ -1937,5 +1937,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 19.375,
     "allocDollar": 5000.86
+  },
+  {
+    "id": "AKAM_2026-11-10_entry_2026-11-10T16:22:53.458860+00:00",
+    "tradeId": "AKAM_2026-11-10",
+    "action": "entry",
+    "createdAt": "2026-11-10T16:22:53.458863+00:00",
+    "symbol": "AKAM",
+    "direction": "long",
+    "optionSymbol": "AKAM261113C00082000",
+    "contracts": 21,
+    "optionEntryPriceAtScreen": 2.35,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 82.33,
+    "allocDollar": 5000.94
   }
 ]
