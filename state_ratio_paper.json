@@ -1,5 +1,23 @@
 {
   "trades": {
+    "AMDL_2026-11-10": {
+      "symbol": "AMDL",
+      "date": "2026-11-10",
+      "direction": "long",
+      "entryTime": "2026-11-10T16:30:00Z",
+      "entryPrice": 49.99,
+      "shares": 1,
+      "convictionScore": 0.0013,
+      "allocDollar": 50.1,
+      "stopPrice": 48.4903,
+      "targetPrice": 51.9896,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0076,
+      "pctChangeAtScreen": 7.6609,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
       "date": "2026-11-10",
@@ -1009,8 +1027,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T16:30:14.594008+00:00",
-    "lastCheckEt": "2026-11-10T11:30:14.593541-05:00",
+    "lastCheckAt": "2026-11-10T16:30:50.098991+00:00",
+    "lastCheckEt": "2026-11-10T11:30:50.098539-05:00",
     "status": "ok"
   }
 }
