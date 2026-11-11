@@ -1,5 +1,23 @@
 {
   "trades": {
+    "NVDL_2026-11-11": {
+      "symbol": "NVDL",
+      "date": "2026-11-11",
+      "direction": "long",
+      "entryTime": "2026-11-11T15:57:00Z",
+      "entryPrice": 20.845,
+      "shares": 2,
+      "convictionScore": 0.0006,
+      "allocDollar": 50.04,
+      "stopPrice": 20.219649999999998,
+      "targetPrice": 21.6788,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0035,
+      "pctChangeAtScreen": 3.3978,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "PRAA_2026-11-10": {
       "symbol": "PRAA",
       "date": "2026-11-10",
@@ -1079,8 +1097,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T15:57:12.844491+00:00",
-    "lastCheckEt": "2026-11-11T10:57:12.844003-05:00",
+    "lastCheckAt": "2026-11-11T15:58:12.852593+00:00",
+    "lastCheckEt": "2026-11-11T10:58:12.852063-05:00",
     "status": "ok"
   }
 }
