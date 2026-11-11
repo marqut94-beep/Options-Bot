@@ -717,5 +717,15 @@
     "createdAt": "2026-11-10T20:55:13.162921+00:00",
     "symbol": "PRAA",
     "reason": "eod"
+  },
+  {
+    "id": "NVDL_2026-11-11_entry_2026-11-11T15:58:39.982638+00:00",
+    "tradeId": "NVDL_2026-11-11",
+    "action": "entry",
+    "createdAt": "2026-11-11T15:58:39.982650+00:00",
+    "symbol": "NVDL",
+    "direction": "long",
+    "stockEntryPrice": 20.845,
+    "allocDollar": 50.04
   }
 ]
