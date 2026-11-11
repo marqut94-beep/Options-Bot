@@ -2035,5 +2035,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 148.485,
     "allocDollar": 5003.11
+  },
+  {
+    "id": "GO_2026-11-11_entry_2026-11-11T19:47:53.125375+00:00",
+    "tradeId": "GO_2026-11-11",
+    "action": "entry",
+    "createdAt": "2026-11-11T19:47:53.125378+00:00",
+    "symbol": "GO",
+    "direction": "long",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 13.215,
+    "allocDollar": 5000.52
   }
 ]
