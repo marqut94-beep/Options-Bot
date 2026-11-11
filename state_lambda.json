@@ -24,7 +24,7 @@
       "optionContracts": null,
       "optionPricedVia": null,
       "lastPrice": 13.185,
-      "lastPriceAt": "2026-11-11T20:30:00Z",
+      "lastPriceAt": "2026-11-11T20:31:00Z",
       "unrealizedDollar": -11.34,
       "unrealizedPct": -0.227
     },
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-11T19:29:33.750275+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 148.87,
-      "lastPriceAt": "2026-11-11T20:30:00Z",
-      "unrealizedDollar": -13.09,
-      "unrealizedPct": -0.2593
+      "lastPrice": 148.625,
+      "lastPriceAt": "2026-11-11T20:31:00Z",
+      "unrealizedDollar": -4.76,
+      "unrealizedPct": -0.0943
     },
     "AAON_2026-11-10": {
       "symbol": "AAON",
@@ -2891,8 +2891,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T20:31:50.253738+00:00",
-    "lastCheckEt": "2026-11-11T15:31:50.252645-05:00",
+    "lastCheckAt": "2026-11-11T20:32:50.418760+00:00",
+    "lastCheckEt": "2026-11-11T15:32:50.417641-05:00",
     "status": "ok"
   }
 }
