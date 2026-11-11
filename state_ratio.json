@@ -11,7 +11,7 @@
       "allocDollar": 50.04,
       "stopPrice": 20.219649999999998,
       "targetPrice": 21.6788,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0035,
       "pctChangeAtScreen": 3.3978,
@@ -20,7 +20,12 @@
       "lastPrice": 20.51,
       "lastPriceAt": "2026-11-11T20:53:00Z",
       "unrealizedDollar": -0.67,
-      "unrealizedPct": -1.6071
+      "unrealizedPct": -1.6071,
+      "exitTime": "2026-11-11T20:55:13.090394+00:00",
+      "exitPrice": 20.435,
+      "exitReason": "eod",
+      "returnPct": -1.9669,
+      "dollarPnl": -0.82
     },
     "PRAA_2026-11-10": {
       "symbol": "PRAA",
@@ -1101,8 +1106,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T20:54:12.856196+00:00",
-    "lastCheckEt": "2026-11-11T15:54:12.855688-05:00",
+    "lastCheckAt": "2026-11-11T20:55:12.821978+00:00",
+    "lastCheckEt": "2026-11-11T15:55:12.821459-05:00",
     "status": "ok"
   }
 }
