@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ENS_2026-11-11": {
+      "symbol": "ENS",
+      "date": "2026-11-11",
+      "direction": "short",
+      "entryTime": "2026-11-11T19:27:00Z",
+      "entryPrice": 148.485,
+      "shares": 34,
+      "convictionScore": 0.0004,
+      "allocDollar": 5003.11,
+      "stopPrice": 152.93955000000003,
+      "targetPrice": 142.5456,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.005,
+      "pctChangeAtScreen": -4.9939,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-11T19:29:33.750275+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "AAON_2026-11-10": {
       "symbol": "AAON",
       "date": "2026-11-10",
@@ -2835,8 +2859,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T19:27:50.369866+00:00",
-    "lastCheckEt": "2026-11-11T14:27:50.368416-05:00",
+    "lastCheckAt": "2026-11-11T19:28:50.339049+00:00",
+    "lastCheckEt": "2026-11-11T14:28:50.337942-05:00",
     "status": "ok"
   }
 }
