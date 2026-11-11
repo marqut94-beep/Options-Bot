@@ -13,7 +13,7 @@
       "allocDollar": 6929.63,
       "stopPrice": 19.59575,
       "targetPrice": 18.264,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 5.0874,
       "pctChangeAtScreen": -7.2404,
@@ -28,7 +28,18 @@
       "lastPrice": 18.995,
       "lastPriceAt": "2026-11-10T20:16:00Z",
       "unrealizedDollar": 10.92,
-      "unrealizedPct": 0.1577
+      "unrealizedPct": 0.1577,
+      "optionExitPrice": 0.9,
+      "optionExitTime": "2026-11-11T00:39:14.970734+00:00",
+      "optionReturnPct": -25.6198,
+      "exitTime": "2026-11-11T00:39:14.970756+00:00",
+      "exitPrice": 19.5957,
+      "exitReason": "stop",
+      "returnPct": -3.4527,
+      "fillBasis": "level",
+      "grossDollarPnl": -207.75,
+      "costDollar": 31.35,
+      "dollarPnl": -239.1
     },
     "AKAM_2026-11-10": {
       "symbol": "AKAM",
@@ -43,7 +54,7 @@
       "allocDollar": 6734.33,
       "stopPrice": 81.48,
       "targetPrice": 87.36,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 4.7749,
       "pctChangeAtScreen": 5.5535,
@@ -58,7 +69,17 @@
       "lastPrice": 83.91,
       "lastPriceAt": "2026-11-10T20:16:00Z",
       "unrealizedDollar": -7.2,
-      "unrealizedPct": -0.1071
+      "unrealizedPct": -0.1071,
+      "optionExitPrice": 1.95,
+      "optionExitTime": "2026-11-11T00:39:15.058051+00:00",
+      "optionReturnPct": -8.0189,
+      "grossDollarPnl": -182.83,
+      "costDollar": 26.93,
+      "exitTime": "2026-11-11T00:39:15.058072+00:00",
+      "exitPrice": 81.7146,
+      "exitReason": "eod",
+      "returnPct": -3.1214,
+      "dollarPnl": -209.76
     },
     "AAON_2026-11-10": {
       "symbol": "AAON",
@@ -73,7 +94,7 @@
       "allocDollar": 5935.01,
       "stopPrice": 72.86155,
       "targetPrice": 78.11959999999999,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.496,
       "pctChangeAtScreen": 4.8234,
@@ -88,7 +109,14 @@
       "lastPrice": 75.1375,
       "lastPriceAt": "2026-11-10T20:16:00Z",
       "unrealizedDollar": 1.78,
-      "unrealizedPct": 0.03
+      "unrealizedPct": 0.03,
+      "grossDollarPnl": -48.58,
+      "costDollar": 24.09,
+      "exitTime": "2026-11-11T00:39:15.130749+00:00",
+      "exitPrice": 74.5,
+      "exitReason": "eod",
+      "returnPct": -1.2246,
+      "dollarPnl": -72.67
     },
     "NVDA_2026-11-10": {
       "symbol": "NVDA",
@@ -103,7 +131,7 @@
       "allocDollar": 5401.03,
       "stopPrice": 172.90095000000002,
       "targetPrice": 161.1504,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.9009,
       "pctChangeAtScreen": -3.5092,
@@ -118,7 +146,17 @@
       "lastPrice": 167.74,
       "lastPriceAt": "2026-11-10T20:16:00Z",
       "unrealizedDollar": 4.0,
-      "unrealizedPct": 0.0745
+      "unrealizedPct": 0.0745,
+      "optionExitPrice": 2.22,
+      "optionExitTime": "2026-11-11T00:39:15.204524+00:00",
+      "optionReturnPct": -20.1439,
+      "grossDollarPnl": -82.82,
+      "costDollar": 21.66,
+      "exitTime": "2026-11-11T00:39:15.204543+00:00",
+      "exitPrice": 170.4531,
+      "exitReason": "eod",
+      "returnPct": -1.945,
+      "dollarPnl": -104.48
     },
     "IRTC_2026-11-06": {
       "symbol": "IRTC",
@@ -2404,8 +2442,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-10T20:17:25.389034+00:00",
-    "lastCheckEt": "2026-11-10T15:17:25.388542-05:00",
+    "lastCheckAt": "2026-11-11T00:39:14.871421+00:00",
+    "lastCheckEt": "2026-11-10T19:39:14.870892-05:00",
     "status": "ok"
   }
 }
