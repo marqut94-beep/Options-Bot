@@ -1397,5 +1397,19 @@
     "contracts": 19,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "ENS_2026-11-11_entry_2026-11-11T19:59:59.571137+00:00",
+    "tradeId": "ENS_2026-11-11",
+    "action": "entry",
+    "createdAt": "2026-11-11T19:59:59.571139+00:00",
+    "symbol": "ENS",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 148.67,
+    "allocDollar": 5158.16
   }
 ]

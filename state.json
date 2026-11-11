@@ -1,5 +1,31 @@
 {
   "trades": {
+    "ENS_2026-11-11": {
+      "symbol": "ENS",
+      "date": "2026-11-11",
+      "direction": "short",
+      "entryTime": "2026-11-11T19:58:00Z",
+      "entryPrice": 148.67,
+      "shares": 35,
+      "signalTime": "2026-11-11T14:35:00Z",
+      "signalAgeMinutes": 325.0,
+      "convictionScore": 0.0211,
+      "allocDollar": 5158.16,
+      "stopPrice": 153.1301,
+      "targetPrice": 142.7232,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.2531,
+      "pctChangeAtScreen": -4.8756,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-11T19:59:59.571121+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
       "date": "2026-11-10",
@@ -2442,8 +2468,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T00:42:39.031991+00:00",
-    "lastCheckEt": "2026-11-10T19:42:39.031343-05:00",
+    "lastCheckAt": "2026-11-11T19:59:14.813834+00:00",
+    "lastCheckEt": "2026-11-11T14:59:14.813207-05:00",
     "status": "ok"
   }
 }
