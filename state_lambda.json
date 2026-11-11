@@ -11,7 +11,7 @@
       "allocDollar": 5000.52,
       "stopPrice": 12.81855,
       "targetPrice": 13.7436,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0008,
       "pctChangeAtScreen": 3.4442,
@@ -26,7 +26,12 @@
       "lastPrice": 12.965,
       "lastPriceAt": "2026-11-11T20:53:00Z",
       "unrealizedDollar": -94.5,
-      "unrealizedPct": -1.8918
+      "unrealizedPct": -1.8918,
+      "exitTime": "2026-11-11T20:55:50.586922+00:00",
+      "exitPrice": 13.065,
+      "exitReason": "eod",
+      "returnPct": -1.1351,
+      "dollarPnl": -56.7
     },
     "ENS_2026-11-11": {
       "symbol": "ENS",
@@ -39,7 +44,7 @@
       "allocDollar": 5003.11,
       "stopPrice": 152.93955000000003,
       "targetPrice": 142.5456,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.005,
       "pctChangeAtScreen": -4.9939,
@@ -54,7 +59,12 @@
       "lastPrice": 148.7231,
       "lastPriceAt": "2026-11-11T20:53:00Z",
       "unrealizedDollar": -8.1,
-      "unrealizedPct": -0.1604
+      "unrealizedPct": -0.1604,
+      "exitTime": "2026-11-11T20:55:50.799083+00:00",
+      "exitPrice": 148.92,
+      "exitReason": "eod",
+      "returnPct": -0.293,
+      "dollarPnl": -14.79
     },
     "AAON_2026-11-10": {
       "symbol": "AAON",
@@ -2891,8 +2901,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T20:54:50.267031+00:00",
-    "lastCheckEt": "2026-11-11T15:54:50.265900-05:00",
+    "lastCheckAt": "2026-11-11T20:55:50.354838+00:00",
+    "lastCheckEt": "2026-11-11T15:55:50.353715-05:00",
     "status": "ok"
   }
 }
