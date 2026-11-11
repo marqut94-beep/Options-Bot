@@ -1,5 +1,31 @@
 {
   "trades": {
+    "GO_2026-11-11": {
+      "symbol": "GO",
+      "date": "2026-11-11",
+      "direction": "long",
+      "entryTime": "2026-11-11T20:01:00Z",
+      "entryPrice": 13.185,
+      "shares": 389,
+      "signalTime": "2026-11-11T14:44:00Z",
+      "signalAgeMinutes": 319.0,
+      "convictionScore": 0.0168,
+      "allocDollar": 5126.35,
+      "stopPrice": 12.78945,
+      "targetPrice": 13.7124,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.2022,
+      "pctChangeAtScreen": 3.2094,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-11T20:02:58.793541+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "ENS_2026-11-11": {
       "symbol": "ENS",
       "date": "2026-11-11",
@@ -24,7 +50,11 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-11T19:59:59.571121+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 148.59,
+      "lastPriceAt": "2026-11-11T20:00:00Z",
+      "unrealizedDollar": 2.8,
+      "unrealizedPct": 0.0538
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -2468,8 +2498,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T19:59:14.813834+00:00",
-    "lastCheckEt": "2026-11-11T14:59:14.813207-05:00",
+    "lastCheckAt": "2026-11-11T20:01:50.015153+00:00",
+    "lastCheckEt": "2026-11-11T15:01:50.014485-05:00",
     "status": "ok"
   }
 }
