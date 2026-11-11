@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-11T19:47:53.125351+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 13.155,
-      "lastPriceAt": "2026-11-11T20:12:00Z",
-      "unrealizedDollar": -22.68,
-      "unrealizedPct": -0.454
+      "lastPrice": 13.135,
+      "lastPriceAt": "2026-11-11T20:13:00Z",
+      "unrealizedDollar": -30.24,
+      "unrealizedPct": -0.6054
     },
     "ENS_2026-11-11": {
       "symbol": "ENS",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-11T19:29:33.750275+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 149.405,
-      "lastPriceAt": "2026-11-11T20:12:00Z",
-      "unrealizedDollar": -31.28,
-      "unrealizedPct": -0.6196
+      "lastPrice": 149.65,
+      "lastPriceAt": "2026-11-11T20:13:00Z",
+      "unrealizedDollar": -39.61,
+      "unrealizedPct": -0.7846
     },
     "AAON_2026-11-10": {
       "symbol": "AAON",
@@ -2891,8 +2891,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T20:13:50.261875+00:00",
-    "lastCheckEt": "2026-11-11T15:13:50.236619-05:00",
+    "lastCheckAt": "2026-11-11T20:14:41.894358+00:00",
+    "lastCheckEt": "2026-11-11T15:14:41.893651-05:00",
     "status": "ok"
   }
 }
