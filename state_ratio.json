@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 3.3978,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 21.12,
-      "lastPriceAt": "2026-11-11T17:37:00Z",
-      "unrealizedDollar": 0.55,
-      "unrealizedPct": 1.3193
+      "lastPrice": 21.1085,
+      "lastPriceAt": "2026-11-11T17:38:00Z",
+      "unrealizedDollar": 0.53,
+      "unrealizedPct": 1.2641
     },
     "PRAA_2026-11-10": {
       "symbol": "PRAA",
@@ -1101,8 +1101,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T17:38:12.954637+00:00",
-    "lastCheckEt": "2026-11-11T12:38:12.954128-05:00",
+    "lastCheckAt": "2026-11-11T17:39:12.818718+00:00",
+    "lastCheckEt": "2026-11-11T12:39:12.818192-05:00",
     "status": "ok"
   }
 }
