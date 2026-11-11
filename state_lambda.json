@@ -1,5 +1,29 @@
 {
   "trades": {
+    "GO_2026-11-11": {
+      "symbol": "GO",
+      "date": "2026-11-11",
+      "direction": "long",
+      "entryTime": "2026-11-11T19:46:00Z",
+      "entryPrice": 13.215,
+      "shares": 378,
+      "convictionScore": 0.0001,
+      "allocDollar": 5000.52,
+      "stopPrice": 12.81855,
+      "targetPrice": 13.7436,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0008,
+      "pctChangeAtScreen": 3.4442,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-11T19:47:53.125351+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "ENS_2026-11-11": {
       "symbol": "ENS",
       "date": "2026-11-11",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-11T19:29:33.750275+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 148.58,
-      "lastPriceAt": "2026-11-11T19:43:00Z",
-      "unrealizedDollar": -3.23,
-      "unrealizedPct": -0.064
+      "lastPrice": 148.755,
+      "lastPriceAt": "2026-11-11T19:45:00Z",
+      "unrealizedDollar": -9.18,
+      "unrealizedPct": -0.1818
     },
     "AAON_2026-11-10": {
       "symbol": "AAON",
@@ -2863,8 +2887,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T19:45:50.436514+00:00",
-    "lastCheckEt": "2026-11-11T14:45:50.403166-05:00",
+    "lastCheckAt": "2026-11-11T19:46:50.377205+00:00",
+    "lastCheckEt": "2026-11-11T14:46:50.376009-05:00",
     "status": "ok"
   }
 }
