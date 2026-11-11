@@ -4,25 +4,29 @@
       "symbol": "GO",
       "date": "2026-11-11",
       "direction": "long",
-      "entryTime": "2026-11-11T19:47:00Z",
-      "entryPrice": 13.225,
-      "shares": 379,
-      "convictionScore": 0.001,
-      "allocDollar": 5007.43,
-      "stopPrice": 12.828249999999999,
-      "targetPrice": 13.754,
+      "entryTime": "2026-11-11T19:46:00Z",
+      "entryPrice": 13.215,
+      "shares": 378,
+      "convictionScore": 0.0001,
+      "allocDollar": 5000.52,
+      "stopPrice": 12.81855,
+      "targetPrice": 13.7436,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0119,
-      "pctChangeAtScreen": 3.5225,
+      "relVol": 2.0008,
+      "pctChangeAtScreen": 3.4442,
       "dataSource": "alpaca-sip",
       "optionSymbol": null,
       "optionStrike": null,
       "optionExpiration": null,
       "optionEntryPrice": null,
-      "optionEntryTime": "2026-11-11T19:48:49.657232+00:00",
+      "optionEntryTime": "2026-11-11T19:47:53.125351+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "lastPrice": 13.225,
+      "lastPriceAt": "2026-11-11T19:47:00Z",
+      "unrealizedDollar": 3.78,
+      "unrealizedPct": 0.0757
     },
     "ENS_2026-11-11": {
       "symbol": "ENS",
@@ -47,10 +51,10 @@
       "optionEntryTime": "2026-11-11T19:29:33.750275+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 148.755,
-      "lastPriceAt": "2026-11-11T19:45:00Z",
-      "unrealizedDollar": -9.18,
-      "unrealizedPct": -0.1818
+      "lastPrice": 149.2,
+      "lastPriceAt": "2026-11-11T19:47:00Z",
+      "unrealizedDollar": -24.31,
+      "unrealizedPct": -0.4815
     },
     "AAON_2026-11-10": {
       "symbol": "AAON",
@@ -2887,8 +2891,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T19:47:50.386755+00:00",
-    "lastCheckEt": "2026-11-11T14:47:50.385496-05:00",
+    "lastCheckAt": "2026-11-11T19:48:50.403479+00:00",
+    "lastCheckEt": "2026-11-11T14:48:50.394291-05:00",
     "status": "ok"
   }
 }
