@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-12T20:21:53.662503+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 61.6,
-      "lastPriceAt": "2026-11-12T20:37:00Z",
-      "unrealizedDollar": -63.2,
-      "unrealizedPct": -1.2662
+      "lastPrice": 61.85,
+      "lastPriceAt": "2026-11-12T20:38:00Z",
+      "unrealizedDollar": -43.2,
+      "unrealizedPct": -0.8655
     },
     "YETI_2026-11-12": {
       "symbol": "YETI",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-12T19:40:39.151037+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 38.3615,
-      "lastPriceAt": "2026-11-12T20:37:00Z",
-      "unrealizedDollar": 38.99,
-      "unrealizedPct": 0.605
+      "lastPrice": 38.4,
+      "lastPriceAt": "2026-11-12T20:38:00Z",
+      "unrealizedDollar": 32.57,
+      "unrealizedPct": 0.5052
     },
     "NVDA_2026-11-12": {
       "symbol": "NVDA",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-12T15:20:49.861465+00:00",
       "optionContracts": 11,
       "optionPricedVia": "trade",
-      "lastPrice": 163.475,
-      "lastPriceAt": "2026-11-12T20:37:00Z",
-      "unrealizedDollar": -6.36,
-      "unrealizedPct": -0.1252
+      "lastPrice": 164.095,
+      "lastPriceAt": "2026-11-12T20:38:00Z",
+      "unrealizedDollar": 12.86,
+      "unrealizedPct": 0.2535
     },
     "NVDL_2026-11-12": {
       "symbol": "NVDL",
@@ -3026,8 +3026,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-12T20:38:50.900199+00:00",
-    "lastCheckEt": "2026-11-12T15:38:50.899042-05:00",
+    "lastCheckAt": "2026-11-12T20:39:50.419022+00:00",
+    "lastCheckEt": "2026-11-12T15:39:50.417838-05:00",
     "status": "ok"
   }
 }
