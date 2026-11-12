@@ -11,7 +11,7 @@
       "allocDollar": 65.53,
       "stopPrice": 39.73225,
       "targetPrice": 37.032000000000004,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 3.2421,
       "pctChangeAtScreen": -3.0535,
@@ -20,7 +20,12 @@
       "lastPrice": 38.345,
       "lastPriceAt": "2026-11-12T20:53:00Z",
       "unrealizedDollar": 0.46,
-      "unrealizedPct": 0.5962
+      "unrealizedPct": 0.5962,
+      "exitTime": "2026-11-12T20:55:50.159238+00:00",
+      "exitPrice": 38.355,
+      "exitReason": "eod",
+      "returnPct": 0.5703,
+      "dollarPnl": 0.44
     },
     "NVDL_2026-11-12": {
       "symbol": "NVDL",
@@ -1158,8 +1163,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-12T20:54:50.014064+00:00",
-    "lastCheckEt": "2026-11-12T15:54:50.013554-05:00",
+    "lastCheckAt": "2026-11-12T20:55:49.905424+00:00",
+    "lastCheckEt": "2026-11-12T15:55:49.904888-05:00",
     "status": "ok"
   }
 }
