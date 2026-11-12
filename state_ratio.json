@@ -1,23 +1,5 @@
 {
   "trades": {
-    "YETI_2026-11-12": {
-      "symbol": "YETI",
-      "date": "2026-11-12",
-      "direction": "short",
-      "entryTime": "2026-11-12T19:39:00Z",
-      "entryPrice": 38.595,
-      "shares": 2,
-      "convictionScore": 0.1967,
-      "allocDollar": 64.76,
-      "stopPrice": 39.75285,
-      "targetPrice": 37.051199999999994,
-      "status": "open",
-      "partialTaken": false,
-      "relVol": 3.1804,
-      "pctChangeAtScreen": -3.0033,
-      "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
-    },
     "NVDL_2026-11-12": {
       "symbol": "NVDL",
       "date": "2026-11-12",
@@ -1158,8 +1140,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-12T19:39:12.866939+00:00",
-    "lastCheckEt": "2026-11-12T14:39:12.866412-05:00",
+    "lastCheckAt": "2026-11-12T19:40:12.847935+00:00",
+    "lastCheckEt": "2026-11-12T14:40:12.847407-05:00",
     "status": "ok"
   }
 }
