@@ -2150,5 +2150,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 62.39,
     "allocDollar": 5005.93
+  },
+  {
+    "id": "AMDL_2026-11-12_exit_close_all_2026-11-12T20:56:50.900566+00:00",
+    "tradeId": "AMDL_2026-11-12",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-12T20:56:50.900570+00:00",
+    "symbol": "AMDL",
+    "optionSymbol": "AMDL261113C00062500",
+    "contracts": 20,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "YETI_2026-11-12_exit_close_all_2026-11-12T20:56:51.130985+00:00",
+    "tradeId": "YETI_2026-11-12",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-12T20:56:51.130990+00:00",
+    "symbol": "YETI",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "NVDA_2026-11-12_exit_close_all_2026-11-12T20:56:51.568545+00:00",
+    "tradeId": "NVDA_2026-11-12",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-12T20:56:51.568548+00:00",
+    "symbol": "NVDA",
+    "optionSymbol": "NVDA261113C00162500",
+    "contracts": 11,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
