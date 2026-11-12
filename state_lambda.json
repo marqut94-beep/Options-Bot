@@ -7,26 +7,22 @@
       "entryTime": "2026-11-12T20:20:00Z",
       "entryPrice": 62.39,
       "shares": 80,
-      "convictionScore": 0.0005,
-      "allocDollar": 5003.92,
+      "convictionScore": 0.0008,
+      "allocDollar": 5005.93,
       "stopPrice": 60.518299999999996,
       "targetPrice": 64.8856,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.0063,
-      "pctChangeAtScreen": 4.6257,
+      "relVol": 2.0095,
+      "pctChangeAtScreen": 4.7941,
       "dataSource": "alpaca-sip",
       "optionSymbol": "AMDL261113C00062500",
       "optionStrike": "62.5",
       "optionExpiration": "2026-11-13",
       "optionEntryPrice": 2.45,
-      "optionEntryTime": "2026-11-12T20:21:17.991645+00:00",
+      "optionEntryTime": "2026-11-12T20:21:53.662503+00:00",
       "optionContracts": 20,
-      "optionPricedVia": "trade",
-      "lastPrice": 62.39,
-      "lastPriceAt": "2026-11-12T20:20:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0
+      "optionPricedVia": "trade"
     },
     "YETI_2026-11-12": {
       "symbol": "YETI",
@@ -51,10 +47,10 @@
       "optionEntryTime": "2026-11-12T19:40:39.151037+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 38.295,
-      "lastPriceAt": "2026-11-12T20:20:00Z",
-      "unrealizedDollar": 50.1,
-      "unrealizedPct": 0.7773
+      "lastPrice": 38.365,
+      "lastPriceAt": "2026-11-12T20:19:00Z",
+      "unrealizedDollar": 38.41,
+      "unrealizedPct": 0.5959
     },
     "NVDA_2026-11-12": {
       "symbol": "NVDA",
@@ -79,10 +75,10 @@
       "optionEntryTime": "2026-11-12T15:20:49.861465+00:00",
       "optionContracts": 11,
       "optionPricedVia": "trade",
-      "lastPrice": 164.6341,
-      "lastPriceAt": "2026-11-12T20:20:00Z",
-      "unrealizedDollar": 29.58,
-      "unrealizedPct": 0.5829
+      "lastPrice": 164.65,
+      "lastPriceAt": "2026-11-12T20:19:00Z",
+      "unrealizedDollar": 30.07,
+      "unrealizedPct": 0.5926
     },
     "NVDL_2026-11-12": {
       "symbol": "NVDL",
@@ -3026,8 +3022,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-12T20:21:50.317271+00:00",
-    "lastCheckEt": "2026-11-12T15:21:50.283963-05:00",
+    "lastCheckAt": "2026-11-12T20:20:50.396966+00:00",
+    "lastCheckEt": "2026-11-12T15:20:50.395810-05:00",
     "status": "ok"
   }
 }
