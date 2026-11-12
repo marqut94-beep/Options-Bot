@@ -2108,5 +2108,19 @@
     "contracts": 27,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "NVDA_2026-11-12_entry_2026-11-12T15:20:49.861488+00:00",
+    "tradeId": "NVDA_2026-11-12",
+    "action": "entry",
+    "createdAt": "2026-11-12T15:20:49.861492+00:00",
+    "symbol": "NVDA",
+    "direction": "long",
+    "optionSymbol": "NVDA261113C00162500",
+    "contracts": 11,
+    "optionEntryPriceAtScreen": 4.45,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 163.68,
+    "allocDollar": 5011.18
   }
 ]
