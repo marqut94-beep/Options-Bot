@@ -2122,5 +2122,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 163.68,
     "allocDollar": 5011.18
+  },
+  {
+    "id": "YETI_2026-11-12_entry_2026-11-12T19:40:08.822709+00:00",
+    "tradeId": "YETI_2026-11-12",
+    "action": "entry",
+    "createdAt": "2026-11-12T19:40:08.822713+00:00",
+    "symbol": "YETI",
+    "direction": "short",
+    "optionSymbol": null,
+    "contracts": null,
+    "optionEntryPriceAtScreen": null,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 38.595,
+    "allocDollar": 6437.2
   }
 ]
