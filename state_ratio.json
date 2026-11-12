@@ -7,16 +7,20 @@
       "entryTime": "2026-11-12T14:35:00Z",
       "entryPrice": 16.345,
       "shares": 4,
-      "convictionScore": 0.1292,
-      "allocDollar": 59.69,
+      "convictionScore": 0.1115,
+      "allocDollar": 58.37,
       "stopPrice": 15.854649999999998,
       "targetPrice": 16.9988,
       "status": "open",
       "partialTaken": false,
-      "relVol": 2.7754,
-      "pctChangeAtScreen": 8.713,
+      "relVol": 2.6692,
+      "pctChangeAtScreen": 8.151,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 16.8,
+      "lastPriceAt": "2026-11-12T14:36:00Z",
+      "unrealizedDollar": 1.82,
+      "unrealizedPct": 2.7837
     },
     "NVDL_2026-11-11": {
       "symbol": "NVDL",
@@ -1124,8 +1128,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-12T14:36:12.946697+00:00",
-    "lastCheckEt": "2026-11-12T09:36:12.934067-05:00",
+    "lastCheckAt": "2026-11-12T14:37:12.874563+00:00",
+    "lastCheckEt": "2026-11-12T09:37:12.874035-05:00",
     "status": "ok"
   }
 }
