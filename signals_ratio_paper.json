@@ -697,5 +697,15 @@
     "createdAt": "2026-11-12T14:40:50.233874+00:00",
     "symbol": "NVDL",
     "reason": "floor"
+  },
+  {
+    "id": "YETI_2026-11-12_entry_2026-11-12T19:46:20.102406+00:00",
+    "tradeId": "YETI_2026-11-12",
+    "action": "entry",
+    "createdAt": "2026-11-12T19:46:20.102420+00:00",
+    "symbol": "YETI",
+    "direction": "short",
+    "stockEntryPrice": 38.575,
+    "allocDollar": 65.53
   }
 ]
