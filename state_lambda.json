@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-12T19:40:39.151037+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 38.315,
-      "lastPriceAt": "2026-11-12T20:09:00Z",
-      "unrealizedDollar": 46.76,
-      "unrealizedPct": 0.7255
+      "lastPrice": 38.31,
+      "lastPriceAt": "2026-11-12T20:10:00Z",
+      "unrealizedDollar": 47.59,
+      "unrealizedPct": 0.7384
     },
     "NVDA_2026-11-12": {
       "symbol": "NVDA",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-12T15:20:49.861465+00:00",
       "optionContracts": 11,
       "optionPricedVia": "trade",
-      "lastPrice": 164.08,
-      "lastPriceAt": "2026-11-12T20:09:00Z",
-      "unrealizedDollar": 12.4,
-      "unrealizedPct": 0.2444
+      "lastPrice": 164.005,
+      "lastPriceAt": "2026-11-12T20:10:00Z",
+      "unrealizedDollar": 10.07,
+      "unrealizedPct": 0.1986
     },
     "NVDL_2026-11-12": {
       "symbol": "NVDL",
@@ -2998,8 +2998,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-12T20:10:50.393860+00:00",
-    "lastCheckEt": "2026-11-12T15:10:50.392695-05:00",
+    "lastCheckAt": "2026-11-12T20:11:50.479608+00:00",
+    "lastCheckEt": "2026-11-12T15:11:50.458303-05:00",
     "status": "ok"
   }
 }
