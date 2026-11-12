@@ -707,5 +707,13 @@
     "direction": "short",
     "stockEntryPrice": 38.575,
     "allocDollar": 65.53
+  },
+  {
+    "id": "YETI_2026-11-12_exit_close_all_2026-11-12T20:55:50.159269+00:00",
+    "tradeId": "YETI_2026-11-12",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-12T20:55:50.159273+00:00",
+    "symbol": "YETI",
+    "reason": "eod"
   }
 ]
