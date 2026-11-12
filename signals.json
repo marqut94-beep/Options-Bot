@@ -1425,5 +1425,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 13.185,
     "allocDollar": 5126.35
+  },
+  {
+    "id": "GO_2026-11-11_exit_close_all_2026-11-12T01:50:42.432913+00:00",
+    "tradeId": "GO_2026-11-11",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-12T01:50:42.432915+00:00",
+    "symbol": "GO",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
+  },
+  {
+    "id": "ENS_2026-11-11_exit_close_all_2026-11-12T01:50:42.585827+00:00",
+    "tradeId": "ENS_2026-11-11",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-12T01:50:42.585829+00:00",
+    "symbol": "ENS",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]

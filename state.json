@@ -13,7 +13,7 @@
       "allocDollar": 5126.35,
       "stopPrice": 12.78945,
       "targetPrice": 13.7124,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.2022,
       "pctChangeAtScreen": 3.2094,
@@ -24,7 +24,15 @@
       "optionEntryPrice": null,
       "optionEntryTime": "2026-11-11T20:02:58.793541+00:00",
       "optionContracts": null,
-      "optionPricedVia": null
+      "optionPricedVia": null,
+      "exitTime": "2026-11-12T01:50:42.432896+00:00",
+      "exitPrice": 12.7568,
+      "exitReason": "stop",
+      "returnPct": -3.7113,
+      "fillBasis": "gap_open",
+      "grossDollarPnl": -166.57,
+      "costDollar": 23.78,
+      "dollarPnl": -190.35
     },
     "ENS_2026-11-11": {
       "symbol": "ENS",
@@ -39,7 +47,7 @@
       "allocDollar": 5158.16,
       "stopPrice": 153.1301,
       "targetPrice": 142.7232,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.2531,
       "pctChangeAtScreen": -4.8756,
@@ -54,7 +62,14 @@
       "lastPrice": 148.59,
       "lastPriceAt": "2026-11-11T20:00:00Z",
       "unrealizedDollar": 2.8,
-      "unrealizedPct": 0.0538
+      "unrealizedPct": 0.0538,
+      "grossDollarPnl": 58.45,
+      "costDollar": 20.75,
+      "exitTime": "2026-11-12T01:50:42.585811+00:00",
+      "exitPrice": 147,
+      "exitReason": "eod",
+      "returnPct": 0.7245,
+      "dollarPnl": 37.7
     },
     "NVDL_2026-11-10": {
       "symbol": "NVDL",
@@ -2498,8 +2513,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-11T20:01:50.015153+00:00",
-    "lastCheckEt": "2026-11-11T15:01:50.014485-05:00",
+    "lastCheckAt": "2026-11-12T01:50:42.330716+00:00",
+    "lastCheckEt": "2026-11-11T20:50:42.330198-05:00",
     "status": "ok"
   }
 }
