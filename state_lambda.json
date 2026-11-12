@@ -1,5 +1,29 @@
 {
   "trades": {
+    "AMDL_2026-11-12": {
+      "symbol": "AMDL",
+      "date": "2026-11-12",
+      "direction": "long",
+      "entryTime": "2026-11-12T20:20:00Z",
+      "entryPrice": 62.39,
+      "shares": 80,
+      "convictionScore": 0.0005,
+      "allocDollar": 5003.92,
+      "stopPrice": 60.518299999999996,
+      "targetPrice": 64.8856,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0063,
+      "pctChangeAtScreen": 4.6257,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "AMDL261113C00062500",
+      "optionStrike": "62.5",
+      "optionExpiration": "2026-11-13",
+      "optionEntryPrice": 2.45,
+      "optionEntryTime": "2026-11-12T20:21:17.991645+00:00",
+      "optionContracts": 20,
+      "optionPricedVia": "trade"
+    },
     "YETI_2026-11-12": {
       "symbol": "YETI",
       "date": "2026-11-12",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-12T19:40:39.151037+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 38.335,
-      "lastPriceAt": "2026-11-12T20:17:00Z",
-      "unrealizedDollar": 43.42,
-      "unrealizedPct": 0.6737
+      "lastPrice": 38.33,
+      "lastPriceAt": "2026-11-12T20:18:00Z",
+      "unrealizedDollar": 44.26,
+      "unrealizedPct": 0.6866
     },
     "NVDA_2026-11-12": {
       "symbol": "NVDA",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-12T15:20:49.861465+00:00",
       "optionContracts": 11,
       "optionPricedVia": "trade",
-      "lastPrice": 163.8533,
-      "lastPriceAt": "2026-11-12T20:17:00Z",
-      "unrealizedDollar": 5.37,
-      "unrealizedPct": 0.1059
+      "lastPrice": 164.62,
+      "lastPriceAt": "2026-11-12T20:18:00Z",
+      "unrealizedDollar": 29.14,
+      "unrealizedPct": 0.5743
     },
     "NVDL_2026-11-12": {
       "symbol": "NVDL",
@@ -2998,8 +3022,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-12T20:18:50.304239+00:00",
-    "lastCheckEt": "2026-11-12T15:18:50.302965-05:00",
+    "lastCheckAt": "2026-11-12T20:19:50.358383+00:00",
+    "lastCheckEt": "2026-11-12T15:19:50.329063-05:00",
     "status": "ok"
   }
 }
