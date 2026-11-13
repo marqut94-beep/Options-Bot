@@ -11,7 +11,7 @@
       "allocDollar": 50.01,
       "stopPrice": 17.6954,
       "targetPrice": 16.4928,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0004,
       "pctChangeAtScreen": -11.5345,
@@ -20,7 +20,12 @@
       "lastPrice": 17.6741,
       "lastPriceAt": "2026-11-13T18:40:00Z",
       "unrealizedDollar": -1.48,
-      "unrealizedPct": -2.876
+      "unrealizedPct": -2.876,
+      "exitTime": "2026-11-13T18:42:13.030645+00:00",
+      "exitPrice": 17.6954,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.55
     },
     "YETI_2026-11-12": {
       "symbol": "YETI",
@@ -1189,8 +1194,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-13T18:41:12.931347+00:00",
-    "lastCheckEt": "2026-11-13T13:41:12.930743-05:00",
+    "lastCheckAt": "2026-11-13T18:42:12.804189+00:00",
+    "lastCheckEt": "2026-11-13T13:42:12.803579-05:00",
     "status": "ok"
   }
 }
