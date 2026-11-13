@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -11.5345,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 17.3879,
-      "lastPriceAt": "2026-11-13T17:42:00Z",
-      "unrealizedDollar": -0.62,
-      "unrealizedPct": -1.2101
+      "lastPrice": 17.405,
+      "lastPriceAt": "2026-11-13T17:43:00Z",
+      "unrealizedDollar": -0.68,
+      "unrealizedPct": -1.3097
     },
     "YETI_2026-11-12": {
       "symbol": "YETI",
@@ -1185,8 +1185,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-13T17:43:49.935270+00:00",
-    "lastCheckEt": "2026-11-13T12:43:49.934738-05:00",
+    "lastCheckAt": "2026-11-13T17:44:49.910797+00:00",
+    "lastCheckEt": "2026-11-13T12:44:49.910270-05:00",
     "status": "ok"
   }
 }
