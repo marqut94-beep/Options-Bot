@@ -715,5 +715,15 @@
     "createdAt": "2026-11-12T20:55:50.159273+00:00",
     "symbol": "YETI",
     "reason": "eod"
+  },
+  {
+    "id": "NVDL_2026-11-13_entry_2026-11-13T16:48:58.829851+00:00",
+    "tradeId": "NVDL_2026-11-13",
+    "action": "entry",
+    "createdAt": "2026-11-13T16:48:58.829863+00:00",
+    "symbol": "NVDL",
+    "direction": "short",
+    "stockEntryPrice": 17.18,
+    "allocDollar": 50.01
   }
 ]
