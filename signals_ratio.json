@@ -790,5 +790,14 @@
     "direction": "short",
     "stockEntryPrice": 17.18,
     "allocDollar": 50.01
+  },
+  {
+    "id": "NVDL_2026-11-13_exit_close_all_2026-11-13T18:42:13.030687+00:00",
+    "tradeId": "NVDL_2026-11-13",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-13T18:42:13.030693+00:00",
+    "symbol": "NVDL",
+    "stockEntryPrice": 17.18,
+    "reason": "stop"
   }
 ]
