@@ -1,5 +1,29 @@
 {
   "trades": {
+    "TSN_2026-11-16": {
+      "symbol": "TSN",
+      "date": "2026-11-16",
+      "direction": "long",
+      "entryTime": "2026-11-16T20:27:00Z",
+      "entryPrice": 63.235,
+      "shares": 81,
+      "convictionScore": 0.0153,
+      "allocDollar": 5114.7,
+      "stopPrice": 61.33795,
+      "targetPrice": 65.7644,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.1835,
+      "pctChangeAtScreen": 3.8342,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "TSN261120C00062500",
+      "optionStrike": "62.5",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 1.2,
+      "optionEntryTime": "2026-11-16T20:28:08.768481+00:00",
+      "optionContracts": 42,
+      "optionPricedVia": "trade"
+    },
     "POWL_2026-11-16": {
       "symbol": "POWL",
       "date": "2026-11-16",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-16T19:30:02.660536+00:00",
       "optionContracts": 4,
       "optionPricedVia": "trade",
-      "lastPrice": 152.325,
-      "lastPriceAt": "2026-11-16T20:25:00Z",
-      "unrealizedDollar": -48.35,
-      "unrealizedPct": -0.9526
+      "lastPrice": 152.28,
+      "lastPriceAt": "2026-11-16T20:27:00Z",
+      "unrealizedDollar": -49.83,
+      "unrealizedPct": -0.9819
     },
     "AMDL_2026-11-12": {
       "symbol": "AMDL",
@@ -3075,8 +3099,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-16T20:26:55.358380+00:00",
-    "lastCheckEt": "2026-11-16T15:26:55.357147-05:00",
+    "lastCheckAt": "2026-11-16T20:28:04.731309+00:00",
+    "lastCheckEt": "2026-11-16T15:28:04.730133-05:00",
     "status": "ok"
   }
 }
