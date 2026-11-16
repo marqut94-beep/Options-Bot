@@ -1,5 +1,29 @@
 {
   "trades": {
+    "POWL_2026-11-16": {
+      "symbol": "POWL",
+      "date": "2026-11-16",
+      "direction": "long",
+      "entryTime": "2026-11-16T19:29:00Z",
+      "entryPrice": 153.79,
+      "shares": 33,
+      "convictionScore": 0.0015,
+      "allocDollar": 5011.24,
+      "stopPrice": 149.1763,
+      "targetPrice": 159.9416,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.018,
+      "pctChangeAtScreen": 9.85,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "POWL261120C00153330",
+      "optionStrike": "153.33",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 12,
+      "optionEntryTime": "2026-11-16T19:30:02.660536+00:00",
+      "optionContracts": 4,
+      "optionPricedVia": "trade"
+    },
     "AMDL_2026-11-12": {
       "symbol": "AMDL",
       "date": "2026-11-12",
@@ -3047,8 +3071,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-16T19:27:57.818821+00:00",
-    "lastCheckEt": "2026-11-16T14:27:57.817643-05:00",
+    "lastCheckAt": "2026-11-16T19:29:58.758689+00:00",
+    "lastCheckEt": "2026-11-16T14:29:58.757420-05:00",
     "status": "ok"
   }
 }
