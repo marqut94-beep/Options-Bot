@@ -2197,5 +2197,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 153.79,
     "allocDollar": 5011.24
+  },
+  {
+    "id": "TSN_2026-11-16_entry_2026-11-16T20:28:08.768506+00:00",
+    "tradeId": "TSN_2026-11-16",
+    "action": "entry",
+    "createdAt": "2026-11-16T20:28:08.768509+00:00",
+    "symbol": "TSN",
+    "direction": "long",
+    "optionSymbol": "TSN261120C00062500",
+    "contracts": 42,
+    "optionEntryPriceAtScreen": 1.2,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 63.235,
+    "allocDollar": 5114.7
   }
 ]
