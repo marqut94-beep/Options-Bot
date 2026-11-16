@@ -2183,5 +2183,19 @@
     "contracts": 11,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "POWL_2026-11-16_entry_2026-11-16T19:30:02.660560+00:00",
+    "tradeId": "POWL_2026-11-16",
+    "action": "entry",
+    "createdAt": "2026-11-16T19:30:02.660564+00:00",
+    "symbol": "POWL",
+    "direction": "long",
+    "optionSymbol": "POWL261120C00153330",
+    "contracts": 4,
+    "optionEntryPriceAtScreen": 12,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 153.79,
+    "allocDollar": 5011.24
   }
 ]
