@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-16T19:30:02.660536+00:00",
       "optionContracts": 4,
       "optionPricedVia": "trade",
-      "lastPrice": 153.25,
-      "lastPriceAt": "2026-11-16T19:58:00Z",
-      "unrealizedDollar": -17.82,
-      "unrealizedPct": -0.3511
+      "lastPrice": 153,
+      "lastPriceAt": "2026-11-16T19:59:00Z",
+      "unrealizedDollar": -26.07,
+      "unrealizedPct": -0.5137
     },
     "AMDL_2026-11-12": {
       "symbol": "AMDL",
@@ -3075,8 +3075,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-16T19:59:58.667068+00:00",
-    "lastCheckEt": "2026-11-16T14:59:58.646007-05:00",
+    "lastCheckAt": "2026-11-16T20:00:50.348229+00:00",
+    "lastCheckEt": "2026-11-16T15:00:50.347379-05:00",
     "status": "ok"
   }
 }
