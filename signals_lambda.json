@@ -2211,5 +2211,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 63.235,
     "allocDollar": 5114.7
+  },
+  {
+    "id": "TSN_2026-11-16_exit_close_all_2026-11-16T20:55:51.073723+00:00",
+    "tradeId": "TSN_2026-11-16",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-16T20:55:51.073728+00:00",
+    "symbol": "TSN",
+    "optionSymbol": "TSN261120C00062500",
+    "contracts": 42,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "POWL_2026-11-16_exit_close_all_2026-11-16T20:55:51.509150+00:00",
+    "tradeId": "POWL_2026-11-16",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-16T20:55:51.509153+00:00",
+    "symbol": "POWL",
+    "optionSymbol": "POWL261120C00153330",
+    "contracts": 4,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
