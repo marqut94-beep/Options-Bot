@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-16T20:28:08.768481+00:00",
       "optionContracts": 42,
       "optionPricedVia": "trade",
-      "lastPrice": 63.55,
-      "lastPriceAt": "2026-11-16T20:46:00Z",
-      "unrealizedDollar": 25.51,
-      "unrealizedPct": 0.4981
+      "lastPrice": 63.57,
+      "lastPriceAt": "2026-11-16T20:47:00Z",
+      "unrealizedDollar": 27.14,
+      "unrealizedPct": 0.5298
     },
     "POWL_2026-11-16": {
       "symbol": "POWL",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-16T19:30:02.660536+00:00",
       "optionContracts": 4,
       "optionPricedVia": "trade",
-      "lastPrice": 150.5,
-      "lastPriceAt": "2026-11-16T20:46:00Z",
-      "unrealizedDollar": -108.57,
-      "unrealizedPct": -2.1393
+      "lastPrice": 151.04,
+      "lastPriceAt": "2026-11-16T20:47:00Z",
+      "unrealizedDollar": -90.75,
+      "unrealizedPct": -1.7882
     },
     "AMDL_2026-11-12": {
       "symbol": "AMDL",
@@ -3103,8 +3103,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-16T20:47:50.401381+00:00",
-    "lastCheckEt": "2026-11-16T15:47:50.400157-05:00",
+    "lastCheckAt": "2026-11-16T20:48:50.393400+00:00",
+    "lastCheckEt": "2026-11-16T15:48:50.392219-05:00",
     "status": "ok"
   }
 }
