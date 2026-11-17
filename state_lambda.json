@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-17T19:40:54.353167+00:00",
       "optionContracts": 59,
       "optionPricedVia": "trade",
-      "lastPrice": 36.045,
-      "lastPriceAt": "2026-11-17T19:48:00Z",
-      "unrealizedDollar": 52.06,
-      "unrealizedPct": 1.0432
+      "lastPrice": 36.06,
+      "lastPriceAt": "2026-11-17T19:49:00Z",
+      "unrealizedDollar": 50.0,
+      "unrealizedPct": 1.0021
     },
     "TSN_2026-11-16": {
       "symbol": "TSN",
@@ -3147,8 +3147,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-17T19:49:50.368836+00:00",
-    "lastCheckEt": "2026-11-17T14:49:50.367660-05:00",
+    "lastCheckAt": "2026-11-17T19:50:50.349211+00:00",
+    "lastCheckEt": "2026-11-17T14:50:50.347992-05:00",
     "status": "ok"
   }
 }
