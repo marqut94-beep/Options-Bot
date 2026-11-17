@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-17T19:55:54.369316+00:00",
       "optionContracts": 7,
       "optionPricedVia": "trade",
-      "lastPrice": 239.29,
-      "lastPriceAt": "2026-11-17T20:18:00Z",
-      "unrealizedDollar": 3.36,
-      "unrealizedPct": 0.0668
+      "lastPrice": 239.56,
+      "lastPriceAt": "2026-11-17T20:19:00Z",
+      "unrealizedDollar": -2.31,
+      "unrealizedPct": -0.0459
     },
     "NKE_2026-11-17": {
       "symbol": "NKE",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-17T19:40:54.353167+00:00",
       "optionContracts": 59,
       "optionPricedVia": "trade",
-      "lastPrice": 35.4868,
-      "lastPriceAt": "2026-11-17T20:18:00Z",
-      "unrealizedDollar": 128.53,
-      "unrealizedPct": 2.5757
+      "lastPrice": 35.575,
+      "lastPriceAt": "2026-11-17T20:19:00Z",
+      "unrealizedDollar": 116.45,
+      "unrealizedPct": 2.3336
     },
     "TSN_2026-11-16": {
       "symbol": "TSN",
@@ -3175,8 +3175,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-17T20:19:50.296838+00:00",
-    "lastCheckEt": "2026-11-17T15:19:50.295641-05:00",
+    "lastCheckAt": "2026-11-17T20:20:04.015410+00:00",
+    "lastCheckEt": "2026-11-17T15:20:03.978057-05:00",
     "status": "ok"
   }
 }
