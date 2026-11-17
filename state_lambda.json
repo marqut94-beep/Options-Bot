@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SPXL_2026-11-17": {
+      "symbol": "SPXL",
+      "date": "2026-11-17",
+      "direction": "short",
+      "entryTime": "2026-11-17T19:54:00Z",
+      "entryPrice": 239.45,
+      "shares": 21,
+      "convictionScore": 0.0001,
+      "allocDollar": 5000.95,
+      "stopPrice": 246.6335,
+      "targetPrice": 229.87199999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0015,
+      "pctChangeAtScreen": -3.6031,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SPXL261120P00240000",
+      "optionStrike": "240",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 6.71,
+      "optionEntryTime": "2026-11-17T19:55:54.369316+00:00",
+      "optionContracts": 7,
+      "optionPricedVia": "trade"
+    },
     "NKE_2026-11-17": {
       "symbol": "NKE",
       "date": "2026-11-17",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-17T19:40:54.353167+00:00",
       "optionContracts": 59,
       "optionPricedVia": "trade",
-      "lastPrice": 35.955,
-      "lastPriceAt": "2026-11-17T19:53:00Z",
-      "unrealizedDollar": 64.39,
-      "unrealizedPct": 1.2903
+      "lastPrice": 35.935,
+      "lastPriceAt": "2026-11-17T19:54:00Z",
+      "unrealizedDollar": 67.13,
+      "unrealizedPct": 1.3452
     },
     "TSN_2026-11-16": {
       "symbol": "TSN",
@@ -3147,8 +3171,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-17T19:54:50.423702+00:00",
-    "lastCheckEt": "2026-11-17T14:54:50.422537-05:00",
+    "lastCheckAt": "2026-11-17T19:55:50.334332+00:00",
+    "lastCheckEt": "2026-11-17T14:55:50.333140-05:00",
     "status": "ok"
   }
 }
