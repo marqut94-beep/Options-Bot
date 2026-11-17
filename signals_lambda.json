@@ -2261,5 +2261,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 239.45,
     "allocDollar": 5000.95
+  },
+  {
+    "id": "SPXL_2026-11-17_exit_close_all_2026-11-17T20:55:01.751377+00:00",
+    "tradeId": "SPXL_2026-11-17",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-17T20:55:01.751380+00:00",
+    "symbol": "SPXL",
+    "optionSymbol": "SPXL261120P00240000",
+    "contracts": 7,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "NKE_2026-11-17_exit_close_all_2026-11-17T20:55:02.226233+00:00",
+    "tradeId": "NKE_2026-11-17",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-17T20:55:02.226236+00:00",
+    "symbol": "NKE",
+    "optionSymbol": "NKE261120P00036500",
+    "contracts": 59,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
