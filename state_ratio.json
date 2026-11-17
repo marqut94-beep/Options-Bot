@@ -11,7 +11,7 @@
       "allocDollar": 50.0,
       "stopPrice": 16.281519,
       "targetPrice": 15.175007999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0001,
       "pctChangeAtScreen": -4.2852,
@@ -20,7 +20,12 @@
       "lastPrice": 15.8545,
       "lastPriceAt": "2026-11-17T20:53:00Z",
       "unrealizedDollar": -0.14,
-      "unrealizedPct": -0.2986
+      "unrealizedPct": -0.2986,
+      "exitTime": "2026-11-17T20:55:13.193880+00:00",
+      "exitPrice": 15.89,
+      "exitReason": "eod",
+      "returnPct": -0.5232,
+      "dollarPnl": -0.25
     },
     "NKE_2026-11-17": {
       "symbol": "NKE",
@@ -33,7 +38,7 @@
       "allocDollar": 50.01,
       "stopPrice": 36.631949999999996,
       "targetPrice": 34.142399999999995,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0007,
       "pctChangeAtScreen": -11.5299,
@@ -42,7 +47,12 @@
       "lastPrice": 35.83,
       "lastPriceAt": "2026-11-17T20:53:00Z",
       "unrealizedDollar": -0.27,
-      "unrealizedPct": -0.7451
+      "unrealizedPct": -0.7451,
+      "exitTime": "2026-11-17T20:55:13.380195+00:00",
+      "exitPrice": 35.805,
+      "exitReason": "eod",
+      "returnPct": -0.6748,
+      "dollarPnl": -0.24
     },
     "NVDL_2026-11-13": {
       "symbol": "NVDL",
@@ -1238,8 +1248,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-17T20:54:12.854912+00:00",
-    "lastCheckEt": "2026-11-17T15:54:12.854334-05:00",
+    "lastCheckAt": "2026-11-17T20:55:12.933911+00:00",
+    "lastCheckEt": "2026-11-17T15:55:12.933323-05:00",
     "status": "ok"
   }
 }
