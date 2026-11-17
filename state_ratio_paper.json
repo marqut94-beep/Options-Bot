@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -4.2852,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 15.875,
-      "lastPriceAt": "2026-11-17T20:52:00Z",
-      "unrealizedDollar": -0.2,
-      "unrealizedPct": -0.4283
+      "lastPrice": 15.8545,
+      "lastPriceAt": "2026-11-17T20:53:00Z",
+      "unrealizedDollar": -0.14,
+      "unrealizedPct": -0.2986
     },
     "NKE_2026-11-17": {
       "symbol": "NKE",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": -11.5299,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 35.775,
-      "lastPriceAt": "2026-11-17T20:52:00Z",
-      "unrealizedDollar": -0.21,
-      "unrealizedPct": -0.5905
+      "lastPrice": 35.83,
+      "lastPriceAt": "2026-11-17T20:53:00Z",
+      "unrealizedDollar": -0.27,
+      "unrealizedPct": -0.7451
     },
     "NVDL_2026-11-13": {
       "symbol": "NVDL",
@@ -1234,8 +1234,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-17T20:53:50.167168+00:00",
-    "lastCheckEt": "2026-11-17T15:53:50.166611-05:00",
+    "lastCheckAt": "2026-11-17T20:54:50.007537+00:00",
+    "lastCheckEt": "2026-11-17T15:54:50.006984-05:00",
     "status": "ok"
   }
 }
