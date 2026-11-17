@@ -799,5 +799,15 @@
     "symbol": "NVDL",
     "stockEntryPrice": 17.18,
     "reason": "stop"
+  },
+  {
+    "id": "NKE_2026-11-17_entry_2026-11-17T20:24:16.852639+00:00",
+    "tradeId": "NKE_2026-11-17",
+    "action": "entry",
+    "createdAt": "2026-11-17T20:24:16.852651+00:00",
+    "symbol": "NKE",
+    "direction": "short",
+    "stockEntryPrice": 35.565,
+    "allocDollar": 50.01
   }
 ]
