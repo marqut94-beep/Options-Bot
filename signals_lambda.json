@@ -2233,5 +2233,19 @@
     "contracts": 4,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "NKE_2026-11-17_entry_2026-11-17T19:40:54.353189+00:00",
+    "tradeId": "NKE_2026-11-17",
+    "action": "entry",
+    "createdAt": "2026-11-17T19:40:54.353192+00:00",
+    "symbol": "NKE",
+    "direction": "short",
+    "optionSymbol": "NKE261120P00036500",
+    "contracts": 59,
+    "optionEntryPriceAtScreen": 0.84,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 36.425,
+    "allocDollar": 5002.04
   }
 ]
