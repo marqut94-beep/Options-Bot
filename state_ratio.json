@@ -1,5 +1,23 @@
 {
   "trades": {
+    "NVDL_2026-11-17": {
+      "symbol": "NVDL",
+      "date": "2026-11-17",
+      "direction": "short",
+      "entryTime": "2026-11-17T20:25:00Z",
+      "entryPrice": 15.8073,
+      "shares": 3,
+      "convictionScore": 0.0,
+      "allocDollar": 50.0,
+      "stopPrice": 16.281519,
+      "targetPrice": 15.175007999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0001,
+      "pctChangeAtScreen": -4.2852,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "NKE_2026-11-17": {
       "symbol": "NKE",
       "date": "2026-11-17",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -11.5299,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 35.485,
-      "lastPriceAt": "2026-11-17T20:24:00Z",
-      "unrealizedDollar": 0.08,
-      "unrealizedPct": 0.2249
+      "lastPrice": 35.495,
+      "lastPriceAt": "2026-11-17T20:25:00Z",
+      "unrealizedDollar": 0.07,
+      "unrealizedPct": 0.1968
     },
     "NVDL_2026-11-13": {
       "symbol": "NVDL",
@@ -1216,8 +1234,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-17T20:25:12.859832+00:00",
-    "lastCheckEt": "2026-11-17T15:25:12.859272-05:00",
+    "lastCheckAt": "2026-11-17T20:26:12.851730+00:00",
+    "lastCheckEt": "2026-11-17T15:26:12.851163-05:00",
     "status": "ok"
   }
 }
