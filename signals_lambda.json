@@ -2247,5 +2247,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 36.425,
     "allocDollar": 5002.04
+  },
+  {
+    "id": "SPXL_2026-11-17_entry_2026-11-17T19:55:54.369341+00:00",
+    "tradeId": "SPXL_2026-11-17",
+    "action": "entry",
+    "createdAt": "2026-11-17T19:55:54.369345+00:00",
+    "symbol": "SPXL",
+    "direction": "short",
+    "optionSymbol": "SPXL261120P00240000",
+    "contracts": 7,
+    "optionEntryPriceAtScreen": 6.71,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 239.45,
+    "allocDollar": 5000.95
   }
 ]
