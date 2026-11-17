@@ -11,7 +11,7 @@
       "allocDollar": 5000.95,
       "stopPrice": 246.6335,
       "targetPrice": 229.87199999999999,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0015,
       "pctChangeAtScreen": -3.6031,
@@ -26,7 +26,15 @@
       "lastPrice": 239.65,
       "lastPriceAt": "2026-11-17T20:52:00Z",
       "unrealizedDollar": -4.2,
-      "unrealizedPct": -0.0835
+      "unrealizedPct": -0.0835,
+      "optionExitPrice": 7.06,
+      "optionExitTime": "2026-11-17T20:55:01.751334+00:00",
+      "optionReturnPct": 5.2161,
+      "exitTime": "2026-11-17T20:55:01.751363+00:00",
+      "exitPrice": 239.76,
+      "exitReason": "eod",
+      "returnPct": -0.1295,
+      "dollarPnl": -6.51
     },
     "NKE_2026-11-17": {
       "symbol": "NKE",
@@ -39,7 +47,7 @@
       "allocDollar": 5002.04,
       "stopPrice": 37.51775,
       "targetPrice": 34.967999999999996,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0033,
       "pctChangeAtScreen": -9.3905,
@@ -54,7 +62,15 @@
       "lastPrice": 35.775,
       "lastPriceAt": "2026-11-17T20:52:00Z",
       "unrealizedDollar": 89.05,
-      "unrealizedPct": 1.7845
+      "unrealizedPct": 1.7845,
+      "optionExitPrice": 1.25,
+      "optionExitTime": "2026-11-17T20:55:02.226179+00:00",
+      "optionReturnPct": 48.8095,
+      "exitTime": "2026-11-17T20:55:02.226219+00:00",
+      "exitPrice": 35.805,
+      "exitReason": "eod",
+      "returnPct": 1.7021,
+      "dollarPnl": 84.94
     },
     "TSN_2026-11-16": {
       "symbol": "TSN",
@@ -3175,8 +3191,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-17T20:53:47.118872+00:00",
-    "lastCheckEt": "2026-11-17T15:53:47.117717-05:00",
+    "lastCheckAt": "2026-11-17T20:55:01.137645+00:00",
+    "lastCheckEt": "2026-11-17T15:55:01.136477-05:00",
     "status": "ok"
   }
 }
