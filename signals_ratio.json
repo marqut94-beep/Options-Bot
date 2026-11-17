@@ -819,5 +819,21 @@
     "direction": "short",
     "stockEntryPrice": 15.8073,
     "allocDollar": 50.0
+  },
+  {
+    "id": "NVDL_2026-11-17_exit_close_all_2026-11-17T20:55:13.193910+00:00",
+    "tradeId": "NVDL_2026-11-17",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-17T20:55:13.193914+00:00",
+    "symbol": "NVDL",
+    "reason": "eod"
+  },
+  {
+    "id": "NKE_2026-11-17_exit_close_all_2026-11-17T20:55:13.380225+00:00",
+    "tradeId": "NKE_2026-11-17",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-17T20:55:13.380229+00:00",
+    "symbol": "NKE",
+    "reason": "eod"
   }
 ]
