@@ -1,5 +1,29 @@
 {
   "trades": {
+    "TGT_2026-11-18": {
+      "symbol": "TGT",
+      "date": "2026-11-18",
+      "direction": "long",
+      "entryTime": "2026-11-18T17:22:00Z",
+      "entryPrice": 170.14,
+      "shares": 29,
+      "convictionScore": 0.0009,
+      "allocDollar": 5006.51,
+      "stopPrice": 165.0358,
+      "targetPrice": 176.94559999999998,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0104,
+      "pctChangeAtScreen": 5.6836,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "TGT261120C00170000",
+      "optionStrike": "170",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 2.86,
+      "optionEntryTime": "2026-11-18T17:23:54.583601+00:00",
+      "optionContracts": 17,
+      "optionPricedVia": "trade"
+    },
     "WPM_2026-11-18": {
       "symbol": "WPM",
       "date": "2026-11-18",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-18T16:43:57.485240+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 119.975,
-      "lastPriceAt": "2026-11-18T17:21:00Z",
-      "unrealizedDollar": -64.02,
-      "unrealizedPct": -1.2276
+      "lastPrice": 119.845,
+      "lastPriceAt": "2026-11-18T17:22:00Z",
+      "unrealizedDollar": -58.3,
+      "unrealizedPct": -1.118
     },
     "SPXL_2026-11-17": {
       "symbol": "SPXL",
@@ -3219,8 +3243,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T17:22:50.294801+00:00",
-    "lastCheckEt": "2026-11-18T12:22:50.281429-05:00",
+    "lastCheckAt": "2026-11-18T17:23:50.437745+00:00",
+    "lastCheckEt": "2026-11-18T12:23:50.436256-05:00",
     "status": "ok"
   }
 }
