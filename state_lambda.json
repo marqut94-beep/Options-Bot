@@ -1,5 +1,29 @@
 {
   "trades": {
+    "TTWO_2026-11-18": {
+      "symbol": "TTWO",
+      "date": "2026-11-18",
+      "direction": "long",
+      "entryTime": "2026-11-18T18:41:00Z",
+      "entryPrice": 221.3,
+      "shares": 24,
+      "convictionScore": 0.0354,
+      "allocDollar": 5265.66,
+      "stopPrice": 214.661,
+      "targetPrice": 230.15200000000002,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.425,
+      "pctChangeAtScreen": 4.0726,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "TTWO261120C00222500",
+      "optionStrike": "222.5",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 7.2,
+      "optionEntryTime": "2026-11-18T18:42:54.723686+00:00",
+      "optionContracts": 7,
+      "optionPricedVia": "trade"
+    },
     "TGT_2026-11-18": {
       "symbol": "TGT",
       "date": "2026-11-18",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-18T17:23:54.583601+00:00",
       "optionContracts": 17,
       "optionPricedVia": "trade",
-      "lastPrice": 171.26,
-      "lastPriceAt": "2026-11-18T18:40:00Z",
-      "unrealizedDollar": 32.48,
-      "unrealizedPct": 0.6583
+      "lastPrice": 171.3179,
+      "lastPriceAt": "2026-11-18T18:41:00Z",
+      "unrealizedDollar": 34.16,
+      "unrealizedPct": 0.6923
     },
     "WPM_2026-11-18": {
       "symbol": "WPM",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-18T16:43:57.485240+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 119.98,
-      "lastPriceAt": "2026-11-18T18:40:00Z",
-      "unrealizedDollar": -64.24,
-      "unrealizedPct": -1.2319
+      "lastPrice": 120.1,
+      "lastPriceAt": "2026-11-18T18:41:00Z",
+      "unrealizedDollar": -69.52,
+      "unrealizedPct": -1.3331
     },
     "SPXL_2026-11-17": {
       "symbol": "SPXL",
@@ -3247,8 +3271,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T18:41:50.465418+00:00",
-    "lastCheckEt": "2026-11-18T13:41:50.464149-05:00",
+    "lastCheckAt": "2026-11-18T18:42:50.290030+00:00",
+    "lastCheckEt": "2026-11-18T13:42:50.288714-05:00",
     "status": "ok"
   }
 }
