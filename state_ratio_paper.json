@@ -1,5 +1,23 @@
 {
   "trades": {
+    "NVDL_2026-11-18": {
+      "symbol": "NVDL",
+      "date": "2026-11-18",
+      "direction": "short",
+      "entryTime": "2026-11-18T19:05:00Z",
+      "entryPrice": 15.4,
+      "shares": 3,
+      "convictionScore": 0.0001,
+      "allocDollar": 50.01,
+      "stopPrice": 15.862,
+      "targetPrice": 14.783999999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0007,
+      "pctChangeAtScreen": -9.2249,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "NVDL_2026-11-17": {
       "symbol": "NVDL",
       "date": "2026-11-17",
@@ -1244,8 +1262,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T19:05:49.884325+00:00",
-    "lastCheckEt": "2026-11-18T14:05:49.883805-05:00",
+    "lastCheckAt": "2026-11-18T19:06:49.873344+00:00",
+    "lastCheckEt": "2026-11-18T14:06:49.872955-05:00",
     "status": "ok"
   }
 }
