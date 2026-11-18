@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-18T16:43:57.485240+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 118.485,
-      "lastPriceAt": "2026-11-18T16:54:00Z",
-      "unrealizedDollar": 1.54,
-      "unrealizedPct": 0.0295
+      "lastPrice": 118.41,
+      "lastPriceAt": "2026-11-18T16:55:00Z",
+      "unrealizedDollar": 4.84,
+      "unrealizedPct": 0.0928
     },
     "SPXL_2026-11-17": {
       "symbol": "SPXL",
@@ -3219,8 +3219,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T16:55:52.916850+00:00",
-    "lastCheckEt": "2026-11-18T11:55:52.915619-05:00",
+    "lastCheckAt": "2026-11-18T16:56:50.360812+00:00",
+    "lastCheckEt": "2026-11-18T11:56:50.359610-05:00",
     "status": "ok"
   }
 }
