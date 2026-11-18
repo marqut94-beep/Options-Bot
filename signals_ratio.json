@@ -835,5 +835,15 @@
     "createdAt": "2026-11-17T20:55:13.380229+00:00",
     "symbol": "NKE",
     "reason": "eod"
+  },
+  {
+    "id": "NVDL_2026-11-18_entry_2026-11-18T19:06:16.914899+00:00",
+    "tradeId": "NVDL_2026-11-18",
+    "action": "entry",
+    "createdAt": "2026-11-18T19:06:16.914916+00:00",
+    "symbol": "NVDL",
+    "direction": "short",
+    "stockEntryPrice": 15.4,
+    "allocDollar": 50.01
   }
 ]
