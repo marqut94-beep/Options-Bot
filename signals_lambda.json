@@ -2325,5 +2325,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 221.3,
     "allocDollar": 5265.66
+  },
+  {
+    "id": "TJX_2026-11-18_entry_2026-11-18T19:20:55.149946+00:00",
+    "tradeId": "TJX_2026-11-18",
+    "action": "entry",
+    "createdAt": "2026-11-18T19:20:55.149950+00:00",
+    "symbol": "TJX",
+    "direction": "long",
+    "optionSymbol": "TJX261120C00143000",
+    "contracts": 23,
+    "optionEntryPriceAtScreen": 2.15,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 143.42,
+    "allocDollar": 5001.51
   }
 ]
