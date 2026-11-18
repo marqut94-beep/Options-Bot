@@ -1,5 +1,29 @@
 {
   "trades": {
+    "WPM_2026-11-18": {
+      "symbol": "WPM",
+      "date": "2026-11-18",
+      "direction": "short",
+      "entryTime": "2026-11-18T16:42:00Z",
+      "entryPrice": 118.52,
+      "shares": 44,
+      "convictionScore": 0.0342,
+      "allocDollar": 5256.25,
+      "stopPrice": 122.0756,
+      "targetPrice": 113.77919999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.41,
+      "pctChangeAtScreen": -3.4539,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "WPM261120P00119000",
+      "optionStrike": "119",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 2.58,
+      "optionEntryTime": "2026-11-18T16:43:54.024868+00:00",
+      "optionContracts": 20,
+      "optionPricedVia": "trade"
+    },
     "SPXL_2026-11-17": {
       "symbol": "SPXL",
       "date": "2026-11-17",
@@ -3191,8 +3215,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T16:42:56.005215+00:00",
-    "lastCheckEt": "2026-11-18T11:42:55.983868-05:00",
+    "lastCheckAt": "2026-11-18T16:43:50.471901+00:00",
+    "lastCheckEt": "2026-11-18T11:43:50.470706-05:00",
     "status": "ok"
   }
 }
