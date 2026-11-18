@@ -2297,5 +2297,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 118.52,
     "allocDollar": 5256.25
+  },
+  {
+    "id": "TGT_2026-11-18_entry_2026-11-18T17:23:54.583625+00:00",
+    "tradeId": "TGT_2026-11-18",
+    "action": "entry",
+    "createdAt": "2026-11-18T17:23:54.583628+00:00",
+    "symbol": "TGT",
+    "direction": "long",
+    "optionSymbol": "TGT261120C00170000",
+    "contracts": 17,
+    "optionEntryPriceAtScreen": 2.86,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 170.14,
+    "allocDollar": 5006.51
   }
 ]
