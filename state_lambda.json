@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-18T17:23:54.583601+00:00",
       "optionContracts": 17,
       "optionPricedVia": "trade",
-      "lastPrice": 170.36,
-      "lastPriceAt": "2026-11-18T17:43:00Z",
-      "unrealizedDollar": 6.38,
-      "unrealizedPct": 0.1293
+      "lastPrice": 170.395,
+      "lastPriceAt": "2026-11-18T17:44:00Z",
+      "unrealizedDollar": 7.4,
+      "unrealizedPct": 0.1499
     },
     "WPM_2026-11-18": {
       "symbol": "WPM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-18T16:43:57.485240+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 119.89,
-      "lastPriceAt": "2026-11-18T17:43:00Z",
-      "unrealizedDollar": -60.28,
-      "unrealizedPct": -1.1559
+      "lastPrice": 119.91,
+      "lastPriceAt": "2026-11-18T17:44:00Z",
+      "unrealizedDollar": -61.16,
+      "unrealizedPct": -1.1728
     },
     "SPXL_2026-11-17": {
       "symbol": "SPXL",
@@ -3247,8 +3247,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T17:44:50.713711+00:00",
-    "lastCheckEt": "2026-11-18T12:44:50.712491-05:00",
+    "lastCheckAt": "2026-11-18T17:45:50.379491+00:00",
+    "lastCheckEt": "2026-11-18T12:45:50.362160-05:00",
     "status": "ok"
   }
 }
