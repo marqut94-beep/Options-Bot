@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -9.2249,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 15.2651,
-      "lastPriceAt": "2026-11-18T19:42:00Z",
-      "unrealizedDollar": 0.4,
-      "unrealizedPct": 0.876
+      "lastPrice": 15.275,
+      "lastPriceAt": "2026-11-18T19:43:00Z",
+      "unrealizedDollar": 0.38,
+      "unrealizedPct": 0.8117
     },
     "NVDL_2026-11-17": {
       "symbol": "NVDL",
@@ -1266,8 +1266,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T19:43:49.897005+00:00",
-    "lastCheckEt": "2026-11-18T14:43:49.896570-05:00",
+    "lastCheckAt": "2026-11-18T19:44:50.009417+00:00",
+    "lastCheckEt": "2026-11-18T14:44:50.008991-05:00",
     "status": "ok"
   }
 }
