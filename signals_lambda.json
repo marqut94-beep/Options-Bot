@@ -2311,5 +2311,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 170.14,
     "allocDollar": 5006.51
+  },
+  {
+    "id": "TTWO_2026-11-18_entry_2026-11-18T18:42:54.723709+00:00",
+    "tradeId": "TTWO_2026-11-18",
+    "action": "entry",
+    "createdAt": "2026-11-18T18:42:54.723713+00:00",
+    "symbol": "TTWO",
+    "direction": "long",
+    "optionSymbol": "TTWO261120C00222500",
+    "contracts": 7,
+    "optionEntryPriceAtScreen": 7.2,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 221.3,
+    "allocDollar": 5265.66
   }
 ]
