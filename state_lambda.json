@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-18T17:23:54.583601+00:00",
       "optionContracts": 17,
       "optionPricedVia": "trade",
-      "lastPrice": 170.7,
-      "lastPriceAt": "2026-11-18T17:49:00Z",
-      "unrealizedDollar": 16.24,
-      "unrealizedPct": 0.3291
+      "lastPrice": 170.71,
+      "lastPriceAt": "2026-11-18T17:50:00Z",
+      "unrealizedDollar": 16.53,
+      "unrealizedPct": 0.335
     },
     "WPM_2026-11-18": {
       "symbol": "WPM",
@@ -52,7 +52,7 @@
       "optionContracts": 20,
       "optionPricedVia": "trade",
       "lastPrice": 119.53,
-      "lastPriceAt": "2026-11-18T17:49:00Z",
+      "lastPriceAt": "2026-11-18T17:50:00Z",
       "unrealizedDollar": -44.44,
       "unrealizedPct": -0.8522
     },
@@ -3247,8 +3247,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T17:50:50.363411+00:00",
-    "lastCheckEt": "2026-11-18T12:50:50.322033-05:00",
+    "lastCheckAt": "2026-11-18T17:51:50.426517+00:00",
+    "lastCheckEt": "2026-11-18T12:51:50.425240-05:00",
     "status": "ok"
   }
 }
