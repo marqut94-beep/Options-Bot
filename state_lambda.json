@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-18T19:20:55.149920+00:00",
       "optionContracts": 23,
       "optionPricedVia": "trade",
-      "lastPrice": 142.38,
-      "lastPriceAt": "2026-11-18T19:59:00Z",
-      "unrealizedDollar": -36.4,
-      "unrealizedPct": -0.7251
+      "lastPrice": 142.365,
+      "lastPriceAt": "2026-11-18T20:00:00Z",
+      "unrealizedDollar": -36.92,
+      "unrealizedPct": -0.7356
     },
     "TTWO_2026-11-18": {
       "symbol": "TTWO",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-18T18:42:54.723686+00:00",
       "optionContracts": 7,
       "optionPricedVia": "trade",
-      "lastPrice": 216.59,
-      "lastPriceAt": "2026-11-18T19:59:00Z",
-      "unrealizedDollar": -113.04,
-      "unrealizedPct": -2.1283
+      "lastPrice": 216.985,
+      "lastPriceAt": "2026-11-18T20:00:00Z",
+      "unrealizedDollar": -103.56,
+      "unrealizedPct": -1.9498
     },
     "TGT_2026-11-18": {
       "symbol": "TGT",
@@ -80,7 +80,7 @@
       "optionContracts": 17,
       "optionPricedVia": "trade",
       "lastPrice": 168.06,
-      "lastPriceAt": "2026-11-18T19:59:00Z",
+      "lastPriceAt": "2026-11-18T20:00:00Z",
       "unrealizedDollar": -60.32,
       "unrealizedPct": -1.2225
     },
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-11-18T16:43:57.485240+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 119.51,
-      "lastPriceAt": "2026-11-18T19:59:00Z",
-      "unrealizedDollar": -43.56,
-      "unrealizedPct": -0.8353
+      "lastPrice": 119.33,
+      "lastPriceAt": "2026-11-18T20:00:00Z",
+      "unrealizedDollar": -35.64,
+      "unrealizedPct": -0.6834
     },
     "SPXL_2026-11-17": {
       "symbol": "SPXL",
@@ -3303,8 +3303,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T20:00:50.926446+00:00",
-    "lastCheckEt": "2026-11-18T15:00:50.901012-05:00",
+    "lastCheckAt": "2026-11-18T20:01:50.392243+00:00",
+    "lastCheckEt": "2026-11-18T15:01:50.390997-05:00",
     "status": "ok"
   }
 }
