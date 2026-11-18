@@ -1,5 +1,29 @@
 {
   "trades": {
+    "TJX_2026-11-18": {
+      "symbol": "TJX",
+      "date": "2026-11-18",
+      "direction": "long",
+      "entryTime": "2026-11-18T19:19:00Z",
+      "entryPrice": 143.42,
+      "shares": 35,
+      "convictionScore": 0.0002,
+      "allocDollar": 5001.51,
+      "stopPrice": 139.11739999999998,
+      "targetPrice": 149.1568,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0024,
+      "pctChangeAtScreen": 4.6785,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "TJX261120C00143000",
+      "optionStrike": "143",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 2.15,
+      "optionEntryTime": "2026-11-18T19:20:55.149920+00:00",
+      "optionContracts": 23,
+      "optionPricedVia": "trade"
+    },
     "TTWO_2026-11-18": {
       "symbol": "TTWO",
       "date": "2026-11-18",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-18T18:42:54.723686+00:00",
       "optionContracts": 7,
       "optionPricedVia": "trade",
-      "lastPrice": 220.77,
-      "lastPriceAt": "2026-11-18T19:18:00Z",
-      "unrealizedDollar": -12.72,
-      "unrealizedPct": -0.2395
+      "lastPrice": 220.195,
+      "lastPriceAt": "2026-11-18T19:19:00Z",
+      "unrealizedDollar": -26.52,
+      "unrealizedPct": -0.4993
     },
     "TGT_2026-11-18": {
       "symbol": "TGT",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-18T17:23:54.583601+00:00",
       "optionContracts": 17,
       "optionPricedVia": "trade",
-      "lastPrice": 169.52,
-      "lastPriceAt": "2026-11-18T19:18:00Z",
-      "unrealizedDollar": -17.98,
-      "unrealizedPct": -0.3644
+      "lastPrice": 169.27,
+      "lastPriceAt": "2026-11-18T19:19:00Z",
+      "unrealizedDollar": -25.23,
+      "unrealizedPct": -0.5113
     },
     "WPM_2026-11-18": {
       "symbol": "WPM",
@@ -79,10 +103,10 @@
       "optionEntryTime": "2026-11-18T16:43:57.485240+00:00",
       "optionContracts": 20,
       "optionPricedVia": "trade",
-      "lastPrice": 119.68,
-      "lastPriceAt": "2026-11-18T19:18:00Z",
-      "unrealizedDollar": -51.04,
-      "unrealizedPct": -0.9787
+      "lastPrice": 119.7708,
+      "lastPriceAt": "2026-11-18T19:19:00Z",
+      "unrealizedDollar": -55.04,
+      "unrealizedPct": -1.0553
     },
     "SPXL_2026-11-17": {
       "symbol": "SPXL",
@@ -3275,8 +3299,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-18T19:19:50.337247+00:00",
-    "lastCheckEt": "2026-11-18T14:19:50.335986-05:00",
+    "lastCheckAt": "2026-11-18T19:20:50.355810+00:00",
+    "lastCheckEt": "2026-11-18T14:20:50.326448-05:00",
     "status": "ok"
   }
 }
