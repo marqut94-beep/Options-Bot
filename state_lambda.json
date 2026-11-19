@@ -1,5 +1,29 @@
 {
   "trades": {
+    "PDD_2026-11-19": {
+      "symbol": "PDD",
+      "date": "2026-11-19",
+      "direction": "long",
+      "entryTime": "2026-11-19T15:14:00Z",
+      "entryPrice": 86.62,
+      "shares": 58,
+      "convictionScore": 0.0024,
+      "allocDollar": 5017.68,
+      "stopPrice": 84.0214,
+      "targetPrice": 90.0848,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0283,
+      "pctChangeAtScreen": 4.9685,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "PDD261120C00087000",
+      "optionStrike": "87",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 0.24,
+      "optionEntryTime": "2026-11-19T15:15:54.015249+00:00",
+      "optionContracts": 209,
+      "optionPricedVia": "trade"
+    },
     "TJX_2026-11-18": {
       "symbol": "TJX",
       "date": "2026-11-18",
@@ -3335,8 +3359,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-19T15:14:50.384076+00:00",
-    "lastCheckEt": "2026-11-19T10:14:50.382698-05:00",
+    "lastCheckAt": "2026-11-19T15:15:50.412895+00:00",
+    "lastCheckEt": "2026-11-19T10:15:50.411609-05:00",
     "status": "ok"
   }
 }
