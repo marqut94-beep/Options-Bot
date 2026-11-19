@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-19T15:58:54.087664+00:00",
       "optionContracts": 167,
       "optionPricedVia": "trade",
-      "lastPrice": 35.21,
-      "lastPriceAt": "2026-11-19T16:01:00Z",
-      "unrealizedDollar": -34.32,
-      "unrealizedPct": -0.6863
+      "lastPrice": 35.26,
+      "lastPriceAt": "2026-11-19T16:02:00Z",
+      "unrealizedDollar": -41.47,
+      "unrealizedPct": -0.8293
     },
     "PDD_2026-11-19": {
       "symbol": "PDD",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-19T15:15:54.015249+00:00",
       "optionContracts": 209,
       "optionPricedVia": "trade",
-      "lastPrice": 86.88,
-      "lastPriceAt": "2026-11-19T16:01:00Z",
-      "unrealizedDollar": 15.08,
-      "unrealizedPct": 0.3002
+      "lastPrice": 86.77,
+      "lastPriceAt": "2026-11-19T16:02:00Z",
+      "unrealizedDollar": 8.7,
+      "unrealizedPct": 0.1732
     },
     "TJX_2026-11-18": {
       "symbol": "TJX",
@@ -3391,8 +3391,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-19T16:02:50.388578+00:00",
-    "lastCheckEt": "2026-11-19T11:02:50.375129-05:00",
+    "lastCheckAt": "2026-11-19T16:03:50.471357+00:00",
+    "lastCheckEt": "2026-11-19T11:03:50.470051-05:00",
     "status": "ok"
   }
 }
