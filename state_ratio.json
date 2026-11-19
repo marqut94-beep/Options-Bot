@@ -1,5 +1,23 @@
 {
   "trades": {
+    "UGI_2026-11-19": {
+      "symbol": "UGI",
+      "date": "2026-11-19",
+      "direction": "short",
+      "entryTime": "2026-11-19T17:04:00Z",
+      "entryPrice": 34.61,
+      "shares": 1,
+      "convictionScore": 0.0009,
+      "allocDollar": 50.07,
+      "stopPrice": 35.6483,
+      "targetPrice": 33.2256,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0056,
+      "pctChangeAtScreen": -5.6948,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "NVDL_2026-11-18": {
       "symbol": "NVDL",
       "date": "2026-11-18",
@@ -1275,8 +1293,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-19T17:04:12.814907+00:00",
-    "lastCheckEt": "2026-11-19T12:04:12.814357-05:00",
+    "lastCheckAt": "2026-11-19T17:05:12.843297+00:00",
+    "lastCheckEt": "2026-11-19T12:05:12.842683-05:00",
     "status": "ok"
   }
 }
