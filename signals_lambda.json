@@ -2425,5 +2425,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 140.73,
     "allocDollar": 5003.47
+  },
+  {
+    "id": "WSM_2026-11-19_entry_2026-11-19T17:03:54.885306+00:00",
+    "tradeId": "WSM_2026-11-19",
+    "action": "entry",
+    "createdAt": "2026-11-19T17:03:54.885310+00:00",
+    "symbol": "WSM",
+    "direction": "short",
+    "optionSymbol": "WSM261120P00220000",
+    "contracts": 21,
+    "optionEntryPriceAtScreen": 2.3,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 224.265,
+    "allocDollar": 5001.65
   }
 ]
