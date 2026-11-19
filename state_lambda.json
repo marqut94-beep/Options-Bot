@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-19T17:03:54.885283+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 223.19,
-      "lastPriceAt": "2026-11-19T20:13:00Z",
-      "unrealizedDollar": 23.65,
-      "unrealizedPct": 0.4793
+      "lastPrice": 222.61,
+      "lastPriceAt": "2026-11-19T20:14:00Z",
+      "unrealizedDollar": 36.41,
+      "unrealizedPct": 0.738
     },
     "INSM_2026-11-19": {
       "symbol": "INSM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-19T16:04:54.357921+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 145.295,
-      "lastPriceAt": "2026-11-19T20:13:00Z",
-      "unrealizedDollar": 164.34,
-      "unrealizedPct": 3.2438
+      "lastPrice": 145.35,
+      "lastPriceAt": "2026-11-19T20:14:00Z",
+      "unrealizedDollar": 166.32,
+      "unrealizedPct": 3.2829
     },
     "UGI_2026-11-19": {
       "symbol": "UGI",
@@ -80,7 +80,7 @@
       "optionContracts": 167,
       "optionPricedVia": "trade",
       "lastPrice": 34.92,
-      "lastPriceAt": "2026-11-19T20:13:00Z",
+      "lastPriceAt": "2026-11-19T20:14:00Z",
       "unrealizedDollar": 7.15,
       "unrealizedPct": 0.143
     },
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-11-19T15:15:54.015249+00:00",
       "optionContracts": 209,
       "optionPricedVia": "trade",
-      "lastPrice": 85.98,
-      "lastPriceAt": "2026-11-19T20:13:00Z",
-      "unrealizedDollar": -37.12,
-      "unrealizedPct": -0.7389
+      "lastPrice": 85.9488,
+      "lastPriceAt": "2026-11-19T20:14:00Z",
+      "unrealizedDollar": -38.93,
+      "unrealizedPct": -0.7749
     },
     "TJX_2026-11-18": {
       "symbol": "TJX",
@@ -3447,8 +3447,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-19T20:14:50.432092+00:00",
-    "lastCheckEt": "2026-11-19T15:14:50.430778-05:00",
+    "lastCheckAt": "2026-11-19T20:15:50.323565+00:00",
+    "lastCheckEt": "2026-11-19T15:15:50.322305-05:00",
     "status": "ok"
   }
 }
