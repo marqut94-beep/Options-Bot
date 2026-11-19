@@ -22,7 +22,11 @@
       "optionEntryPrice": 0.24,
       "optionEntryTime": "2026-11-19T15:15:54.015249+00:00",
       "optionContracts": 209,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 86.555,
+      "lastPriceAt": "2026-11-19T15:15:00Z",
+      "unrealizedDollar": -3.77,
+      "unrealizedPct": -0.075
     },
     "TJX_2026-11-18": {
       "symbol": "TJX",
@@ -3359,8 +3363,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-19T15:15:50.412895+00:00",
-    "lastCheckEt": "2026-11-19T10:15:50.411609-05:00",
+    "lastCheckAt": "2026-11-19T15:16:50.382951+00:00",
+    "lastCheckEt": "2026-11-19T10:16:50.353518-05:00",
     "status": "ok"
   }
 }
