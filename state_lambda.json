@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-19T17:03:54.885283+00:00",
       "optionContracts": 21,
       "optionPricedVia": "trade",
-      "lastPrice": 224.88,
-      "lastPriceAt": "2026-11-19T17:24:00Z",
-      "unrealizedDollar": -13.53,
-      "unrealizedPct": -0.2742
+      "lastPrice": 225.69,
+      "lastPriceAt": "2026-11-19T17:25:00Z",
+      "unrealizedDollar": -31.35,
+      "unrealizedPct": -0.6354
     },
     "INSM_2026-11-19": {
       "symbol": "INSM",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-19T16:04:54.357921+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 143.2875,
-      "lastPriceAt": "2026-11-19T17:24:00Z",
-      "unrealizedDollar": 92.07,
-      "unrealizedPct": 1.8173
+      "lastPrice": 143.1,
+      "lastPriceAt": "2026-11-19T17:25:00Z",
+      "unrealizedDollar": 85.32,
+      "unrealizedPct": 1.6841
     },
     "UGI_2026-11-19": {
       "symbol": "UGI",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-19T15:58:54.087664+00:00",
       "optionContracts": 167,
       "optionPricedVia": "trade",
-      "lastPrice": 34.95,
-      "lastPriceAt": "2026-11-19T17:24:00Z",
-      "unrealizedDollar": 2.86,
-      "unrealizedPct": 0.0572
+      "lastPrice": 35.1021,
+      "lastPriceAt": "2026-11-19T17:25:00Z",
+      "unrealizedDollar": -18.89,
+      "unrealizedPct": -0.3778
     },
     "PDD_2026-11-19": {
       "symbol": "PDD",
@@ -107,10 +107,10 @@
       "optionEntryTime": "2026-11-19T15:15:54.015249+00:00",
       "optionContracts": 209,
       "optionPricedVia": "trade",
-      "lastPrice": 87.05,
-      "lastPriceAt": "2026-11-19T17:24:00Z",
-      "unrealizedDollar": 24.94,
-      "unrealizedPct": 0.4964
+      "lastPrice": 87.12,
+      "lastPriceAt": "2026-11-19T17:25:00Z",
+      "unrealizedDollar": 29.0,
+      "unrealizedPct": 0.5772
     },
     "TJX_2026-11-18": {
       "symbol": "TJX",
@@ -3447,8 +3447,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-19T17:25:50.443696+00:00",
-    "lastCheckEt": "2026-11-19T12:25:50.414197-05:00",
+    "lastCheckAt": "2026-11-19T17:26:50.323953+00:00",
+    "lastCheckEt": "2026-11-19T12:26:50.302532-05:00",
     "status": "ok"
   }
 }
