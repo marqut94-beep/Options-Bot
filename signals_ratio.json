@@ -853,5 +853,15 @@
     "createdAt": "2026-11-18T20:55:13.206329+00:00",
     "symbol": "NVDL",
     "reason": "eod"
+  },
+  {
+    "id": "UGI_2026-11-19_entry_2026-11-19T17:05:16.683102+00:00",
+    "tradeId": "UGI_2026-11-19",
+    "action": "entry",
+    "createdAt": "2026-11-19T17:05:16.683116+00:00",
+    "symbol": "UGI",
+    "direction": "short",
+    "stockEntryPrice": 34.61,
+    "allocDollar": 50.07
   }
 ]
