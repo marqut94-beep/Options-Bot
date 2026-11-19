@@ -1,5 +1,29 @@
 {
   "trades": {
+    "WSM_2026-11-19": {
+      "symbol": "WSM",
+      "date": "2026-11-19",
+      "direction": "short",
+      "entryTime": "2026-11-19T17:02:00Z",
+      "entryPrice": 224.265,
+      "shares": 22,
+      "convictionScore": 0.0002,
+      "allocDollar": 5001.65,
+      "stopPrice": 230.99294999999998,
+      "targetPrice": 215.29439999999997,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0026,
+      "pctChangeAtScreen": -7.782,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "WSM261120P00220000",
+      "optionStrike": "220",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 2.3,
+      "optionEntryTime": "2026-11-19T17:03:54.885283+00:00",
+      "optionContracts": 21,
+      "optionPricedVia": "trade"
+    },
     "INSM_2026-11-19": {
       "symbol": "INSM",
       "date": "2026-11-19",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-19T16:04:54.357921+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 141.575,
-      "lastPriceAt": "2026-11-19T17:01:00Z",
-      "unrealizedDollar": 30.42,
-      "unrealizedPct": 0.6004
+      "lastPrice": 140.89,
+      "lastPriceAt": "2026-11-19T17:02:00Z",
+      "unrealizedDollar": 5.76,
+      "unrealizedPct": 0.1137
     },
     "UGI_2026-11-19": {
       "symbol": "UGI",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-19T15:58:54.087664+00:00",
       "optionContracts": 167,
       "optionPricedVia": "trade",
-      "lastPrice": 34.63,
-      "lastPriceAt": "2026-11-19T17:01:00Z",
-      "unrealizedDollar": 48.62,
-      "unrealizedPct": 0.9723
+      "lastPrice": 34.625,
+      "lastPriceAt": "2026-11-19T17:02:00Z",
+      "unrealizedDollar": 49.33,
+      "unrealizedPct": 0.9866
     },
     "PDD_2026-11-19": {
       "symbol": "PDD",
@@ -79,10 +103,10 @@
       "optionEntryTime": "2026-11-19T15:15:54.015249+00:00",
       "optionContracts": 209,
       "optionPricedVia": "trade",
-      "lastPrice": 86.5675,
-      "lastPriceAt": "2026-11-19T17:01:00Z",
-      "unrealizedDollar": -3.05,
-      "unrealizedPct": -0.0606
+      "lastPrice": 86.29,
+      "lastPriceAt": "2026-11-19T17:02:00Z",
+      "unrealizedDollar": -19.14,
+      "unrealizedPct": -0.381
     },
     "TJX_2026-11-18": {
       "symbol": "TJX",
@@ -3419,8 +3443,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-19T17:02:52.619393+00:00",
-    "lastCheckEt": "2026-11-19T12:02:52.618067-05:00",
+    "lastCheckAt": "2026-11-19T17:03:50.503929+00:00",
+    "lastCheckEt": "2026-11-19T12:03:50.478426-05:00",
     "status": "ok"
   }
 }
