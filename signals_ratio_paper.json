@@ -808,5 +808,21 @@
     "direction": "long",
     "stockEntryPrice": 34.36,
     "allocDollar": 50.01
+  },
+  {
+    "id": "FAZ_2026-11-19_exit_close_all_2026-11-19T20:55:50.058141+00:00",
+    "tradeId": "FAZ_2026-11-19",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-19T20:55:50.058145+00:00",
+    "symbol": "FAZ",
+    "reason": "eod"
+  },
+  {
+    "id": "UGI_2026-11-19_exit_close_all_2026-11-19T20:55:50.265047+00:00",
+    "tradeId": "UGI_2026-11-19",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-19T20:55:50.265051+00:00",
+    "symbol": "UGI",
+    "reason": "eod"
   }
 ]
