@@ -2411,5 +2411,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 34.97,
     "allocDollar": 5013.27
+  },
+  {
+    "id": "INSM_2026-11-19_entry_2026-11-19T16:04:54.357944+00:00",
+    "tradeId": "INSM_2026-11-19",
+    "action": "entry",
+    "createdAt": "2026-11-19T16:04:54.357947+00:00",
+    "symbol": "INSM",
+    "direction": "long",
+    "optionSymbol": "INSM261120C00140000",
+    "contracts": 12,
+    "optionEntryPriceAtScreen": 4.1,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 140.73,
+    "allocDollar": 5003.47
   }
 ]
