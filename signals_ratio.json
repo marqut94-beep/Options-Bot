@@ -863,5 +863,15 @@
     "direction": "short",
     "stockEntryPrice": 34.61,
     "allocDollar": 50.07
+  },
+  {
+    "id": "FAZ_2026-11-19_entry_2026-11-19T19:46:17.640813+00:00",
+    "tradeId": "FAZ_2026-11-19",
+    "action": "entry",
+    "createdAt": "2026-11-19T19:46:17.640826+00:00",
+    "symbol": "FAZ",
+    "direction": "long",
+    "stockEntryPrice": 34.36,
+    "allocDollar": 50.01
   }
 ]
