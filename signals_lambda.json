@@ -2439,5 +2439,49 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 224.265,
     "allocDollar": 5001.65
+  },
+  {
+    "id": "WSM_2026-11-19_exit_close_all_2026-11-19T20:56:50.671192+00:00",
+    "tradeId": "WSM_2026-11-19",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-19T20:56:50.671196+00:00",
+    "symbol": "WSM",
+    "optionSymbol": "WSM261120P00220000",
+    "contracts": 21,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "INSM_2026-11-19_exit_close_all_2026-11-19T20:56:51.048253+00:00",
+    "tradeId": "INSM_2026-11-19",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-19T20:56:51.048256+00:00",
+    "symbol": "INSM",
+    "optionSymbol": "INSM261120C00140000",
+    "contracts": 12,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "UGI_2026-11-19_exit_close_all_2026-11-19T20:56:51.441179+00:00",
+    "tradeId": "UGI_2026-11-19",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-19T20:56:51.441183+00:00",
+    "symbol": "UGI",
+    "optionSymbol": "UGI261120P00035000",
+    "contracts": 167,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "PDD_2026-11-19_exit_close_all_2026-11-19T20:56:51.857945+00:00",
+    "tradeId": "PDD_2026-11-19",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-19T20:56:51.857949+00:00",
+    "symbol": "PDD",
+    "optionSymbol": "PDD261120C00087000",
+    "contracts": 209,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
