@@ -2397,5 +2397,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 86.62,
     "allocDollar": 5017.68
+  },
+  {
+    "id": "UGI_2026-11-19_entry_2026-11-19T15:58:54.087690+00:00",
+    "tradeId": "UGI_2026-11-19",
+    "action": "entry",
+    "createdAt": "2026-11-19T15:58:54.087694+00:00",
+    "symbol": "UGI",
+    "direction": "short",
+    "optionSymbol": "UGI261120P00035000",
+    "contracts": 167,
+    "optionEntryPriceAtScreen": 0.3,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 34.97,
+    "allocDollar": 5013.27
   }
 ]
