@@ -2383,5 +2383,19 @@
     "contracts": 20,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "PDD_2026-11-19_entry_2026-11-19T15:15:54.015271+00:00",
+    "tradeId": "PDD_2026-11-19",
+    "action": "entry",
+    "createdAt": "2026-11-19T15:15:54.015275+00:00",
+    "symbol": "PDD",
+    "direction": "long",
+    "optionSymbol": "PDD261120C00087000",
+    "contracts": 209,
+    "optionEntryPriceAtScreen": 0.24,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 86.62,
+    "allocDollar": 5017.68
   }
 ]
