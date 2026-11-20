@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
       "optionContracts": 185,
       "optionPricedVia": "trade",
-      "lastPrice": 21.375,
-      "lastPriceAt": "2026-11-20T16:44:00Z",
-      "unrealizedDollar": 5.85,
-      "unrealizedPct": 0.1171
+      "lastPrice": 21.265,
+      "lastPriceAt": "2026-11-20T16:46:00Z",
+      "unrealizedDollar": -19.89,
+      "unrealizedPct": -0.3981
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3507,8 +3507,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T16:45:50.340806+00:00",
-    "lastCheckEt": "2026-11-20T11:45:50.303211-05:00",
+    "lastCheckAt": "2026-11-20T16:47:53.811352+00:00",
+    "lastCheckEt": "2026-11-20T11:47:53.809979-05:00",
     "status": "ok"
   }
 }
