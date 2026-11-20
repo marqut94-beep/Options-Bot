@@ -1,5 +1,23 @@
 {
   "trades": {
+    "NVDL_2026-11-20": {
+      "symbol": "NVDL",
+      "date": "2026-11-20",
+      "direction": "short",
+      "entryTime": "2026-11-20T19:12:00Z",
+      "entryPrice": 11.625,
+      "shares": 4,
+      "convictionScore": 0.0021,
+      "allocDollar": 50.16,
+      "stopPrice": 11.97375,
+      "targetPrice": 11.16,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0129,
+      "pctChangeAtScreen": -15.393,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "TQQQ_2026-11-20": {
       "symbol": "TQQQ",
       "date": "2026-11-20",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": -7.8898,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 43.0679,
-      "lastPriceAt": "2026-11-20T19:11:00Z",
-      "unrealizedDollar": 0.72,
-      "unrealizedPct": 1.6378
+      "lastPrice": 42.7,
+      "lastPriceAt": "2026-11-20T19:12:00Z",
+      "unrealizedDollar": 1.08,
+      "unrealizedPct": 2.478
     },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
@@ -66,10 +84,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 21.085,
-      "lastPriceAt": "2026-11-20T19:11:00Z",
-      "unrealizedDollar": -0.78,
-      "unrealizedPct": -1.8161
+      "lastPrice": 21.06,
+      "lastPriceAt": "2026-11-20T19:12:00Z",
+      "unrealizedDollar": -0.83,
+      "unrealizedPct": -1.9325
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1396,8 +1414,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T19:12:49.852635+00:00",
-    "lastCheckEt": "2026-11-20T14:12:49.852042-05:00",
+    "lastCheckAt": "2026-11-20T19:13:49.912244+00:00",
+    "lastCheckEt": "2026-11-20T14:13:49.911604-05:00",
     "status": "ok"
   }
 }
