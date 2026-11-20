@@ -11,7 +11,7 @@
       "allocDollar": 5013.7,
       "stopPrice": 118.29035,
       "targetPrice": 110.2512,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0219,
       "pctChangeAtScreen": -17.7505,
@@ -35,7 +35,12 @@
       "remainderFloor": 112.54809999999999,
       "remainderTarget": 101.0636,
       "optionContractsPartial": null,
-      "optionContractsRemainder": null
+      "optionContractsRemainder": null,
+      "exitTime": "2026-11-20T20:47:50.542585+00:00",
+      "exitPrice": 112.54809999999999,
+      "exitReason": "floor",
+      "returnPct": 2.1819,
+      "dollarPnl": 110.26
     },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
@@ -96,10 +101,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 41.725,
-      "lastPriceAt": "2026-11-20T20:45:00Z",
-      "unrealizedDollar": 174.14,
-      "unrealizedPct": 3.475,
+      "lastPrice": 41.47,
+      "lastPriceAt": "2026-11-20T20:46:00Z",
+      "unrealizedDollar": 200.66,
+      "unrealizedPct": 4.0042,
       "partialExitPrice": 41.472,
       "partialExitTime": "2026-11-20T20:26:00Z",
       "partialDollarPnl": 20.74,
@@ -3625,8 +3630,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T20:46:50.371510+00:00",
-    "lastCheckEt": "2026-11-20T15:46:50.370193-05:00",
+    "lastCheckAt": "2026-11-20T20:47:50.319857+00:00",
+    "lastCheckEt": "2026-11-20T15:47:50.318536-05:00",
     "status": "ok"
   }
 }
