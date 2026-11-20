@@ -12,7 +12,7 @@
       "stopPrice": 118.29035,
       "targetPrice": 110.2512,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0219,
       "pctChangeAtScreen": -17.7505,
       "dataSource": "alpaca-sip",
@@ -26,7 +26,16 @@
       "lastPrice": 110.43,
       "lastPriceAt": "2026-11-20T20:32:00Z",
       "unrealizedDollar": 194.26,
-      "unrealizedPct": 3.8443
+      "unrealizedPct": 3.8443,
+      "partialExitPrice": 110.2512,
+      "partialExitTime": "2026-11-20T20:34:00Z",
+      "partialDollarPnl": 18.38,
+      "sharesPartial": 4,
+      "sharesRemainder": 40,
+      "remainderFloor": 112.54809999999999,
+      "remainderTarget": 101.0636,
+      "optionContractsPartial": null,
+      "optionContractsRemainder": null
     },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
@@ -87,10 +96,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 40.9006,
-      "lastPriceAt": "2026-11-20T20:33:00Z",
-      "unrealizedDollar": 259.88,
-      "unrealizedPct": 5.1859,
+      "lastPrice": 40.865,
+      "lastPriceAt": "2026-11-20T20:34:00Z",
+      "unrealizedDollar": 263.58,
+      "unrealizedPct": 5.2598,
       "partialExitPrice": 41.472,
       "partialExitTime": "2026-11-20T20:26:00Z",
       "partialDollarPnl": 20.74,
@@ -3616,8 +3625,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T20:34:50.391161+00:00",
-    "lastCheckEt": "2026-11-20T15:34:50.389826-05:00",
+    "lastCheckAt": "2026-11-20T20:35:50.420164+00:00",
+    "lastCheckEt": "2026-11-20T15:35:50.390669-05:00",
     "status": "ok"
   }
 }
