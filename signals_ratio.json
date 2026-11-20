@@ -899,5 +899,15 @@
     "direction": "long",
     "stockEntryPrice": 21.475,
     "allocDollar": 50.01
+  },
+  {
+    "id": "SOXL_2026-11-20_entry_2026-11-20T18:16:16.326772+00:00",
+    "tradeId": "SOXL_2026-11-20",
+    "action": "entry",
+    "createdAt": "2026-11-20T18:16:16.326785+00:00",
+    "symbol": "SOXL",
+    "direction": "short",
+    "stockEntryPrice": 33.19,
+    "allocDollar": 50.02
   }
 ]
