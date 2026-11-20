@@ -76,7 +76,7 @@
       "stopPrice": 44.496,
       "targetPrice": 41.472,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0012,
       "pctChangeAtScreen": -9.11,
       "dataSource": "alpaca-sip",
@@ -90,7 +90,16 @@
       "lastPrice": 41.595,
       "lastPriceAt": "2026-11-20T20:25:00Z",
       "unrealizedDollar": 186.18,
-      "unrealizedPct": 3.7153
+      "unrealizedPct": 3.7153,
+      "partialExitPrice": 41.472,
+      "partialExitTime": "2026-11-20T20:26:00Z",
+      "partialDollarPnl": 20.74,
+      "sharesPartial": 12,
+      "sharesRemainder": 104,
+      "remainderFloor": 42.336,
+      "remainderTarget": 38.016000000000005,
+      "optionContractsPartial": 11,
+      "optionContractsRemainder": 97
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -115,10 +124,10 @@
       "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
       "optionContracts": 185,
       "optionPricedVia": "trade",
-      "lastPrice": 20.74,
-      "lastPriceAt": "2026-11-20T20:25:00Z",
-      "unrealizedDollar": -142.74,
-      "unrealizedPct": -2.8571
+      "lastPrice": 20.755,
+      "lastPriceAt": "2026-11-20T20:27:00Z",
+      "unrealizedDollar": -139.23,
+      "unrealizedPct": -2.7869
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3599,8 +3608,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T20:26:50.900097+00:00",
-    "lastCheckEt": "2026-11-20T15:26:50.886712-05:00",
+    "lastCheckAt": "2026-11-20T20:28:50.261762+00:00",
+    "lastCheckEt": "2026-11-20T15:28:50.260493-05:00",
     "status": "ok"
   }
 }
