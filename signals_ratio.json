@@ -918,5 +918,15 @@
     "symbol": "SOXL",
     "stockEntryPrice": 33.19,
     "reason": "stop"
+  },
+  {
+    "id": "TQQQ_2026-11-20_entry_2026-11-20T18:35:16.545565+00:00",
+    "tradeId": "TQQQ_2026-11-20",
+    "action": "entry",
+    "createdAt": "2026-11-20T18:35:16.545577+00:00",
+    "symbol": "TQQQ",
+    "direction": "short",
+    "stockEntryPrice": 43.675,
+    "allocDollar": 50.01
   }
 ]
