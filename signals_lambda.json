@@ -2539,5 +2539,17 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 114.845,
     "allocDollar": 5013.7
+  },
+  {
+    "id": "TQQQ_2026-11-20_exit_close_partial_2026-11-20T20:28:50.661930+00:00",
+    "tradeId": "TQQQ_2026-11-20",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-20T20:28:50.661945+00:00",
+    "symbol": "TQQQ",
+    "optionSymbol": "TQQQ261120P00043000",
+    "contracts": 11,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
