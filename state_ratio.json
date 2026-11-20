@@ -1,5 +1,23 @@
 {
   "trades": {
+    "SOXL_2026-11-20": {
+      "symbol": "SOXL",
+      "date": "2026-11-20",
+      "direction": "short",
+      "entryTime": "2026-11-20T18:15:00Z",
+      "entryPrice": 33.19,
+      "shares": 2,
+      "convictionScore": 0.0003,
+      "allocDollar": 50.02,
+      "stopPrice": 34.1857,
+      "targetPrice": 31.862399999999997,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0018,
+      "pctChangeAtScreen": -21.7217,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "GAP_2026-11-20": {
       "symbol": "GAP",
       "date": "2026-11-20",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 21.135,
-      "lastPriceAt": "2026-11-20T18:14:00Z",
-      "unrealizedDollar": -0.68,
-      "unrealizedPct": -1.5832
+      "lastPrice": 21.12,
+      "lastPriceAt": "2026-11-20T18:15:00Z",
+      "unrealizedDollar": -0.71,
+      "unrealizedPct": -1.6531
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1351,8 +1369,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:15:12.886769+00:00",
-    "lastCheckEt": "2026-11-20T13:15:12.886117-05:00",
+    "lastCheckAt": "2026-11-20T18:16:12.815147+00:00",
+    "lastCheckEt": "2026-11-20T13:16:12.814548-05:00",
     "status": "ok"
   }
 }
