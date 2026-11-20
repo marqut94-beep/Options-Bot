@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -21.7217,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 33.8,
-      "lastPriceAt": "2026-11-20T18:17:00Z",
-      "unrealizedDollar": -1.22,
-      "unrealizedPct": -1.8379
+      "lastPrice": 34.015,
+      "lastPriceAt": "2026-11-20T18:18:00Z",
+      "unrealizedDollar": -1.65,
+      "unrealizedPct": -2.4857
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 21.125,
-      "lastPriceAt": "2026-11-20T18:17:00Z",
-      "unrealizedDollar": -0.7,
-      "unrealizedPct": -1.6298
+      "lastPrice": 21.17,
+      "lastPriceAt": "2026-11-20T18:18:00Z",
+      "unrealizedDollar": -0.61,
+      "unrealizedPct": -1.4203
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1373,8 +1373,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:18:12.887383+00:00",
-    "lastCheckEt": "2026-11-20T13:18:12.886749-05:00",
+    "lastCheckAt": "2026-11-20T18:19:12.880655+00:00",
+    "lastCheckEt": "2026-11-20T13:19:12.880066-05:00",
     "status": "ok"
   }
 }
