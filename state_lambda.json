@@ -59,10 +59,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 42.7,
-      "lastPriceAt": "2026-11-20T19:12:00Z",
-      "unrealizedDollar": 58.0,
-      "unrealizedPct": 1.1574
+      "lastPrice": 42.78,
+      "lastPriceAt": "2026-11-20T19:13:00Z",
+      "unrealizedDollar": 48.72,
+      "unrealizedPct": 0.9722
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -87,10 +87,10 @@
       "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
       "optionContracts": 185,
       "optionPricedVia": "trade",
-      "lastPrice": 21.06,
-      "lastPriceAt": "2026-11-20T19:12:00Z",
-      "unrealizedDollar": -67.86,
-      "unrealizedPct": -1.3583
+      "lastPrice": 21.065,
+      "lastPriceAt": "2026-11-20T19:13:00Z",
+      "unrealizedDollar": -66.69,
+      "unrealizedPct": -1.3349
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3571,8 +3571,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T19:13:57.955594+00:00",
-    "lastCheckEt": "2026-11-20T14:13:57.954310-05:00",
+    "lastCheckAt": "2026-11-20T19:14:50.418700+00:00",
+    "lastCheckEt": "2026-11-20T14:14:50.417371-05:00",
     "status": "ok"
   }
 }
