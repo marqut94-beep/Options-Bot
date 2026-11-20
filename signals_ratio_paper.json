@@ -890,5 +890,14 @@
     "symbol": "NVDL",
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "GAP_2026-11-20_exit_close_all_2026-11-20T19:31:50.369287+00:00",
+    "tradeId": "GAP_2026-11-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-20T19:31:50.369291+00:00",
+    "symbol": "GAP",
+    "stockEntryPrice": 21.475,
+    "reason": "stop"
   }
 ]
