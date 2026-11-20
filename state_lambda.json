@@ -11,7 +11,7 @@
       "allocDollar": 5000.16,
       "stopPrice": 35.47835,
       "targetPrice": 33.0672,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0003,
       "pctChangeAtScreen": -18.7618,
@@ -26,7 +26,15 @@
       "lastPrice": 35.34,
       "lastPriceAt": "2026-11-20T18:55:00Z",
       "unrealizedDollar": -129.78,
-      "unrealizedPct": -2.5983
+      "unrealizedPct": -2.5983,
+      "optionExitPrice": 0.59,
+      "optionExitTime": "2026-11-20T18:57:50.720569+00:00",
+      "optionReturnPct": -28.0488,
+      "exitTime": "2026-11-20T18:57:50.720599+00:00",
+      "exitPrice": 35.47835,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -149.84
     },
     "TQQQ_2026-11-20": {
       "symbol": "TQQQ",
@@ -51,10 +59,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 44.26,
-      "lastPriceAt": "2026-11-20T18:55:00Z",
-      "unrealizedDollar": -122.96,
-      "unrealizedPct": -2.4537
+      "lastPrice": 44.345,
+      "lastPriceAt": "2026-11-20T18:56:00Z",
+      "unrealizedDollar": -132.82,
+      "unrealizedPct": -2.6505
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -3563,8 +3571,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:56:59.508010+00:00",
-    "lastCheckEt": "2026-11-20T13:56:59.494508-05:00",
+    "lastCheckAt": "2026-11-20T18:57:50.328984+00:00",
+    "lastCheckEt": "2026-11-20T13:57:50.327614-05:00",
     "status": "ok"
   }
 }
