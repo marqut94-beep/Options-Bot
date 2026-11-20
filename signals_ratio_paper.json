@@ -824,5 +824,15 @@
     "createdAt": "2026-11-19T20:55:50.265051+00:00",
     "symbol": "UGI",
     "reason": "eod"
+  },
+  {
+    "id": "GAP_2026-11-20_entry_2026-11-20T16:23:53.021698+00:00",
+    "tradeId": "GAP_2026-11-20",
+    "action": "entry",
+    "createdAt": "2026-11-20T16:23:53.021711+00:00",
+    "symbol": "GAP",
+    "direction": "long",
+    "stockEntryPrice": 21.475,
+    "allocDollar": 50.01
   }
 ]
