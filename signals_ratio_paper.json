@@ -873,5 +873,13 @@
     "direction": "short",
     "stockEntryPrice": 11.625,
     "allocDollar": 50.16
+  },
+  {
+    "id": "TQQQ_2026-11-20_exit_close_all_2026-11-20T19:27:50.349974+00:00",
+    "tradeId": "TQQQ_2026-11-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-20T19:27:50.349978+00:00",
+    "symbol": "TQQQ",
+    "reason": "target"
   }
 ]
