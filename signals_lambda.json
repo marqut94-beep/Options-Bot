@@ -2585,5 +2585,16 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "TQQQ_2026-11-20_exit_close_all_2026-11-20T20:55:50.734777+00:00",
+    "tradeId": "TQQQ_2026-11-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-20T20:55:50.734782+00:00",
+    "symbol": "TQQQ",
+    "optionSymbol": "TQQQ261120P00043000",
+    "contracts": 97,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
