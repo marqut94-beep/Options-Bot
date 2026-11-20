@@ -1,5 +1,29 @@
 {
   "trades": {
+    "GAP_2026-11-20": {
+      "symbol": "GAP",
+      "date": "2026-11-20",
+      "direction": "long",
+      "entryTime": "2026-11-20T16:42:00Z",
+      "entryPrice": 21.35,
+      "shares": 234,
+      "convictionScore": 0.0008,
+      "allocDollar": 5005.69,
+      "stopPrice": 20.709500000000002,
+      "targetPrice": 22.204,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0091,
+      "pctChangeAtScreen": 5.4321,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "GAP261120C00021500",
+      "optionStrike": "21.5",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 0.27,
+      "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
+      "optionContracts": 185,
+      "optionPricedVia": "trade"
+    },
     "WSM_2026-11-19": {
       "symbol": "WSM",
       "date": "2026-11-19",
@@ -3479,8 +3503,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T16:42:53.350283+00:00",
-    "lastCheckEt": "2026-11-20T11:42:53.332881-05:00",
+    "lastCheckAt": "2026-11-20T16:43:09.648977+00:00",
+    "lastCheckEt": "2026-11-20T11:43:09.647699-05:00",
     "status": "ok"
   }
 }
