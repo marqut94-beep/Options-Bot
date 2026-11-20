@@ -22,7 +22,11 @@
       "optionEntryPrice": 0.82,
       "optionEntryTime": "2026-11-20T18:54:08.877098+00:00",
       "optionContracts": 60,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 35.34,
+      "lastPriceAt": "2026-11-20T18:55:00Z",
+      "unrealizedDollar": -129.78,
+      "unrealizedPct": -2.5983
     },
     "TQQQ_2026-11-20": {
       "symbol": "TQQQ",
@@ -47,10 +51,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 43.74,
-      "lastPriceAt": "2026-11-20T18:53:00Z",
-      "unrealizedDollar": -62.64,
-      "unrealizedPct": -1.25
+      "lastPrice": 44.26,
+      "lastPriceAt": "2026-11-20T18:55:00Z",
+      "unrealizedDollar": -122.96,
+      "unrealizedPct": -2.4537
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -75,10 +79,10 @@
       "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
       "optionContracts": 185,
       "optionPricedVia": "trade",
-      "lastPrice": 21.045,
-      "lastPriceAt": "2026-11-20T18:53:00Z",
-      "unrealizedDollar": -71.37,
-      "unrealizedPct": -1.4286
+      "lastPrice": 21.145,
+      "lastPriceAt": "2026-11-20T18:55:00Z",
+      "unrealizedDollar": -47.97,
+      "unrealizedPct": -0.9602
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3559,8 +3563,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:54:04.646432+00:00",
-    "lastCheckEt": "2026-11-20T13:54:04.636892-05:00",
+    "lastCheckAt": "2026-11-20T18:56:03.328039+00:00",
+    "lastCheckEt": "2026-11-20T13:56:03.326667-05:00",
     "status": "ok"
   }
 }
