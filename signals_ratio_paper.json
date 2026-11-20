@@ -881,5 +881,14 @@
     "createdAt": "2026-11-20T19:27:50.349978+00:00",
     "symbol": "TQQQ",
     "reason": "target"
+  },
+  {
+    "id": "NVDL_2026-11-20_exit_close_partial_2026-11-20T19:28:50.068623+00:00",
+    "tradeId": "NVDL_2026-11-20",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-20T19:28:50.068642+00:00",
+    "symbol": "NVDL",
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
