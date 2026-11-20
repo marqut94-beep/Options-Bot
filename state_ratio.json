@@ -1,5 +1,23 @@
 {
   "trades": {
+    "GAP_2026-11-20": {
+      "symbol": "GAP",
+      "date": "2026-11-20",
+      "direction": "long",
+      "entryTime": "2026-11-20T16:22:00Z",
+      "entryPrice": 21.475,
+      "shares": 2,
+      "convictionScore": 0.0002,
+      "allocDollar": 50.01,
+      "stopPrice": 20.830750000000002,
+      "targetPrice": 22.334000000000003,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.001,
+      "pctChangeAtScreen": 6.0494,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
       "date": "2026-11-19",
@@ -1329,8 +1347,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T16:22:13.067791+00:00",
-    "lastCheckEt": "2026-11-20T11:22:13.067189-05:00",
+    "lastCheckAt": "2026-11-20T16:23:12.827895+00:00",
+    "lastCheckEt": "2026-11-20T11:23:12.827311-05:00",
     "status": "ok"
   }
 }
