@@ -2525,5 +2525,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 34.445,
     "allocDollar": 5000.16
+  },
+  {
+    "id": "SOXL_2026-11-20_exit_close_all_2026-11-20T18:57:50.720613+00:00",
+    "tradeId": "SOXL_2026-11-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-20T18:57:50.720617+00:00",
+    "symbol": "SOXL",
+    "optionSymbol": "SOXL261120P00034000",
+    "contracts": 60,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
