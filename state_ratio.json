@@ -44,10 +44,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 21.02,
-      "lastPriceAt": "2026-11-20T18:28:00Z",
-      "unrealizedDollar": -0.91,
-      "unrealizedPct": -2.1187
+      "lastPrice": 21.0451,
+      "lastPriceAt": "2026-11-20T18:29:00Z",
+      "unrealizedDollar": -0.86,
+      "unrealizedPct": -2.0019
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1378,8 +1378,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:29:12.854153+00:00",
-    "lastCheckEt": "2026-11-20T13:29:12.853536-05:00",
+    "lastCheckAt": "2026-11-20T18:30:12.909836+00:00",
+    "lastCheckEt": "2026-11-20T13:30:12.909242-05:00",
     "status": "ok"
   }
 }
