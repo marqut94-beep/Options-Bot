@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-20T20:02:54.758416+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 113.02,
-      "lastPriceAt": "2026-11-20T20:16:00Z",
-      "unrealizedDollar": 80.3,
-      "unrealizedPct": 1.5891
+      "lastPrice": 113.4836,
+      "lastPriceAt": "2026-11-20T20:18:00Z",
+      "unrealizedDollar": 59.9,
+      "unrealizedPct": 1.1854
     },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
@@ -87,10 +87,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 41.68,
-      "lastPriceAt": "2026-11-20T20:17:00Z",
-      "unrealizedDollar": 176.32,
-      "unrealizedPct": 3.5185
+      "lastPrice": 41.6001,
+      "lastPriceAt": "2026-11-20T20:18:00Z",
+      "unrealizedDollar": 185.59,
+      "unrealizedPct": 3.7035
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -115,10 +115,10 @@
       "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
       "optionContracts": 185,
       "optionPricedVia": "trade",
-      "lastPrice": 20.815,
-      "lastPriceAt": "2026-11-20T20:17:00Z",
-      "unrealizedDollar": -125.19,
-      "unrealizedPct": -2.5059
+      "lastPrice": 20.81,
+      "lastPriceAt": "2026-11-20T20:18:00Z",
+      "unrealizedDollar": -126.36,
+      "unrealizedPct": -2.5293
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3599,8 +3599,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T20:18:50.381178+00:00",
-    "lastCheckEt": "2026-11-20T15:18:50.379870-05:00",
+    "lastCheckAt": "2026-11-20T20:19:50.369000+00:00",
+    "lastCheckEt": "2026-11-20T15:19:50.367728-05:00",
     "status": "ok"
   }
 }
