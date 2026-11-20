@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -15.393,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 11.3,
-      "lastPriceAt": "2026-11-20T19:28:00Z",
-      "unrealizedDollar": 1.43,
-      "unrealizedPct": 3.086,
+      "lastPrice": 11.215,
+      "lastPriceAt": "2026-11-20T19:29:00Z",
+      "unrealizedDollar": 1.69,
+      "unrealizedPct": 3.6344,
       "partialExitPrice": 11.16,
       "partialExitTime": "2026-11-20T19:27:00Z",
       "partialDollarPnl": 0.46,
@@ -46,10 +46,10 @@
       "pctChangeAtScreen": -8.1107,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 42.2274,
-      "lastPriceAt": "2026-11-20T19:28:00Z",
-      "unrealizedDollar": 1.45,
-      "unrealizedPct": 3.3145
+      "lastPrice": 42.025,
+      "lastPriceAt": "2026-11-20T19:29:00Z",
+      "unrealizedDollar": 1.65,
+      "unrealizedPct": 3.7779
     },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
@@ -95,10 +95,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 20.905,
-      "lastPriceAt": "2026-11-20T19:28:00Z",
-      "unrealizedDollar": -1.14,
-      "unrealizedPct": -2.6542
+      "lastPrice": 20.8999,
+      "lastPriceAt": "2026-11-20T19:29:00Z",
+      "unrealizedDollar": -1.15,
+      "unrealizedPct": -2.678
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1429,8 +1429,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T19:29:12.800678+00:00",
-    "lastCheckEt": "2026-11-20T14:29:12.800216-05:00",
+    "lastCheckAt": "2026-11-20T19:30:12.851824+00:00",
+    "lastCheckEt": "2026-11-20T14:30:12.831205-05:00",
     "status": "ok"
   }
 }
