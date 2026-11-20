@@ -11,7 +11,7 @@
       "allocDollar": 50.02,
       "stopPrice": 34.1857,
       "targetPrice": 31.862399999999997,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0018,
       "pctChangeAtScreen": -21.7217,
@@ -20,7 +20,12 @@
       "lastPrice": 34.02,
       "lastPriceAt": "2026-11-20T18:20:00Z",
       "unrealizedDollar": -1.66,
-      "unrealizedPct": -2.5008
+      "unrealizedPct": -2.5008,
+      "exitTime": "2026-11-20T18:22:50.089466+00:00",
+      "exitPrice": 34.1857,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -1.99
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -39,10 +44,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 21.14,
-      "lastPriceAt": "2026-11-20T18:20:00Z",
-      "unrealizedDollar": -0.67,
-      "unrealizedPct": -1.56
+      "lastPrice": 21.165,
+      "lastPriceAt": "2026-11-20T18:21:00Z",
+      "unrealizedDollar": -0.62,
+      "unrealizedPct": -1.4435
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1369,8 +1374,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:21:50.006262+00:00",
-    "lastCheckEt": "2026-11-20T13:21:50.005695-05:00",
+    "lastCheckAt": "2026-11-20T18:22:49.903140+00:00",
+    "lastCheckEt": "2026-11-20T13:22:49.894319-05:00",
     "status": "ok"
   }
 }
