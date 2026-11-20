@@ -87,10 +87,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 41.505,
-      "lastPriceAt": "2026-11-20T20:28:00Z",
-      "unrealizedDollar": 197.02,
-      "unrealizedPct": 3.9316,
+      "lastPrice": 41.42,
+      "lastPriceAt": "2026-11-20T20:29:00Z",
+      "unrealizedDollar": 205.86,
+      "unrealizedPct": 4.108,
       "partialExitPrice": 41.472,
       "partialExitTime": "2026-11-20T20:26:00Z",
       "partialDollarPnl": 20.74,
@@ -112,7 +112,7 @@
       "allocDollar": 5005.69,
       "stopPrice": 20.709500000000002,
       "targetPrice": 22.204,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0091,
       "pctChangeAtScreen": 5.4321,
@@ -127,7 +127,15 @@
       "lastPrice": 20.725,
       "lastPriceAt": "2026-11-20T20:28:00Z",
       "unrealizedDollar": -146.25,
-      "unrealizedPct": -2.9274
+      "unrealizedPct": -2.9274,
+      "optionExitPrice": 0.01,
+      "optionExitTime": "2026-11-20T20:30:51.309992+00:00",
+      "optionReturnPct": -96.2963,
+      "exitTime": "2026-11-20T20:30:51.310017+00:00",
+      "exitPrice": 20.709500000000002,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -149.88
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3608,8 +3616,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T20:29:01.741834+00:00",
-    "lastCheckEt": "2026-11-20T15:29:01.740586-05:00",
+    "lastCheckAt": "2026-11-20T20:30:50.520188+00:00",
+    "lastCheckEt": "2026-11-20T15:30:50.510845-05:00",
     "status": "ok"
   }
 }
