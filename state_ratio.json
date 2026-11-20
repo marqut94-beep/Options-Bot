@@ -12,7 +12,7 @@
       "stopPrice": 11.97375,
       "targetPrice": 11.16,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0129,
       "pctChangeAtScreen": -15.393,
       "dataSource": "alpaca-sip",
@@ -20,7 +20,14 @@
       "lastPrice": 11.225,
       "lastPriceAt": "2026-11-20T19:26:00Z",
       "unrealizedDollar": 1.6,
-      "unrealizedPct": 3.4409
+      "unrealizedPct": 3.4409,
+      "partialExitPrice": 11.16,
+      "partialExitTime": "2026-11-20T19:27:00Z",
+      "partialDollarPnl": 0.46,
+      "sharesPartial": 1,
+      "sharesRemainder": 3,
+      "remainderFloor": 11.3925,
+      "remainderTarget": 10.4625
     },
     "TQQQ_2026-11-20": {
       "symbol": "TQQQ",
@@ -39,10 +46,10 @@
       "pctChangeAtScreen": -8.1107,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 42.2301,
-      "lastPriceAt": "2026-11-20T19:26:00Z",
-      "unrealizedDollar": 1.44,
-      "unrealizedPct": 3.3083
+      "lastPrice": 42.105,
+      "lastPriceAt": "2026-11-20T19:27:00Z",
+      "unrealizedDollar": 1.57,
+      "unrealizedPct": 3.5947
     },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
@@ -89,7 +96,7 @@
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
       "lastPrice": 20.875,
-      "lastPriceAt": "2026-11-20T19:26:00Z",
+      "lastPriceAt": "2026-11-20T19:27:00Z",
       "unrealizedDollar": -1.2,
       "unrealizedPct": -2.7939
     },
@@ -1422,8 +1429,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T19:27:12.840728+00:00",
-    "lastCheckEt": "2026-11-20T14:27:12.840306-05:00",
+    "lastCheckAt": "2026-11-20T19:28:12.812334+00:00",
+    "lastCheckEt": "2026-11-20T14:28:12.811790-05:00",
     "status": "ok"
   }
 }
