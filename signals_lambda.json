@@ -2483,5 +2483,19 @@
     "contracts": 209,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "GAP_2026-11-20_entry_2026-11-20T16:43:13.230069+00:00",
+    "tradeId": "GAP_2026-11-20",
+    "action": "entry",
+    "createdAt": "2026-11-20T16:43:13.230072+00:00",
+    "symbol": "GAP",
+    "direction": "long",
+    "optionSymbol": "GAP261120C00021500",
+    "contracts": 185,
+    "optionEntryPriceAtScreen": 0.27,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 21.35,
+    "allocDollar": 5005.69
   }
 ]
