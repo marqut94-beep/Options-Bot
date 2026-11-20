@@ -2497,5 +2497,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 21.35,
     "allocDollar": 5005.69
+  },
+  {
+    "id": "TQQQ_2026-11-20_entry_2026-11-20T18:32:54.350609+00:00",
+    "tradeId": "TQQQ_2026-11-20",
+    "action": "entry",
+    "createdAt": "2026-11-20T18:32:54.350613+00:00",
+    "symbol": "TQQQ",
+    "direction": "short",
+    "optionSymbol": "TQQQ261120P00043000",
+    "contracts": 108,
+    "optionEntryPriceAtScreen": 0.46,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 43.2,
+    "allocDollar": 5000.78
   }
 ]
