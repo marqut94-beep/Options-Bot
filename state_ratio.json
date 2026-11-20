@@ -1,5 +1,23 @@
 {
   "trades": {
+    "TQQQ_2026-11-20": {
+      "symbol": "TQQQ",
+      "date": "2026-11-20",
+      "direction": "short",
+      "entryTime": "2026-11-20T18:34:00Z",
+      "entryPrice": 43.675,
+      "shares": 1,
+      "convictionScore": 0.0002,
+      "allocDollar": 50.01,
+      "stopPrice": 44.98525,
+      "targetPrice": 41.928,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0012,
+      "pctChangeAtScreen": -8.1107,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
       "date": "2026-11-20",
@@ -44,10 +62,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 21.045,
-      "lastPriceAt": "2026-11-20T18:33:00Z",
-      "unrealizedDollar": -0.86,
-      "unrealizedPct": -2.0023
+      "lastPrice": 21.105,
+      "lastPriceAt": "2026-11-20T18:34:00Z",
+      "unrealizedDollar": -0.74,
+      "unrealizedPct": -1.7229
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1378,8 +1396,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:34:12.886497+00:00",
-    "lastCheckEt": "2026-11-20T13:34:12.885840-05:00",
+    "lastCheckAt": "2026-11-20T18:35:12.883700+00:00",
+    "lastCheckEt": "2026-11-20T13:35:12.862905-05:00",
     "status": "ok"
   }
 }
