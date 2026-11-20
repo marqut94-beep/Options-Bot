@@ -2562,5 +2562,17 @@
     "contracts": 185,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "AMUU_2026-11-20_exit_close_partial_2026-11-20T20:35:50.621346+00:00",
+    "tradeId": "AMUU_2026-11-20",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-20T20:35:50.621360+00:00",
+    "symbol": "AMUU",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
