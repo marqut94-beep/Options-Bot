@@ -17,10 +17,10 @@
       "pctChangeAtScreen": -15.393,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 11.3,
-      "lastPriceAt": "2026-11-20T19:24:00Z",
-      "unrealizedDollar": 1.3,
-      "unrealizedPct": 2.7957
+      "lastPrice": 11.263,
+      "lastPriceAt": "2026-11-20T19:25:00Z",
+      "unrealizedDollar": 1.45,
+      "unrealizedPct": 3.114
     },
     "TQQQ_2026-11-20": {
       "symbol": "TQQQ",
@@ -39,10 +39,10 @@
       "pctChangeAtScreen": -7.8898,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 42.44,
-      "lastPriceAt": "2026-11-20T19:24:00Z",
-      "unrealizedDollar": 1.34,
-      "unrealizedPct": 3.0718
+      "lastPrice": 42.1806,
+      "lastPriceAt": "2026-11-20T19:25:00Z",
+      "unrealizedDollar": 1.6,
+      "unrealizedPct": 3.6643
     },
     "SOXL_2026-11-20": {
       "symbol": "SOXL",
@@ -88,10 +88,10 @@
       "pctChangeAtScreen": 6.0494,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 20.945,
-      "lastPriceAt": "2026-11-20T19:24:00Z",
-      "unrealizedDollar": -1.06,
-      "unrealizedPct": -2.468
+      "lastPrice": 20.92,
+      "lastPriceAt": "2026-11-20T19:25:00Z",
+      "unrealizedDollar": -1.11,
+      "unrealizedPct": -2.5844
     },
     "FAZ_2026-11-19": {
       "symbol": "FAZ",
@@ -1418,8 +1418,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T19:25:49.861337+00:00",
-    "lastCheckEt": "2026-11-20T14:25:49.860709-05:00",
+    "lastCheckAt": "2026-11-20T19:26:49.876081+00:00",
+    "lastCheckEt": "2026-11-20T14:26:49.875461-05:00",
     "status": "ok"
   }
 }
