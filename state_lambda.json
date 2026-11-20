@@ -1,5 +1,29 @@
 {
   "trades": {
+    "TQQQ_2026-11-20": {
+      "symbol": "TQQQ",
+      "date": "2026-11-20",
+      "direction": "short",
+      "entryTime": "2026-11-20T18:31:00Z",
+      "entryPrice": 43.2,
+      "shares": 116,
+      "convictionScore": 0.0001,
+      "allocDollar": 5000.78,
+      "stopPrice": 44.496,
+      "targetPrice": 41.472,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0012,
+      "pctChangeAtScreen": -9.11,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "TQQQ261120P00043000",
+      "optionStrike": "43",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 0.46,
+      "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
+      "optionContracts": 108,
+      "optionPricedVia": "trade"
+    },
     "GAP_2026-11-20": {
       "symbol": "GAP",
       "date": "2026-11-20",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
       "optionContracts": 185,
       "optionPricedVia": "trade",
-      "lastPrice": 21.06,
-      "lastPriceAt": "2026-11-20T18:30:00Z",
-      "unrealizedDollar": -67.86,
-      "unrealizedPct": -1.3583
+      "lastPrice": 21.045,
+      "lastPriceAt": "2026-11-20T18:31:00Z",
+      "unrealizedDollar": -71.37,
+      "unrealizedPct": -1.4286
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3507,8 +3531,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:31:50.347274+00:00",
-    "lastCheckEt": "2026-11-20T13:31:50.346020-05:00",
+    "lastCheckAt": "2026-11-20T18:32:50.316128+00:00",
+    "lastCheckEt": "2026-11-20T13:32:50.314796-05:00",
     "status": "ok"
   }
 }
