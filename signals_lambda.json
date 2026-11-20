@@ -2551,5 +2551,16 @@
     "needsRobinhoodPricing": false,
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "GAP_2026-11-20_exit_close_all_2026-11-20T20:30:51.310030+00:00",
+    "tradeId": "GAP_2026-11-20",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-20T20:30:51.310034+00:00",
+    "symbol": "GAP",
+    "optionSymbol": "GAP261120C00021500",
+    "contracts": 185,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
