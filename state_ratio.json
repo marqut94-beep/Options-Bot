@@ -11,7 +11,7 @@
       "allocDollar": 50.16,
       "stopPrice": 11.97375,
       "targetPrice": 11.16,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0129,
       "pctChangeAtScreen": -15.393,
@@ -27,7 +27,12 @@
       "sharesPartial": 1,
       "sharesRemainder": 3,
       "remainderFloor": 11.3925,
-      "remainderTarget": 10.4625
+      "remainderTarget": 10.4625,
+      "exitTime": "2026-11-20T20:16:12.859620+00:00",
+      "exitPrice": 10.4625,
+      "exitReason": "target",
+      "returnPct": 8.4892,
+      "dollarPnl": 3.95
     },
     "TQQQ_2026-11-20": {
       "symbol": "TQQQ",
@@ -1439,8 +1444,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T20:15:12.806577+00:00",
-    "lastCheckEt": "2026-11-20T15:15:12.806107-05:00",
+    "lastCheckAt": "2026-11-20T20:16:12.678268+00:00",
+    "lastCheckEt": "2026-11-20T15:16:12.677805-05:00",
     "status": "ok"
   }
 }
