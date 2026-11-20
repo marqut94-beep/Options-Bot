@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SOXL_2026-11-20": {
+      "symbol": "SOXL",
+      "date": "2026-11-20",
+      "direction": "short",
+      "entryTime": "2026-11-20T18:53:00Z",
+      "entryPrice": 34.445,
+      "shares": 145,
+      "convictionScore": 0.0,
+      "allocDollar": 5000.16,
+      "stopPrice": 35.47835,
+      "targetPrice": 33.0672,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0003,
+      "pctChangeAtScreen": -18.7618,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SOXL261120P00034000",
+      "optionStrike": "34",
+      "optionExpiration": "2026-11-20",
+      "optionEntryPrice": 0.82,
+      "optionEntryTime": "2026-11-20T18:54:08.877098+00:00",
+      "optionContracts": 60,
+      "optionPricedVia": "trade"
+    },
     "TQQQ_2026-11-20": {
       "symbol": "TQQQ",
       "date": "2026-11-20",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-20T18:32:54.350586+00:00",
       "optionContracts": 108,
       "optionPricedVia": "trade",
-      "lastPrice": 43.6201,
-      "lastPriceAt": "2026-11-20T18:52:00Z",
-      "unrealizedDollar": -48.73,
-      "unrealizedPct": -0.9725
+      "lastPrice": 43.74,
+      "lastPriceAt": "2026-11-20T18:53:00Z",
+      "unrealizedDollar": -62.64,
+      "unrealizedPct": -1.25
     },
     "GAP_2026-11-20": {
       "symbol": "GAP",
@@ -51,10 +75,10 @@
       "optionEntryTime": "2026-11-20T16:43:13.230045+00:00",
       "optionContracts": 185,
       "optionPricedVia": "trade",
-      "lastPrice": 21.025,
-      "lastPriceAt": "2026-11-20T18:52:00Z",
-      "unrealizedDollar": -76.05,
-      "unrealizedPct": -1.5222
+      "lastPrice": 21.045,
+      "lastPriceAt": "2026-11-20T18:53:00Z",
+      "unrealizedDollar": -71.37,
+      "unrealizedPct": -1.4286
     },
     "WSM_2026-11-19": {
       "symbol": "WSM",
@@ -3535,8 +3559,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-20T18:53:50.336824+00:00",
-    "lastCheckEt": "2026-11-20T13:53:50.335501-05:00",
+    "lastCheckAt": "2026-11-20T18:54:04.646432+00:00",
+    "lastCheckEt": "2026-11-20T13:54:04.636892-05:00",
     "status": "ok"
   }
 }
