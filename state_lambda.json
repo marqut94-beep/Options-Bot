@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-23T15:39:53.858801+00:00",
       "optionContracts": 6,
       "optionPricedVia": "trade",
-      "lastPrice": 203.38,
+      "lastPrice": 203.37,
       "lastPriceAt": "2026-11-23T15:51:00Z",
-      "unrealizedDollar": 150.24,
-      "unrealizedPct": 2.9861
+      "unrealizedDollar": 150.48,
+      "unrealizedPct": 2.9908
     },
     "ZS_2026-11-23": {
       "symbol": "ZS",
@@ -3711,8 +3711,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T15:52:03.857610+00:00",
-    "lastCheckEt": "2026-11-23T10:52:03.856528-05:00",
+    "lastCheckAt": "2026-11-23T15:52:55.975795+00:00",
+    "lastCheckEt": "2026-11-23T10:52:55.974282-05:00",
     "status": "ok"
   }
 }
