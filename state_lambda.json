@@ -1,5 +1,29 @@
 {
   "trades": {
+    "TPL_2026-11-23": {
+      "symbol": "TPL",
+      "date": "2026-11-23",
+      "direction": "short",
+      "entryTime": "2026-11-23T17:40:00Z",
+      "entryPrice": 263.02,
+      "shares": 19,
+      "convictionScore": 0.0026,
+      "allocDollar": 5019.63,
+      "stopPrice": 270.9106,
+      "targetPrice": 252.49919999999997,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0314,
+      "pctChangeAtScreen": -6.1782,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": null,
+      "optionStrike": null,
+      "optionExpiration": null,
+      "optionEntryPrice": null,
+      "optionEntryTime": "2026-11-23T17:41:59.412760+00:00",
+      "optionContracts": null,
+      "optionPricedVia": null
+    },
     "CRWD_2026-11-23": {
       "symbol": "CRWD",
       "date": "2026-11-23",
@@ -3728,8 +3752,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T17:39:53.901015+00:00",
-    "lastCheckEt": "2026-11-23T12:39:53.871476-05:00",
+    "lastCheckAt": "2026-11-23T17:41:56.175989+00:00",
+    "lastCheckEt": "2026-11-23T12:41:56.174472-05:00",
     "status": "ok"
   }
 }
