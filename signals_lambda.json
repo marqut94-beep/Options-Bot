@@ -2633,5 +2633,19 @@
     "contracts": 5,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "CRWD_2026-11-23_entry_2026-11-23T15:39:53.858824+00:00",
+    "tradeId": "CRWD_2026-11-23",
+    "action": "entry",
+    "createdAt": "2026-11-23T15:39:53.858827+00:00",
+    "symbol": "CRWD",
+    "direction": "short",
+    "optionSymbol": "CRWD261127P00210000",
+    "contracts": 6,
+    "optionEntryPriceAtScreen": 7.79,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 209.64,
+    "allocDollar": 5021.59
   }
 ]
