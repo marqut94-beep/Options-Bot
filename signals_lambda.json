@@ -2610,5 +2610,17 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 233.37,
     "allocDollar": 5194.41
+  },
+  {
+    "id": "ZS_2026-11-23_exit_close_partial_2026-11-23T15:11:56.305003+00:00",
+    "tradeId": "ZS_2026-11-23",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-23T15:11:56.305021+00:00",
+    "symbol": "ZS",
+    "optionSymbol": "ZS261127P00232500",
+    "contracts": 1,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
