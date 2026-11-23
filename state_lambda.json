@@ -22,7 +22,11 @@
       "optionEntryPrice": 1.12,
       "optionEntryTime": "2026-11-23T17:56:07.449588+00:00",
       "optionContracts": 44,
-      "optionPricedVia": "trade"
+      "optionPricedVia": "trade",
+      "lastPrice": 10.78,
+      "lastPriceAt": "2026-11-23T17:55:00Z",
+      "unrealizedDollar": 0.0,
+      "unrealizedPct": 0.0
     },
     "TPL_2026-11-23": {
       "symbol": "TPL",
@@ -3780,8 +3784,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T17:56:03.793955+00:00",
-    "lastCheckEt": "2026-11-23T12:56:03.792532-05:00",
+    "lastCheckAt": "2026-11-23T17:56:50.424379+00:00",
+    "lastCheckEt": "2026-11-23T12:56:50.422852-05:00",
     "status": "ok"
   }
 }
