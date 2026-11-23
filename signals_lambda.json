@@ -2670,5 +2670,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 263.02,
     "allocDollar": 5019.63
+  },
+  {
+    "id": "MSTU_2026-11-23_entry_2026-11-23T17:56:07.449614+00:00",
+    "tradeId": "MSTU_2026-11-23",
+    "action": "entry",
+    "createdAt": "2026-11-23T17:56:07.449618+00:00",
+    "symbol": "MSTU",
+    "direction": "short",
+    "optionSymbol": "MSTU261127P00011000",
+    "contracts": 44,
+    "optionEntryPriceAtScreen": 1.12,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 10.78,
+    "allocDollar": 5013.19
   }
 ]
