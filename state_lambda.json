@@ -12,7 +12,7 @@
       "stopPrice": 215.92919999999998,
       "targetPrice": 201.25439999999998,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0346,
       "pctChangeAtScreen": -3.6714,
       "dataSource": "alpaca-sip",
@@ -26,7 +26,16 @@
       "lastPrice": 201.2886,
       "lastPriceAt": "2026-11-23T16:03:00Z",
       "unrealizedDollar": 200.43,
-      "unrealizedPct": 3.9837
+      "unrealizedPct": 3.9837,
+      "partialExitPrice": 201.25439999999998,
+      "partialExitTime": "2026-11-23T16:04:00Z",
+      "partialDollarPnl": 16.77,
+      "sharesPartial": 2,
+      "sharesRemainder": 22,
+      "remainderFloor": 205.44719999999998,
+      "remainderTarget": 184.48319999999998,
+      "optionContractsPartial": 1,
+      "optionContractsRemainder": 5
     },
     "ZS_2026-11-23": {
       "symbol": "ZS",
@@ -3711,8 +3720,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T16:04:57.948152+00:00",
-    "lastCheckEt": "2026-11-23T11:04:57.946733-05:00",
+    "lastCheckAt": "2026-11-23T16:07:00.944475+00:00",
+    "lastCheckEt": "2026-11-23T11:07:00.943025-05:00",
     "status": "ok"
   }
 }
