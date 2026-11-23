@@ -11,7 +11,7 @@
       "allocDollar": 5021.59,
       "stopPrice": 215.92919999999998,
       "targetPrice": 201.25439999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0346,
       "pctChangeAtScreen": -3.6714,
@@ -35,7 +35,15 @@
       "remainderFloor": 205.44719999999998,
       "remainderTarget": 184.48319999999998,
       "optionContractsPartial": 1,
-      "optionContractsRemainder": 5
+      "optionContractsRemainder": 5,
+      "optionExitPrice": 10.65,
+      "optionExitTime": "2026-11-23T16:21:01.274362+00:00",
+      "optionReturnPct": 36.7137,
+      "exitTime": "2026-11-23T16:21:01.274390+00:00",
+      "exitPrice": 205.44719999999998,
+      "exitReason": "floor",
+      "returnPct": 2.1666,
+      "dollarPnl": 109.01
     },
     "ZS_2026-11-23": {
       "symbol": "ZS",
@@ -3720,8 +3728,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T16:19:56.043721+00:00",
-    "lastCheckEt": "2026-11-23T11:19:56.042295-05:00",
+    "lastCheckAt": "2026-11-23T16:21:00.872293+00:00",
+    "lastCheckEt": "2026-11-23T11:21:00.834738-05:00",
     "status": "ok"
   }
 }
