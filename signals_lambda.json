@@ -2633,5 +2633,17 @@
     "contracts": 5,
     "needsRobinhoodPricing": false,
     "reason": "floor"
+  },
+  {
+    "id": "CRWD_2026-11-23_exit_close_partial_2026-11-23T16:07:01.177469+00:00",
+    "tradeId": "CRWD_2026-11-23",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-23T16:07:01.177487+00:00",
+    "symbol": "CRWD",
+    "optionSymbol": "CRWD261127P00210000",
+    "contracts": 1,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
