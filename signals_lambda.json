@@ -2596,5 +2596,19 @@
     "contracts": 97,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "ZS_2026-11-23_entry_2026-11-23T14:43:53.896224+00:00",
+    "tradeId": "ZS_2026-11-23",
+    "action": "entry",
+    "createdAt": "2026-11-23T14:43:53.896227+00:00",
+    "symbol": "ZS",
+    "direction": "short",
+    "optionSymbol": "ZS261127P00232500",
+    "contracts": 6,
+    "optionEntryPriceAtScreen": 8.5,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 233.37,
+    "allocDollar": 5194.41
   }
 ]
