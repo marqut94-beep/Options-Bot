@@ -936,5 +936,15 @@
     "direction": "long",
     "stockEntryPrice": 13.2619,
     "allocDollar": 50.01
+  },
+  {
+    "id": "MSTU_2026-11-23_entry_2026-11-23T19:50:53.752494+00:00",
+    "tradeId": "MSTU_2026-11-23",
+    "action": "entry",
+    "createdAt": "2026-11-23T19:50:53.752506+00:00",
+    "symbol": "MSTU",
+    "direction": "short",
+    "stockEntryPrice": 10.47,
+    "allocDollar": 50.1
   }
 ]
