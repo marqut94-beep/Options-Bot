@@ -1,5 +1,23 @@
 {
   "trades": {
+    "MUU_2026-11-23": {
+      "symbol": "MUU",
+      "date": "2026-11-23",
+      "direction": "long",
+      "entryTime": "2026-11-23T19:32:00Z",
+      "entryPrice": 13.2619,
+      "shares": 4,
+      "convictionScore": 0.0001,
+      "allocDollar": 50.01,
+      "stopPrice": 12.864043,
+      "targetPrice": 13.792376,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0004,
+      "pctChangeAtScreen": 3.9741,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "NVDL_2026-11-23": {
       "symbol": "NVDL",
       "date": "2026-11-23",
@@ -1467,8 +1485,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T19:32:49.948849+00:00",
-    "lastCheckEt": "2026-11-23T14:32:49.948187-05:00",
+    "lastCheckAt": "2026-11-23T19:33:50.093652+00:00",
+    "lastCheckEt": "2026-11-23T14:33:50.080884-05:00",
     "status": "ok"
   }
 }
