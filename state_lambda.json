@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-23T17:56:07.449588+00:00",
       "optionContracts": 44,
       "optionPricedVia": "trade",
-      "lastPrice": 10.495,
-      "lastPriceAt": "2026-11-23T18:54:00Z",
-      "unrealizedDollar": 132.53,
-      "unrealizedPct": 2.6438
+      "lastPrice": 10.43,
+      "lastPriceAt": "2026-11-23T18:56:00Z",
+      "unrealizedDollar": 162.75,
+      "unrealizedPct": 3.2468
     },
     "TPL_2026-11-23": {
       "symbol": "TPL",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-23T17:41:59.412760+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 262.245,
-      "lastPriceAt": "2026-11-23T18:54:00Z",
-      "unrealizedDollar": 14.72,
-      "unrealizedPct": 0.2947
+      "lastPrice": 262.3,
+      "lastPriceAt": "2026-11-23T18:56:00Z",
+      "unrealizedDollar": 13.68,
+      "unrealizedPct": 0.2737
     },
     "CRWD_2026-11-23": {
       "symbol": "CRWD",
@@ -3784,8 +3784,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T18:55:50.411606+00:00",
-    "lastCheckEt": "2026-11-23T13:55:50.410120-05:00",
+    "lastCheckAt": "2026-11-23T18:57:50.458173+00:00",
+    "lastCheckEt": "2026-11-23T13:57:50.456725-05:00",
     "status": "ok"
   }
 }
