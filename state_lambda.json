@@ -11,7 +11,7 @@
       "allocDollar": 5013.19,
       "stopPrice": 11.103399999999999,
       "targetPrice": 10.348799999999999,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0211,
       "pctChangeAtScreen": -10.6136,
@@ -26,7 +26,15 @@
       "lastPrice": 10.52,
       "lastPriceAt": "2026-11-23T20:52:00Z",
       "unrealizedDollar": 120.9,
-      "unrealizedPct": 2.4119
+      "unrealizedPct": 2.4119,
+      "optionExitPrice": 1.06,
+      "optionExitTime": "2026-11-23T20:55:01.405288+00:00",
+      "optionReturnPct": -5.3571,
+      "exitTime": "2026-11-23T20:55:01.405318+00:00",
+      "exitPrice": 10.48,
+      "exitReason": "eod",
+      "returnPct": 2.7829,
+      "dollarPnl": 139.5
     },
     "TPL_2026-11-23": {
       "symbol": "TPL",
@@ -39,7 +47,7 @@
       "allocDollar": 5019.63,
       "stopPrice": 270.9106,
       "targetPrice": 252.49919999999997,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0314,
       "pctChangeAtScreen": -6.1782,
@@ -54,7 +62,12 @@
       "lastPrice": 259.195,
       "lastPriceAt": "2026-11-23T20:52:00Z",
       "unrealizedDollar": 72.67,
-      "unrealizedPct": 1.4543
+      "unrealizedPct": 1.4543,
+      "exitTime": "2026-11-23T20:55:01.660985+00:00",
+      "exitPrice": 259.08,
+      "exitReason": "eod",
+      "returnPct": 1.498,
+      "dollarPnl": 74.86
     },
     "CRWD_2026-11-23": {
       "symbol": "CRWD",
@@ -3784,8 +3797,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T20:53:52.060132+00:00",
-    "lastCheckEt": "2026-11-23T15:53:52.058744-05:00",
+    "lastCheckAt": "2026-11-23T20:55:01.019410+00:00",
+    "lastCheckEt": "2026-11-23T15:55:01.005828-05:00",
     "status": "ok"
   }
 }
