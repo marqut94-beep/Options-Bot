@@ -2684,5 +2684,27 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 10.78,
     "allocDollar": 5013.19
+  },
+  {
+    "id": "MSTU_2026-11-23_exit_close_all_2026-11-23T20:55:01.405333+00:00",
+    "tradeId": "MSTU_2026-11-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-23T20:55:01.405337+00:00",
+    "symbol": "MSTU",
+    "optionSymbol": "MSTU261127P00011000",
+    "contracts": 44,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "TPL_2026-11-23_exit_close_all_2026-11-23T20:55:01.661018+00:00",
+    "tradeId": "TPL_2026-11-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-23T20:55:01.661022+00:00",
+    "symbol": "TPL",
+    "optionSymbol": null,
+    "contracts": null,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
