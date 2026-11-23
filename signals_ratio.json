@@ -1011,5 +1011,21 @@
     "direction": "short",
     "stockEntryPrice": 10.47,
     "allocDollar": 50.1
+  },
+  {
+    "id": "MSTU_2026-11-23_exit_close_all_2026-11-23T20:55:13.173426+00:00",
+    "tradeId": "MSTU_2026-11-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-23T20:55:13.173430+00:00",
+    "symbol": "MSTU",
+    "reason": "eod"
+  },
+  {
+    "id": "MUU_2026-11-23_exit_close_all_2026-11-23T20:55:13.407687+00:00",
+    "tradeId": "MUU_2026-11-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-23T20:55:13.407691+00:00",
+    "symbol": "MUU",
+    "reason": "eod"
   }
 ]
