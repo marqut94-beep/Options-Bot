@@ -1,5 +1,23 @@
 {
   "trades": {
+    "MSTU_2026-11-23": {
+      "symbol": "MSTU",
+      "date": "2026-11-23",
+      "direction": "short",
+      "entryTime": "2026-11-23T19:49:00Z",
+      "entryPrice": 10.47,
+      "shares": 5,
+      "convictionScore": 0.0014,
+      "allocDollar": 50.1,
+      "stopPrice": 10.7841,
+      "targetPrice": 10.0512,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0083,
+      "pctChangeAtScreen": -13.1841,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "MUU_2026-11-23": {
       "symbol": "MUU",
       "date": "2026-11-23",
@@ -17,10 +35,10 @@
       "pctChangeAtScreen": 3.9741,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 13.07,
-      "lastPriceAt": "2026-11-23T19:48:00Z",
-      "unrealizedDollar": -0.77,
-      "unrealizedPct": -1.447
+      "lastPrice": 13.085,
+      "lastPriceAt": "2026-11-23T19:49:00Z",
+      "unrealizedDollar": -0.71,
+      "unrealizedPct": -1.3339
     },
     "NVDL_2026-11-23": {
       "symbol": "NVDL",
@@ -1489,8 +1507,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T19:49:50.009583+00:00",
-    "lastCheckEt": "2026-11-23T14:49:49.984792-05:00",
+    "lastCheckAt": "2026-11-23T19:50:49.929868+00:00",
+    "lastCheckEt": "2026-11-23T14:50:49.909093-05:00",
     "status": "ok"
   }
 }
