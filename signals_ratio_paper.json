@@ -926,5 +926,15 @@
     "symbol": "NVDL",
     "stockEntryPrice": 15.532,
     "reason": "stop"
+  },
+  {
+    "id": "MUU_2026-11-23_entry_2026-11-23T19:33:53.793758+00:00",
+    "tradeId": "MUU_2026-11-23",
+    "action": "entry",
+    "createdAt": "2026-11-23T19:33:53.793776+00:00",
+    "symbol": "MUU",
+    "direction": "long",
+    "stockEntryPrice": 13.2619,
+    "allocDollar": 50.01
   }
 ]
