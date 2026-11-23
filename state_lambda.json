@@ -24,7 +24,7 @@
       "optionContracts": 44,
       "optionPricedVia": "trade",
       "lastPrice": 10.58,
-      "lastPriceAt": "2026-11-23T19:57:00Z",
+      "lastPriceAt": "2026-11-23T19:58:00Z",
       "unrealizedDollar": 93.0,
       "unrealizedPct": 1.8553
     },
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-23T17:41:59.412760+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 259.255,
-      "lastPriceAt": "2026-11-23T19:57:00Z",
-      "unrealizedDollar": 71.53,
-      "unrealizedPct": 1.4315
+      "lastPrice": 259.52,
+      "lastPriceAt": "2026-11-23T19:58:00Z",
+      "unrealizedDollar": 66.5,
+      "unrealizedPct": 1.3307
     },
     "CRWD_2026-11-23": {
       "symbol": "CRWD",
@@ -3784,8 +3784,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T19:58:50.458782+00:00",
-    "lastCheckEt": "2026-11-23T14:58:50.457207-05:00",
+    "lastCheckAt": "2026-11-23T19:59:50.415470+00:00",
+    "lastCheckEt": "2026-11-23T14:59:50.373854-05:00",
     "status": "ok"
   }
 }
