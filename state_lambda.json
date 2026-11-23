@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ZS_2026-11-23": {
+      "symbol": "ZS",
+      "date": "2026-11-23",
+      "direction": "short",
+      "entryTime": "2026-11-23T14:35:00Z",
+      "entryPrice": 233.37,
+      "shares": 22,
+      "convictionScore": 0.0259,
+      "allocDollar": 5194.41,
+      "stopPrice": 240.3711,
+      "targetPrice": 224.0352,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.3111,
+      "pctChangeAtScreen": -3.5188,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "ZS261127P00232500",
+      "optionStrike": "232.5",
+      "optionExpiration": "2026-11-27",
+      "optionEntryPrice": 8.5,
+      "optionEntryTime": "2026-11-23T14:43:53.896202+00:00",
+      "optionContracts": 6,
+      "optionPricedVia": "trade"
+    },
     "AMUU_2026-11-20": {
       "symbol": "AMUU",
       "date": "2026-11-20",
@@ -3638,8 +3662,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T14:42:55.889895+00:00",
-    "lastCheckEt": "2026-11-23T09:42:55.888455-05:00",
+    "lastCheckAt": "2026-11-23T14:43:50.528536+00:00",
+    "lastCheckEt": "2026-11-23T09:43:50.471051-05:00",
     "status": "ok"
   }
 }
