@@ -1,5 +1,29 @@
 {
   "trades": {
+    "MSTU_2026-11-23": {
+      "symbol": "MSTU",
+      "date": "2026-11-23",
+      "direction": "short",
+      "entryTime": "2026-11-23T17:55:00Z",
+      "entryPrice": 10.78,
+      "shares": 465,
+      "convictionScore": 0.0018,
+      "allocDollar": 5013.19,
+      "stopPrice": 11.103399999999999,
+      "targetPrice": 10.348799999999999,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0211,
+      "pctChangeAtScreen": -10.6136,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "MSTU261127P00011000",
+      "optionStrike": "11",
+      "optionExpiration": "2026-11-27",
+      "optionEntryPrice": 1.12,
+      "optionEntryTime": "2026-11-23T17:56:07.449588+00:00",
+      "optionContracts": 44,
+      "optionPricedVia": "trade"
+    },
     "TPL_2026-11-23": {
       "symbol": "TPL",
       "date": "2026-11-23",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-23T17:41:59.412760+00:00",
       "optionContracts": null,
       "optionPricedVia": null,
-      "lastPrice": 265.15,
-      "lastPriceAt": "2026-11-23T17:54:00Z",
-      "unrealizedDollar": -40.47,
-      "unrealizedPct": -0.8098
+      "lastPrice": 264.56,
+      "lastPriceAt": "2026-11-23T17:55:00Z",
+      "unrealizedDollar": -29.26,
+      "unrealizedPct": -0.5855
     },
     "CRWD_2026-11-23": {
       "symbol": "CRWD",
@@ -3756,8 +3780,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-23T17:55:02.183411+00:00",
-    "lastCheckEt": "2026-11-23T12:55:02.173835-05:00",
+    "lastCheckAt": "2026-11-23T17:56:03.793955+00:00",
+    "lastCheckEt": "2026-11-23T12:56:03.792532-05:00",
     "status": "ok"
   }
 }
