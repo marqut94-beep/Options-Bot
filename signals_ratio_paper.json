@@ -907,5 +907,15 @@
     "createdAt": "2026-11-20T20:16:50.049817+00:00",
     "symbol": "NVDL",
     "reason": "target"
+  },
+  {
+    "id": "NVDL_2026-11-23_entry_2026-11-23T14:42:53.067749+00:00",
+    "tradeId": "NVDL_2026-11-23",
+    "action": "entry",
+    "createdAt": "2026-11-23T14:42:53.067760+00:00",
+    "symbol": "NVDL",
+    "direction": "short",
+    "stockEntryPrice": 15.532,
+    "allocDollar": 50.45
   }
 ]
