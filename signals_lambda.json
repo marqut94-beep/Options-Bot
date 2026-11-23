@@ -2622,5 +2622,16 @@
     "needsRobinhoodPricing": false,
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "ZS_2026-11-23_exit_close_all_2026-11-23T15:23:52.477987+00:00",
+    "tradeId": "ZS_2026-11-23",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-23T15:23:52.477991+00:00",
+    "symbol": "ZS",
+    "optionSymbol": "ZS261127P00232500",
+    "contracts": 5,
+    "needsRobinhoodPricing": false,
+    "reason": "floor"
   }
 ]
