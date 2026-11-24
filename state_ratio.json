@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 3.0005,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 51.815,
-      "lastPriceAt": "2026-11-24T20:23:00Z",
+      "lastPrice": 51.82,
+      "lastPriceAt": "2026-11-24T20:24:00Z",
       "unrealizedDollar": -0.02,
-      "unrealizedPct": -0.0386
+      "unrealizedPct": -0.0289
     },
     "MSTU_2026-11-23": {
       "symbol": "MSTU",
@@ -1547,8 +1547,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T20:24:12.877610+00:00",
-    "lastCheckEt": "2026-11-24T15:24:12.876929-05:00",
+    "lastCheckAt": "2026-11-24T20:25:12.949518+00:00",
+    "lastCheckEt": "2026-11-24T15:25:12.948857-05:00",
     "status": "ok"
   }
 }
