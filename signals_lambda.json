@@ -2762,5 +2762,16 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 24.4,
     "allocDollar": 5000.9
+  },
+  {
+    "id": "ANF_2026-11-24_exit_close_all_2026-11-24T20:33:51.534056+00:00",
+    "tradeId": "ANF_2026-11-24",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-24T20:33:51.534059+00:00",
+    "symbol": "ANF",
+    "optionSymbol": "ANF261127C00175000",
+    "contracts": 9,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
