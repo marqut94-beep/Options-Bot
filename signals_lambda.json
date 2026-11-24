@@ -2748,5 +2748,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 255.315,
     "allocDollar": 5013.25
+  },
+  {
+    "id": "KSS_2026-11-24_entry_2026-11-24T19:19:54.802844+00:00",
+    "tradeId": "KSS_2026-11-24",
+    "action": "entry",
+    "createdAt": "2026-11-24T19:19:54.802847+00:00",
+    "symbol": "KSS",
+    "direction": "long",
+    "optionSymbol": "KSS261127C00024500",
+    "contracts": 72,
+    "optionEntryPriceAtScreen": 0.69,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 24.4,
+    "allocDollar": 5000.9
   }
 ]
