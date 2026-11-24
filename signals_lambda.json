@@ -2796,5 +2796,27 @@
     "needsRobinhoodPricing": false,
     "partialExitPct": 0.1,
     "reason": "target"
+  },
+  {
+    "id": "KSS_2026-11-24_exit_close_all_2026-11-24T20:55:46.143116+00:00",
+    "tradeId": "KSS_2026-11-24",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-24T20:55:46.143147+00:00",
+    "symbol": "KSS",
+    "optionSymbol": "KSS261127C00024500",
+    "contracts": 65,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "DLTR_2026-11-24_exit_close_all_2026-11-24T20:55:46.509955+00:00",
+    "tradeId": "DLTR_2026-11-24",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-24T20:55:46.509958+00:00",
+    "symbol": "DLTR",
+    "optionSymbol": "DLTR261127C00155000",
+    "contracts": 12,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
