@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-24T19:19:54.802820+00:00",
       "optionContracts": 72,
       "optionPricedVia": "trade",
-      "lastPrice": 25.29,
-      "lastPriceAt": "2026-11-24T20:47:00Z",
-      "unrealizedDollar": 182.45,
-      "unrealizedPct": 3.6475
+      "lastPrice": 25.32,
+      "lastPriceAt": "2026-11-24T20:48:00Z",
+      "unrealizedDollar": 188.6,
+      "unrealizedPct": 3.7705
     },
     "BURL_2026-11-24": {
       "symbol": "BURL",
@@ -87,10 +87,10 @@
       "optionEntryTime": "2026-11-24T18:43:54.359782+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 156.46,
-      "lastPriceAt": "2026-11-24T20:47:00Z",
-      "unrealizedDollar": 19.52,
-      "unrealizedPct": 0.3914
+      "lastPrice": 156.445,
+      "lastPriceAt": "2026-11-24T20:48:00Z",
+      "unrealizedDollar": 19.04,
+      "unrealizedPct": 0.3818
     },
     "ANF_2026-11-24": {
       "symbol": "ANF",
@@ -3925,8 +3925,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T20:48:50.424415+00:00",
-    "lastCheckEt": "2026-11-24T15:48:50.422922-05:00",
+    "lastCheckAt": "2026-11-24T20:49:50.258961+00:00",
+    "lastCheckEt": "2026-11-24T15:49:50.257520-05:00",
     "status": "ok"
   }
 }
