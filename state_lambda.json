@@ -1,5 +1,29 @@
 {
   "trades": {
+    "DLTR_2026-11-24": {
+      "symbol": "DLTR",
+      "date": "2026-11-24",
+      "direction": "long",
+      "entryTime": "2026-11-24T18:42:00Z",
+      "entryPrice": 155.85,
+      "shares": 32,
+      "convictionScore": 0.0036,
+      "allocDollar": 5026.71,
+      "stopPrice": 151.1745,
+      "targetPrice": 162.084,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0427,
+      "pctChangeAtScreen": 3.9346,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "DLTR261127C00155000",
+      "optionStrike": "155",
+      "optionExpiration": "2026-11-27",
+      "optionEntryPrice": 3.87,
+      "optionEntryTime": "2026-11-24T18:43:54.359782+00:00",
+      "optionContracts": 12,
+      "optionPricedVia": "trade"
+    },
     "ANF_2026-11-24": {
       "symbol": "ANF",
       "date": "2026-11-24",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-24T15:24:04.543893+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 174.88,
-      "lastPriceAt": "2026-11-24T18:41:00Z",
-      "unrealizedDollar": -6.38,
-      "unrealizedPct": -0.1256
+      "lastPrice": 175.25,
+      "lastPriceAt": "2026-11-24T18:42:00Z",
+      "unrealizedDollar": 4.35,
+      "unrealizedPct": 0.0857
     },
     "MSTU_2026-11-23": {
       "symbol": "MSTU",
@@ -3825,8 +3849,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T18:42:56.012550+00:00",
-    "lastCheckEt": "2026-11-24T13:42:56.011093-05:00",
+    "lastCheckAt": "2026-11-24T18:43:50.464549+00:00",
+    "lastCheckEt": "2026-11-24T13:43:50.463084-05:00",
     "status": "ok"
   }
 }
