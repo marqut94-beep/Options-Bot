@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-24T19:19:54.802820+00:00",
       "optionContracts": 72,
       "optionPricedVia": "trade",
-      "lastPrice": 25.185,
-      "lastPriceAt": "2026-11-24T20:39:00Z",
-      "unrealizedDollar": 160.93,
-      "unrealizedPct": 3.2172
+      "lastPrice": 25.28,
+      "lastPriceAt": "2026-11-24T20:40:00Z",
+      "unrealizedDollar": 180.4,
+      "unrealizedPct": 3.6066
     },
     "BURL_2026-11-24": {
       "symbol": "BURL",
@@ -39,7 +39,7 @@
       "allocDollar": 5013.25,
       "stopPrice": 247.65555,
       "targetPrice": 265.5276,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0212,
       "pctChangeAtScreen": 4.2102,
@@ -54,7 +54,15 @@
       "lastPrice": 248.59,
       "lastPriceAt": "2026-11-24T20:39:00Z",
       "unrealizedDollar": -134.5,
-      "unrealizedPct": -2.634
+      "unrealizedPct": -2.634,
+      "optionExitPrice": 8.09,
+      "optionExitTime": "2026-11-24T20:41:50.986432+00:00",
+      "optionReturnPct": 0.0,
+      "exitTime": "2026-11-24T20:41:50.986460+00:00",
+      "exitPrice": 247.65555,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -153.19
     },
     "DLTR_2026-11-24": {
       "symbol": "DLTR",
@@ -79,10 +87,10 @@
       "optionEntryTime": "2026-11-24T18:43:54.359782+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 155.75,
-      "lastPriceAt": "2026-11-24T20:39:00Z",
-      "unrealizedDollar": -3.2,
-      "unrealizedPct": -0.0642
+      "lastPrice": 155.695,
+      "lastPriceAt": "2026-11-24T20:40:00Z",
+      "unrealizedDollar": -4.96,
+      "unrealizedPct": -0.0995
     },
     "ANF_2026-11-24": {
       "symbol": "ANF",
@@ -3917,8 +3925,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T20:40:50.505040+00:00",
-    "lastCheckEt": "2026-11-24T15:40:50.467752-05:00",
+    "lastCheckAt": "2026-11-24T20:41:50.371942+00:00",
+    "lastCheckEt": "2026-11-24T15:41:50.370480-05:00",
     "status": "ok"
   }
 }
