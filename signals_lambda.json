@@ -2706,5 +2706,19 @@
     "contracts": null,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "ANF_2026-11-24_entry_2026-11-24T15:24:04.543920+00:00",
+    "tradeId": "ANF_2026-11-24",
+    "action": "entry",
+    "createdAt": "2026-11-24T15:24:04.543924+00:00",
+    "symbol": "ANF",
+    "direction": "long",
+    "optionSymbol": "ANF261127C00175000",
+    "contracts": 9,
+    "optionEntryPriceAtScreen": 5.03,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 175.1,
+    "allocDollar": 5000.21
   }
 ]
