@@ -2773,5 +2773,16 @@
     "contracts": 9,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "BURL_2026-11-24_exit_close_all_2026-11-24T20:41:50.986473+00:00",
+    "tradeId": "BURL_2026-11-24",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-24T20:41:50.986475+00:00",
+    "symbol": "BURL",
+    "optionSymbol": "BURL261127C00255000",
+    "contracts": 6,
+    "needsRobinhoodPricing": false,
+    "reason": "stop"
   }
 ]
