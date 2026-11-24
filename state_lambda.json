@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-24T18:43:54.359782+00:00",
       "optionContracts": 12,
       "optionPricedVia": "trade",
-      "lastPrice": 155.87,
-      "lastPriceAt": "2026-11-24T19:04:00Z",
-      "unrealizedDollar": 0.64,
-      "unrealizedPct": 0.0128
+      "lastPrice": 155.865,
+      "lastPriceAt": "2026-11-24T19:05:00Z",
+      "unrealizedDollar": 0.48,
+      "unrealizedPct": 0.0096
     },
     "ANF_2026-11-24": {
       "symbol": "ANF",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-24T15:24:04.543893+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 173.59,
-      "lastPriceAt": "2026-11-24T19:04:00Z",
-      "unrealizedDollar": -43.79,
-      "unrealizedPct": -0.8624
+      "lastPrice": 173.53,
+      "lastPriceAt": "2026-11-24T19:05:00Z",
+      "unrealizedDollar": -45.53,
+      "unrealizedPct": -0.8966
     },
     "MSTU_2026-11-23": {
       "symbol": "MSTU",
@@ -3853,8 +3853,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T19:05:50.454478+00:00",
-    "lastCheckEt": "2026-11-24T14:05:50.416732-05:00",
+    "lastCheckAt": "2026-11-24T19:06:50.435615+00:00",
+    "lastCheckEt": "2026-11-24T14:06:50.433983-05:00",
     "status": "ok"
   }
 }
