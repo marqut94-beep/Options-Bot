@@ -1,5 +1,29 @@
 {
   "trades": {
+    "ANF_2026-11-24": {
+      "symbol": "ANF",
+      "date": "2026-11-24",
+      "direction": "long",
+      "entryTime": "2026-11-24T15:23:00Z",
+      "entryPrice": 175.1,
+      "shares": 29,
+      "convictionScore": 0.0,
+      "allocDollar": 5000.21,
+      "stopPrice": 169.84699999999998,
+      "targetPrice": 182.104,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0003,
+      "pctChangeAtScreen": 10.202,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "ANF261127C00175000",
+      "optionStrike": "175",
+      "optionExpiration": "2026-11-27",
+      "optionEntryPrice": 5.03,
+      "optionEntryTime": "2026-11-24T15:24:04.543893+00:00",
+      "optionContracts": 9,
+      "optionPricedVia": "trade"
+    },
     "MSTU_2026-11-23": {
       "symbol": "MSTU",
       "date": "2026-11-23",
@@ -3797,8 +3821,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T15:22:53.884300+00:00",
-    "lastCheckEt": "2026-11-24T10:22:53.874770-05:00",
+    "lastCheckAt": "2026-11-24T15:24:00.905039+00:00",
+    "lastCheckEt": "2026-11-24T10:24:00.903561-05:00",
     "status": "ok"
   }
 }
