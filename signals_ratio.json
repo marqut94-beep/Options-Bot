@@ -1027,5 +1027,15 @@
     "createdAt": "2026-11-23T20:55:13.407691+00:00",
     "symbol": "MUU",
     "reason": "eod"
+  },
+  {
+    "id": "SNY_2026-11-24_entry_2026-11-24T20:16:16.352019+00:00",
+    "tradeId": "SNY_2026-11-24",
+    "action": "entry",
+    "createdAt": "2026-11-24T20:16:16.352032+00:00",
+    "symbol": "SNY",
+    "direction": "long",
+    "stockEntryPrice": 51.835,
+    "allocDollar": 60.62
   }
 ]
