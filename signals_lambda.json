@@ -2734,5 +2734,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 155.85,
     "allocDollar": 5026.71
+  },
+  {
+    "id": "BURL_2026-11-24_entry_2026-11-24T19:16:54.555603+00:00",
+    "tradeId": "BURL_2026-11-24",
+    "action": "entry",
+    "createdAt": "2026-11-24T19:16:54.555609+00:00",
+    "symbol": "BURL",
+    "direction": "long",
+    "optionSymbol": "BURL261127C00255000",
+    "contracts": 6,
+    "optionEntryPriceAtScreen": 8.09,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 255.315,
+    "allocDollar": 5013.25
   }
 ]
