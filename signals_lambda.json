@@ -2784,5 +2784,17 @@
     "contracts": 6,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "KSS_2026-11-24_exit_close_partial_2026-11-24T20:51:59.357233+00:00",
+    "tradeId": "KSS_2026-11-24",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-24T20:51:59.357249+00:00",
+    "symbol": "KSS",
+    "optionSymbol": "KSS261127C00024500",
+    "contracts": 7,
+    "needsRobinhoodPricing": false,
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
