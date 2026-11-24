@@ -1037,5 +1037,13 @@
     "direction": "long",
     "stockEntryPrice": 51.835,
     "allocDollar": 60.62
+  },
+  {
+    "id": "SNY_2026-11-24_exit_close_all_2026-11-24T20:55:13.135905+00:00",
+    "tradeId": "SNY_2026-11-24",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-24T20:55:13.135909+00:00",
+    "symbol": "SNY",
+    "reason": "eod"
   }
 ]
