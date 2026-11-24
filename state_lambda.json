@@ -11,7 +11,7 @@
       "allocDollar": 5000.9,
       "stopPrice": 23.668,
       "targetPrice": 25.375999999999998,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0014,
       "pctChangeAtScreen": 10.0586,
@@ -35,7 +35,15 @@
       "remainderFloor": 24.887999999999998,
       "remainderTarget": 27.328,
       "optionContractsPartial": 7,
-      "optionContractsRemainder": 65
+      "optionContractsRemainder": 65,
+      "optionExitPrice": 1.16,
+      "optionExitTime": "2026-11-24T20:55:46.106607+00:00",
+      "optionReturnPct": 68.1159,
+      "exitTime": "2026-11-24T20:55:46.106634+00:00",
+      "exitPrice": 25.255,
+      "exitReason": "eod",
+      "returnPct": 3.5525,
+      "dollarPnl": 177.7
     },
     "BURL_2026-11-24": {
       "symbol": "BURL",
@@ -84,7 +92,7 @@
       "allocDollar": 5026.71,
       "stopPrice": 151.1745,
       "targetPrice": 162.084,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0427,
       "pctChangeAtScreen": 3.9346,
@@ -99,7 +107,15 @@
       "lastPrice": 155.085,
       "lastPriceAt": "2026-11-24T20:53:00Z",
       "unrealizedDollar": -24.48,
-      "unrealizedPct": -0.4909
+      "unrealizedPct": -0.4909,
+      "optionExitPrice": 2.99,
+      "optionExitTime": "2026-11-24T20:55:46.509916+00:00",
+      "optionReturnPct": -22.739,
+      "exitTime": "2026-11-24T20:55:46.509944+00:00",
+      "exitPrice": 154.34,
+      "exitReason": "eod",
+      "returnPct": -0.9689,
+      "dollarPnl": -48.32
     },
     "ANF_2026-11-24": {
       "symbol": "ANF",
@@ -3934,8 +3950,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T20:54:50.383866+00:00",
-    "lastCheckEt": "2026-11-24T15:54:50.370642-05:00",
+    "lastCheckAt": "2026-11-24T20:55:45.762949+00:00",
+    "lastCheckEt": "2026-11-24T15:55:45.721780-05:00",
     "status": "ok"
   }
 }
