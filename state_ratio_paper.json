@@ -11,7 +11,7 @@
       "allocDollar": 60.62,
       "stopPrice": 50.27995,
       "targetPrice": 53.9084,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.8493,
       "pctChangeAtScreen": 3.0005,
@@ -20,7 +20,12 @@
       "lastPrice": 51.765,
       "lastPriceAt": "2026-11-24T20:53:00Z",
       "unrealizedDollar": -0.07,
-      "unrealizedPct": -0.135
+      "unrealizedPct": -0.135,
+      "exitTime": "2026-11-24T20:55:50.255642+00:00",
+      "exitPrice": 51.79,
+      "exitReason": "eod",
+      "returnPct": -0.0868,
+      "dollarPnl": -0.05
     },
     "MSTU_2026-11-23": {
       "symbol": "MSTU",
@@ -1543,8 +1548,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T20:54:49.933880+00:00",
-    "lastCheckEt": "2026-11-24T15:54:49.921076-05:00",
+    "lastCheckAt": "2026-11-24T20:55:50.021673+00:00",
+    "lastCheckEt": "2026-11-24T15:55:50.021001-05:00",
     "status": "ok"
   }
 }
