@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-24T15:24:04.543893+00:00",
       "optionContracts": 9,
       "optionPricedVia": "trade",
-      "lastPrice": 174.86,
-      "lastPriceAt": "2026-11-24T15:26:00Z",
-      "unrealizedDollar": -6.96,
-      "unrealizedPct": -0.1371
+      "lastPrice": 175.3301,
+      "lastPriceAt": "2026-11-24T15:28:00Z",
+      "unrealizedDollar": 6.67,
+      "unrealizedPct": 0.1314
     },
     "MSTU_2026-11-23": {
       "symbol": "MSTU",
@@ -3825,8 +3825,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-24T15:27:59.136950+00:00",
-    "lastCheckEt": "2026-11-24T10:27:59.123372-05:00",
+    "lastCheckAt": "2026-11-24T15:29:51.144688+00:00",
+    "lastCheckEt": "2026-11-24T10:29:51.111086-05:00",
     "status": "ok"
   }
 }
