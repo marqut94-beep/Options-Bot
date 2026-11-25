@@ -11,7 +11,7 @@
       "allocDollar": 50.08,
       "stopPrice": 39.1503,
       "targetPrice": 36.489599999999996,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0067,
       "pctChangeAtScreen": -7.9884,
@@ -20,7 +20,12 @@
       "lastPrice": 37.9702,
       "lastPriceAt": "2026-11-25T20:53:00Z",
       "unrealizedDollar": 0.04,
-      "unrealizedPct": 0.1047
+      "unrealizedPct": 0.1047,
+      "exitTime": "2026-11-25T20:55:13.218238+00:00",
+      "exitPrice": 38.09,
+      "exitReason": "eod",
+      "returnPct": -0.2105,
+      "dollarPnl": -0.08
     },
     "SOXL_2026-11-25": {
       "symbol": "SOXL",
@@ -1635,8 +1640,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T20:54:12.856966+00:00",
-    "lastCheckEt": "2026-11-25T15:54:12.856279-05:00",
+    "lastCheckAt": "2026-11-25T20:55:12.949236+00:00",
+    "lastCheckEt": "2026-11-25T15:55:12.948532-05:00",
     "status": "ok"
   }
 }
