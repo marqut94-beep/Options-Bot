@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-25T14:53:04.391816+00:00",
       "optionContracts": 32,
       "optionPricedVia": "trade",
-      "lastPrice": 34.6,
-      "lastPriceAt": "2026-11-25T15:07:00Z",
-      "unrealizedDollar": -95.81,
-      "unrealizedPct": -1.8996
+      "lastPrice": 34.795,
+      "lastPriceAt": "2026-11-25T15:09:00Z",
+      "unrealizedDollar": -67.93,
+      "unrealizedPct": -1.3468
     },
     "KSS_2026-11-24": {
       "symbol": "KSS",
@@ -3978,8 +3978,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T15:08:50.496461+00:00",
-    "lastCheckEt": "2026-11-25T10:08:50.495007-05:00",
+    "lastCheckAt": "2026-11-25T15:10:55.343738+00:00",
+    "lastCheckEt": "2026-11-25T10:10:55.302045-05:00",
     "status": "ok"
   }
 }
