@@ -1,5 +1,29 @@
 {
   "trades": {
+    "DELL_2026-11-25": {
+      "symbol": "DELL",
+      "date": "2026-11-25",
+      "direction": "long",
+      "entryTime": "2026-11-25T17:43:00Z",
+      "entryPrice": 285.58,
+      "shares": 18,
+      "convictionScore": 0.0006,
+      "allocDollar": 5004.48,
+      "stopPrice": 277.01259999999996,
+      "targetPrice": 297.0032,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0072,
+      "pctChangeAtScreen": 6.7309,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "DELL261127C00285000",
+      "optionStrike": "285",
+      "optionExpiration": "2026-11-27",
+      "optionEntryPrice": 9.34,
+      "optionEntryTime": "2026-11-25T17:44:54.121887+00:00",
+      "optionContracts": 5,
+      "optionPricedVia": "trade"
+    },
     "URBN_2026-11-25": {
       "symbol": "URBN",
       "date": "2026-11-25",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-25T16:25:54.245489+00:00",
       "optionContracts": 44,
       "optionPricedVia": "trade",
-      "lastPrice": 75.39,
-      "lastPriceAt": "2026-11-25T17:42:00Z",
-      "unrealizedDollar": -45.75,
-      "unrealizedPct": -0.8157
+      "lastPrice": 75.48,
+      "lastPriceAt": "2026-11-25T17:43:00Z",
+      "unrealizedDollar": -52.5,
+      "unrealizedPct": -0.9361
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -4014,8 +4038,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T17:43:50.336690+00:00",
-    "lastCheckEt": "2026-11-25T12:43:50.335106-05:00",
+    "lastCheckAt": "2026-11-25T17:44:50.363696+00:00",
+    "lastCheckEt": "2026-11-25T12:44:50.362132-05:00",
     "status": "ok"
   }
 }
