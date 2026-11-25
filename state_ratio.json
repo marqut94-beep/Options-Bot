@@ -11,7 +11,7 @@
       "allocDollar": 55.6,
       "stopPrice": 34.2119,
       "targetPrice": 36.680800000000005,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.4483,
       "pctChangeAtScreen": 4.7987,
@@ -20,7 +20,12 @@
       "lastPrice": 34.55,
       "lastPriceAt": "2026-11-25T15:13:00Z",
       "unrealizedDollar": -1.44,
-      "unrealizedPct": -2.0414
+      "unrealizedPct": -2.0414,
+      "exitTime": "2026-11-25T15:15:13.531036+00:00",
+      "exitPrice": 34.2119,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -2.12
     },
     "SNY_2026-11-24": {
       "symbol": "SNY",
@@ -1574,8 +1579,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T15:14:12.909856+00:00",
-    "lastCheckEt": "2026-11-25T10:14:12.909186-05:00",
+    "lastCheckAt": "2026-11-25T15:15:13.297510+00:00",
+    "lastCheckEt": "2026-11-25T10:15:13.296844-05:00",
     "status": "ok"
   }
 }
