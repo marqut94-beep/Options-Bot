@@ -1091,5 +1091,15 @@
     "createdAt": "2026-11-25T19:45:13.097073+00:00",
     "symbol": "SOXL",
     "reason": "floor"
+  },
+  {
+    "id": "CENT_2026-11-25_entry_2026-11-25T20:10:16.540763+00:00",
+    "tradeId": "CENT_2026-11-25",
+    "action": "entry",
+    "createdAt": "2026-11-25T20:10:16.540775+00:00",
+    "symbol": "CENT",
+    "direction": "short",
+    "stockEntryPrice": 38.01,
+    "allocDollar": 50.08
   }
 ]
