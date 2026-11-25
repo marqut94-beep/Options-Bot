@@ -1055,5 +1055,14 @@
     "direction": "long",
     "stockEntryPrice": 35.27,
     "allocDollar": 55.6
+  },
+  {
+    "id": "AMBA_2026-11-25_exit_close_all_2026-11-25T15:15:13.531076+00:00",
+    "tradeId": "AMBA_2026-11-25",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-25T15:15:13.531081+00:00",
+    "symbol": "AMBA",
+    "stockEntryPrice": 35.27,
+    "reason": "stop"
   }
 ]
