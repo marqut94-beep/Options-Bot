@@ -1101,5 +1101,13 @@
     "direction": "short",
     "stockEntryPrice": 38.01,
     "allocDollar": 50.08
+  },
+  {
+    "id": "CENT_2026-11-25_exit_close_all_2026-11-25T20:55:13.218270+00:00",
+    "tradeId": "CENT_2026-11-25",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-25T20:55:13.218274+00:00",
+    "symbol": "CENT",
+    "reason": "eod"
   }
 ]
