@@ -11,7 +11,7 @@
       "allocDollar": 5005.0,
       "stopPrice": 29.817897000000002,
       "targetPrice": 31.969704000000004,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.008,
       "pctChangeAtScreen": 13.8522,
@@ -26,7 +26,15 @@
       "lastPrice": 31.0266,
       "lastPriceAt": "2026-11-25T20:53:00Z",
       "unrealizedDollar": 46.7,
-      "unrealizedPct": 0.932
+      "unrealizedPct": 0.932,
+      "optionExitPrice": 2.11,
+      "optionExitTime": "2026-11-25T20:55:50.836282+00:00",
+      "optionReturnPct": 11.0526,
+      "exitTime": "2026-11-25T20:55:50.836325+00:00",
+      "exitPrice": 31.0701,
+      "exitReason": "eod",
+      "returnPct": 1.0735,
+      "dollarPnl": 53.79
     },
     "DELL_2026-11-25": {
       "symbol": "DELL",
@@ -39,7 +47,7 @@
       "allocDollar": 5004.48,
       "stopPrice": 277.01259999999996,
       "targetPrice": 297.0032,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0072,
       "pctChangeAtScreen": 6.7309,
@@ -54,7 +62,15 @@
       "lastPrice": 295.095,
       "lastPriceAt": "2026-11-25T20:53:00Z",
       "unrealizedDollar": 171.27,
-      "unrealizedPct": 3.3318
+      "unrealizedPct": 3.3318,
+      "optionExitPrice": 15,
+      "optionExitTime": "2026-11-25T20:55:51.240864+00:00",
+      "optionReturnPct": 60.5996,
+      "exitTime": "2026-11-25T20:55:51.240893+00:00",
+      "exitPrice": 295.17,
+      "exitReason": "eod",
+      "returnPct": 3.3581,
+      "dollarPnl": 172.62
     },
     "URBN_2026-11-25": {
       "symbol": "URBN",
@@ -67,7 +83,7 @@
       "allocDollar": 5605.59,
       "stopPrice": 77.02340000000001,
       "targetPrice": 71.7888,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.9689,
       "pctChangeAtScreen": -3.0154,
@@ -82,7 +98,15 @@
       "lastPrice": 76.46,
       "lastPriceAt": "2026-11-25T20:53:00Z",
       "unrealizedDollar": -126.0,
-      "unrealizedPct": -2.2466
+      "unrealizedPct": -2.2466,
+      "optionExitPrice": 0.9,
+      "optionExitTime": "2026-11-25T20:55:51.641876+00:00",
+      "optionReturnPct": -28.0,
+      "exitTime": "2026-11-25T20:55:51.641904+00:00",
+      "exitPrice": 76.48,
+      "exitReason": "eod",
+      "returnPct": -2.2733,
+      "dollarPnl": -127.5
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -4070,8 +4094,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T20:54:50.478461+00:00",
-    "lastCheckEt": "2026-11-25T15:54:50.476981-05:00",
+    "lastCheckAt": "2026-11-25T20:55:50.397668+00:00",
+    "lastCheckEt": "2026-11-25T15:55:50.396095-05:00",
     "status": "ok"
   }
 }
