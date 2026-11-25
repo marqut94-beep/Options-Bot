@@ -11,7 +11,7 @@
       "allocDollar": 50.02,
       "stopPrice": 29.557354999999998,
       "targetPrice": 31.69036,
-      "status": "open",
+      "status": "closed",
       "partialTaken": true,
       "relVol": 2.0013,
       "pctChangeAtScreen": 12.8574,
@@ -27,7 +27,12 @@
       "sharesPartial": 1,
       "sharesRemainder": 1,
       "remainderFloor": 31.08093,
-      "remainderTarget": 33.51865
+      "remainderTarget": 33.51865,
+      "exitTime": "2026-11-25T19:45:13.097031+00:00",
+      "exitPrice": 31.08093,
+      "exitReason": "floor",
+      "returnPct": 3.0019,
+      "dollarPnl": 1.83
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -1608,8 +1613,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T19:44:12.910281+00:00",
-    "lastCheckEt": "2026-11-25T14:44:12.909623-05:00",
+    "lastCheckAt": "2026-11-25T19:45:12.870334+00:00",
+    "lastCheckEt": "2026-11-25T14:45:12.869626-05:00",
     "status": "ok"
   }
 }
