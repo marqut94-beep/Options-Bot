@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-25T17:44:54.121887+00:00",
       "optionContracts": 5,
       "optionPricedVia": "trade",
-      "lastPrice": 292.835,
-      "lastPriceAt": "2026-11-25T18:50:00Z",
-      "unrealizedDollar": 130.59,
-      "unrealizedPct": 2.5404
+      "lastPrice": 292.49,
+      "lastPriceAt": "2026-11-25T18:51:00Z",
+      "unrealizedDollar": 124.38,
+      "unrealizedPct": 2.4196
     },
     "URBN_2026-11-25": {
       "symbol": "URBN",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-25T16:25:54.245489+00:00",
       "optionContracts": 44,
       "optionPricedVia": "trade",
-      "lastPrice": 76.2025,
-      "lastPriceAt": "2026-11-25T18:50:00Z",
-      "unrealizedDollar": -106.69,
-      "unrealizedPct": -1.9022
+      "lastPrice": 76.015,
+      "lastPriceAt": "2026-11-25T18:51:00Z",
+      "unrealizedDollar": -92.62,
+      "unrealizedPct": -1.6515
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -4042,8 +4042,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T18:51:50.334283+00:00",
-    "lastCheckEt": "2026-11-25T13:51:50.332686-05:00",
+    "lastCheckAt": "2026-11-25T18:52:50.393930+00:00",
+    "lastCheckEt": "2026-11-25T13:52:50.392251-05:00",
     "status": "ok"
   }
 }
