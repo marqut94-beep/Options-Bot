@@ -980,5 +980,15 @@
     "createdAt": "2026-11-24T20:55:50.255679+00:00",
     "symbol": "SNY",
     "reason": "eod"
+  },
+  {
+    "id": "AMBA_2026-11-25_entry_2026-11-25T14:47:52.900256+00:00",
+    "tradeId": "AMBA_2026-11-25",
+    "action": "entry",
+    "createdAt": "2026-11-25T14:47:52.900266+00:00",
+    "symbol": "AMBA",
+    "direction": "long",
+    "stockEntryPrice": 35.27,
+    "allocDollar": 55.6
   }
 ]
