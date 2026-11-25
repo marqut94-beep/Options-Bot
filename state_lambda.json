@@ -1,5 +1,29 @@
 {
   "trades": {
+    "SOXL_2026-11-25": {
+      "symbol": "SOXL",
+      "date": "2026-11-25",
+      "direction": "long",
+      "entryTime": "2026-11-25T19:46:00Z",
+      "entryPrice": 30.7401,
+      "shares": 163,
+      "convictionScore": 0.0007,
+      "allocDollar": 5005.0,
+      "stopPrice": 29.817897000000002,
+      "targetPrice": 31.969704000000004,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.008,
+      "pctChangeAtScreen": 13.8522,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "SOXL261127C00031000",
+      "optionStrike": "31",
+      "optionExpiration": "2026-11-27",
+      "optionEntryPrice": 1.9,
+      "optionEntryTime": "2026-11-25T19:47:54.954419+00:00",
+      "optionContracts": 26,
+      "optionPricedVia": "trade"
+    },
     "DELL_2026-11-25": {
       "symbol": "DELL",
       "date": "2026-11-25",
@@ -23,10 +47,10 @@
       "optionEntryTime": "2026-11-25T17:44:54.121887+00:00",
       "optionContracts": 5,
       "optionPricedVia": "trade",
-      "lastPrice": 292.81,
-      "lastPriceAt": "2026-11-25T19:45:00Z",
-      "unrealizedDollar": 130.14,
-      "unrealizedPct": 2.5317
+      "lastPrice": 291.98,
+      "lastPriceAt": "2026-11-25T19:46:00Z",
+      "unrealizedDollar": 115.2,
+      "unrealizedPct": 2.2411
     },
     "URBN_2026-11-25": {
       "symbol": "URBN",
@@ -52,7 +76,7 @@
       "optionContracts": 44,
       "optionPricedVia": "trade",
       "lastPrice": 75.53,
-      "lastPriceAt": "2026-11-25T19:45:00Z",
+      "lastPriceAt": "2026-11-25T19:46:00Z",
       "unrealizedDollar": -56.25,
       "unrealizedPct": -1.0029
     },
@@ -4042,8 +4066,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T19:46:55.114980+00:00",
-    "lastCheckEt": "2026-11-25T14:46:55.105365-05:00",
+    "lastCheckAt": "2026-11-25T19:47:50.437397+00:00",
+    "lastCheckEt": "2026-11-25T14:47:50.435974-05:00",
     "status": "ok"
   }
 }
