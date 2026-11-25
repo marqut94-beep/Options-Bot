@@ -1,5 +1,23 @@
 {
   "trades": {
+    "SOXL_2026-11-25": {
+      "symbol": "SOXL",
+      "date": "2026-11-25",
+      "direction": "long",
+      "entryTime": "2026-11-25T18:55:00Z",
+      "entryPrice": 30.4715,
+      "shares": 2,
+      "convictionScore": 0.0002,
+      "allocDollar": 50.02,
+      "stopPrice": 29.557354999999998,
+      "targetPrice": 31.69036,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0013,
+      "pctChangeAtScreen": 12.8574,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
       "date": "2026-11-25",
@@ -1575,8 +1593,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T18:55:49.947167+00:00",
-    "lastCheckEt": "2026-11-25T13:55:49.938323-05:00",
+    "lastCheckAt": "2026-11-25T18:56:49.948752+00:00",
+    "lastCheckEt": "2026-11-25T13:56:49.948047-05:00",
     "status": "ok"
   }
 }
