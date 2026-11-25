@@ -16,7 +16,11 @@
       "relVol": 2.0013,
       "pctChangeAtScreen": 12.8574,
       "dataSource": "alpaca-sip",
-      "sizingMethod": "ratio-relvol"
+      "sizingMethod": "ratio-relvol",
+      "lastPrice": 30.75,
+      "lastPriceAt": "2026-11-25T18:56:00Z",
+      "unrealizedDollar": 0.56,
+      "unrealizedPct": 0.914
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -1593,8 +1597,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T18:56:49.948752+00:00",
-    "lastCheckEt": "2026-11-25T13:56:49.948047-05:00",
+    "lastCheckAt": "2026-11-25T18:57:49.880710+00:00",
+    "lastCheckEt": "2026-11-25T13:57:49.880045-05:00",
     "status": "ok"
   }
 }
