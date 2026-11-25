@@ -12,7 +12,7 @@
       "stopPrice": 29.557354999999998,
       "targetPrice": 31.69036,
       "status": "open",
-      "partialTaken": false,
+      "partialTaken": true,
       "relVol": 2.0013,
       "pctChangeAtScreen": 12.8574,
       "dataSource": "alpaca-sip",
@@ -20,7 +20,14 @@
       "lastPrice": 31.33,
       "lastPriceAt": "2026-11-25T19:30:00Z",
       "unrealizedDollar": 1.72,
-      "unrealizedPct": 2.8174
+      "unrealizedPct": 2.8174,
+      "partialExitPrice": 31.69036,
+      "partialExitTime": "2026-11-25T19:31:00Z",
+      "partialDollarPnl": 1.22,
+      "sharesPartial": 1,
+      "sharesRemainder": 1,
+      "remainderFloor": 31.08093,
+      "remainderTarget": 33.51865
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -1597,8 +1604,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T19:31:50.068251+00:00",
-    "lastCheckEt": "2026-11-25T14:31:50.055208-05:00",
+    "lastCheckAt": "2026-11-25T19:32:50.286169+00:00",
+    "lastCheckEt": "2026-11-25T14:32:50.285441-05:00",
     "status": "ok"
   }
 }
