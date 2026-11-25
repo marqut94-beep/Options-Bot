@@ -1,5 +1,29 @@
 {
   "trades": {
+    "URBN_2026-11-25": {
+      "symbol": "URBN",
+      "date": "2026-11-25",
+      "direction": "short",
+      "entryTime": "2026-11-25T16:24:00Z",
+      "entryPrice": 74.78,
+      "shares": 75,
+      "convictionScore": 0.0807,
+      "allocDollar": 5605.59,
+      "stopPrice": 77.02340000000001,
+      "targetPrice": 71.7888,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.9689,
+      "pctChangeAtScreen": -3.0154,
+      "dataSource": "alpaca-sip",
+      "optionSymbol": "URBN261127P00075000",
+      "optionStrike": "75",
+      "optionExpiration": "2026-11-27",
+      "optionEntryPrice": 1.25,
+      "optionEntryTime": "2026-11-25T16:25:54.245489+00:00",
+      "optionContracts": 44,
+      "optionPricedVia": "trade"
+    },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
       "date": "2026-11-25",
@@ -3986,8 +4010,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T16:24:57.279234+00:00",
-    "lastCheckEt": "2026-11-25T11:24:57.237445-05:00",
+    "lastCheckAt": "2026-11-25T16:25:50.638632+00:00",
+    "lastCheckEt": "2026-11-25T11:25:50.608916-05:00",
     "status": "ok"
   }
 }
