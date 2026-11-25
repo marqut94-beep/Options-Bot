@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-25T16:25:54.245489+00:00",
       "optionContracts": 44,
       "optionPricedVia": "trade",
-      "lastPrice": 74.69,
-      "lastPriceAt": "2026-11-25T16:50:00Z",
-      "unrealizedDollar": 6.75,
-      "unrealizedPct": 0.1204
+      "lastPrice": 74.53,
+      "lastPriceAt": "2026-11-25T16:53:00Z",
+      "unrealizedDollar": 18.75,
+      "unrealizedPct": 0.3343
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -4014,8 +4014,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T16:51:50.863567+00:00",
-    "lastCheckEt": "2026-11-25T11:51:50.862517-05:00",
+    "lastCheckAt": "2026-11-25T16:54:01.820144+00:00",
+    "lastCheckEt": "2026-11-25T11:54:01.819078-05:00",
     "status": "ok"
   }
 }
