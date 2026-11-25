@@ -1074,5 +1074,14 @@
     "direction": "long",
     "stockEntryPrice": 30.4715,
     "allocDollar": 50.02
+  },
+  {
+    "id": "SOXL_2026-11-25_exit_close_partial_2026-11-25T19:32:13.199774+00:00",
+    "tradeId": "SOXL_2026-11-25",
+    "action": "exit_close_partial",
+    "createdAt": "2026-11-25T19:32:13.199792+00:00",
+    "symbol": "SOXL",
+    "partialExitPct": 0.1,
+    "reason": "target"
   }
 ]
