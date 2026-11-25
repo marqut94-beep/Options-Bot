@@ -1064,5 +1064,15 @@
     "symbol": "AMBA",
     "stockEntryPrice": 35.27,
     "reason": "stop"
+  },
+  {
+    "id": "SOXL_2026-11-25_entry_2026-11-25T18:56:16.202138+00:00",
+    "tradeId": "SOXL_2026-11-25",
+    "action": "entry",
+    "createdAt": "2026-11-25T18:56:16.202149+00:00",
+    "symbol": "SOXL",
+    "direction": "long",
+    "stockEntryPrice": 30.4715,
+    "allocDollar": 50.02
   }
 ]
