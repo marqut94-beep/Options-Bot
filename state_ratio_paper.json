@@ -17,10 +17,10 @@
       "pctChangeAtScreen": 4.7987,
       "dataSource": "alpaca-sip",
       "sizingMethod": "ratio-relvol",
-      "lastPrice": 35.2701,
-      "lastPriceAt": "2026-11-25T15:01:00Z",
-      "unrealizedDollar": 0.0,
-      "unrealizedPct": 0.0003
+      "lastPrice": 35.15,
+      "lastPriceAt": "2026-11-25T15:02:00Z",
+      "unrealizedDollar": -0.24,
+      "unrealizedPct": -0.3402
     },
     "SNY_2026-11-24": {
       "symbol": "SNY",
@@ -1570,8 +1570,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T15:02:49.967544+00:00",
-    "lastCheckEt": "2026-11-25T10:02:49.966883-05:00",
+    "lastCheckAt": "2026-11-25T15:03:50.128936+00:00",
+    "lastCheckEt": "2026-11-25T10:03:50.128223-05:00",
     "status": "ok"
   }
 }
