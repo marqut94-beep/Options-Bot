@@ -2843,5 +2843,19 @@
     "contracts": 32,
     "needsRobinhoodPricing": false,
     "reason": "stop"
+  },
+  {
+    "id": "URBN_2026-11-25_entry_2026-11-25T16:25:54.245511+00:00",
+    "tradeId": "URBN_2026-11-25",
+    "action": "entry",
+    "createdAt": "2026-11-25T16:25:54.245515+00:00",
+    "symbol": "URBN",
+    "direction": "short",
+    "optionSymbol": "URBN261127P00075000",
+    "contracts": 44,
+    "optionEntryPriceAtScreen": 1.25,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 74.78,
+    "allocDollar": 5605.59
   }
 ]
