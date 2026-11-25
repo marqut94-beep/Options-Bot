@@ -2871,5 +2871,38 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 285.58,
     "allocDollar": 5004.48
+  },
+  {
+    "id": "SOXL_2026-11-25_exit_close_all_2026-11-25T20:55:50.836343+00:00",
+    "tradeId": "SOXL_2026-11-25",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-25T20:55:50.836348+00:00",
+    "symbol": "SOXL",
+    "optionSymbol": "SOXL261127C00031000",
+    "contracts": 26,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "DELL_2026-11-25_exit_close_all_2026-11-25T20:55:51.240906+00:00",
+    "tradeId": "DELL_2026-11-25",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-25T20:55:51.240910+00:00",
+    "symbol": "DELL",
+    "optionSymbol": "DELL261127C00285000",
+    "contracts": 5,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
+  },
+  {
+    "id": "URBN_2026-11-25_exit_close_all_2026-11-25T20:55:51.641918+00:00",
+    "tradeId": "URBN_2026-11-25",
+    "action": "exit_close_all",
+    "createdAt": "2026-11-25T20:55:51.641922+00:00",
+    "symbol": "URBN",
+    "optionSymbol": "URBN261127P00075000",
+    "contracts": 44,
+    "needsRobinhoodPricing": false,
+    "reason": "eod"
   }
 ]
