@@ -11,7 +11,7 @@
       "allocDollar": 5036.21,
       "stopPrice": 34.2119,
       "targetPrice": 36.680800000000005,
-      "status": "open",
+      "status": "closed",
       "partialTaken": false,
       "relVol": 2.0579,
       "pctChangeAtScreen": 4.2211,
@@ -26,7 +26,15 @@
       "lastPrice": 34.695,
       "lastPriceAt": "2026-11-25T15:12:00Z",
       "unrealizedDollar": -82.23,
-      "unrealizedPct": -1.6303
+      "unrealizedPct": -1.6303,
+      "optionExitPrice": 1.45,
+      "optionExitTime": "2026-11-25T15:15:51.010623+00:00",
+      "optionReturnPct": -6.4516,
+      "exitTime": "2026-11-25T15:15:51.010651+00:00",
+      "exitPrice": 34.2119,
+      "exitReason": "stop",
+      "returnPct": -3.0,
+      "dollarPnl": -151.31
     },
     "KSS_2026-11-24": {
       "symbol": "KSS",
@@ -3978,8 +3986,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T15:13:50.844131+00:00",
-    "lastCheckEt": "2026-11-25T10:13:50.838577-05:00",
+    "lastCheckAt": "2026-11-25T15:15:50.623552+00:00",
+    "lastCheckEt": "2026-11-25T10:15:50.597910-05:00",
     "status": "ok"
   }
 }
