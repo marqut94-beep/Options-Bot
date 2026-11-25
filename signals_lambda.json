@@ -2857,5 +2857,19 @@
     "needsRobinhoodPricing": false,
     "stockEntryPrice": 74.78,
     "allocDollar": 5605.59
+  },
+  {
+    "id": "DELL_2026-11-25_entry_2026-11-25T17:44:54.121912+00:00",
+    "tradeId": "DELL_2026-11-25",
+    "action": "entry",
+    "createdAt": "2026-11-25T17:44:54.121916+00:00",
+    "symbol": "DELL",
+    "direction": "long",
+    "optionSymbol": "DELL261127C00285000",
+    "contracts": 5,
+    "optionEntryPriceAtScreen": 9.34,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 285.58,
+    "allocDollar": 5004.48
   }
 ]
