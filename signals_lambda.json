@@ -2818,5 +2818,19 @@
     "contracts": 12,
     "needsRobinhoodPricing": false,
     "reason": "eod"
+  },
+  {
+    "id": "AMBA_2026-11-25_entry_2026-11-25T14:53:04.391839+00:00",
+    "tradeId": "AMBA_2026-11-25",
+    "action": "entry",
+    "createdAt": "2026-11-25T14:53:04.391842+00:00",
+    "symbol": "AMBA",
+    "direction": "long",
+    "optionSymbol": "AMBA261127C00035000",
+    "contracts": 32,
+    "optionEntryPriceAtScreen": 1.55,
+    "needsRobinhoodPricing": false,
+    "stockEntryPrice": 35.27,
+    "allocDollar": 5036.21
   }
 ]
