@@ -1,5 +1,23 @@
 {
   "trades": {
+    "CENT_2026-11-25": {
+      "symbol": "CENT",
+      "date": "2026-11-25",
+      "direction": "short",
+      "entryTime": "2026-11-25T20:09:00Z",
+      "entryPrice": 38.01,
+      "shares": 1,
+      "convictionScore": 0.0011,
+      "allocDollar": 50.08,
+      "stopPrice": 39.1503,
+      "targetPrice": 36.489599999999996,
+      "status": "open",
+      "partialTaken": false,
+      "relVol": 2.0067,
+      "pctChangeAtScreen": -7.9884,
+      "dataSource": "alpaca-sip",
+      "sizingMethod": "ratio-relvol"
+    },
     "SOXL_2026-11-25": {
       "symbol": "SOXL",
       "date": "2026-11-25",
@@ -1613,8 +1631,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T20:09:13.095265+00:00",
-    "lastCheckEt": "2026-11-25T15:09:13.094580-05:00",
+    "lastCheckAt": "2026-11-25T20:10:13.073547+00:00",
+    "lastCheckEt": "2026-11-25T15:10:13.060738-05:00",
     "status": "ok"
   }
 }
