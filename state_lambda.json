@@ -23,10 +23,10 @@
       "optionEntryTime": "2026-11-25T19:47:54.954419+00:00",
       "optionContracts": 26,
       "optionPricedVia": "trade",
-      "lastPrice": 30.975,
-      "lastPriceAt": "2026-11-25T20:52:00Z",
-      "unrealizedDollar": 38.29,
-      "unrealizedPct": 0.7641
+      "lastPrice": 31.0266,
+      "lastPriceAt": "2026-11-25T20:53:00Z",
+      "unrealizedDollar": 46.7,
+      "unrealizedPct": 0.932
     },
     "DELL_2026-11-25": {
       "symbol": "DELL",
@@ -51,10 +51,10 @@
       "optionEntryTime": "2026-11-25T17:44:54.121887+00:00",
       "optionContracts": 5,
       "optionPricedVia": "trade",
-      "lastPrice": 294.36,
-      "lastPriceAt": "2026-11-25T20:52:00Z",
-      "unrealizedDollar": 158.04,
-      "unrealizedPct": 3.0744
+      "lastPrice": 295.095,
+      "lastPriceAt": "2026-11-25T20:53:00Z",
+      "unrealizedDollar": 171.27,
+      "unrealizedPct": 3.3318
     },
     "URBN_2026-11-25": {
       "symbol": "URBN",
@@ -79,10 +79,10 @@
       "optionEntryTime": "2026-11-25T16:25:54.245489+00:00",
       "optionContracts": 44,
       "optionPricedVia": "trade",
-      "lastPrice": 76.69,
-      "lastPriceAt": "2026-11-25T20:52:00Z",
-      "unrealizedDollar": -143.25,
-      "unrealizedPct": -2.5542
+      "lastPrice": 76.46,
+      "lastPriceAt": "2026-11-25T20:53:00Z",
+      "unrealizedDollar": -126.0,
+      "unrealizedPct": -2.2466
     },
     "AMBA_2026-11-25": {
       "symbol": "AMBA",
@@ -4070,8 +4070,8 @@
     }
   },
   "heartbeat": {
-    "lastCheckAt": "2026-11-25T20:53:50.257593+00:00",
-    "lastCheckEt": "2026-11-25T15:53:50.256018-05:00",
+    "lastCheckAt": "2026-11-25T20:54:50.478461+00:00",
+    "lastCheckEt": "2026-11-25T15:54:50.476981-05:00",
     "status": "ok"
   }
 }
